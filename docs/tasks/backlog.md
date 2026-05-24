@@ -21,6 +21,8 @@ Future ideas, not scheduled. Promote to `active.md` when chosen.
 - ✅ **BACKLOG.014** — Sankey (language → category) added as section 5b in the dashboard.
 - ✅ **BACKLOG.016** — Vibe-score threshold slider added in the dashboard; tiers recompute live with a delta-vs-default indicator.
 - ✅ **BACKLOG.017** — Per-category stacked bar appended to section 7 (daily timeline) showing the daily mix by category.
+- ✅ **BACKLOG.018** — Counterfactual robustness check (`src/analyze_counterfactual.py` → `outputs/counterfactual.md`). Conclusion on current data: **all headline findings are robust** to removing the 18 garbage repos.
+- ✅ **BACKLOG.021** — `actions/cache@v4` added to the daily-refresh workflow caching `data/raw/languages` + `data/raw/topics`. Expected speedup ~40 min → ~5 min once the cache is populated.
 
 ## Visualization Wow (Path C)
 

@@ -1,8 +1,9 @@
 name: daily-data-refresh
 
 # Re-collect the full 999-repo dataset every day at 06:00 UTC (14:00 Taipei),
-# rebuild charts + vibe analysis, and commit. Streamlit Cloud auto-rebuilds
-# on push and the deployed dashboard shows the fresh window without manual work.
+# rebuild charts + vibe + counterfactual analyses, and commit. Streamlit Cloud
+# auto-rebuilds on push so the deployed dashboard shows the fresh window
+# without manual work.
 #
 # Requires a repo secret named GH_DATA_TOKEN — a Personal Access Token with
 # `public_repo` (read-only) scope. The default Actions GITHUB_TOKEN has a
@@ -26,7 +27,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 90     # collect_all takes ~40 min; leave headroom
+    timeout-minutes: 90     # collect_all takes ~40 min uncached; ~5 min cached
     steps:
       - uses: actions/checkout@v4
 
@@ -34,6 +35,24 @@ jobs:
         with:
           python-version: "3.14"
           cache: pip
+
+      # Cache the raw per-repo language + topic JSON dumps across runs.
+      # collect_all is idempotent — it skips files that already exist on disk,
+      # so a warm cache means only the day's *new* repos hit the API.
+      # Expected speedup: ~40 min uncached → ~5 min cached (most repos
+      # carry over day-to-day in the 30-day window).
+      #
+      # Key changes every day so we save a fresh cache; restore-keys picks
+      # the most recent prefix match so we don't start cold.
+      - name: restore raw collection cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/raw/languages
+            data/raw/topics
+          key: raw-collection-${{ github.run_id }}
+          restore-keys: |
+            raw-collection-
 
       - name: install
         run: |
@@ -51,6 +70,9 @@ jobs:
       - name: vibe analysis
         run: python -m src.analyze_vibe
 
+      - name: counterfactual robustness check
+        run: python -m src.analyze_counterfactual
+
       - name: commit if changed
         run: |
           git config user.name "github-actions[bot]"
@@ -62,7 +84,8 @@ jobs:
                   data/processed/_collection_progress.json \
                   outputs/figures/*.png \
                   outputs/summary_stats.md \
-                  outputs/vibe_coding_analysis.md
+                  outputs/vibe_coding_analysis.md \
+                  outputs/counterfactual.md
           if git diff --staged --quiet; then
             echo "No data changes today — skipping commit."
           else

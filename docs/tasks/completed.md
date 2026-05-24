@@ -20,5 +20,6 @@ owner: project
 | `TASK.004` | Full 1000-repo collection + vibe-coding garbage analysis | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.005` | Classifier applied + 7 required charts + summary stats | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.006` | Final report (proposal §19 structure) at outputs/report.md | `docs/memory/sessions/2026-05-24.md` |
+| `TASK.011` | Counterfactual + sampling prep + Actions cache | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.010` | Path C visualization wow (Sankey + slider + stacked daily) | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.008` | Reviewer-facing polish (hero shot + TL;DR + presentation script) | `docs/memory/sessions/2026-05-24.md` |
