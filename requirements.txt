@@ -1,0 +1,11 @@
+# Runtime dependencies for the Streamlit dashboard deployment.
+# Used by Streamlit Community Cloud (auto-detected at repo root).
+#
+# For local development with the full pipeline (collectors + tests + ruff),
+# use `pip install -e ".[dashboard,dev]"` instead — see pyproject.toml.
+
+pandas>=2.2
+matplotlib>=3.9
+streamlit>=1.36
+plotly>=5.22
+python-dotenv>=1.0
