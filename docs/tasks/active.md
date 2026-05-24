@@ -11,22 +11,22 @@ owner: project
 
 ## Active Queue
 
-### TASK.006 - Write Final Report (proposal §19 structure)
+### TASK.007 - Validate Vibe-Coding Scoring (precision/recall)
 
 - Status: todo
-- Priority: P1
+- Priority: P2
 - Owner: project
 - Started: 2026-05-24
 - Related docs:
-  - `outputs/summary_stats.md`
   - `outputs/vibe_coding_analysis.md`
-  - `outputs/figures/*.png`
-  - `github_recent_trend_analysis_project_proposal.md` §19
+  - `data/processed/vibe_scores.csv`
 - Acceptance criteria:
-  - [ ] `outputs/report.md` follows §19 structure (摘要 → 動機 → RQs → method → results → discussion → limits → conclusion).
-  - [ ] Each RQ1–RQ6 has a paragraph + at least one figure or table reference.
-  - [ ] Vibe-coding analysis cited as supplemental finding.
-  - [ ] Limitations section calls out: watchers=stars API quirk, 54% zero-topics, single-category MVP, rule-based classifier subjectivity.
+  - [ ] Manual sample 20 from each tier (garbage / suspicious / legitimate).
+  - [ ] Label each as TP/FP based on subjective "is this actually low effort?" assessment.
+  - [ ] Compute precision, recall, F1 per tier; write to `outputs/vibe_validation.md`.
+  - [ ] Cite the result in the report's §10 limitations.
+- Notes:
+  - Discussed as the highest-leverage next step in the post-TASK.006 review.
 
 ## Strategy
 

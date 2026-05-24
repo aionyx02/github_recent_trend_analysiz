@@ -5,7 +5,7 @@ export const ROOT = process.cwd();
 export const DOCS = path.join(ROOT, 'docs');
 
 export function read(file) {
-  return fs.readFileSync(path.join(ROOT, file), 'utf8');
+  return fs.readFileSync(path.join(ROOT, file), 'utf8').replace(/\r\n/g, '\n');
 }
 
 export function write(file, content) {
@@ -31,10 +31,11 @@ export function walk(dir, predicate = () => true) {
 }
 
 export function parseFrontmatter(content) {
-  if (!content.startsWith('---\n')) return null;
-  const end = content.indexOf('\n---', 4);
+  const normalized = content.replace(/\r\n/g, '\n');
+  if (!normalized.startsWith('---\n')) return null;
+  const end = normalized.indexOf('\n---', 4);
   if (end === -1) return null;
-  const raw = content.slice(4, end).trim();
+  const raw = normalized.slice(4, end).trim();
   const data = {};
   for (const line of raw.split('\n')) {
     const m = line.match(/^([A-Za-z0-9_-]+):\s*(.*)$/);

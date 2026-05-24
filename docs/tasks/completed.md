@@ -19,3 +19,4 @@ owner: project
 | `TASK.003` | Vertical slice: 1 page collected, repos.csv produced, 22 pytest cases green | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.004` | Full 1000-repo collection + vibe-coding garbage analysis | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.005` | Classifier applied + 7 required charts + summary stats | `docs/memory/sessions/2026-05-24.md` |
+| `TASK.006` | Final report (proposal §19 structure) at outputs/report.md | `docs/memory/sessions/2026-05-24.md` |

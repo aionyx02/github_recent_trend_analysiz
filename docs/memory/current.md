@@ -30,8 +30,8 @@ owner: project
 
 ## Next Step
 
-- TASK.006: write `outputs/report.md` following proposal §19 structure. Pull stats from `outputs/summary_stats.md`, charts from `outputs/figures/`, and the vibe-coding finding from `outputs/vibe_coding_analysis.md`.
-- After TASK.006 → optional Streamlit dashboard (BACKLOG.001) if time permits.
+- TASK.007: manually validate the vibe-coding scoring (20 from each tier), compute precision/recall, cite in report. Highest-leverage rigor step before final submission.
+- Optional follow-ups: re-collect in two weeks for delta analysis; multi-category classification to shrink Other bucket.
 
 ## Last Validation Snapshot
 
