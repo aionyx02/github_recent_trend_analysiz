@@ -7,7 +7,7 @@ without disk or network.
 from __future__ import annotations
 
 import json
-from datetime import date, datetime, timezone
+from datetime import date, timezone
 from pathlib import Path
 from typing import Any
 

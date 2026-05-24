@@ -158,8 +158,8 @@ def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
     lines.append("")
     lines.append("## Findings")
     lines.append("")
-    lines.append(f"| Tier | Count | % of sample |")
-    lines.append(f"|---|---:|---:|")
+    lines.append("| Tier | Count | % of sample |")
+    lines.append("|---|---:|---:|")
     for t in ["garbage", "suspicious", "legitimate"]:
         lines.append(f"| {t} | {counts[t]} | {pct[t]}% |")
     lines.append("")

@@ -96,8 +96,8 @@ fig1.update_layout(yaxis={"categoryorder": "total ascending"}, height=400,
                    showlegend=False, coloraxis_showscale=False)
 st.plotly_chart(fig1, use_container_width=True)
 explainer(
-    f"每一條代表一種程式語言在近月熱門新專案中出現的次數。"
-    f"愈長代表該語言的開發者愈活躍。",
+    "每一條代表一種程式語言在近月熱門新專案中出現的次數。"
+    "愈長代表該語言的開發者愈活躍。",
     f"**{lang_counts.iloc[0]['語言']}** 是當之無愧的冠軍，"
     f"反映 AI 工具鏈與資料科學的主流地位。前 3 名加總占了約 "
     f"{(lang_counts.head(3)['repo 數'].sum() / len(repos) * 100):.0f}% 的新熱門專案。"
@@ -133,8 +133,8 @@ st.plotly_chart(fig3, use_container_width=True)
 mean_s = int(repos["stars"].mean())
 median_s = int(repos["stars"].median())
 explainer(
-    f"X 軸是 stars 數量，Y 軸是該區間內的 repo 數（對數座標——意思是相隔一格代表 10 倍差距）。"
-    f"分布愈往右拉得長，代表少數爆紅專案拉開差距。",
+    "X 軸是 stars 數量，Y 軸是該區間內的 repo 數（對數座標——意思是相隔一格代表 10 倍差距）。"
+    "分布愈往右拉得長，代表少數爆紅專案拉開差距。",
     f"平均數 **{mean_s:,}** 但中位數只有 **{median_s:,}**——"
     f"差距 **{mean_s/median_s:.1f}x**。代表少數爆紅專案大幅拉抬平均，"
     f"絕大多數熱門 repo 其實 stars 並沒有那麼誇張。"
