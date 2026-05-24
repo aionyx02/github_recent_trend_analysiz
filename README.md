@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml"><img alt="Tests" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml/badge.svg"></a>
   <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml"><img alt="Docs" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml/badge.svg"></a>
-  <a href="https://github-recent-trend-analysiz.streamlit.app"><img alt="Streamlit App" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a>
+  <a href="https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app"><img alt="Streamlit App" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.14-blue.svg">
   <img alt="Pandas" src="https://img.shields.io/badge/pandas-3.0-150458.svg">
   <img alt="Streamlit" src="https://img.shields.io/badge/streamlit-1.57-FF4B4B.svg">
@@ -17,7 +17,7 @@
 
 ## 🌐 線上 Demo
 
-👉 **<https://github-recent-trend-analysiz.streamlit.app>** ← 直接開瀏覽器點，不用 clone
+👉 **<https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app>** ← 直接開瀏覽器點，不用 clone
 
 不裝任何東西就能：
 - 用側欄篩選 999 個 repo（分類、語言、最低 stars）
