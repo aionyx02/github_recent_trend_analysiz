@@ -2,11 +2,17 @@
 name = "github-recent-trend-analysiz"
 version = "0.1.0"
 requires-python = ">=3.14"
+# Runtime deps. streamlit + plotly are here (not in optional-dependencies)
+# so Streamlit Community Cloud — which uses Poetry to read pyproject.toml —
+# installs them by default. Local-only tools (pytest, ruff, jupyter) stay
+# in [project.optional-dependencies].
 dependencies = [
     "requests>=2.32",
     "pandas>=2.2",
     "matplotlib>=3.9",
     "python-dotenv>=1.0",
+    "streamlit>=1.36",
+    "plotly>=5.22",
 ]
 
 [project.optional-dependencies]
@@ -14,10 +20,6 @@ dev = [
     "pytest>=8.0",
     "ruff>=0.6",
     "jupyter>=1.0",
-]
-dashboard = [
-    "streamlit>=1.36",
-    "plotly>=5.22",
 ]
 stretch = [
     "networkx>=3.3",
@@ -34,3 +36,9 @@ include = ["src*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["."]
+
+# Tell Poetry (used by Streamlit Community Cloud's installer) not to try to
+# package the current project — we're using setuptools, not Poetry, for builds.
+# Poetry will then only install [project.dependencies] and exit cleanly.
+[tool.poetry]
+package-mode = false

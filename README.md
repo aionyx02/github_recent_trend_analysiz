@@ -213,7 +213,7 @@ cd github_recent_trend_analysiz
 # 2. 建虛擬環境並安裝依賴
 python -m venv .venv
 .venv\Scripts\Activate.ps1
-pip install -e ".[dashboard,dev]"
+pip install -e ".[dev]"
 
 # 3. 設定 GitHub Token（產一個：https://github.com/settings/tokens）
 cp .env.example .env
