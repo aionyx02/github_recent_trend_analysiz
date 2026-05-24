@@ -1,0 +1,23 @@
+{
+  "elapsed_seconds": 2263.7,
+  "repos_total": 999,
+  "search": {
+    "saved": 0,
+    "skipped": 10
+  },
+  "languages": {
+    "fetched": 951,
+    "skipped": 48,
+    "failed": 0
+  },
+  "topics": {
+    "fetched": 999,
+    "skipped": 0,
+    "failed": 0
+  },
+  "csvs": {
+    "repos": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repos.csv",
+    "repo_languages": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repo_languages.csv",
+    "repo_topics": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repo_topics.csv"
+  }
+}
