@@ -18,13 +18,13 @@ Future ideas, not scheduled. Promote to `active.md` when chosen.
 - ✅ **BACKLOG.008** — README quickstart. Done as part of the professional README.
 - ✅ **BACKLOG.011** — Spearman correlation alongside Pearson. Already in `src/build_charts.py` summary.
 - ✅ **BACKLOG.012** — Log-scale Stars distribution. Already in `src/visualize.py::stars_distribution`.
+- ✅ **BACKLOG.014** — Sankey (language → category) added as section 5b in the dashboard.
+- ✅ **BACKLOG.016** — Vibe-score threshold slider added in the dashboard; tiers recompute live with a delta-vs-default indicator.
+- ✅ **BACKLOG.017** — Per-category stacked bar appended to section 7 (daily timeline) showing the daily mix by category.
 
 ## Visualization Wow (Path C)
 
-- **BACKLOG.014** — Sankey diagram (primary language → category). Plotly `graph_objects.Sankey`. Would visually show how Python splits across AI/ML vs Data vs Other.
-- **BACKLOG.015** — Treemap of categories (size = repo count, color = mean stars). More space-efficient than the current bar chart for 9 categories.
-- **BACKLOG.016** — Add a vibe-score threshold slider to the dashboard so reviewers can tune the garbage cut-off interactively (currently hardcoded at 5).
-- **BACKLOG.017** — Time-series strip plot of repo creation density by category over the 30-day window.
+- **BACKLOG.015** — _Deferred._ Treemap of categories. Skipped because it duplicates the existing category bar chart and would not add new insight at n=9.
 
 ## Stretch / Optional (from proposal §20.3)
 

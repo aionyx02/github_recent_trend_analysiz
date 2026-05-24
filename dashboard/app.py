@@ -14,6 +14,7 @@ from pathlib import Path
 
 import pandas as pd
 import plotly.express as px
+import plotly.graph_objects as go
 import streamlit as st
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -186,6 +187,50 @@ explainer(
 
 st.markdown("---")
 
+# ──────────── SANKEY: LANGUAGE → CATEGORY ────────────
+section("5️⃣b 語言 ↔ 分類 流向圖", "看哪種語言主要流向哪個類別")
+
+_top_langs = repos["primary_language"].value_counts().head(10).index.tolist()
+_lang_grouped = repos["primary_language"].where(
+    repos["primary_language"].isin(_top_langs), "其他語言"
+)
+_matrix = pd.crosstab(_lang_grouped, repos["category"])
+_langs = _matrix.index.tolist()
+_cats = _matrix.columns.tolist()
+_nodes = _langs + _cats
+_idx = {name: i for i, name in enumerate(_nodes)}
+_src, _tgt, _val = [], [], []
+for lang in _langs:
+    for cat in _cats:
+        v = int(_matrix.loc[lang, cat])
+        if v > 0:
+            _src.append(_idx[lang])
+            _tgt.append(_idx[cat])
+            _val.append(v)
+
+fig_sankey = go.Figure(go.Sankey(
+    node=dict(
+        label=_nodes,
+        pad=18,
+        thickness=22,
+        color=["#1f77b4"] * len(_langs) + ["#ff7f0e"] * len(_cats),
+    ),
+    link=dict(source=_src, target=_tgt, value=_val),
+))
+fig_sankey.update_layout(height=560, font_size=12,
+                         margin=dict(l=10, r=10, t=10, b=10))
+st.plotly_chart(fig_sankey, use_container_width=True)
+explainer(
+    "左邊是程式語言（前 10 + 其他語言合併），右邊是 9 大分類。"
+    "線寬代表「這種語言被歸到這個類別」的 repo 數量。hover 看精確數字。",
+    "**Python** 的線最寬，分散到 AI/ML、Other、CLI 等多個類別 —— 真正的「萬用語言」。"
+    "**TypeScript** 高度集中流向 AI/ML 與 Web。"
+    "**Swift / Kotlin / Dart** 幾乎只通往 Mobile。"
+    "**C/C++/Rust** 的流向最分散，從 Game 到 AI 推理引擎都有。"
+)
+
+st.markdown("---")
+
 # ──────────── CATEGORY HEAT ────────────
 section("6️⃣ 各類別平均熱度比較", "看哪個類別比較容易爆")
 cat_heat = repos.groupby("category").agg(
@@ -228,6 +273,25 @@ explainer(
     f"整體看不出明顯爆量，代表熱門專案是「持續產出」而不是集中在某一波發表會。"
 )
 
+st.markdown("#### 同一張圖按類別拆開")
+daily_cat = repos.groupby(["created_day", "category"]).size().reset_index(name="新增 repo 數")
+_cat_order = repos["category"].value_counts().index.tolist()
+fig_stack = px.bar(
+    daily_cat, x="created_day", y="新增 repo 數", color="category",
+    category_orders={"category": _cat_order},
+    color_discrete_sequence=px.colors.qualitative.Set2,
+)
+fig_stack.update_layout(
+    height=420, xaxis_title="建立日期", yaxis_title="當日新增的熱門 repo",
+    barmode="stack", legend_title="分類",
+)
+st.plotly_chart(fig_stack, use_container_width=True)
+explainer(
+    "把上面的折線圖按類別拆開堆疊。可以看出每天的「組成結構」而不只是總量。",
+    "AI/ML 與 Other 兩個棕色 / 藍色塊幾乎每天都最厚，呼應雙峰結構結論。"
+    "Web 與 Mobile 等小類別有些日子完全沒新熱門 repo —— 樣本量小、變動大。"
+)
+
 st.markdown("---")
 
 # ──────────── VIBE CODING GARBAGE ────────────
@@ -239,18 +303,46 @@ if vibe is not None:
         "**什麼是 vibe-coding garbage？**  "
         "= 一個 repo 的 stars 遠遠超過它的「可見實質」。"
         "我們設計 8 個訊號（description 空、license 空、stars 暴衝但 fork 極少、名字是 generic AI buzzword……）"
-        "為每個 repo 打 0-10 分。**5 分以上判定為 garbage。**"
+        "為每個 repo 打 0-10 分。"
     )
 
-    tier_counts = vibe["tier"].value_counts().reindex(
+    threshold = st.slider(
+        "🎚️ Garbage 判定閾值（分數 ≥ 此值即判為 garbage）",
+        min_value=3, max_value=8, value=5, step=1,
+        help="預設 5（報告採用值）。調高 → 標準變嚴、garbage 變少；調低 → 標準變鬆、garbage 變多。"
+              "Suspicious 範圍永遠是 3 分以上 garbage 以下。",
+    )
+
+    def _tier_at(score: int, thr: int) -> str:
+        if score >= thr:
+            return "garbage"
+        if score >= 3:
+            return "suspicious"
+        return "legitimate"
+
+    vibe_dyn = vibe.copy()
+    vibe_dyn["tier"] = vibe_dyn["score"].apply(lambda s: _tier_at(int(s), threshold))
+
+    tier_counts = vibe_dyn["tier"].value_counts().reindex(
         ["garbage", "suspicious", "legitimate"]).fillna(0).astype(int)
+
+    # Show delta from default-threshold (5) so user sees how their slider moves things.
+    if threshold != 5:
+        default_garbage = int((vibe["score"] >= 5).sum())
+        delta = int(tier_counts["garbage"]) - default_garbage
+        delta_str = f"{delta:+d} vs 預設"
+    else:
+        delta_str = "預設"
+
     c1, c2, c3 = st.columns(3)
     c1.metric("🟢 Legitimate", f"{tier_counts['legitimate']}",
-              f"{tier_counts['legitimate']/len(vibe)*100:.1f}%")
+              f"{tier_counts['legitimate']/len(vibe_dyn)*100:.1f}%")
     c2.metric("🟡 Suspicious", f"{tier_counts['suspicious']}",
-              f"{tier_counts['suspicious']/len(vibe)*100:.1f}%")
-    c3.metric("🔴 Garbage", f"{tier_counts['garbage']}",
-              f"{tier_counts['garbage']/len(vibe)*100:.1f}%", delta_color="inverse")
+              f"{tier_counts['suspicious']/len(vibe_dyn)*100:.1f}%")
+    c3.metric("🔴 Garbage", f"{tier_counts['garbage']}", delta_str,
+              delta_color="off" if threshold == 5 else "inverse")
+
+    vibe = vibe_dyn  # downstream sections all use the recomputed tier
 
     st.markdown("### 哪個 stars 級距藏最多 garbage？")
     buckets = [
