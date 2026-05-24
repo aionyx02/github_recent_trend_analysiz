@@ -1,0 +1,16 @@
+{
+  "type": "tasks_summary",
+  "updated": "2026-05-24",
+  "current_task": "TASK.0",
+  "progress": [],
+  "open_tasks": [
+    "TASK.0",
+    "TASK.1",
+    "TASK.2",
+    "TASK.3"
+  ],
+  "references": [
+    "docs/tasks/active.md",
+    "docs/memory/current.md"
+  ]
+}

@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project data + outputs (raw API dumps may include sensitive payloads; processed CSVs decide per TASK.001)
+data/raw/
+*.log
+*.err

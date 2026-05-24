@@ -1,0 +1,16 @@
+{
+  "type": "decision_summary",
+  "updated": "2026-05-24",
+  "gates": [
+    {
+      "id": "ADR_REQUIRED",
+      "when": "architecture/security/schema/core dependency changes",
+      "required_action": "create proposed ADR and wait for explicit acceptance before implementation"
+    }
+  ],
+  "references": [
+    "docs/CLAUDE.md",
+    "docs/decisions.md",
+    "docs/adr/"
+  ]
+}

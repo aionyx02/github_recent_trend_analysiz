@@ -1,0 +1,36 @@
+[project]
+name = "github-recent-trend-analysiz"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "requests>=2.32",
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.6",
+    "jupyter>=1.0",
+]
+dashboard = [
+    "streamlit>=1.36",
+    "plotly>=5.22",
+]
+stretch = [
+    "networkx>=3.3",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

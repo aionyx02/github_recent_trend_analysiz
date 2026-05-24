@@ -1,0 +1,21 @@
+{
+  "name": "context-engineering-template",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "docs:new-session": "node scripts/docs-new-session.mjs",
+    "docs:sync": "node scripts/docs-sync.mjs",
+    "docs:guard-size": "node scripts/docs-guard-size.mjs",
+    "docs:guard-schema": "node scripts/docs-guard-schema.mjs",
+    "docs:audit-frontmatter": "node scripts/docs-audit-frontmatter.mjs",
+    "docs:narrative-check": "node scripts/docs-narrative-check.mjs",
+    "docs:completed-regen": "node scripts/docs-completed-regen.mjs",
+    "docs:refresh": "node scripts/docs-refresh.mjs",
+    "docs:guard-links": "node scripts/docs-guard-links.mjs",
+    "docs:guard-placeholders": "node scripts/docs-guard-placeholders.mjs",
+    "docs:guard-adr-status": "node scripts/docs-guard-adr-status.mjs",
+    "docs:guard-task-status": "node scripts/docs-guard-task-status.mjs"
+  },
+  "devDependencies": {}
+}
