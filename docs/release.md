@@ -30,6 +30,31 @@ python -m pytest -q
 npm run docs:refresh
 ```
 
+## Daily Data Refresh (GitHub Actions)
+
+`.github/workflows/daily-refresh.yml` runs every day at 06:00 UTC (14:00 Taipei). It re-collects the full ~1000-repo dataset, rebuilds charts + summary + vibe analysis, and commits the diff. Streamlit Cloud auto-redeploys on push, so the live dashboard reflects the new window within ~1 minute of the commit.
+
+### One-time setup
+
+1. Create a Personal Access Token at <https://github.com/settings/tokens>.
+   - Type: fine-grained or classic, either works.
+   - Scope: `public_repo` (read-only). Nothing else.
+2. Go to the repo Settings → Secrets and variables → Actions → **New repository secret**.
+3. Name: **`GH_DATA_TOKEN`** (this exact name — the workflow expects it). Value: paste the PAT.
+4. Optional: trigger the first run manually from the Actions tab → "daily-data-refresh" → "Run workflow". This verifies the secret is wired before the cron fires.
+
+### Why a custom secret instead of the auto-provided `GITHUB_TOKEN`
+
+The default `secrets.GITHUB_TOKEN` Actions provides has a 1000 req/hr limit. The collection pipeline makes ~2000 calls per run, so a user PAT (5000 req/hr) is needed.
+
+### What gets committed
+
+Only auto-generated artifacts: `data/processed/*.csv`, `data/processed/_collection_progress.json`, `outputs/figures/*.png`, `outputs/summary_stats.md`, `outputs/vibe_coding_analysis.md`. The `data/raw/` JSON dumps stay gitignored.
+
+### Disabling
+
+Either disable the workflow from the Actions tab, or delete `.github/workflows/daily-refresh.yml` entirely. The dashboard keeps working on whatever data was last committed.
+
 ## Streamlit Community Cloud Deployment
 
 The Streamlit dashboard is deployed at <https://share.streamlit.io> as a public, free, GitHub-integrated app. Runtime requirements are listed in the repo-root `requirements.txt`, theme in `.streamlit/config.toml`. The dashboard reads pre-collected CSVs from `data/processed/` and does **not** require `GITHUB_TOKEN` at runtime.

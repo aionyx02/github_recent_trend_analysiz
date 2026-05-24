@@ -26,6 +26,8 @@
 - 任一 repo 名稱可點，直接跳 GitHub
 
 > _部署在 Streamlit Community Cloud 免費方案。閒置一段時間會自動 sleep，第一次點開可能需要 ~10 秒喚醒。_
+>
+> _📅 資料每天 14:00 (Taipei) 由 GitHub Actions 自動重抓最近 30 天 snapshot，commit 後 Streamlit Cloud ~30 秒內自動 redeploy。_
 
 ---
 
