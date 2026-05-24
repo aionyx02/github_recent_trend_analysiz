@@ -11,7 +11,24 @@ owner: project
 
 ## Active Queue
 
-### TASK.007 - Validate Vibe-Coding Scoring (precision/recall)
+### TASK.008 - Reviewer-Facing Polish (Path A)
+
+- Status: todo
+- Priority: P1
+- Owner: project
+- Started: 2026-05-24
+- Related docs:
+  - `README.md`
+  - `outputs/figures/`
+- Acceptance criteria:
+  - [ ] Add `outputs/figures/dashboard_hero.png` — screenshot of dashboard top (title + KPI row).
+  - [ ] Embed hero shot at the very top of `README.md` (before the badges).
+  - [ ] Add 100-word TL;DR section after the badges so a busy reviewer sees the punchline in 30 seconds.
+  - [ ] Write a 5-minute spoken script at docs/presentation.md covering motivation, method, top finding, vibe-coding angle, demo URL.
+- Notes:
+  - Hero screenshot must come from the user (live Cloud URL).
+
+### TASK.007 - Validate Vibe-Coding Scoring (precision/recall) (Path B)
 
 - Status: todo
 - Priority: P2
@@ -26,7 +43,25 @@ owner: project
   - [ ] Compute precision, recall, F1 per tier; write to `outputs/vibe_validation.md`.
   - [ ] Cite the result in the report's §10 limitations.
 - Notes:
-  - Discussed as the highest-leverage next step in the post-TASK.006 review.
+  - Highest academic-rigor lift. Requires human labels — cannot be fully automated.
+
+### TASK.009 - Delta Analysis After 7 Days (Path D)
+
+- Status: blocked
+- Priority: P1
+- Owner: project
+- Started: `<DATE-WHEN-DAILY-REFRESH-STARTS>`
+- Related docs:
+  - `.github/workflows/daily-refresh.yml`
+  - `outputs/report.md`
+  - `outputs/vibe_coding_analysis.md`
+- Acceptance criteria:
+  - [ ] Daily refresh has produced at least 7 commits of `data/processed/*.csv`.
+  - [ ] New script `src/analyze_delta.py` computes diff between earliest and latest snapshot.
+  - [ ] Output `outputs/delta_7d.md` covers: new entrants, departed repos, category shift, vibe-tier shift.
+  - [ ] Add §7.7 "7-day delta" to `outputs/report.md` upgrading the framing from "snapshot study" to "trend study".
+- Notes:
+  - Blocked on user setting `GH_DATA_TOKEN` secret + waiting 7 days. Track from the day the first auto-commit lands.
 
 ## Strategy
 
@@ -34,7 +69,6 @@ Keep `active.md` compact. Put task-level details in dedicated `docs/tasks/*.md`,
 
 ## Next Phase Candidates
 
-- Phase 2 — enrich repos with `languages` + `topics` (proposal §15 Step 4).
-- Phase 3 — rule-based classification + descriptive statistics (proposal §11).
-- Phase 4 — required visualizations + report (proposal §12.1, §19).
-- Stretch — Streamlit dashboard, SQLite layer, topic co-occurrence graph.
+- After polish task → present to course / publish.
+- After validation task → tighten methodology, optionally iterate scoring rubric.
+- After delta task → write a "what changed in 7 days" blog-style section, possibly extend to 30-day delta later.

@@ -3,6 +3,14 @@
 > 抓取 GitHub 最近 30 天新建立的熱門 repository，用規則式分類器歸類並做視覺化分析，**並獨家加入「vibe-coding 水分專案」嚴格檢測**。
 
 <p align="center">
+  <a href="https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app">
+    <img alt="Dashboard preview" src="outputs/figures/dashboard_hero.png" width="900">
+  </a>
+  <br>
+  <em>↑ 點圖直接開互動 dashboard</em>
+</p>
+
+<p align="center">
   <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml"><img alt="Tests" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml/badge.svg"></a>
   <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml"><img alt="Docs" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml/badge.svg"></a>
   <a href="https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app"><img alt="Streamlit App" src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg"></a>
@@ -12,6 +20,18 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green.svg">
   <img alt="Status" src="https://img.shields.io/badge/status-MVP%20complete-brightgreen.svg">
 </p>
+
+---
+
+## 📌 TL;DR — 30 秒看完
+
+從 GitHub 近 30 天 trending 抽 **999 個 repo**，發現：
+
+1. **AI 全面壓倒** — `claude-code` / `ai-agents` / `llm` 等 topic 霸榜；分類後 **AI/ML + Other 占 77.7%**，傳統 Web/Data/DevOps 加起來不到 25%。
+2. **被星 ≠ 被用** — Stars↔Forks 只有中度相關 (Pearson 0.36)，AI/ML 類 fork:star 僅 17%（全類別最低）。
+3. **🚨 原創發現**：用 8 訊號嚴格評分檢測**「vibe-coding 水分專案」**，1.8% 是 garbage，**集中在 1000-5000 stars** 級距 (9.9%) — farming 的甜蜜點。
+
+技術上：Python 3.14 + pandas + matplotlib + Streamlit + GitHub Actions 每日自動重抓，全程 22 個 pytest + ruff + 三道 CI guard 把關。
 
 ---
 

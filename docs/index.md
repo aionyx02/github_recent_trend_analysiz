@@ -84,6 +84,7 @@ Use this file as the first lookup step. The goal is retrieval-first context, not
 | `docs/html-guidelines.md` | `html_guidelines` | `active` | `retrieve_when_planning` | HTML Guidelines |
 | `docs/index.md` | `docs_index` | `active` | `on_demand` | Documentation Index |
 | `docs/memory/current.md` | `working_memory` | `active` | `always_retrievable` | Current Project Memory |
+| `docs/presentation.md` | `presentation_script` | `active` | `on_demand` | 5 分鐘簡報腳本 |
 | `docs/project.md` | `project_overview` | `active` | `always_retrievable` | Project Overview |
 | `docs/release.md` | `release_policy` | `active` | `retrieve_when_planning` | Release And Deployment |
 | `docs/security.md` | `security_policy` | `active` | `retrieve_only` | Security And Permission Boundary |
