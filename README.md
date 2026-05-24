@@ -3,6 +3,8 @@
 > 抓取 GitHub 最近 30 天新建立的熱門 repository，用規則式分類器歸類並做視覺化分析，**並獨家加入「vibe-coding 水分專案」嚴格檢測**。
 
 <p align="center">
+  <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml"><img alt="Tests" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/python-tests.yml/badge.svg"></a>
+  <a href="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml"><img alt="Docs" src="https://github.com/aionyx02/github_recent_trend_analysiz/actions/workflows/docs-guard.yml/badge.svg"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.14-blue.svg">
   <img alt="Pandas" src="https://img.shields.io/badge/pandas-3.0-150458.svg">
   <img alt="Streamlit" src="https://img.shields.io/badge/streamlit-1.57-FF4B4B.svg">
