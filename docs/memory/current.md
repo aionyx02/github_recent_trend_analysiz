@@ -39,8 +39,9 @@ owner: project
 
 ## Last Validation Snapshot
 
-- Last test command: `python -m pytest -q` → 22/22 passing (2026-05-25).
-- All review-fix Python files `ast.parse()` clean.
+- Last test command: `python -m pytest -q` → **38/38** passing (2026-05-25; +16 new cache_manifest tests).
+- All touched Python files `ast.parse()` clean; workflow YAML parses + cache step includes manifest path.
 - Live deploy: ✓ Streamlit Cloud built at commit `1f811bb`; new commits pending.
 - Known failing checks: none.
 - Awaiting first run: `daily-data-refresh` workflow (needs `GH_DATA_TOKEN` secret).
+- Daily-refresh now stale-aware: per-repo data is re-fetched only when `pushed_at > cached fetched_at`; auto-prunes cache after 60 days absent from search window.

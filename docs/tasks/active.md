@@ -66,6 +66,26 @@ owner: project
   - Random seed pinned (42).
   - If overall agreement < 75%, consider revising the keyword table or escalating to multi-label.
 
+### TASK.011 - Verify incremental-refresh in CI
+
+- Status: blocked (next daily-refresh run after merge)
+- Priority: P2
+- Owner: project
+- Started: 2026-05-25
+- Related docs:
+  - `src/cache_manifest.py`
+  - `src/collect_all.py`
+  - `.github/workflows/daily-refresh.yml`
+  - `data/processed/_collection_progress.json`
+  - Plan: `C:\Users\shawn\.claude\plans\refresh-delegated-crab.md`
+- Acceptance criteria:
+  - [ ] First post-merge daily-refresh completes in ≤ 10 min (warm cache + bootstrap stamps; must NOT regress to ~40 min cold-cache time).
+  - [ ] `_collection_progress.json` shows `manifest.bootstrapped_stamps > 0` on the very first run, `0` thereafter.
+  - [ ] After 7+ daily runs, `languages.stale_refetched` and `topics.stale_refetched` settle to 50-200 / run on average.
+  - [ ] After 60+ days, observe `manifest.pruned_count > 0` for repos that left the 30-day window.
+- Notes:
+  - If a daily run hits `manifest.pruned_count == 200` (the safety ceiling), investigate — likely a manifest corruption or clock anomaly.
+
 ### TASK.009 - Delta Analysis After 7 Days (Path D)
 
 - Status: blocked
