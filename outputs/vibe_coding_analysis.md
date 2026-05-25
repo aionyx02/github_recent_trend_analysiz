@@ -33,40 +33,40 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 18 | 1.8% |
-| 待檢視 | 124 | 12.4% |
-| 訊號完整 | 858 | 85.8% |
+| 待檢視 | 123 | 12.3% |
+| 訊號完整 | 859 | 85.9% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `thananon/9arm-skills` | 2009 | 267 | 4d | **8** | desc:empty, license:none, high-attention-no-desc, overnight-surge:502/day, generic-name:9arm-skills, topics:none |
-| 2 | `deepseek-ai/awesome-deepseek-agent` | 2246 | 247 | 27d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:awesome-deepseek-agent, topics:none |
-| 3 | `cursor/cookbook` | 3846 | 447 | 27d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:cookbook, topics:none |
-| 4 | `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1073 | 366 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `V4bel/dirtyfrag` | 4753 | 758 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `Ch1rpy2613/Mirrai` | 821 | 11 | 19d | **6** | desc:empty, license:none, low-forks:0.013, topics:none |
-| 7 | `FoundZiGu/GuJumpgate` | 2382 | 659 | 5d | **6** | desc:empty, high-attention-no-desc, overnight-surge:476/day, topics:none |
+| 1 | `thananon/9arm-skills` | 2021 | 271 | 4d | **8** | desc:empty, license:none, high-attention-no-desc, overnight-surge:505/day, generic-name:9arm-skills, topics:none |
+| 2 | `deepseek-ai/awesome-deepseek-agent` | 2249 | 248 | 27d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:awesome-deepseek-agent, topics:none |
+| 3 | `cursor/cookbook` | 3849 | 447 | 27d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:cookbook, topics:none |
+| 4 | `FoundZiGu/GuJumpgate` | 2394 | 661 | 5d | **6** | desc:empty, high-attention-no-desc, overnight-surge:479/day, topics:none |
+| 5 | `V4bel/dirtyfrag` | 4754 | 758 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1074 | 366 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 7 | `Ch1rpy2613/Mirrai` | 823 | 11 | 19d | **6** | desc:empty, license:none, low-forks:0.013, topics:none |
 | 8 | `limin112/wechat-publish-template` | 155 | 17 | 6d | **5** | desc:empty, license:none, generic-name:wechat-publish-template, topics:none |
-| 9 | `Jiawei-Yang/FD-Loss` | 509 | 9 | 27d | **5** | desc:empty, low-forks:0.018, topics:none |
-| 10 | `mit-han-lab/kernel-design-agents` | 145 | 12 | 12d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
-| 11 | `pheohu-42/Claude_zh-CN_LanguagePack` | 246 | 11 | 29d | **5** | desc:empty, license:none, generic-name:Claude_zh-CN_LanguagePack, topics:none |
-| 12 | `h9-tec/LLM-Math-Handbook` | 214 | 27 | 28d | **5** | desc:empty, license:none, generic-name:LLM-Math-Handbook, topics:none |
-| 13 | `foyzulkarim/claude-lens` | 221 | 29 | 24d | **5** | desc:empty, license:none, generic-name:claude-lens, topics:none |
-| 14 | `Achilng/floral-notepaper` | 2374 | 108 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 15 | `Blueemi/codex-eu-patcher` | 123 | 8 | 18d | **5** | desc:empty, license:none, generic-name:codex-eu-patcher, topics:none |
+| 9 | `h9-tec/LLM-Math-Handbook` | 214 | 27 | 28d | **5** | desc:empty, license:none, generic-name:LLM-Math-Handbook, topics:none |
+| 10 | `mit-han-lab/kernel-design-agents` | 156 | 13 | 12d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
+| 11 | `Jiawei-Yang/FD-Loss` | 509 | 9 | 27d | **5** | desc:empty, low-forks:0.018, topics:none |
+| 12 | `pheohu-42/Claude_zh-CN_LanguagePack` | 246 | 11 | 29d | **5** | desc:empty, license:none, generic-name:Claude_zh-CN_LanguagePack, topics:none |
+| 13 | `FULU-Foundation/OrcaSlicer-bambulab` | 6474 | 5020 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `Achilng/floral-notepaper` | 2387 | 109 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `vibeshotclub/vsc-skills` | 131 | 24 | 27d | **5** | desc:empty, license:none, generic-name:vsc-skills, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 110 | 11.0% |
+| description empty | 111 | 11.1% |
 | description <20 chars | 26 | 2.6% |
-| no license | 378 | 37.8% |
+| no license | 376 | 37.6% |
 | high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
 | low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
 | overnight surge (>300 spd + <7 days) | 5 | 0.5% |
-| generic-AI-buzzword name | 139 | 13.9% |
+| generic-AI-buzzword name | 137 | 13.7% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -91,7 +91,7 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | 5000-9999 | 3 | 1 | 0 | 2 | 33.3% |
 | 1000-4999 | 70 | 7 | 4 | 59 | 10.0% |
 | 500-999 | 106 | 2 | 14 | 90 | 1.9% |
-| 100-499 | 819 | 8 | 106 | 705 | 1.0% |
+| 100-499 | 819 | 8 | 105 | 706 | 1.0% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -100,26 +100,26 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6471 | 5017 | 13d | C++ | AGPL-3.0 |
-| `V4bel/dirtyfrag` | 4753 | 758 | 17d | C | — |
-| `cursor/cookbook` | 3846 | 447 | 27d | TypeScript | — |
-| `FoundZiGu/GuJumpgate` | 2382 | 659 | 5d | JavaScript | MIT |
-| `Achilng/floral-notepaper` | 2374 | 108 | 28d | TypeScript | MIT |
-| `deepseek-ai/awesome-deepseek-agent` | 2246 | 247 | 27d | Unknown | — |
-| `thananon/9arm-skills` | 2009 | 267 | 4d | Shell | — |
-| `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1073 | 366 | 24d | Unknown | — |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6474 | 5020 | 13d | C++ | AGPL-3.0 |
+| `V4bel/dirtyfrag` | 4754 | 758 | 17d | C | — |
+| `cursor/cookbook` | 3849 | 447 | 27d | TypeScript | — |
+| `FoundZiGu/GuJumpgate` | 2394 | 661 | 5d | JavaScript | MIT |
+| `Achilng/floral-notepaper` | 2387 | 109 | 28d | TypeScript | MIT |
+| `deepseek-ai/awesome-deepseek-agent` | 2249 | 248 | 27d | Unknown | — |
+| `thananon/9arm-skills` | 2021 | 271 | 4d | Shell | — |
+| `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1074 | 366 | 24d | Unknown | — |
 
 ### Generic-name pattern breakdown
 
-Of 139 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 137 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 28 |
+| `agent` | 29 |
 | `claude` | 24 |
-| `skills` | 17 |
 | `codex` | 16 |
-| `skill` | 16 |
+| `skills` | 15 |
+| `skill` | 15 |
 | `awesome` | 9 |
 | `agents` | 8 |
 | `prompt` | 6 |
@@ -133,8 +133,8 @@ Of 139 repos with a generic-AI-buzzword token in the name, the token distributio
 
 ### Topics coverage
 
-- Repos with **zero topics**: 541 (54.1%)
-- Repos with at least one topic: 459 (45.9%)
+- Repos with **zero topics**: 539 (53.9%)
+- Repos with at least one topic: 461 (46.1%)
 
 ## Methodology limits
 
