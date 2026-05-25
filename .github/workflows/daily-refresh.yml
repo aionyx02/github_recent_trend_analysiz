@@ -44,12 +44,16 @@ jobs:
       #
       # Key changes every day so we save a fresh cache; restore-keys picks
       # the most recent prefix match so we don't start cold.
+      # The manifest tracks per-repo `pushed_at` vs fetched_at so stale-aware
+      # incremental refresh works across runs. Without it, every run would
+      # forget when each cache file was fetched and fall back to mtime.
       - name: restore raw collection cache
         uses: actions/cache@v4
         with:
           path: |
             data/raw/languages
             data/raw/topics
+            data/raw/_cache_manifest.json
           key: raw-collection-${{ github.run_id }}
           restore-keys: |
             raw-collection-

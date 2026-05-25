@@ -1,9 +1,11 @@
 """End-to-end collection orchestrator: search → languages → topics → CSVs.
 
-Idempotent: existing pages, language caches, and topic caches are skipped.
-Safe to re-run after a rate-limit stop — picks up where it left off.
-Writes a `data/processed/_collection_progress.json` checkpoint after each stage
-so you can inspect what was finished without re-parsing all the raw files.
+Idempotent + stale-aware. Cache state lives in `data/raw/_cache_manifest.json`
+and tracks per-repo `pushed_at` so a repo's /languages and /topics get
+re-fetched only when GitHub reports new activity since the last fetch.
+
+Writes `data/processed/_collection_progress.json` after each stage so you
+can inspect what was finished without re-parsing all the raw files.
 """
 
 from __future__ import annotations
@@ -11,22 +13,39 @@ from __future__ import annotations
 import json
 import logging
 import time
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
-from src import config, collect_languages, collect_repos, collect_topics, clean_data
+from src import (
+    cache_manifest,
+    clean_data,
+    collect_languages,
+    collect_repos,
+    collect_topics,
+    config,
+)
 from src.github_api import GitHubClient, RateLimitExhausted
 
 log = logging.getLogger(__name__)
 
+SAVE_EVERY_N_REPOS = 50
+
 
 def discover_repos_on_disk() -> list[dict]:
-    """Parse every saved search_*.json and return a deduplicated repo list."""
+    """Parse every saved search_*.json and return the deduplicated repo list.
+
+    Iterates oldest → newest (filenames sort by date), overwriting on
+    collision so the newest file's `pushed_at` wins for staleness checks.
+    """
     out: dict[int, dict] = {}
     for path in sorted(config.RAW_DIR.glob("search_*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
         for item in payload.get("items", []):
-            out.setdefault(item["id"], {"id": item["id"], "full_name": item["full_name"]})
+            out[item["id"]] = {
+                "id": item["id"],
+                "full_name": item["full_name"],
+                "pushed_at": item.get("pushed_at"),
+            }
     return list(out.values())
 
 
@@ -58,35 +77,57 @@ def collect_search_pages() -> tuple[int, int]:
     return saved, skipped
 
 
-def collect_per_repo(repos: list[dict], kind: str, fetch_fn, cache_path_fn) -> tuple[int, int, int]:
-    """Generic per-repo collector. kind ∈ {"languages","topics"}."""
+def collect_per_repo(repos: list[dict], kind: str, fetch_fn, cache_path_fn,
+                     manifest: dict) -> tuple[int, int, int, int]:
+    """Generic per-repo collector. kind ∈ {"languages","topics"}.
+
+    Returns (fetched, skipped, failed, stale_refetched). A "stale_refetched"
+    repo is one whose cache existed but `pushed_at > fetched_at` triggered
+    a re-fetch — counted toward both `fetched` and `stale_refetched`.
+    """
     client = GitHubClient(accept=config.TOPICS_ACCEPT if kind == "topics" else config.API_ACCEPT)
     fetched = 0
     skipped = 0
     failed = 0
+    stale_refetched = 0
     try:
         for i, repo in enumerate(repos, 1):
             path: Path = cache_path_fn(repo["id"])
-            if path.exists():
+            pushed_raw = repo.get("pushed_at")
+            try:
+                pushed_at = (cache_manifest._parse_iso(pushed_raw)
+                             if pushed_raw else datetime.now(timezone.utc))
+            except (TypeError, ValueError):
+                pushed_at = datetime.now(timezone.utc)
+
+            cached_was_usable = cache_manifest._is_usable(path)
+            if not cache_manifest.is_stale(manifest, repo["id"], kind, pushed_at, path):
                 skipped += 1
                 continue
+            if cached_was_usable:
+                stale_refetched += 1
+
             try:
                 data = fetch_fn(client, repo["full_name"])
                 path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+                cache_manifest.mark_fetched(manifest, repo["id"], kind,
+                                            datetime.now(timezone.utc))
                 fetched += 1
             except RateLimitExhausted:
                 raise
             except Exception as e:  # 404 from renamed repos, etc.
                 log.warning("%s fetch failed for %s: %s", kind, repo["full_name"], e)
                 failed += 1
-            if i % 50 == 0:
-                log.info("%s progress: %d/%d (fetched=%d skipped=%d failed=%d)",
-                         kind, i, len(repos), fetched, skipped, failed)
+            if i % SAVE_EVERY_N_REPOS == 0:
+                log.info("%s progress: %d/%d (fetched=%d skipped=%d failed=%d stale=%d)",
+                         kind, i, len(repos), fetched, skipped, failed, stale_refetched)
+                cache_manifest.save_atomic(manifest)
     except RateLimitExhausted as e:
         log.error("rate-limit during %s: %s", kind, e)
     finally:
+        cache_manifest.save_atomic(manifest)
         client.close()
-    return fetched, skipped, failed
+    return fetched, skipped, failed, stale_refetched
 
 
 def build_csvs(repos: list[dict]) -> dict[str, Path]:
@@ -118,26 +159,60 @@ def main() -> dict:
     repos = discover_repos_on_disk()
     log.info("=== %d unique repos on disk ===", len(repos))
 
+    manifest = cache_manifest.load()
+    today = date.today()
+
+    # First-run-after-upgrade: stamp existing caches as fresh so we don't
+    # surge ~2000 API calls re-fetching everything via the mtime fallback.
+    bootstrapped = cache_manifest.bootstrap_existing(
+        manifest, today, [r["id"] for r in repos])
+
+    # Mark every repo seen today (used by prune to detect repos that have
+    # rolled out of the 30-day window long enough to evict).
+    for r in repos:
+        cache_manifest.mark_seen(manifest, r["id"], today)
+    cache_manifest.save_atomic(manifest)
+
     log.info("=== STAGE 2: languages ===")
-    l_fetched, l_skipped, l_failed = collect_per_repo(
-        repos, "languages", collect_languages.fetch, collect_languages.cache_path)
-    log.info("languages: fetched=%d skipped=%d failed=%d", l_fetched, l_skipped, l_failed)
+    l_fetched, l_skipped, l_failed, l_stale = collect_per_repo(
+        repos, "languages", collect_languages.fetch,
+        collect_languages.cache_path, manifest)
+    log.info("languages: fetched=%d (of which stale-refetch=%d) skipped=%d failed=%d",
+             l_fetched, l_stale, l_skipped, l_failed)
 
     log.info("=== STAGE 3: topics ===")
-    t_fetched, t_skipped, t_failed = collect_per_repo(
-        repos, "topics", collect_topics.fetch, collect_topics.cache_path)
-    log.info("topics: fetched=%d skipped=%d failed=%d", t_fetched, t_skipped, t_failed)
+    t_fetched, t_skipped, t_failed, t_stale = collect_per_repo(
+        repos, "topics", collect_topics.fetch,
+        collect_topics.cache_path, manifest)
+    log.info("topics: fetched=%d (of which stale-refetch=%d) skipped=%d failed=%d",
+             t_fetched, t_stale, t_skipped, t_failed)
 
     log.info("=== STAGE 4: build CSVs ===")
     paths = build_csvs(repos)
+
+    log.info("=== STAGE 5: prune stale-cache repos ===")
+    pruned = cache_manifest.prune(manifest, today)
+    cache_manifest.save_atomic(manifest)
+
     elapsed = time.monotonic() - t0
 
     summary = {
         "elapsed_seconds": round(elapsed, 1),
         "repos_total": len(repos),
         "search": {"saved": s_saved, "skipped": s_skipped},
-        "languages": {"fetched": l_fetched, "skipped": l_skipped, "failed": l_failed},
-        "topics": {"fetched": t_fetched, "skipped": t_skipped, "failed": t_failed},
+        "languages": {
+            "fetched": l_fetched, "stale_refetched": l_stale,
+            "skipped": l_skipped, "failed": l_failed,
+        },
+        "topics": {
+            "fetched": t_fetched, "stale_refetched": t_stale,
+            "skipped": t_skipped, "failed": t_failed,
+        },
+        "manifest": {
+            "bootstrapped_stamps": bootstrapped,
+            "pruned_repo_ids": pruned,
+            "pruned_count": len(pruned),
+        },
         "csvs": {k: str(v) for k, v in paths.items()},
     }
     checkpoint = config.PROCESSED_DIR / "_collection_progress.json"
