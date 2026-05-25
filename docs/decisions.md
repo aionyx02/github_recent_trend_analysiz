@@ -2,7 +2,7 @@
 type: decision_index
 status: active
 priority: p1
-updated: 2026-05-24
+updated: 2026-05-25
 context_policy: retrieve_only
 owner: project
 ---

@@ -13,7 +13,7 @@ owner: project
 
 ### TASK.008 - Reviewer-Facing Polish (Path A)
 
-- Status: in_progress (3/4 done; hero shot blocked on user-supplied screenshot)
+- Status: doing
 - Priority: P1
 - Owner: project
 - Started: 2026-05-24
@@ -27,11 +27,10 @@ owner: project
   - [x] Write a 5-minute spoken script at docs/presentation.md covering motivation, method, top finding, vibe-coding angle, demo URL.
 - Notes:
   - Hero screenshot must come from the user (live Cloud URL).
-  - README `<img>` tag already references `outputs/figures/dashboard_hero.png`; will render once the file lands.
 
 ### TASK.007 - Validate Metadata-Completeness Scoring (precision/recall) (Path B)
 
-- Status: blocked (awaiting manual labelling)
+- Status: blocked
 - Priority: P2
 - Owner: project
 - Started: 2026-05-24
@@ -50,7 +49,7 @@ owner: project
 
 ### TASK.010 - Validate Rule-Based Classification (agreement rate)
 
-- Status: blocked (awaiting manual labelling)
+- Status: blocked
 - Priority: P2
 - Owner: project
 - Started: 2026-05-25
@@ -65,11 +64,11 @@ owner: project
   - [ ] Cite the result in `README §限制與威脅 (B. 方法限制)` and `outputs/report.md §10.2 M3`.
 - Notes:
   - Random seed pinned (42).
-  - If overall agreement < 75%, consider revising the keyword table or escalating to multi-label.
+  - If agreement < 75%, revise keyword table or escalate to multi-label.
 
 ### TASK.011 - Verify incremental-refresh in CI
 
-- Status: blocked (next daily-refresh run after merge)
+- Status: blocked
 - Priority: P2
 - Owner: project
 - Started: 2026-05-25
@@ -85,7 +84,7 @@ owner: project
   - [ ] After 7+ daily runs, `languages.stale_refetched` and `topics.stale_refetched` settle to 50-200 / run on average.
   - [ ] After 60+ days, observe `manifest.pruned_count > 0` for repos that left the 30-day window.
 - Notes:
-  - If a daily run hits `manifest.pruned_count == 200` (the safety ceiling), investigate — likely a manifest corruption or clock anomaly.
+  - `pruned_count == 200` (safety ceiling) → investigate manifest corruption / clock anomaly.
 
 ### TASK.009 - Delta Analysis After 7 Days (Path D)
 

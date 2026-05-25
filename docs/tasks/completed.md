@@ -2,7 +2,7 @@
 type: task_archive_index
 status: archive
 priority: p3
-updated: 2026-05-24
+updated: 2026-05-25
 context_policy: on_demand
 owner: project
 ---
@@ -23,3 +23,7 @@ owner: project
 | `TASK.011` | Counterfactual + sampling prep + Actions cache | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.010` | Path C visualization wow (Sankey + slider + stacked daily) | `docs/memory/sessions/2026-05-24.md` |
 | `TASK.008` | Reviewer-facing polish (hero shot + TL;DR + presentation script) | `docs/memory/sessions/2026-05-24.md` |
+| `TASK.012` | REVIEW-FIXES: 修正清單 P0/P1/P2 全集 | `docs/memory/sessions/2026-05-25.md` |
+| `TASK.013` | INCREMENTAL-REFRESH: stale-aware daily refresh + prune | `docs/memory/sessions/2026-05-25.md` |
+| `TASK.014` | CLASSIFIER-V2: Finance/Trading + keyword gap fill (ADR-0004 revision) | `docs/memory/sessions/2026-05-25.md` |
+| `TASK.015` | DASHBOARD-DYNAMIC-NARRATIVE: 消除 daily-refresh 後 stale 文字 | `docs/memory/sessions/2026-05-25.md` |
