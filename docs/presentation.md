@@ -18,7 +18,7 @@ owner: project
 
 ## 🎬 (00:00 – 00:30) 開場 + 一句話總結
 
-> 「老師、同學好。我這份作業在問一個問題：**GitHub 上最近一個月開始紅起來的開源專案，到底長什麼樣子？AI 真的全面壓倒了嗎？以及—— 有多少其實是水分？**
+> 「老師、同學好。我這份作業在問一個問題：**GitHub 上最近一個月開始紅起來的開源專案，到底長什麼樣子？AI 真的全面壓倒了嗎？以及—— 有多少 repo 公開 metadata 訊號相對於 stars 偏稀疏？**
 >
 > 我從 GitHub 抓了 999 個近月新建立的熱門 repo 做分析，會用 5 分鐘帶大家看三個發現。」
 
@@ -61,34 +61,36 @@ owner: project
 
 **動作**：切 `outputs/figures/forks_vs_stars.png`。
 
-### 發現 3 (橋接到 vibe-coding)：
+### 發現 3 (橋接到 metadata 完整度補章)：
 
-> 「為什麼 stars 高、forks 低？因為其中一些根本就是**空殼專案**。」
+> 「為什麼 stars 高、forks 低？因為其中一部分 repo 的公開 metadata 訊號偏稀疏 —— 沒描述、沒 license、沒 topics。我設計了一個量化指標來測這件事。」
 
 **動作**：停頓 1 秒製造效果，準備進補章。
 
 ---
 
-## 🎬 (03:00 – 04:30) 🚨 原創貢獻：Vibe-Coding 水分專案分析
+## 🎬 (03:00 – 04:30) 🔬 原創貢獻：公開 Metadata 完整度風險評分
 
-> 「我自己設計了一個嚴格評分機制叫 **vibe-coding garbage detection**。
+> 「我設計了一個量化指標叫 **Metadata Completeness Risk Score（公開 metadata 完整度風險評分）**。
 >
-> 定義：『一個 repo 的 stars 遠超它的可見實質』。**標籤針對的是公開產出，不是作者。**
+> 定義：用 8 個訊號量化 repo 公開 metadata 相對於 stars 的稀疏程度。**指標衡量的是公開產出，不衡量作者本人，也不是對 vibe-coding 這個編程方式本身的價值評斷。**
 >
-> 8 個訊號加權打 0 到 10 分：description 是不是空的、有沒有 license、stars 大於 1000 但 description 空（叫 famous-nothing）、fork:star 異常低、隔夜暴衝、名字含 generic AI buzzword、沒任何 topics。
+> 8 個訊號加權打 0 到 10 分：description 是不是空的、有沒有 license、stars 大於 1000 但 description 空（高關注低描述）、fork:star 異常低、隔夜暴衝、名字含 generic AI buzzword、沒任何 topics。
 >
-> 999 個 repo 跑下來：**1.8% (18 個) 判為 garbage、13.2% suspicious、85% legitimate**。
+> 三個 tier：5+ 為**低資訊密度**、3-4 為**待檢視**、0-2 為**訊號完整**。
 >
-> 但**最有趣的發現在這裡** — 我把 garbage 按 stars 級距切：
-> - **≥10000 stars：0% garbage**（太紅了，藏不住）
-> - **1000-5000 stars：9.9% garbage**（farming 集中區）
-> - **<500 stars：1% garbage**（沒人在乎）
+> 999 個 repo 跑下來：**1.8% (18 個) 落入低資訊密度 tier、13.2% 待檢視、85% 訊號完整**。
 >
-> 也就是說：**farming 有個甜蜜點，就在中段** —— 夠 impressive 上 trending，又不會被嚴格審視。
+> 但**最有趣的發現在這裡** —— 我把低資訊密度 tier 按 stars 級距切：
+> - **≥10000 stars：0%**（曝光高、受到較多檢視）
+> - **1000-5000 stars：9.9%**（顯著集中區）
+> - **<500 stars：1%**（關注度低，訊號不易被觀察）
 >
-> 點名 Top 7 garbage 含 `cursor/cookbook`、`deepseek-ai/awesome-deepseek-agent` 這種**官方 repo** — 不是惡意，是 2026 AI 公司『先發再說』文化的縮影。」
+> 也就是說：**中段 stars 區段是訊號集中區** —— 可能反映「足以上 trending、又不會被嚴格審視」的區段。請注意這是觀察性結論，不是因果推論。
+>
+> Top 7 名單中包含 `cursor/cookbook`、`deepseek-ai/awesome-deepseek-agent` 等**官方 repo** —— 反映的並非惡意，而是 2026 AI 公司『先發再說』的快速出貨文化在 metadata 完整度層面的體現。」
 
-**動作**：切 `outputs/vibe_coding_analysis.md` 截圖，或直接展示 dashboard 的 vibe section（互動）。
+**動作**：切 `outputs/vibe_coding_analysis.md` 截圖，或直接展示 dashboard 的 metadata 完整度 section（互動）。
 
 ---
 
@@ -96,11 +98,11 @@ owner: project
 
 > 「兩個重要限制要講：
 > 1. **54.4% 的 repo 完全沒填 topic** — 這是 GitHub 生態的結構性問題，不是抓取錯誤。
-> 2. vibe-coding 評分目前是『嫌疑』不是『判決』，下一步要做人工驗證計算 precision/recall。
+> 2. Metadata 完整度評分目前是『訊號』不是『判決』，下一步要做人工驗證計算 precision/recall。
 >
-> Demo 在這個 URL，**現在打開就能玩**：可以篩選分類、互動圖、調 vibe 分數。**資料每天 14:00 自動重抓**，所以你看到的永遠是『最近 30 天』。
+> Demo 在這個 URL，**現在打開就能玩**：可以篩選分類、互動圖、調 metadata 風險閾值。**資料每天 14:00 自動重抓**，所以你看到的永遠是『最近 30 天』。
 >
-> 結論一句話：**2026 GitHub trending 是 AI 主導 + 一個值得警惕的 farming 現象**。
+> 結論一句話：**2026 GitHub trending 是 AI 主導 + 一個值得警惕的「中段 stars 區段公開 metadata 訊號偏稀疏」現象**。
 >
 > 謝謝。」
 
@@ -114,10 +116,10 @@ owner: project
 |---|---|
 | 為什麼只抓 1000 筆？ | GitHub Search API 單一 query 硬上限是 1000 筆，再多要切 stars 或日期。對「最近熱門」這個問題來說足夠。 |
 | 分類器為什麼不用 ML？ | MVP 重可解釋性。每個 repo 為什麼歸到 AI/ML 都能追到具體關鍵字。ADR-0004 有完整理由。 |
-| 1.8% garbage 是高還低？ | 整體看不高，但在 1000-5000 stars 這段是 9.9%，課程作業、企業情報、技術選型常用這個區段，**每 10 個有 1 個有水分**就值得警惕。 |
-| 你怎麼確定不是 false positive？ | 我有舉手承認：`awesome-*` 列表、學術 paper repo 都可能誤判。所以叫『嫌疑』不是『判決』，TASK.007 正在做人工驗證。 |
+| 1.8% 低資訊密度比例是高還低？ | 整體看不高，但在 1000-5000 stars 這段是 9.9%。課程作業、企業情報、技術選型常引用這個區段，**約每 10 個 repo 有 1 個公開 metadata 完整度偏低**，值得警惕，建議多參考 description、license、fork:star 比例等多項訊號。 |
+| 你怎麼確定不是 false positive？ | 我有明確承認：`awesome-*` 列表、學術 paper repo、官方快速釋出 repo 都可能踩到訊號。所以指標定位是『訊號』不是『判決』，TASK.007 正在做人工驗證計算 precision/recall。 |
 | 為什麼 watchers 等於 stars？ | GitHub Search API 不回 `subscribers_count`，這是 API 限制不是 bug。所以分析全部避開用 watchers。 |
-| 跟我從 GitHub Trending 頁直接看有什麼差？ | Trending 頁是 GitHub 不透明演算法選的；我這個是**完全可重現**的篩選 + 量化分析，包含 GitHub 自己不會跟你說的 farming 結構觀察。 |
+| 跟我從 GitHub Trending 頁直接看有什麼差？ | Trending 頁是 GitHub 不透明演算法選的；我這個是**完全可重現**的篩選 + 量化分析，並提供 GitHub 介面不會呈現的公開 metadata 完整度量化指標。 |
 
 ---
 

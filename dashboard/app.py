@@ -137,7 +137,7 @@ st.info(
     "**這個專案在做什麼？**\n\n"
     "我們從 GitHub 抓出最近一個月新建立且開始受到關注的開源專案，"
     "分析它們的程式語言、主題、熱度，以及一個獨家觀察——"
-    "**到底有多少是 vibe-coding（即興 AI 產出）的水分專案。**"
+    "**到底有多少 repo 屬於「公開 metadata 訊號偏稀疏」的低資訊密度候選。**"
 )
 
 st.markdown("---")
@@ -269,7 +269,7 @@ explainer(
     f"相關係數 Pearson **{pearson:.2f}**（{_pearson_lbl}）／ "
     f"Spearman **{spearman:.2f}**（{_spearman_lbl}）——{_corr_callout} "
     f"特別觀察 AI/ML 類別會發現有「stars 高但 forks 偏低」的子群，"
-    f"後面 vibe-coding 章節會追究這個「被星但少被用」現象。"
+    f"後面 metadata 完整度章節會追究這個「被星但少被用」現象。"
 )
 
 st.markdown("---")
@@ -479,57 +479,63 @@ explainer(
 
 st.markdown("---")
 
-# ──────────── VIBE CODING GARBAGE ────────────
-section("🚨 原創發現：Vibe-Coding 水分專案分析",
-        "本專案獨家——用嚴格規則辨識「星很高但內容空虛」的 repo")
+# ──────────── METADATA COMPLETENESS RISK SCORE ────────────
+section("🔬 原創發現：公開 Metadata 完整度分析",
+        "本專案獨家——用 8 個訊號量化「stars 相對於可見 metadata 訊號偏稀疏」的程度")
+
+# Neutral tier labels (also used by analyze_vibe.py). Kept in sync deliberately.
+TIER_LOW = "低資訊密度"
+TIER_REVIEW = "待檢視"
+TIER_COMPLETE = "訊號完整"
 
 if vibe is not None:
     st.markdown(
-        "**什麼是 vibe-coding garbage？**  "
-        "= 一個 repo 的 stars 遠遠超過它的「可見實質」。"
+        f"**什麼是「{TIER_LOW}」候選？**  "
+        "= 一個 repo 的 stars 相對於它的公開 metadata 訊號偏稀疏。"
         "我們設計 8 個訊號（description 空、license 空、stars 暴衝但 fork 極少、名字是 generic AI buzzword……）"
-        "為每個 repo 打 0-10 分。"
+        "為每個 repo 打 0-10 分。**高分代表訊號可疑，不代表該 repo 無價值** —— "
+        "`awesome-*` 列表、學術 repo、官方快速釋出 repo 都可能踩到訊號。"
     )
 
     threshold = st.slider(
-        "🎚️ Garbage 判定閾值（分數 ≥ 此值即判為 garbage）",
+        f"🎚️ {TIER_LOW} 判定閾值（分數 ≥ 此值即判為 {TIER_LOW}）",
         min_value=3, max_value=8, value=5, step=1,
-        help="預設 5（報告採用值）。調高 → 標準變嚴、garbage 變少；調低 → 標準變鬆、garbage 變多。"
-              "Suspicious 範圍永遠是 3 分以上 garbage 以下。",
+        help=f"預設 5（報告採用值）。調高 → 標準變嚴、{TIER_LOW} 變少；調低 → 標準變鬆、{TIER_LOW} 變多。"
+             f"{TIER_REVIEW} 範圍永遠是 3 分以上、{TIER_LOW} 以下。",
     )
 
     def _tier_at(score: int, thr: int) -> str:
         if score >= thr:
-            return "garbage"
+            return TIER_LOW
         if score >= 3:
-            return "suspicious"
-        return "legitimate"
+            return TIER_REVIEW
+        return TIER_COMPLETE
 
     vibe_dyn = vibe.copy()
     vibe_dyn["tier"] = vibe_dyn["score"].apply(lambda s: _tier_at(int(s), threshold))
 
     tier_counts = vibe_dyn["tier"].value_counts().reindex(
-        ["garbage", "suspicious", "legitimate"]).fillna(0).astype(int)
+        [TIER_LOW, TIER_REVIEW, TIER_COMPLETE]).fillna(0).astype(int)
 
     # Show delta from default-threshold (5) so user sees how their slider moves things.
     if threshold != 5:
-        default_garbage = int((vibe["score"] >= 5).sum())
-        delta = int(tier_counts["garbage"]) - default_garbage
+        default_low = int((vibe["score"] >= 5).sum())
+        delta = int(tier_counts[TIER_LOW]) - default_low
         delta_str = f"{delta:+d} vs 預設"
     else:
         delta_str = "預設"
 
     c1, c2, c3 = st.columns(3)
-    c1.metric("🟢 Legitimate", f"{tier_counts['legitimate']}",
-              f"{tier_counts['legitimate']/len(vibe_dyn)*100:.1f}%")
-    c2.metric("🟡 Suspicious", f"{tier_counts['suspicious']}",
-              f"{tier_counts['suspicious']/len(vibe_dyn)*100:.1f}%")
-    c3.metric("🔴 Garbage", f"{tier_counts['garbage']}", delta_str,
+    c1.metric(f"🟢 {TIER_COMPLETE}", f"{tier_counts[TIER_COMPLETE]}",
+              f"{tier_counts[TIER_COMPLETE]/len(vibe_dyn)*100:.1f}%")
+    c2.metric(f"🟡 {TIER_REVIEW}", f"{tier_counts[TIER_REVIEW]}",
+              f"{tier_counts[TIER_REVIEW]/len(vibe_dyn)*100:.1f}%")
+    c3.metric(f"🔴 {TIER_LOW}", f"{tier_counts[TIER_LOW]}", delta_str,
               delta_color="off" if threshold == 5 else "inverse")
 
     vibe = vibe_dyn  # downstream sections all use the recomputed tier
 
-    st.markdown("### 哪個 stars 級距藏最多 garbage？")
+    st.markdown(f"### 哪個 stars 級距 {TIER_LOW} 比例最高？")
     buckets = [
         ("≥10000", vibe["stars"] >= 10000),
         ("5000-9999", (vibe["stars"] >= 5000) & (vibe["stars"] < 10000)),
@@ -538,6 +544,8 @@ if vibe is not None:
         ("100-499", (vibe["stars"] >= 100) & (vibe["stars"] < 500)),
     ]
     bucket_rows = []
+    low_col = f"{TIER_LOW} 數"
+    low_pct_col = f"{TIER_LOW} %"
     for label, mask in buckets:
         sub = vibe[mask]
         if sub.empty:
@@ -545,12 +553,12 @@ if vibe is not None:
         bucket_rows.append({
             "stars 級距": label,
             "樣本數": len(sub),
-            "garbage 數": int((sub["tier"] == "garbage").sum()),
-            "garbage %": round((sub["tier"] == "garbage").sum() / len(sub) * 100, 1),
+            low_col: int((sub["tier"] == TIER_LOW).sum()),
+            low_pct_col: round((sub["tier"] == TIER_LOW).sum() / len(sub) * 100, 1),
         })
     bucket_df = pd.DataFrame(bucket_rows)
-    fig_b = px.bar(bucket_df, x="stars 級距", y="garbage %", text="garbage %",
-                   color="garbage %", color_continuous_scale="Reds")
+    fig_b = px.bar(bucket_df, x="stars 級距", y=low_pct_col, text=low_pct_col,
+                   color=low_pct_col, color_continuous_scale="Reds")
     fig_b.update_layout(height=400, showlegend=False, coloraxis_showscale=False)
     st.plotly_chart(fig_b, use_container_width=True)
     st.dataframe(bucket_df, use_container_width=True, hide_index=True)
@@ -559,24 +567,24 @@ if vibe is not None:
     # so a 50% rate over 2 repos doesn't masquerade as the headline.
     _significant = bucket_df[bucket_df["樣本數"] >= 20]
     if not _significant.empty:
-        _max_row = _significant.loc[_significant["garbage %"].idxmax()]
-        _min_row = _significant.loc[_significant["garbage %"].idxmin()]
-        if _max_row["garbage %"] > _min_row["garbage %"] * 2:
+        _max_row = _significant.loc[_significant[low_pct_col].idxmax()]
+        _min_row = _significant.loc[_significant[low_pct_col].idxmin()]
+        if _max_row[low_pct_col] > _min_row[low_pct_col] * 2:
             st.success(
-                f"🎯 **核心發現**：garbage 比例最高在 "
-                f"**{_max_row['stars 級距']} stars 級距（{_max_row['garbage %']}% — "
-                f"{int(_max_row['garbage 數'])}/{int(_max_row['樣本數'])}）**；"
-                f"最低在 **{_min_row['stars 級距']}（{_min_row['garbage %']}%）**。"
-                f"差距 {_max_row['garbage %']/max(_min_row['garbage %'], 0.1):.1f}× —— "
-                f"farming 在 stars 分布上**不是均勻分布**，集中在「夠 impressive 上 trending，"
-                f"又不會被嚴格審視」的中段。"
+                f"🎯 **核心發現**：{TIER_LOW} 比例最高在 "
+                f"**{_max_row['stars 級距']} stars 級距（{_max_row[low_pct_col]}% — "
+                f"{int(_max_row[low_col])}/{int(_max_row['樣本數'])}）**；"
+                f"最低在 **{_min_row['stars 級距']}（{_min_row[low_pct_col]}%）**。"
+                f"差距 {_max_row[low_pct_col]/max(_min_row[low_pct_col], 0.1):.1f}× —— "
+                f"高關注低 metadata 訊號**集中於中段 stars 級距**，"
+                f"並非均勻散落於整體分布。可能反映「足以上 trending、又不會被嚴格審視」的區段。"
             )
         else:
             st.info(
-                f"📊 各 stars 級距的 garbage 比例相對均勻，"
-                f"最高 {_max_row['stars 級距']}（{_max_row['garbage %']}%）／"
-                f"最低 {_min_row['stars 級距']}（{_min_row['garbage %']}%），"
-                f"沒有明顯的「farming 甜蜜點」現象。"
+                f"📊 各 stars 級距的 {TIER_LOW} 比例相對均勻，"
+                f"最高 {_max_row['stars 級距']}（{_max_row[low_pct_col]}%）／"
+                f"最低 {_min_row['stars 級距']}（{_min_row[low_pct_col]}%），"
+                f"沒有明顯的集中區段。"
             )
     else:
         st.warning("樣本量不足以可靠評估各 stars 級距的差異。")
@@ -602,7 +610,7 @@ if vibe is not None:
         },
     )
 
-    st.markdown("### Famous-Nothing — 高 stars + 完全沒描述")
+    st.markdown("### 高關注低描述 — 高 stars + 完全沒描述")
     fn = vibe[(vibe["stars"] > 1000) & (vibe["desc_len"] == 0)].sort_values(
         "stars", ascending=False)
     if not fn.empty:
@@ -636,7 +644,7 @@ if vibe is not None:
             st.warning(
                 f"這 **{len(fn)}** 個 repo 每個都 stars >1000 但連 description 都不寫一行。"
                 f"其中 **{len(_official)} 個是官方 / 知名組織帳號**（例如 {_examples}）——"
-                f"並非惡意，而是 AI 公司「先發再說」的快速出貨文化縮影。"
+                f"反映的並非惡意行為，而是 AI 公司「先發再說」的快速出貨文化在 metadata 完整度上的體現。"
             )
         else:
             st.warning(

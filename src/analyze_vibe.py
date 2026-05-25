@@ -1,26 +1,33 @@
-"""Strict scoring for 'vibe-coded garbage' on GitHub trending.
+"""Metadata-completeness risk scoring for GitHub trending repos.
 
-Definition: a repo whose stars greatly exceed its visible substance.
-This is NOT a quality judgment of vibe-coding as a practice — it is a measure of
-the specific failure mode where a thin, AI-generated, or unmaintained project
-accumulates outsized attention. The "garbage" label applies only to the public
-artifact (no description, no tags, no forks-relative-to-stars), not the author.
+This module computes a **public-metadata completeness risk score** (0..10) for
+each repository in the sample. Higher score = more public-facing metadata
+signals are missing (no description, no license, no topics, fork-to-star
+imbalance, etc.).
 
-Scoring (0..10, higher = more suspect):
+Neutral framing (research-grade): the score measures *visible* metadata
+completeness only. A high score does **not** mean the project has no value —
+just that its public artifact carries fewer of the conventional OSS hygiene
+signals relative to its attention. This is a quantifiable proxy for the broader
+question "how much of recent GitHub trending is well-documented vs. metadata-
+sparse?" — not a quality judgment of any individual repo or its author, and not
+a judgment of vibe-coding as a practice.
+
+Scoring (0..10, higher = more metadata signals missing):
 
     +2  description empty
     +1  description present but <20 chars
     +1  no license declared
-    +2  stars > 1000 AND description empty           ("famous nothing")
-    +2  fork_star_ratio < 0.02 AND stars > 500        (stars but nobody forks)
+    +2  stars > 1000 AND description empty           (high-attention low-description)
+    +2  fork_star_ratio < 0.02 AND stars > 500        (stars but very few forks)
     +1  stars_per_day > 300 AND age_days < 7          (overnight surge)
     +1  name matches generic-AI-buzzword pattern      (*-skills, *-agent, ...)
     +1  no topics                                     (only when topics data present)
 
-Tiers:
-    0-2  legitimate
-    3-4  suspicious
-    5+   likely vibe-coded garbage
+Tiers (neutral Chinese labels):
+    0-2  訊號完整      (signals complete — well-documented)
+    3-4  待檢視        (needs review — borderline)
+    5+   低資訊密度    (low-information-density — high-attention low-metadata)
 """
 
 from __future__ import annotations
@@ -31,6 +38,11 @@ from pathlib import Path
 import pandas as pd
 
 from src import config
+
+
+TIER_LOW = "低資訊密度"
+TIER_REVIEW = "待檢視"
+TIER_COMPLETE = "訊號完整"
 
 
 GENERIC_AI_PATTERN = re.compile(
@@ -66,7 +78,7 @@ def score_repo(row: pd.Series, topics_by_id: dict[int, list[str]] | None = None)
 
     if stars > 1000 and desc_len == 0:
         score += 2
-        reasons.append("famous-nothing")
+        reasons.append("high-attention-no-desc")
 
     fsr = forks / max(stars, 1)
     if stars > 500 and fsr < 0.02:
@@ -91,10 +103,10 @@ def score_repo(row: pd.Series, topics_by_id: dict[int, list[str]] | None = None)
 
 def tier(score: int) -> str:
     if score >= 5:
-        return "garbage"
+        return TIER_LOW
     if score >= 3:
-        return "suspicious"
-    return "legitimate"
+        return TIER_REVIEW
+    return TIER_COMPLETE
 
 
 def analyze(repos: pd.DataFrame, topics: pd.DataFrame | None = None) -> pd.DataFrame:
@@ -125,42 +137,46 @@ def analyze(repos: pd.DataFrame, topics: pd.DataFrame | None = None) -> pd.DataF
 def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
                     has_topics: bool, run_date: str) -> str:
     counts = scored["tier"].value_counts().reindex(
-        ["garbage", "suspicious", "legitimate"]).fillna(0).astype(int)
+        [TIER_LOW, TIER_REVIEW, TIER_COMPLETE]).fillna(0).astype(int)
     pct = (counts / total_repos * 100).round(1)
 
     lines: list[str] = []
-    lines.append("# Vibe-Coded Garbage Analysis")
+    lines.append("# 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)")
     lines.append("")
     lines.append(f"_Generated: {run_date} | Sample size: {total_repos} repos "
                  f"({'with' if has_topics else 'without'} topics signal)_")
     lines.append("")
-    lines.append("## Definition")
+    lines.append("## 定義 / Definition")
     lines.append("")
-    lines.append("**Vibe-coded garbage** = a repo whose stars greatly exceed its visible substance.")
-    lines.append("Stars are easy to harvest; descriptions, tags, forks, and a license take effort.")
-    lines.append("The label targets the public artifact only — not the author, and not vibe-coding "
-                 "as a practice.")
+    lines.append("**公開 metadata 完整度** = repo 的可見 metadata 訊號（description、license、")
+    lines.append("topics、fork-star 比例等）相對於其 stars 數的「完整程度」。")
     lines.append("")
-    lines.append("## Scoring rubric")
+    lines.append("我們將高分組命名為 **低資訊密度 (low-information-density candidate)**：")
+    lines.append("stars 不需太多努力就能累積，但 description、tags、forks、license 都需要實際付出。")
+    lines.append("**高分代表公開 metadata 訊號可疑，不代表該 repo 一定無價值** —— ")
+    lines.append("`awesome-*` 列表、學術研究 repo、官方快速釋出 repo 都可能踩到訊號。")
+    lines.append("此指標衡量公開產出，不衡量作者本人，也不是對 vibe-coding 這個編程方式的評價。")
+    lines.append("")
+    lines.append("## 評分機制 / Scoring rubric")
     lines.append("")
     lines.append("| Signal | Points | Rationale |")
     lines.append("|---|---:|---|")
-    lines.append("| `description` empty | +2 | Highest single signal of low effort |")
+    lines.append("| `description` empty | +2 | Highest single signal of metadata gap |")
     lines.append("| `description` < 20 chars | +1 | Marginal |")
-    lines.append("| No license declared | +1 | Careless OSS practice |")
-    lines.append("| stars > 1000 AND description empty | +2 | \"Famous nothing\" |")
-    lines.append("| fork_star_ratio < 0.02 AND stars > 500 | +2 | Stars but nobody forks |")
+    lines.append("| No license declared | +1 | Common OSS-hygiene gap |")
+    lines.append("| stars > 1000 AND description empty | +2 | High-attention low-description |")
+    lines.append("| fork_star_ratio < 0.02 AND stars > 500 | +2 | Stars but very few forks |")
     lines.append("| stars_per_day > 300 AND age_days < 7 | +1 | Overnight surge |")
     lines.append("| Name matches generic-AI-buzzword pattern | +1 | `*-skills`, `*-agent`, `*-cookbook` ... |")
     lines.append("| No topics tagged | +1 | Only when topics data present |")
     lines.append("")
-    lines.append("**Tiers**: 0-2 legitimate · 3-4 suspicious · 5+ garbage")
+    lines.append(f"**Tiers**: 0-2 {TIER_COMPLETE} · 3-4 {TIER_REVIEW} · 5+ {TIER_LOW}")
     lines.append("")
-    lines.append("## Findings")
+    lines.append("## 結果 / Findings")
     lines.append("")
     lines.append("| Tier | Count | % of sample |")
     lines.append("|---|---:|---:|")
-    for t in ["garbage", "suspicious", "legitimate"]:
+    for t in [TIER_LOW, TIER_REVIEW, TIER_COMPLETE]:
         lines.append(f"| {t} | {counts[t]} | {pct[t]}% |")
     lines.append("")
 
@@ -197,7 +213,7 @@ def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
         ("description empty", desc_empty),
         ("description <20 chars", desc_short),
         ("no license", no_license),
-        ("famous-nothing (stars>1k + empty desc)", famous_nothing),
+        ("high-attention no-desc (stars>1k + empty desc)", famous_nothing),
         ("low fork ratio (stars>500 + fsr<0.02)", low_forks),
         ("overnight surge (>300 spd + <7 days)", overnight),
         ("generic-AI-buzzword name", generic),
@@ -206,22 +222,22 @@ def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
         lines.append(f"| {label} | {n} | {n/total_repos*100:.1f}% |")
     lines.append("")
 
-    lines.append("### Garbage tier — by primary language")
+    lines.append(f"### {TIER_LOW} tier — by primary language")
     lines.append("")
-    garbage = scored[scored["tier"] == "garbage"]
-    if not garbage.empty:
-        lang_garbage = garbage["primary_language"].value_counts()
-        lines.append("| Language | Garbage repos |")
+    low_density = scored[scored["tier"] == TIER_LOW]
+    if not low_density.empty:
+        lang_breakdown = low_density["primary_language"].value_counts()
+        lines.append("| Language | Repos in 低資訊密度 tier |")
         lines.append("|---|---:|")
-        for lang, n in lang_garbage.items():
+        for lang, n in lang_breakdown.items():
             lines.append(f"| {lang} | {n} |")
     else:
-        lines.append("_No garbage-tier repos in this sample._")
+        lines.append("_No 低資訊密度 tier repos in this sample._")
     lines.append("")
 
-    lines.append("### Garbage concentration by stars bucket")
+    lines.append(f"### {TIER_LOW} concentration by stars bucket")
     lines.append("")
-    lines.append("Where in the popularity distribution does the garbage cluster?")
+    lines.append("Where in the popularity distribution does the low-metadata cohort cluster?")
     lines.append("")
     buckets = [
         ("≥10000", scored["stars"] >= 10000),
@@ -231,27 +247,28 @@ def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
         ("100-499", (scored["stars"] >= 100) & (scored["stars"] < 500)),
         ("<100", scored["stars"] < 100),
     ]
-    lines.append("| Stars bucket | Total | Garbage | Suspicious | Legitimate | Garbage % |")
+    lines.append(f"| Stars bucket | Total | {TIER_LOW} | {TIER_REVIEW} | {TIER_COMPLETE} | 低資訊密度 % |")
     lines.append("|---|---:|---:|---:|---:|---:|")
     for label, mask in buckets:
         sub = scored[mask]
         if sub.empty:
             continue
-        g = int((sub["tier"] == "garbage").sum())
-        s = int((sub["tier"] == "suspicious").sum())
-        leg = int((sub["tier"] == "legitimate").sum())
+        g = int((sub["tier"] == TIER_LOW).sum())
+        s = int((sub["tier"] == TIER_REVIEW).sum())
+        leg = int((sub["tier"] == TIER_COMPLETE).sum())
         pct = g / len(sub) * 100 if len(sub) else 0
         lines.append(f"| {label} | {len(sub)} | {g} | {s} | {leg} | {pct:.1f}% |")
     lines.append("")
 
-    lines.append("### Famous-nothing zoom (stars > 1000 + empty description)")
+    lines.append("### High-attention no-description zoom (stars > 1000 + empty description)")
     lines.append("")
     fn_mask = (scored["stars"] > 1000) & (scored["desc_len"] == 0)
     fn = scored[fn_mask].sort_values("stars", ascending=False)
     if fn.empty:
         lines.append("_No repos match._")
     else:
-        lines.append("These are the most visible inflated artifacts — high stars, zero description.")
+        lines.append("These are the most visible high-attention low-metadata artifacts —")
+        lines.append("high stars with zero description text.")
         lines.append("")
         lines.append("| Repo | Stars | Forks | Age | Language | License |")
         lines.append("|---|---:|---:|---:|---|---|")
@@ -297,15 +314,16 @@ def render_markdown(scored: pd.DataFrame, repos: pd.DataFrame, total_repos: int,
 
     lines.append("## Methodology limits")
     lines.append("")
-    lines.append("- Stars are not a proxy for code quality. A high score is a *suspicion*, not a verdict.")
-    lines.append("- The generic-name regex is intentionally narrow. False positives possible "
-                 "(e.g., a legitimate `awesome-*` list).")
+    lines.append("- Stars are not a proxy for code quality. A high score is a *signal-level*")
+    lines.append("  suspicion that public metadata is sparse, not a verdict that the repo lacks value.")
+    lines.append("- The generic-name regex is intentionally narrow. False positives are possible")
+    lines.append("  (e.g., a legitimate `awesome-*` curated list).")
     lines.append("- 30-day creation window biases toward repos that haven't had time to accumulate forks.")
-    lines.append("- We do not inspect commit graph, contributor count, or README length — those would "
-                 "tighten the signal but cost extra API calls per repo.")
+    lines.append("- We do not inspect commit graph, contributor count, or README length — those would")
+    lines.append("  tighten the signal but cost extra API calls per repo.")
     if not has_topics:
-        lines.append("- **Topics signal missing in this run.** Re-run after TASK.004 fills "
-                     "`data/processed/repo_topics.csv` for the full ±1 point.")
+        lines.append("- **Topics signal missing in this run.** Re-run after topics collection completes")
+        lines.append("  for the full ±1 point.")
     lines.append("")
     lines.append("## Reproduce")
     lines.append("")

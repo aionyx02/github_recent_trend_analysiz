@@ -20,11 +20,13 @@ import logging
 import pandas as pd
 
 from src import config
+from src.analyze_vibe import TIER_COMPLETE, TIER_LOW, TIER_REVIEW
 
 log = logging.getLogger(__name__)
 
 SAMPLE_PER_TIER = 20
 RANDOM_SEED = 42
+TIERS = [TIER_LOW, TIER_REVIEW, TIER_COMPLETE]
 
 
 def main() -> None:
@@ -45,7 +47,7 @@ def main() -> None:
     joined = vibe.merge(repos, on="full_name", how="left")
 
     chunks: list[pd.DataFrame] = []
-    for tier in ["garbage", "suspicious", "legitimate"]:
+    for tier in TIERS:
         sub = joined[joined["tier"] == tier]
         n = min(SAMPLE_PER_TIER, len(sub))
         sampled = sub.sample(n=n, random_state=RANDOM_SEED) if n > 0 else sub
@@ -65,9 +67,8 @@ def main() -> None:
     sample.to_csv(out_path, index=False, encoding="utf-8-sig")
     log.info("wrote %s (%d rows)", out_path, len(sample))
     print(f"Wrote {out_path}")
-    print(f"  garbage:    {(sample['tier']=='garbage').sum()} rows")
-    print(f"  suspicious: {(sample['tier']=='suspicious').sum()} rows")
-    print(f"  legitimate: {(sample['tier']=='legitimate').sum()} rows")
+    for tier in TIERS:
+        print(f"  {tier}: {(sample['tier'] == tier).sum()} rows")
     print()
     print("Open the CSV in Excel / Google Sheets, click each html_url,")
     print("fill the `label` column with TP (agree) / FP (disagree) / ? (unsure).")

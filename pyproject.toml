@@ -1,7 +1,7 @@
 [project]
 name = "github-recent-trend-analysiz"
 version = "0.1.0"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 # Runtime deps. streamlit + plotly are here (not in optional-dependencies)
 # so Streamlit Community Cloud — which uses Poetry to read pyproject.toml —
 # installs them by default. Local-only tools (pytest, ruff, jupyter) stay

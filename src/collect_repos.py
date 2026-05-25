@@ -1,7 +1,7 @@
 """Stage 1: paginate GitHub Search API and persist raw JSON pages.
 
 Output: data/raw/search_<YYYY-MM-DD>_pageN.json (one file per page, never overwritten).
-Caps at config.MAX_PAGES (5 by default → 500 repos).
+Caps at config.MAX_PAGES (10 by default → 1000 repos, the GitHub Search API hard limit).
 """
 
 from __future__ import annotations
