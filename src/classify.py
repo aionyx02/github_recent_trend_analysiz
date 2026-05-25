@@ -1,7 +1,7 @@
 """Stage 4: rule-based, single-category classifier. See ADR-0004.
 
 Priority order (first match wins):
-    AI/ML > Security > DevOps > Data > Web > Mobile > Game > CLI/Tooling > Other
+    AI/ML > Security > Finance/Trading > DevOps > Data > Web > Mobile > Game > CLI/Tooling > Other
 
 Match against lowercased description + topics + primary_language.
 """
@@ -16,11 +16,22 @@ CATEGORY_RULES: list[tuple[str, set[str]]] = [
         "llm", "neural", "neural-network", "transformer", "diffusion", "agent",
         "agents", "rag", "embedding", "embeddings", "openai", "anthropic", "claude",
         "gpt", "fine-tuning", "pytorch", "tensorflow", "huggingface",
+        "claude-code", "mcp", "codex", "cursor", "langchain", "langgraph",
+        "vector-database", "vector-search",
     }),
     ("Security", {
         "security", "vulnerability", "pentest", "pentesting", "malware",
         "exploit", "authentication", "encryption", "cryptography", "cve",
         "infosec", "appsec", "owasp",
+        "oauth", "oauth2", "sso", "siem", "waf", "zero-trust",
+    }),
+    ("Finance/Trading", {
+        "trading", "polymarket", "arbitrage", "pumpfun", "hyperliquid",
+        "trading-bot", "polymarket-trading-bot", "arbitrage-bot",
+        "polymarket-arbitrage-bot", "arbitrage-trading-bot",
+        "defi", "dex", "mev", "hft", "market-making",
+        "perpetual", "futures-trading", "options-trading",
+        "crypto", "crypto-trading", "solana", "wallet", "fintech", "finance",
     }),
     ("DevOps", {
         "docker", "kubernetes", "k8s", "ci", "cd", "ci-cd", "devops",
@@ -35,10 +46,12 @@ CATEGORY_RULES: list[tuple[str, set[str]]] = [
         "react", "vue", "nextjs", "next-js", "svelte", "frontend", "backend",
         "web", "html", "css", "api", "nodejs", "node", "express", "fastapi",
         "django", "flask", "graphql", "rest", "tailwind",
+        "shadcn", "tailwindcss", "astro", "nuxt", "remix", "solidjs", "vite",
     }),
     ("Mobile", {
         "android", "ios", "flutter", "react-native", "mobile", "swift",
         "kotlin", "objective-c",
+        "swiftui", "jetpack-compose", "expo", "compose-multiplatform",
     }),
     ("Game", {
         "game", "unity", "unreal", "godot", "graphics", "engine", "shader",

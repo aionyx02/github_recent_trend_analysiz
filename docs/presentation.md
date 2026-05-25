@@ -20,7 +20,7 @@ owner: project
 
 > 「老師、同學好。我這份作業在問一個問題：**GitHub 上最近一個月開始紅起來的開源專案，到底長什麼樣子？AI 真的全面壓倒了嗎？以及—— 有多少 repo 公開 metadata 訊號相對於 stars 偏稀疏？**
 >
-> 我從 GitHub 抓了 999 個近月新建立的熱門 repo 做分析，會用 5 分鐘帶大家看三個發現。」
+> 我從 GitHub 抓了 1000 個近月新建立的熱門 repo 做分析，會用 5 分鐘帶大家看三個發現。」
 
 **動作**：投影片切到 README hero（dashboard 截圖）。
 
@@ -30,11 +30,11 @@ owner: project
 
 > 「資料來源是 GitHub 官方 REST API，篩選條件三個：**最近 30 天建立、stars > 10、不是 fork**。為什麼這樣設？因為要看『正在崛起的新專案』，不是看老牌大廠。
 >
-> 抓了 10 頁、每頁 100 筆，共 999 個 unique repo，跑了 37 分鐘、約 2000 次 API。每個 repo 都補抓了它的程式語言分布跟 topic 標籤。
+> 抓了 10 頁、每頁 100 筆，共 1000 個 unique repo，跑了 37 分鐘、約 2000 次 API。每個 repo 都補抓了它的程式語言分布跟 topic 標籤。
 >
 > 對每個 repo 我做了三件事：
 > 1. 清資料、算衍生欄（stars/天、fork:star 比例、存在天數）
-> 2. 用**規則式分類器**歸到 9 大類（AI/ML、Web、Data、DevOps、Security、Game、CLI、Mobile、Other），優先序 AI/ML > Security > DevOps...
+> 2. 用**規則式分類器**歸到 10 大類（AI/ML、Web、Data、DevOps、Security、Game、CLI、Mobile、**Finance/Trading**、Other），優先序 AI/ML > Security > Finance/Trading > DevOps... — Finance/Trading 是這輪修訂從 Other 釋出的新類別。
 > 3. 做了一個**獨家加碼分析**，等下再講。」
 
 **動作**：投影片可放 architecture diagram（從 README 複製）。
@@ -43,21 +43,25 @@ owner: project
 
 ## 🎬 (01:30 – 03:00) 三個主要發現
 
-### 發現 1：AI 全面壓倒 trending
+### 發現 1：AI 主導 + 加密交易暗流 + 長尾
 
-> 「先看分類分布。**AI/ML 占 35.7%、Other 占 42%，兩個加起來 77.7%**。其他 7 個傳統類別 — Web、Mobile、Data、DevOps — 加起來不到 25%。
+> 「先看分類分布。**AI/ML 占 38.9%、Other 占 37.5%，兩個加起來 76.4%**。本輪我把分類器修訂了一輪，從 Other 桶釋出一個 **新類別 Finance/Trading，占 4.5%（45 筆）**，主要是 polymarket 和加密套利機器人聚落。其他 7 個傳統類別加起來不到 18%。
 >
 > Topic 排行也呼應這個：`claude-code` 52 個、`ai-agents` 43 個、`llm` 34 個、`mcp` 26 個。**前 10 名有 7 個跟 AI 直接相關**。」
 
 **動作**：切 `outputs/figures/category_distribution.png` + `outputs/figures/top_topics.png`。
 
-### 發現 2：被星 ≠ 被用
+### 發現 2：fork:star 兩極化 — 被星不被 fork vs 沒人星卻爆 fork
 
-> 「Stars 跟 Forks 的相關係數，Pearson 0.36、Spearman 0.43 — **只是中度相關**，比想像中弱。
+> 「Stars 跟 Forks 的相關係數，Pearson 0.35、Spearman 0.43 — **只是中度相關**，比想像中弱。
 >
-> 更有趣的：**AI/ML 類的 fork:star 比例只有 17%，是全類別最低**。Web 是 124%（前端圈愛 fork），DevOps 50%。
+> 但類別內部呈現**完全相反的兩種異常**：
 >
-> 也就是說：AI repo 大家很愛按星，但很少 fork。**這個訊號接到我下一個發現。**」
+> - **AI/ML 類 fork:star 只有 18%** — 高 stars 低 forks，「被星但少被用」的典型 vibe-coding 樣態。
+>
+> - **Finance/Trading 類 fork:star 高達 767%，中位數 9.9 倍** — 完全反過來，stars 才兩三百但 forks 上千。Top 5 polymarket bot 全部 forks 超過 3000，stars 只有 100-300。**沒有任何正常 repo 會有 30 倍 forks vs stars**，這個 cluster 幾乎可確定是**自動化 fork-farming**。但我無法 100% 證實，所以在報告裡寫的是『疑似』，並列出三種可能解釋。
+>
+> 這兩個極端剛好接到我下一個發現。」
 
 **動作**：切 `outputs/figures/forks_vs_stars.png`。
 
@@ -79,7 +83,7 @@ owner: project
 >
 > 三個 tier：5+ 為**低資訊密度**、3-4 為**待檢視**、0-2 為**訊號完整**。
 >
-> 999 個 repo 跑下來：**1.8% (18 個) 落入低資訊密度 tier、13.2% 待檢視、85% 訊號完整**。
+> 1000 個 repo 跑下來：**1.8% (18 個) 落入低資訊密度 tier、13.2% 待檢視、85% 訊號完整**。
 >
 > 但**最有趣的發現在這裡** —— 我把低資訊密度 tier 按 stars 級距切：
 > - **≥10000 stars：0%**（曝光高、受到較多檢視）
@@ -102,7 +106,7 @@ owner: project
 >
 > Demo 在這個 URL，**現在打開就能玩**：可以篩選分類、互動圖、調 metadata 風險閾值。**資料每天 14:00 自動重抓**，所以你看到的永遠是『最近 30 天』。
 >
-> 結論一句話：**2026 GitHub trending 是 AI 主導 + 一個值得警惕的「中段 stars 區段公開 metadata 訊號偏稀疏」現象**。
+> 結論一句話：**2026 GitHub trending 是 AI 主導 + 加密交易 fork-farming 暗流 + 一個值得警惕的「中段 stars 區段公開 metadata 訊號偏稀疏」現象**。
 >
 > 謝謝。」
 
@@ -127,7 +131,7 @@ owner: project
 
 1. **封面** — 題目 + 名字 + dashboard 截圖
 2. **問題 + 一句話總結** — TL;DR
-3. **資料來源** — GitHub API + 篩選條件 + 999 樣本
+3. **資料來源** — GitHub API + 篩選條件 + 1000 樣本
 4. **方法 architecture** — pipeline 圖
 5. **發現 1** — category_distribution.png
 6. **發現 2** — forks_vs_stars.png + 相關係數

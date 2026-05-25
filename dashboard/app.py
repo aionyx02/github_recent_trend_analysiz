@@ -125,6 +125,40 @@ def most_concentrated_language(repos_df: pd.DataFrame, min_repos: int = 5) -> tu
     return None
 
 
+def top_n_categories(repos_df: pd.DataFrame, n: int = 2) -> list[tuple[str, float]]:
+    """Return [(category, pct), ...] for the top-n categories by repo count."""
+    counts = repos_df["category"].value_counts()
+    total = len(repos_df)
+    return [(cat, counts[cat] / total * 100) for cat in counts.head(n).index]
+
+
+def smallest_n_categories(repos_df: pd.DataFrame, n: int = 2) -> list[tuple[str, int]]:
+    """Return [(category, count), ...] for the n least-populous categories."""
+    counts = repos_df["category"].value_counts()
+    return [(cat, int(counts[cat])) for cat in counts.tail(n).index]
+
+
+def forkstar_extremes(repos_df: pd.DataFrame, min_repos: int = 10) -> tuple[tuple[str, float], tuple[str, float]]:
+    """Return (lowest, highest) fork:star ratio categories with ≥min_repos sample.
+
+    Each tuple is (category, ratio_pct). Computed on aggregate (mean_forks /
+    mean_stars), matching the §5 heat table semantics so the narrative stays
+    consistent with the chart the reader is looking at.
+    """
+    agg = repos_df.groupby("category").agg(
+        n=("stars", "count"),
+        mean_stars=("stars", "mean"),
+        mean_forks=("forks", "mean"),
+    )
+    eligible = agg[agg["n"] >= min_repos].copy()
+    eligible["ratio"] = eligible["mean_forks"] / eligible["mean_stars"].clip(lower=1) * 100
+    eligible = eligible.sort_values("ratio")
+    return (
+        (eligible.index[0], float(eligible["ratio"].iloc[0])),
+        (eligible.index[-1], float(eligible["ratio"].iloc[-1])),
+    )
+
+
 repos, topics, langs, vibe = load_data()
 
 st.title("📊 GitHub 近一個月開源趨勢分析")
@@ -263,13 +297,25 @@ _corr_callout = (
         else "**幾乎沒有線性關係**——stars 跟 forks 是兩個獨立指標，不能互相推論。"
     )
 )
+(_lo_cat, _lo_ratio), (_hi_cat, _hi_ratio) = forkstar_extremes(repos)
+_extremes_sentence = (
+    f"類別內部呈現極端兩極化：**{_lo_cat}** 類 fork:star 僅 **{_lo_ratio:.0f}%**"
+    f"（高 stars 但少被 fork），"
+    f"**{_hi_cat}** 類則為 **{_hi_ratio:.0f}%**"
+)
+if _hi_ratio >= 200:
+    _extremes_sentence += "（**異常反向 — 沒有正常 repo 會有 2× 以上 forks/stars，疑似自動化 fork-farming**）。"
+elif _hi_ratio >= 100:
+    _extremes_sentence += "（forks 高過 stars，部署/重用導向 repo 典型）。"
+else:
+    _extremes_sentence += "。"
 explainer(
     "每個點是一個 repo。X 軸是 stars，Y 軸是 forks，兩軸都是對數。"
     "顏色代表分類。對角線方向走就代表 stars 和 forks 一起長。",
     f"相關係數 Pearson **{pearson:.2f}**（{_pearson_lbl}）／ "
     f"Spearman **{spearman:.2f}**（{_spearman_lbl}）——{_corr_callout} "
-    f"特別觀察 AI/ML 類別會發現有「stars 高但 forks 偏低」的子群，"
-    f"後面 metadata 完整度章節會追究這個「被星但少被用」現象。"
+    f"{_extremes_sentence} "
+    f"後面 metadata 完整度章節會追究這些訊號背後可能的成因。"
 )
 
 st.markdown("---")
@@ -283,39 +329,35 @@ fig5 = px.bar(cat_counts, x="分類", y="repo 數", color="repo 數",
 fig5.update_layout(height=400, showlegend=False, coloraxis_showscale=False)
 st.plotly_chart(fig5, use_container_width=True)
 total = len(repos)
-
-def _cat_pct(cat: str) -> float:
-    row = cat_counts.loc[cat_counts["分類"] == cat, "repo 數"]
-    return float(row.iloc[0]) / total * 100 if not row.empty else 0.0
-
-ai_pct = _cat_pct("AI/ML")
-other_pct = _cat_pct("Other")
-top2_pct = ai_pct + other_pct
+_top_two = top_n_categories(repos, n=2)
+(top1_cat, top1_pct), (top2_cat, top2_pct_only) = _top_two[0], _top_two[1]
+top2_pct = top1_pct + top2_pct_only
 rest_pct = 100 - top2_pct
-top1_cat = cat_counts.iloc[0]["分類"]
-top1_pct = cat_counts.iloc[0]["repo 數"] / total * 100
+n_cats = repos["category"].nunique()
+n_remaining = n_cats - 2
 
 if top2_pct > 70:
     _cat_shape = (
-        f"**AI/ML ({ai_pct:.0f}%) 與 Other ({other_pct:.0f}%) 合計 {top2_pct:.0f}%**——"
-        f"當前 trending 非常雙峰：要嘛是 AI、要嘛是無法歸類的長尾。"
-        f"其餘 7 個傳統類別加起來只有 {rest_pct:.0f}%。"
+        f"**{top1_cat} ({top1_pct:.0f}%) 與 {top2_cat} ({top2_pct_only:.0f}%) 合計 {top2_pct:.0f}%**——"
+        f"當前 trending 高度集中於這兩類。"
+        f"其餘 {n_remaining} 個類別加起來只有 {rest_pct:.0f}%。"
     )
 elif top1_pct > 50:
     _cat_shape = (
         f"**{top1_cat} 一家獨大，占 {top1_pct:.0f}%**。"
-        f"其他 8 個類別瓜分剩下的 {100-top1_pct:.0f}%。"
+        f"其他 {n_cats - 1} 個類別瓜分剩下的 {100-top1_pct:.0f}%。"
     )
 else:
     _cat_shape = (
         f"分布相對均衡：第一名 **{top1_cat}** 也只占 {top1_pct:.0f}%，"
-        f"AI/ML+Other 合計 {top2_pct:.0f}%。"
+        f"前兩名（{top1_cat}+{top2_cat}）合計 {top2_pct:.0f}%。"
     )
 
 explainer(
-    "我們用關鍵字規則把每個 repo 分到 9 大類別。例如 description 出現 `llm`、`agent` 就歸 AI/ML，"
-    "出現 `docker`、`kubernetes` 就歸 DevOps。優先順序是 AI/ML > Security > DevOps > Data > Web > "
-    "Mobile > Game > CLI/Tooling > Other。",
+    f"我們用關鍵字規則把每個 repo 分到 {n_cats} 大類別。例如 description 出現 `llm`、`agent` 就歸 AI/ML，"
+    "出現 `docker`、`kubernetes` 就歸 DevOps，出現 `polymarket`、`arbitrage` 就歸 Finance/Trading。"
+    "優先順序是 AI/ML > Security > Finance/Trading > DevOps > Data > Web > Mobile > Game > "
+    "CLI/Tooling > Other（2026-05-25 ADR-0004 修訂新增 Finance/Trading 類）。",
     _cat_shape,
 )
 
@@ -371,7 +413,7 @@ if _concentrated:
 if not _insights:
     _insights.append("樣本中沒有特別突出的「分散」或「集中」型語言，整體流向平均。")
 explainer(
-    "左邊是程式語言（前 10 + 其他語言合併），右邊是 9 大分類。"
+    f"左邊是程式語言（前 10 + 其他語言合併），右邊是 {n_cats} 大分類。"
     "線寬代表「這種語言被歸到這個類別」的 repo 數量。hover 看精確數字。",
     " ".join(_insights),
 )
@@ -471,10 +513,13 @@ fig_stack.update_layout(
     barmode="stack", legend_title="分類",
 )
 st.plotly_chart(fig_stack, use_container_width=True)
+_smallest = smallest_n_categories(repos, n=2)
+_small_names = "、".join(c for c, _ in _smallest)
 explainer(
     "把上面的折線圖按類別拆開堆疊。可以看出每天的「組成結構」而不只是總量。",
-    "AI/ML 與 Other 兩個棕色 / 藍色塊幾乎每天都最厚，呼應雙峰結構結論。"
-    "Web 與 Mobile 等小類別有些日子完全沒新熱門 repo —— 樣本量小、變動大。"
+    f"**{top1_cat}** 與 **{top2_cat}** 兩個區塊幾乎每天都最厚，"
+    f"呼應前一節的類別占比結論。"
+    f"**{_small_names}** 等小類別有些日子完全沒新熱門 repo —— 樣本量小、變動大。"
 )
 
 st.markdown("---")
@@ -658,7 +703,7 @@ else:
 st.markdown("---")
 
 # ──────────── INTERACTIVE EXPLORER ────────────
-section("🔍 自己探索資料", "依條件篩選 999 個 repo")
+section("🔍 自己探索資料", f"依條件篩選 {len(repos)} 個 repo")
 with st.sidebar:
     st.markdown("### 篩選條件")
     sel_cat = st.multiselect("分類", options=sorted(repos["category"].unique()),
@@ -689,9 +734,11 @@ st.dataframe(
 )
 
 st.markdown("---")
+_no_topic_pct_footer = (1 - topics["repo_id"].nunique() / len(repos)) * 100
 st.caption(
     "資料來源：GitHub REST API（Search + Languages + Topics）· "
-    "規則式分類器，非 ML 模型 · "
-    "限制：watchers 欄等於 stars（GitHub API 已知限制）；54% repo 無 topics；單一分類 MVP · "
+    f"規則式分類器（{n_cats} 類，非 ML 模型）· "
+    f"限制：watchers 欄等於 stars（GitHub API 已知限制）；"
+    f"{_no_topic_pct_footer:.0f}% repo 無 topics；單一分類 MVP · "
     "原始程式碼：`src/`、`dashboard/app.py`、`outputs/`"
 )

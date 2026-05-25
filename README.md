@@ -25,13 +25,13 @@
 
 ## 📌 TL;DR — 30 秒看完
 
-從 GitHub 近 30 天 trending 抽 **999 個 repo**，發現：
+從 GitHub 近 30 天 trending 抽 **1000 個 repo**，發現：
 
-1. **AI 全面壓倒** — `claude-code` / `ai-agents` / `llm` 等 topic 霸榜；分類後 **AI/ML + Other 占 77.7%**，傳統 Web/Data/DevOps 加起來不到 25%。
-2. **被星 ≠ 被用** — Stars↔Forks 只有中度相關 (Pearson 0.36)，AI/ML 類 fork:star 僅 17%（全類別最低）。
+1. **AI 全面壓倒** — `claude-code` / `ai-agents` / `llm` 等 topic 霸榜；分類後 **AI/ML + Other 占 76.4%**，傳統 Web/Data/DevOps 加起來不到 22%；新獨立出的 **Finance/Trading 類占 4.5%**（45 筆），呈現「AI 主導 + 加密交易長尾」結構。
+2. **被星 ≠ 被用** — Stars↔Forks 只有中度相關 (Pearson 0.36)，AI/ML 類 fork:star 僅 18%（典型「被星沒人用」），而 Finance/Trading 類 **fork:star 高達 767%**（median 9.9×）— 反向極端，疑似自動化 fork-farming，詳見 §4 與 §限制與威脅。
 3. **🔬 原創貢獻**：用 8 訊號的**公開 metadata 完整度風險評分**量化「stars 相對於可見 metadata 訊號偏稀疏」的程度，1.8% 落入 **低資訊密度** 候選 tier，**集中在 1000-5000 stars** 級距 (9.9%)。
 
-技術上：Python 3.14 + pandas + matplotlib + Streamlit + GitHub Actions 每日自動重抓，全程 22 個 pytest + ruff + 三道 CI guard 把關。
+技術上：Python 3.11+ + pandas + matplotlib + Streamlit + GitHub Actions 每日自動重抓，全程 38 個 pytest + ruff + 三道 CI guard 把關。
 
 ---
 
@@ -40,7 +40,7 @@
 👉 **<https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app>** ← 直接開瀏覽器點，不用 clone
 
 不裝任何東西就能：
-- 用側欄篩選 999 個 repo（分類、語言、最低 stars）
+- 用側欄篩選 1000 個 repo（分類、語言、最低 stars）
 - 看 7 張互動 Plotly 圖（hover 顯示精確數值、可縮放）
 - 滑到底看 metadata 完整度分析（含完整 Top 15 + 高關注低描述名單）
 - 任一 repo 名稱可點，直接跳 GitHub
@@ -67,39 +67,46 @@
 
 ## 一句話總結
 
-> 在 999 個近月熱門 GitHub repo 中，**77.7% 落在 AI/ML 或 Other 兩大桶**、Stars↔Forks 相關性只有 0.36（中度），而**1.8% 落入「低資訊密度」候選 tier**（公開 metadata 訊號相對於 stars 偏稀疏），集中在 1000-5000 stars 級距。
+> 在 1000 個近月熱門 GitHub repo 中，**76.4% 落在 AI/ML 或 Other 兩大桶**、新獨立出的 **Finance/Trading 類占 4.5%** 且呈現異常高 fork:star 比例（median 9.9×，疑似 fork-farming）、Stars↔Forks 整體相關性只有 0.35（中度），而**1.8% 落入「低資訊密度」候選 tier**（公開 metadata 訊號相對於 stars 偏稀疏），集中在 1000-5000 stars 級距。
 
 ---
 
 ## 🎯 三個關鍵發現
 
-### 1️⃣ 2026 開源 trending 是**雙峰結構**：AI 與長尾
+### 1️⃣ 2026 開源 trending：AI 主導 + 加密交易暗流 + 長尾
 
 | 分類 | 比例 |
 |---|---:|
-| Other（無法歸類） | 42.0% |
-| **AI/ML** | **35.7%** |
-| Web | 7.9% |
-| Mobile + CLI + Game + Security + DevOps + Data | 14.4% |
+| **AI/ML** | **38.9%** |
+| Other（仍無法歸類） | 37.5% |
+| Web | 5.0% |
+| **Finance/Trading**（本輪新獨立） | **4.5%** |
+| Mobile | 4.2% |
+| CLI + Game + Security + Data + DevOps | 9.9% |
 
-→ AI 與「沒打標籤的長尾」加起來占四分之三。其餘 7 個傳統類別合計不到 25%。
+→ AI/ML + Other 加起來 **76.4%**；本輪新拉出 **Finance/Trading 類（45 筆）**，主要是 polymarket / arbitrage 套利機器人聚落，從原本被埋沒在 Other 桶釋出。其餘 7 個傳統類別合計不到 22%。
+
+> 分類規則更新詳見 [ADR-0004 Revision Log](docs/adr/0004-rule-based-classification.md#revision-log)。
 
 ### 2️⃣ Stars 與 Forks 的相關性沒想像中強
 
-- Pearson **0.36** / Spearman **0.43** — 中度正相關
-- 平均 stars **492** vs 中位數 **228** — 平均被少數爆紅專案拉抬 **2.2 倍**
+- Pearson **0.35** / Spearman **0.43** — 中度正相關
+- 平均 stars **481** vs 中位數 **227** — 平均被少數爆紅專案拉抬 **2.1 倍**
 - → 結論用中位數比平均數更貼近真實
 
-### 3️⃣ AI/ML 類 fork:star ratio 只有 17%（全類別最低）
+### 3️⃣ Fork:star 比例呈現**極端兩極化**
 
 | 類別 | 平均 stars | 平均 forks | fork:star |
 |---|---:|---:|---:|
-| Web | 329 | **410** | 124% |
-| Other | 426 | 201 | 47% |
-| DevOps | 315 | 159 | 50% |
-| **AI/ML** | **609** | **103** | **17%** |
+| **Finance/Trading** | 223 | **1711** | **767%** 🚩 |
+| Other | 390 | 109 | 28% |
+| Web | 397 | 107 | 27% |
+| **AI/ML** | **602** | **106** | **18%** |
+| Mobile | 402 | 23 | 6% |
 
-→ 「被星但沒人用」是 AI 類專案的典型模式，這也是下一節 vibe-coding 分析的核心問題。
+→ 兩個截然相反的模式：
+> - **AI/ML 類**：高 stars 低 forks（18%）— 「被星但少被用」，符合 vibe-coding 的薄 README 樣態。
+> - **Finance/Trading 類**：低 stars 但 forks 異常高（767%，median 9.9×）— 沒有正常 repo 有 30× forks vs stars，**疑似自動化 fork-farming / astroturfing**。Top 5 polymarket 套利 bot 的 forks 全部超過 3000，stars 卻只有兩三百，pattern 非常一致。值得單獨一節調查（見 §限制與威脅 B.7）。
 
 ---
 
@@ -201,7 +208,7 @@ GitHub trending 中有相當數量的 repo 呈現「stars 高、但公開 metada
 ![Category Distribution](outputs/figures/category_distribution.png)
 
 **怎麼看**：用關鍵字規則歸類後的結果。優先順序：AI/ML > Security > DevOps > Data > Web > Mobile > Game > CLI/Tooling > Other。
-**重點**：Other (420) + AI/ML (357) = 77.7%，極度雙峰。
+**重點**：AI/ML (389) + Other (375) = **76.4%**；本輪新增 Finance/Trading 類 (45)；剩餘 7 類合計 < 22%。
 
 ### 6. 各類別平均 Stars
 
@@ -273,7 +280,7 @@ cp .env.example .env
 .venv\Scripts\python.exe -m pytest -q
 ```
 
-期望結果：**22 tests passed**
+期望結果：**38 tests passed**
 
 ### 產生「人工驗證樣本」（給審閱者覆核分類與 metadata 評分用）
 
@@ -373,7 +380,7 @@ dashboard/app.py         ───►  http://localhost:8501  (Streamlit)
 
 | 欄位 | 來源 | 定義 |
 |---|---|---|
-| `category` | 規則式分類器 | 9 大類別之一（AI/ML, Security, DevOps, Data, Web, Mobile, Game, CLI/Tooling, Other）；單一分類，優先順序匹配 |
+| `category` | 規則式分類器 | 10 大類別之一（AI/ML, Security, Finance/Trading, DevOps, Data, Web, Mobile, Game, CLI/Tooling, Other）；單一分類，優先順序匹配；2026-05-25 ADR-0004 修訂新增 Finance/Trading 類 |
 
 ### Metadata 完整度評分 (在 `data/processed/vibe_scores.csv`)
 
@@ -399,7 +406,7 @@ github_recent_trend_analysiz/
 ├── .env.example                    ← GITHUB_TOKEN 範本
 ├── src/                            ← Pipeline (config, collect_*, clean, classify, visualize, analyze_*)
 ├── dashboard/app.py                ← Streamlit 互動 dashboard
-├── tests/                          ← 22 個 pytest
+├── tests/                          ← 38 個 pytest
 ├── data/
 │   ├── raw/                        ← gitignored，原始 API 回應
 │   └── processed/                  ← repos.csv + 衍生 CSV + 評分檔
@@ -419,20 +426,21 @@ github_recent_trend_analysiz/
 ### A. 資料限制 (Data limitations)
 
 1. **GitHub Search API 1000 筆硬上限** — 單次查詢最多回 1000 筆，本研究抓滿。實際符合 `stars:>10 fork:false` 的 30 天 repo 約 9286 筆，未抓的 8000+ 筆 stars 都較低，對「熱門 trending」結論影響有限，但**不應外推為「整個 GitHub 生態」**。
-2. **54.4% repo 無 topics** — 是 GitHub 生態的結構性現象（topic 為選填欄位），不是抓取錯誤。導致 topic-based 的趨勢分析只代表「有貼標籤的子集合」，Other 桶占 42% 部分源於此。
+2. **54.4% repo 無 topics** — 是 GitHub 生態的結構性現象（topic 為選填欄位），不是抓取錯誤。導致 topic-based 的趨勢分析只代表「有貼標籤的子集合」，Other 桶占 37.5% 部分源於此（本輪 ADR-0004 修訂後從 42.0% 降到 37.5%）。
 3. **`watchers` 欄等於 `stars`** — GitHub Search API 不回 `subscribers_count`，已知 API 限制。所有分析已避免使用 `watchers` 欄。
 
 ### B. 方法限制 (Method limitations)
 
-4. **規則式分類器、單一分類** — keyword 表手寫，主觀性與覆蓋率限制詳見 [ADR-0004](docs/adr/0004-rule-based-classification.md)。一個 repo 僅歸一類，React+LLM 的 repo 會優先歸 AI/ML（優先順序高）而非 Web，**可能系統性高估 AI/ML 類別占比，低估 Web/Mobile 等被「吞掉」的類別**。
-5. **分類結果未經人工抽樣驗證** — 目前無法提供 precision/recall 數字。已 scaffold 隨機 50 筆驗證樣本於 `data/processed/classification_validation_sample.csv`，待人工標註後回填一致率。
+4. **規則式分類器、單一分類** — keyword 表手寫，主觀性與覆蓋率限制詳見 [ADR-0004](docs/adr/0004-rule-based-classification.md)。一個 repo 僅歸一類，React+LLM 的 repo 會優先歸 AI/ML（優先順序高）而非 Web，**可能系統性高估 AI/ML 類別占比，低估 Web/Mobile 等被「吞掉」的類別**。本輪修訂已部分修補（新增 Finance/Trading 類 + 補齊 `claude-code`/`mcp`/`codex`/`shadcn`/`tailwindcss`/`swiftui`/`oauth` 等現代 stack keyword，見 ADR-0004 Revision Log），仍有待人工驗證。
+5. **分類結果未經人工抽樣驗證** — 目前無法提供 precision/recall 數字。已 scaffold 隨機 50 筆驗證樣本於 `data/processed/classification_validation_sample.csv`（10 類 × 5 筆 stratified），待人工標註後回填一致率。
 6. **Metadata 完整度分數是「訊號」不是「判決」** — 高分代表公開 metadata 訊號偏稀疏，**不代表該 repo 一定無價值**。`awesome-*` 列表、學術研究 repo、官方快速釋出 repo 都可能踩到訊號。指標衡量公開產出，不衡量作者本人，也不是對 vibe-coding 此編程方式本身的評斷。precision/recall 待後續人工驗證（樣本見 `data/processed/vibe_validation_sample.csv`）。
+7. **Finance/Trading 類 fork:star 異常 = 疑似 fork-farming，需獨立調查** — 本輪 ADR-0004 修訂後浮現的新訊號：Finance/Trading 類 45 個 repo 的 median fork:star = 9.9×（top 5 polymarket bot 都超過 30×），與其他類別正常 5-30% 區間極端背離。可能解釋：(a) 自動化 fork-farming 提升曝光、(b) 「下載 → fork 自己改」的真實部署 pattern、(c) GitHub 演算法異常。本研究**無法區分上述三種解釋**，但建議讀者對該類數據保留警戒，不要把 forks 數當作真實採用量。後續可比對 fork 帳號的建立時間、commit history 等深入驗證。
 
 ### C. 外推限制 (External validity)
 
-7. **30 天時間窗** — 本研究僅刻畫「2026-04-24 ~ 2026-05-24 這一個 snapshot」，**不能外推為「GitHub 長期趨勢」**。daily-refresh 累積 7 天後可做短期 delta 分析（規劃中），但跨季 / 跨年趨勢需要重新設計收集策略。
-8. **`stars > 10` 篩選** — 我們只看「已開始受到關注」的 repo，**不能代表所有新建立 repo**。stars ≤ 10 的長尾未在樣本內。
-9. **Stars 不能代表程式碼品質或實際使用量** — 全部數值僅反映「社群關注度訊號」。fork:star、issue:star 等衍生比例提供補充視角，但都不是品質的直接量測。
+8. **30 天時間窗** — 本研究僅刻畫「2026-04-24 ~ 2026-05-24 這一個 snapshot」，**不能外推為「GitHub 長期趨勢」**。daily-refresh 累積 7 天後可做短期 delta 分析（規劃中），但跨季 / 跨年趨勢需要重新設計收集策略。
+9. **`stars > 10` 篩選** — 我們只看「已開始受到關注」的 repo，**不能代表所有新建立 repo**。stars ≤ 10 的長尾未在樣本內。
+10. **Stars 不能代表程式碼品質或實際使用量** — 全部數值僅反映「社群關注度訊號」。fork:star、issue:star 等衍生比例提供補充視角，但都不是品質的直接量測。
 
 ---
 

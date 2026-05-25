@@ -39,3 +39,30 @@ def test_language_hint_falls_back_when_no_keyword():
 
 def test_description_is_tokenized_case_insensitive():
     assert classify_one("Docker-based CI helper", [], "Shell") == "DevOps"
+
+
+def test_classify_finance_trading_polymarket():
+    """Polymarket arbitrage bot should land in Finance/Trading, not Other."""
+    assert classify_one(
+        "Polymarket arbitrage trading bot",
+        ["polymarket", "arbitrage-bot"],
+        "Python",
+    ) == "Finance/Trading"
+
+
+def test_classify_ai_ml_claude_code_topic():
+    """A repo whose only AI/ML signal is the `claude-code` topic must still hit AI/ML."""
+    assert classify_one(
+        "Workflow recipes for shipping with the editor",
+        ["claude-code"],
+        "TypeScript",
+    ) == "AI/ML"
+
+
+def test_classify_priority_ai_beats_finance():
+    """AI/ML outranks Finance/Trading: an LLM-driven trading agent stays AI/ML."""
+    assert classify_one(
+        "LLM agent that trades on polymarket",
+        ["llm", "trading"],
+        "Python",
+    ) == "AI/ML"

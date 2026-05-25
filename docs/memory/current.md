@@ -18,6 +18,7 @@ owner: project
 ## Current Focus
 
 - Active priority: external review fixes (用詞中性化、限制章節、Other 分析、Data Dictionary) — done 2026-05-25.
+- Latest: classifier modernised (9 → 10 categories; Finance/Trading split out of Other; modern-stack keyword gaps filled in AI/ML/Web/Mobile/Security). ADR-0004 revised. Other shrank 42.0% → 37.5%. New finding: Finance/Trading 類 fork:star = 767% (疑似 fork-farming).
 - Next priority: TASK.008 (hero shot) + manual labelling of validation samples (classification 50 + metadata 58).
 - Current phase: post-MVP polish + research-grade framing. Live demo at <https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app>.
 - Current owner / handoff state: solo (`aionyx`).
@@ -32,14 +33,14 @@ owner: project
 
 ## Next Step
 
-- TASK.008 (P1): hero screenshot + TL;DR (TL;DR done 2026-05-24; hero shot still blocked on user-supplied screenshot).
+- TASK.008 (P1): 3/4 done (TL;DR + README embed + 5-min presentation script). Only hero screenshot remains, blocked on user-supplied screenshot from live URL.
 - TASK.009 (P1, blocked 7 days): delta analysis once daily-refresh has accumulated 7 snapshots.
 - TASK.007 (P2): manual metadata-completeness scoring validation when time permits (sample at `data/processed/vibe_validation_sample.csv`).
 - TASK.010 (P2, new): manual rule-based classification validation (sample at `data/processed/classification_validation_sample.csv`, 50 rows).
 
 ## Last Validation Snapshot
 
-- Last test command: `python -m pytest -q` → **38/38** passing (2026-05-25; +16 new cache_manifest tests).
+- Last test command: `python -m pytest -q` → **41/41** passing (2026-05-25; +3 new classify tests for Finance/Trading + priority order).
 - All touched Python files `ast.parse()` clean; workflow YAML parses + cache step includes manifest path.
 - Live deploy: ✓ Streamlit Cloud built at commit `1f811bb`; new commits pending.
 - Known failing checks: none.

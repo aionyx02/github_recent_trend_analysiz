@@ -20,7 +20,7 @@ _Sample size: 1000 repos_
 | `antirez/ds4` | 11766 | 1000 | C | Game |
 | `FULU-Foundation/OrcaSlicer-bambulab` | 6479 | 5025 | C++ | Other |
 | `freestylefly/awesome-gpt-image-2` | 6453 | 864 | JavaScript | AI/ML |
-| `BigPizzaV3/CodexPlusPlus` | 5484 | 357 | Rust | Other |
+| `BigPizzaV3/CodexPlusPlus` | 5484 | 357 | Rust | AI/ML |
 | `nexu-io/html-anything` | 4889 | 498 | HTML | AI/ML |
 | `V4bel/dirtyfrag` | 4758 | 758 | C | Other |
 | `vercel-labs/zerolang` | 4482 | 283 | C | AI/ML |
@@ -39,22 +39,23 @@ _Sample size: 1000 repos_
 | `vercel-labs/zerolang` | 498.0 | 4482 | 9d | AI/ML |
 | `FoundZiGu/GuJumpgate` | 491.6 | 2458 | 5d | Other |
 | `nexu-io/html-anything` | 376.1 | 4889 | 13d | AI/ML |
-| `bonus-2026/casino-bonus` | 357.0 | 357 | 1d | Other |
-| `open-gsd/get-shit-done-redux` | 344.0 | 688 | 2d | Other |
+| `bonus-2026/casino-bonus` | 357.0 | 357 | 1d | Finance/Trading |
+| `open-gsd/get-shit-done-redux` | 344.0 | 688 | 2d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 419 | 403 | 228 | 216 | 45.0 | 15.5 |
-| AI/ML | 366 | 602 | 237 | 102 | 41.2 | 5.5 |
-| Web | 75 | 342 | 194 | 486 | 26.7 | 3.2 |
-| Mobile | 40 | 416 | 222 | 24 | 27.3 | 7.2 |
+| AI/ML | 390 | 608 | 234 | 107 | 42.0 | 6.2 |
+| Other | 374 | 396 | 230 | 110 | 42.2 | 16.2 |
+| Web | 51 | 393 | 215 | 105 | 28.2 | 4.2 |
+| Finance/Trading | 45 | 223 | 196 | 1774 | 53.7 | 0.7 |
+| Mobile | 41 | 411 | 221 | 23 | 27.2 | 7.0 |
 | CLI/Tooling | 30 | 442 | 240 | 120 | 42.1 | 3.9 |
-| Game | 26 | 775 | 274 | 117 | 90.2 | 6.5 |
-| Security | 21 | 470 | 268 | 134 | 42.0 | 8.3 |
-| DevOps | 12 | 316 | 218 | 256 | 21.4 | 7.4 |
+| Game | 25 | 795 | 279 | 56 | 92.9 | 6.8 |
+| Security | 22 | 455 | 252 | 129 | 40.4 | 7.9 |
 | Data | 11 | 688 | 331 | 86 | 63.1 | 17.0 |
+| DevOps | 11 | 325 | 214 | 89 | 16.6 | 7.8 |
 
 ## Correlations
 
@@ -94,9 +95,9 @@ _Sample size: 1000 repos_
 | `bot` | 23 |
 | `macos` | 21 |
 | `rust` | 21 |
+| `trading-bot` | 19 |
 | `ai-agent` | 19 |
 | `nodejs` | 19 |
-| `trading-bot` | 19 |
-| `skills` | 18 |
-| `agent` | 18 |
+| `trading` | 18 |
 | `polymarket` | 18 |
+| `agent` | 18 |

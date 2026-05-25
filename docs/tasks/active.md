@@ -13,7 +13,7 @@ owner: project
 
 ### TASK.008 - Reviewer-Facing Polish (Path A)
 
-- Status: todo
+- Status: in_progress (3/4 done; hero shot blocked on user-supplied screenshot)
 - Priority: P1
 - Owner: project
 - Started: 2026-05-24
@@ -22,11 +22,12 @@ owner: project
   - `outputs/figures/`
 - Acceptance criteria:
   - [ ] Add `outputs/figures/dashboard_hero.png` — screenshot of dashboard top (title + KPI row).
-  - [ ] Embed hero shot at the very top of `README.md` (before the badges).
-  - [ ] Add 100-word TL;DR section after the badges so a busy reviewer sees the punchline in 30 seconds.
-  - [ ] Write a 5-minute spoken script at docs/presentation.md covering motivation, method, top finding, vibe-coding angle, demo URL.
+  - [x] Embed hero shot at the very top of `README.md` (before the badges).
+  - [x] Add 100-word TL;DR section after the badges so a busy reviewer sees the punchline in 30 seconds.
+  - [x] Write a 5-minute spoken script at docs/presentation.md covering motivation, method, top finding, vibe-coding angle, demo URL.
 - Notes:
   - Hero screenshot must come from the user (live Cloud URL).
+  - README `<img>` tag already references `outputs/figures/dashboard_hero.png`; will render once the file lands.
 
 ### TASK.007 - Validate Metadata-Completeness Scoring (precision/recall) (Path B)
 
