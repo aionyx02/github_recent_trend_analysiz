@@ -1,23 +1,23 @@
 {
-  "elapsed_seconds": 2263.7,
-  "repos_total": 999,
+  "elapsed_seconds": 1986.7,
+  "repos_total": 1000,
   "search": {
-    "saved": 0,
-    "skipped": 10
+    "saved": 10,
+    "skipped": 0
   },
   "languages": {
-    "fetched": 951,
-    "skipped": 48,
+    "fetched": 1000,
+    "skipped": 0,
     "failed": 0
   },
   "topics": {
-    "fetched": 999,
+    "fetched": 1000,
     "skipped": 0,
     "failed": 0
   },
   "csvs": {
-    "repos": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repos.csv",
-    "repo_languages": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repo_languages.csv",
-    "repo_topics": "D:\\Project\\python\\github_recent_trend_analysiz\\data\\processed\\repo_topics.csv"
+    "repos": "/home/runner/work/github_recent_trend_analysiz/github_recent_trend_analysiz/data/processed/repos.csv",
+    "repo_languages": "/home/runner/work/github_recent_trend_analysiz/github_recent_trend_analysiz/data/processed/repo_languages.csv",
+    "repo_topics": "/home/runner/work/github_recent_trend_analysiz/github_recent_trend_analysiz/data/processed/repo_topics.csv"
   }
 }
