@@ -2,7 +2,7 @@
 type: working_memory
 status: active
 priority: p0
-updated: 2026-05-24
+updated: 2026-05-25
 context_policy: always_retrievable
 owner: project
 ---
@@ -17,28 +17,30 @@ owner: project
 
 ## Current Focus
 
-- Active priority: TASK.008 (reviewer-facing polish) — hero shot + TL;DR + presentation script.
-- Current phase: post-MVP polish. Live demo at <https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app>.
+- Active priority: external review fixes (用詞中性化、限制章節、Other 分析、Data Dictionary) — done 2026-05-25.
+- Next priority: TASK.008 (hero shot) + manual labelling of validation samples (classification 50 + metadata 58).
+- Current phase: post-MVP polish + research-grade framing. Live demo at <https://apprecenttrendanalysiz-kn98grjnkut85j6dvxzfhb.streamlit.app>.
 - Current owner / handoff state: solo (`aionyx`).
-- Awaiting user: hero screenshot from the live URL + `GH_DATA_TOKEN` repo secret for daily-refresh.
+- Awaiting user: hero screenshot from the live URL + `GH_DATA_TOKEN` repo secret for daily-refresh + manual labels for two validation CSVs.
 
 ## Important Constraints
 
 - GitHub API rate limit: 5000 req/h with token, 60 without. Token lives in `.env` locally and as `GH_DATA_TOKEN` repo secret for the daily-refresh workflow.
-- Python 3.14 required (`pyproject.toml`). streamlit + plotly now in main dependencies (moved out of `[dashboard]` extras) so Streamlit Cloud's Poetry installer picks them up.
+- Python **3.11+** required (`pyproject.toml`; relaxed from `>=3.14` after grep confirmed no 3.14-specific syntax). Streamlit Cloud Poetry installer reads streamlit + plotly + tabulate from main deps.
 - **Confirmed scope (2026-05-24):** stars > 10; 1000 repos (10 pages × 100 = single-query API cap); AI/ML treated as one of nine equal categories.
 - Do not analyze private repos, do not crawl all of GitHub, no ML model in classifier.
 
 ## Next Step
 
-- TASK.008 (P1): hero screenshot + TL;DR + presentation script. Blocked partially on user-supplied screenshot.
+- TASK.008 (P1): hero screenshot + TL;DR (TL;DR done 2026-05-24; hero shot still blocked on user-supplied screenshot).
 - TASK.009 (P1, blocked 7 days): delta analysis once daily-refresh has accumulated 7 snapshots.
-- TASK.007 (P2): manual vibe-coding scoring validation when time permits.
+- TASK.007 (P2): manual metadata-completeness scoring validation when time permits (sample at `data/processed/vibe_validation_sample.csv`).
+- TASK.010 (P2, new): manual rule-based classification validation (sample at `data/processed/classification_validation_sample.csv`, 50 rows).
 
 ## Last Validation Snapshot
 
-- Last docs refresh: 2026-05-24 (passes; only non-fatal placeholder warnings in unused UI template files).
-- Last test command: `python -m pytest -q` → 22/22 passing; `ruff check .` clean.
-- Live deploy: ✓ Streamlit Cloud build successful at commit `1f811bb`.
+- Last test command: `python -m pytest -q` → 22/22 passing (2026-05-25).
+- All review-fix Python files `ast.parse()` clean.
+- Live deploy: ✓ Streamlit Cloud built at commit `1f811bb`; new commits pending.
 - Known failing checks: none.
 - Awaiting first run: `daily-data-refresh` workflow (needs `GH_DATA_TOKEN` secret).
