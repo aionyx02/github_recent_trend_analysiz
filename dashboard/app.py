@@ -581,12 +581,26 @@ if vibe is not None:
     else:
         st.warning("樣本量不足以可靠評估各 stars 級距的差異。")
 
+    _url_map = repos.set_index("full_name")["html_url"]
+
     st.markdown("### Top 15 最可疑專案")
     top_vibe = vibe.head(15)[
         ["full_name", "stars", "forks", "age_days", "score", "tier", "reasons"]
     ].copy()
-    top_vibe.columns = ["repo", "stars", "forks", "天數", "分數", "tier", "扣分原因"]
-    st.dataframe(top_vibe, use_container_width=True, hide_index=True)
+    top_vibe.insert(0, "url", top_vibe["full_name"].map(_url_map))
+    top_vibe.columns = ["url", "repo", "stars", "forks", "天數", "分數", "tier", "扣分原因"]
+    st.dataframe(
+        top_vibe,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "url": st.column_config.LinkColumn(
+                "GitHub",
+                display_text="🔗 打開",
+                help="點擊跳到 GitHub repository",
+            ),
+        },
+    )
 
     st.markdown("### Famous-Nothing — 高 stars + 完全沒描述")
     fn = vibe[(vibe["stars"] > 1000) & (vibe["desc_len"] == 0)].sort_values(
@@ -594,8 +608,20 @@ if vibe is not None:
     if not fn.empty:
         fn_disp = fn[["full_name", "stars", "forks", "age_days",
                       "primary_language", "license"]].copy()
-        fn_disp.columns = ["repo", "stars", "forks", "天數", "語言", "license"]
-        st.dataframe(fn_disp, use_container_width=True, hide_index=True)
+        fn_disp.insert(0, "url", fn_disp["full_name"].map(_url_map))
+        fn_disp.columns = ["url", "repo", "stars", "forks", "天數", "語言", "license"]
+        st.dataframe(
+            fn_disp,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "url": st.column_config.LinkColumn(
+                    "GitHub",
+                    display_text="🔗 打開",
+                    help="點擊跳到 GitHub repository",
+                ),
+            },
+        )
         # Detect "official-looking" accounts: owner is a known company / org
         # (heuristic: owner appears in the org-prefix portion and has common
         # corporate keywords or is on the curated list).
@@ -640,15 +666,16 @@ if sel_lang:
 filtered = repos[mask].sort_values(sort_by, ascending=False)
 
 st.markdown(f"**符合條件：{len(filtered)} / {len(repos)} 個 repo**")
-display_cols = ["full_name", "stars", "forks", "stars_per_day", "age_days",
+display_cols = ["html_url", "full_name", "stars", "forks", "stars_per_day", "age_days",
                 "primary_language", "category", "description"]
 st.dataframe(
     filtered[display_cols].head(100),
     use_container_width=True, hide_index=True,
     column_config={
-        "full_name": st.column_config.LinkColumn(
-            "repo", display_text=r".*/(.*)$",
-            help="點擊跳到 GitHub"),
+        "html_url": st.column_config.LinkColumn(
+            "GitHub", display_text="🔗 打開",
+            help="點擊跳到 GitHub repository"),
+        "full_name": st.column_config.TextColumn("repo"),
         "stars_per_day": st.column_config.NumberColumn(format="%.1f"),
     },
 )
