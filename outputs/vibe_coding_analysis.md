@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-05-26 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-05-27 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,50 +32,50 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 19 | 1.9% |
-| 待檢視 | 132 | 13.2% |
-| 訊號完整 | 849 | 84.9% |
+| 低資訊密度 | 18 | 1.8% |
+| 待檢視 | 118 | 11.8% |
+| 訊號完整 | 864 | 86.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `thananon/9arm-skills` | 2294 | 317 | 5d | **8** | desc:empty, license:none, high-attention-no-desc, overnight-surge:459/day, generic-name:9arm-skills, topics:none |
-| 2 | `cursor/cookbook` | 3865 | 448 | 28d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:cookbook, topics:none |
-| 3 | `deepseek-ai/awesome-deepseek-agent` | 2419 | 263 | 28d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:awesome-deepseek-agent, topics:none |
-| 4 | `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1079 | 365 | 25d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `Ch1rpy2613/Mirrai` | 814 | 11 | 20d | **6** | desc:empty, license:none, low-forks:0.014, topics:none |
-| 6 | `FoundZiGu/GuJumpgate` | 2643 | 713 | 6d | **6** | desc:empty, high-attention-no-desc, overnight-surge:440/day, topics:none |
-| 7 | `V4bel/dirtyfrag` | 4766 | 760 | 18d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 8 | `vibeshotclub/vsc-skills` | 132 | 24 | 28d | **5** | desc:empty, license:none, generic-name:vsc-skills, topics:none |
-| 9 | `UIengF/claude-codex-teamwork` | 143 | 8 | 15d | **5** | desc:empty, license:none, generic-name:claude-codex-teamwork, topics:none |
-| 10 | `FULU-Foundation/OrcaSlicer-bambulab` | 6532 | 5050 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `foyzulkarim/claude-lens` | 220 | 29 | 25d | **5** | desc:empty, license:none, generic-name:claude-lens, topics:none |
-| 12 | `cat9999aaa/thinshell` | 519 | 8 | 11d | **5** | desc:short, license:none, low-forks:0.015, topics:none |
-| 13 | `energypantry/agent-browser-runtime` | 109 | 31 | 8d | **5** | desc:empty, license:none, generic-name:agent-browser-runtime, topics:none |
-| 14 | `mit-han-lab/kernel-design-agents` | 215 | 18 | 13d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
-| 15 | `Blueemi/codex-eu-patcher` | 124 | 9 | 19d | **5** | desc:empty, license:none, generic-name:codex-eu-patcher, topics:none |
+| 1 | `thananon/9arm-skills` | 2388 | 332 | 6d | **8** | desc:empty, license:none, high-attention-no-desc, overnight-surge:398/day, generic-name:9arm-skills, topics:none |
+| 2 | `cursor/cookbook` | 3867 | 451 | 29d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:cookbook, topics:none |
+| 3 | `deepseek-ai/awesome-deepseek-agent` | 2529 | 276 | 29d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:awesome-deepseek-agent, topics:none |
+| 4 | `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1079 | 365 | 26d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `Ch1rpy2613/Mirrai` | 822 | 11 | 21d | **6** | desc:empty, license:none, low-forks:0.013, topics:none |
+| 6 | `ywnd1144/Gopay_plus_automatic` | 1023 | 565 | 14d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 7 | `V4bel/dirtyfrag` | 4773 | 763 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 8 | `FULU-Foundation/OrcaSlicer-bambulab` | 6568 | 5067 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `FoundZiGu/GuJumpgate` | 2764 | 750 | 7d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `LLM-Mart/LLM-Mart` | 177 | 5 | 20d | **5** | desc:empty, license:none, generic-name:LLM-Mart, topics:none |
+| 11 | `foyzulkarim/claude-lens` | 220 | 29 | 26d | **5** | desc:empty, license:none, generic-name:claude-lens, topics:none |
+| 12 | `vibeshotclub/vsc-skills` | 132 | 24 | 29d | **5** | desc:empty, license:none, generic-name:vsc-skills, topics:none |
+| 13 | `mit-han-lab/kernel-design-agents` | 254 | 19 | 14d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
+| 14 | `Tong89/smartNode` | 1296 | 111 | 5d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `cat9999aaa/thinshell` | 520 | 9 | 12d | **5** | desc:short, license:none, low-forks:0.017, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 123 | 12.3% |
-| description <20 chars | 26 | 2.6% |
-| no license | 362 | 36.2% |
-| high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
-| low fork ratio (stars>500 + fsr<0.02) | 8 | 0.8% |
-| overnight surge (>300 spd + <7 days) | 5 | 0.5% |
-| generic-AI-buzzword name | 139 | 13.9% |
+| description empty | 114 | 11.4% |
+| description <20 chars | 22 | 2.2% |
+| no license | 368 | 36.8% |
+| high-attention no-desc (stars>1k + empty desc) | 9 | 0.9% |
+| low fork ratio (stars>500 + fsr<0.02) | 7 | 0.7% |
+| overnight surge (>300 spd + <7 days) | 3 | 0.3% |
+| generic-AI-buzzword name | 125 | 12.5% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Unknown | 5 |
+| Unknown | 4 |
+| Python | 4 |
 | TypeScript | 3 |
-| JavaScript | 3 |
-| Python | 3 |
+| JavaScript | 2 |
 | HTML | 2 |
 | Shell | 1 |
 | C | 1 |
@@ -89,9 +89,9 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 2 | 0 | 0 | 2 | 0.0% |
 | 5000-9999 | 3 | 1 | 0 | 2 | 33.3% |
-| 1000-4999 | 69 | 7 | 3 | 59 | 10.1% |
-| 500-999 | 117 | 2 | 17 | 98 | 1.7% |
-| 100-499 | 809 | 9 | 112 | 688 | 1.1% |
+| 1000-4999 | 67 | 8 | 1 | 58 | 11.9% |
+| 500-999 | 116 | 2 | 15 | 99 | 1.7% |
+| 100-499 | 812 | 7 | 102 | 703 | 0.9% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -100,41 +100,42 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6532 | 5050 | 14d | C++ | AGPL-3.0 |
-| `V4bel/dirtyfrag` | 4766 | 760 | 18d | C | — |
-| `cursor/cookbook` | 3865 | 448 | 28d | TypeScript | — |
-| `FoundZiGu/GuJumpgate` | 2643 | 713 | 6d | JavaScript | MIT |
-| `Achilng/floral-notepaper` | 2513 | 111 | 29d | TypeScript | MIT |
-| `deepseek-ai/awesome-deepseek-agent` | 2419 | 263 | 28d | Unknown | — |
-| `thananon/9arm-skills` | 2294 | 317 | 5d | Shell | — |
-| `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1079 | 365 | 25d | Unknown | — |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6568 | 5067 | 15d | C++ | AGPL-3.0 |
+| `V4bel/dirtyfrag` | 4773 | 763 | 19d | C | — |
+| `cursor/cookbook` | 3867 | 451 | 29d | TypeScript | — |
+| `FoundZiGu/GuJumpgate` | 2764 | 750 | 7d | JavaScript | MIT |
+| `deepseek-ai/awesome-deepseek-agent` | 2529 | 276 | 29d | Unknown | — |
+| `thananon/9arm-skills` | 2388 | 332 | 6d | Shell | — |
+| `Tong89/smartNode` | 1296 | 111 | 5d | Python | MIT |
+| `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1079 | 365 | 26d | Unknown | — |
+| `ywnd1144/Gopay_plus_automatic` | 1023 | 565 | 14d | Python | — |
 
 ### Generic-name pattern breakdown
 
-Of 139 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 125 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 30 |
-| `skill` | 20 |
-| `skills` | 19 |
-| `claude` | 19 |
-| `codex` | 17 |
+| `agent` | 27 |
+| `skill` | 18 |
+| `skills` | 16 |
+| `claude` | 16 |
+| `codex` | 16 |
 | `awesome` | 8 |
-| `agents` | 8 |
+| `agents` | 6 |
 | `gpt` | 5 |
-| `prompt` | 4 |
 | `llm` | 3 |
+| `prompt` | 3 |
 | `template` | 2 |
+| `toolkit` | 2 |
 | `cookbook` | 1 |
 | `demo` | 1 |
-| `toolkit` | 1 |
 | `copilot` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 569 (56.9%)
-- Repos with at least one topic: 431 (43.1%)
+- Repos with **zero topics**: 534 (53.4%)
+- Repos with at least one topic: 466 (46.6%)
 
 ## Methodology limits
 
