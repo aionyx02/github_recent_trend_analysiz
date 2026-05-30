@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 422.3 | 228.0 | 12409 |
-| forks | 150.6 | 20.0 | 6863 |
-| open_issues | 4.9 | 1.0 | 201 |
-| stars_per_day | 39.0 | 17.9 | 1050 |
-| age_days | 16.4 | 17.0 | 29 |
+| stars | 414.9 | 231.5 | 12490 |
+| forks | 166.4 | 19.0 | 6864 |
+| open_issues | 4.6 | 1.0 | 207 |
+| stars_per_day | 37.5 | 17.6 | 604 |
+| age_days | 16.5 | 17.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `antirez/ds4` | 12409 | 1057 | C | Game |
-| `BigPizzaV3/CodexPlusPlus` | 8132 | 538 | Rust | AI/ML |
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6628 | 5082 | C++ | Other |
-| `nexu-io/html-anything` | 5343 | 532 | HTML | AI/ML |
-| `V4bel/dirtyfrag` | 4787 | 766 | C | Other |
-| `darrylmorley/whatcable` | 4749 | 148 | Swift | Mobile |
-| `vercel-labs/zerolang` | 4679 | 300 | C | AI/ML |
-| `vercel-labs/zero-native` | 4027 | 161 | Zig | Web |
-| `theori-io/copy-fail-CVE-2026-31431` | 3916 | 871 | Python | Security |
-| `perplexityai/bumblebee` | 3846 | 330 | Go | Other |
+| `antirez/ds4` | 12490 | 1067 | C | Game |
+| `BigPizzaV3/CodexPlusPlus` | 8599 | 573 | Rust | AI/ML |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6655 | 5091 | C++ | Other |
+| `nexu-io/html-anything` | 5399 | 538 | HTML | AI/ML |
+| `darrylmorley/whatcable` | 4821 | 151 | Swift | Mobile |
+| `V4bel/dirtyfrag` | 4788 | 768 | C | Other |
+| `vercel-labs/zerolang` | 4712 | 302 | C | AI/ML |
+| `vercel-labs/zero-native` | 4034 | 162 | Zig | Web |
+| `perplexityai/bumblebee` | 3936 | 339 | Go | Other |
+| `simplifaisoul/osiris` | 3618 | 718 | TypeScript | Data |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `op7418/guizang-social-card-skill` | 1050.0 | 1050 | 1d | AI/ML |
-| `antirez/ds4` | 564.0 | 12409 | 22d | Game |
-| `perplexityai/bumblebee` | 480.8 | 3846 | 8d | Other |
-| `helloianneo/ian-xiaohei-illustrations` | 465.0 | 465 | 1d | AI/ML |
-| `withkynam/vibecode-pro-max-kit` | 442.0 | 442 | 1d | AI/ML |
-| `alfiyahkamilah1239298/WallpaperDownloader-26` | 399.0 | 399 | 1d | Game |
-| `FULU-Foundation/OrcaSlicer-bambulab` | 389.9 | 6628 | 17d | Other |
-| `BigPizzaV3/CodexPlusPlus` | 369.6 | 8132 | 22d | AI/ML |
-| `vercel-labs/zerolang` | 359.9 | 4679 | 13d | AI/ML |
-| `FoundZiGu/GuJumpgate` | 334.7 | 3012 | 9d | Other |
+| `op7418/guizang-social-card-skill` | 604.0 | 1208 | 2d | AI/ML |
+| `antirez/ds4` | 543.0 | 12490 | 23d | Game |
+| `helloianneo/ian-xiaohei-illustrations` | 477.5 | 955 | 2d | AI/ML |
+| `Michaelliv/pi-dynamic-workflows` | 469.0 | 469 | 1d | Other |
+| `perplexityai/bumblebee` | 437.3 | 3936 | 9d | Other |
+| `MatinSenPai/SenPaiScanner` | 414.0 | 414 | 1d | Other |
+| `2aronS/Duel-Agents` | 406.0 | 406 | 1d | AI/ML |
+| `Sophomoresty/gemini-web2api` | 406.0 | 406 | 1d | AI/ML |
+| `alfiyahkamilah1239298/WallpaperDownloader-26` | 400.0 | 400 | 1d | Game |
+| `BigPizzaV3/CodexPlusPlus` | 373.9 | 8599 | 23d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 396 | 353 | 211 | 85 | 35.2 | 4.0 |
-| AI/ML | 375 | 488 | 243 | 102 | 41.5 | 5.6 |
-| Web | 48 | 379 | 208 | 109 | 30.1 | 4.5 |
-| Mobile | 35 | 456 | 274 | 27 | 29.6 | 3.7 |
-| CLI/Tooling | 33 | 402 | 253 | 112 | 36.1 | 4.5 |
-| Game | 33 | 611 | 207 | 44 | 69.2 | 5.8 |
-| Finance/Trading | 30 | 293 | 265 | 2076 | 46.3 | 0.8 |
-| Security | 26 | 414 | 206 | 109 | 36.8 | 6.8 |
-| Data | 14 | 638 | 216 | 77 | 40.0 | 14.9 |
-| DevOps | 10 | 360 | 230 | 102 | 63.9 | 8.5 |
+| Other | 400 | 350 | 216 | 102 | 34.2 | 4.0 |
+| AI/ML | 376 | 488 | 247 | 104 | 39.4 | 5.4 |
+| Web | 46 | 361 | 195 | 82 | 25.5 | 4.5 |
+| Mobile | 37 | 446 | 258 | 29 | 31.3 | 3.6 |
+| Finance/Trading | 34 | 290 | 267 | 2142 | 57.2 | 0.7 |
+| Game | 33 | 623 | 215 | 44 | 64.5 | 6.1 |
+| CLI/Tooling | 30 | 410 | 243 | 123 | 32.7 | 4.8 |
+| Security | 22 | 262 | 202 | 76 | 35.2 | 2.5 |
+| Data | 13 | 499 | 184 | 70 | 34.3 | 6.2 |
+| DevOps | 9 | 387 | 327 | 111 | 47.7 | 9.7 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.153 |         0.566 |      0.123 |
-| forks       |   0.153 |   1     |         0.047 |     -0.06  |
-| open_issues |   0.566 |   0.047 |         1     |      0.088 |
-| age_days    |   0.123 |  -0.06  |         0.088 |      1     |
+| stars       |   1     |   0.125 |         0.552 |      0.11  |
+| forks       |   0.125 |   1     |         0.022 |     -0.091 |
+| open_issues |   0.552 |   0.022 |         1     |      0.067 |
+| age_days    |   0.11  |  -0.091 |         0.067 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.516 |         0.301 |      0.141 |
-| forks       |   0.516 |   1     |         0.275 |      0.243 |
-| open_issues |   0.301 |   0.275 |         1     |      0.131 |
-| age_days    |   0.141 |   0.243 |         0.131 |      1     |
+| stars       |   1     |   0.491 |         0.302 |      0.1   |
+| forks       |   0.491 |   1     |         0.265 |      0.212 |
+| open_issues |   0.302 |   0.265 |         1     |      0.119 |
+| age_days    |   0.1   |   0.212 |         0.119 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 56 |
+| `claude-code` | 52 |
 | `ai-agents` | 45 |
-| `typescript` | 43 |
-| `llm` | 36 |
-| `ai` | 31 |
-| `python` | 30 |
+| `typescript` | 44 |
+| `llm` | 35 |
+| `ai` | 33 |
 | `mcp` | 30 |
 | `codex` | 30 |
-| `claude` | 28 |
-| `cli` | 28 |
+| `cli` | 29 |
+| `python` | 28 |
+| `claude` | 25 |
 | `open-source` | 25 |
-| `rust` | 20 |
-| `ai-agent` | 20 |
+| `trading-bot` | 20 |
 | `agent` | 19 |
 | `skills` | 19 |
 | `anthropic` | 19 |
+| `rust` | 19 |
+| `ai-agent` | 19 |
 | `macos` | 18 |
-| `trading-bot` | 18 |
-| `cursor` | 17 |
+| `cursor` | 18 |
 | `openai` | 17 |
