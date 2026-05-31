@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-05-30 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-05-31 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,55 +32,54 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 19 | 1.9% |
-| 待檢視 | 115 | 11.5% |
-| 訊號完整 | 866 | 86.6% |
+| 低資訊密度 | 16 | 1.6% |
+| 待檢視 | 130 | 13.0% |
+| 訊號完整 | 854 | 85.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `thananon/9arm-skills` | 2534 | 353 | 9d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:9arm-skills, topics:none |
-| 2 | `ywnd1144/Gopay_plus_automatic` | 1221 | 620 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 3 | `Ch1rpy2613/Mirrai` | 863 | 11 | 24d | **6** | desc:empty, license:none, low-forks:0.013, topics:none |
-| 4 | `V4bel/dirtyfrag` | 4788 | 768 | 22d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1080 | 365 | 29d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `limin112/wechat-publish-template` | 158 | 18 | 11d | **5** | desc:empty, license:none, generic-name:wechat-publish-template, topics:none |
-| 7 | `energypantry/agent-browser-runtime` | 125 | 37 | 12d | **5** | desc:empty, license:none, generic-name:agent-browser-runtime, topics:none |
-| 8 | `Tong89/smartNode` | 1971 | 168 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `FULU-Foundation/OrcaSlicer-bambulab` | 6655 | 5091 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `Blueemi/codex-eu-patcher` | 129 | 9 | 23d | **5** | desc:empty, license:none, generic-name:codex-eu-patcher, topics:none |
-| 11 | `PrismML-Eng/Bonsai-Image-Demo` | 172 | 23 | 24d | **5** | desc:empty, license:none, generic-name:Bonsai-Image-Demo, topics:none |
-| 12 | `Michaelliv/pi-dynamic-workflows` | 469 | 19 | 1d | **5** | desc:empty, license:none, overnight-surge:469/day, topics:none |
-| 13 | `foyzulkarim/claude-lens` | 220 | 29 | 29d | **5** | desc:empty, license:none, generic-name:claude-lens, topics:none |
-| 14 | `mit-han-lab/kernel-design-agents` | 336 | 25 | 17d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
-| 15 | `cat9999aaa/thinshell` | 520 | 9 | 15d | **5** | desc:short, license:none, low-forks:0.017, topics:none |
+| 1 | `thananon/9arm-skills` | 2556 | 357 | 10d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:9arm-skills, topics:none |
+| 2 | `V4bel/dirtyfrag` | 4790 | 770 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `ywnd1144/Gopay_plus_automatic` | 1260 | 628 | 18d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `Ch1rpy2613/Mirrai` | 873 | 12 | 25d | **6** | desc:empty, license:none, low-forks:0.014, topics:none |
+| 5 | `mit-han-lab/kernel-design-agents` | 351 | 26 | 18d | **5** | desc:empty, license:none, generic-name:kernel-design-agents, topics:none |
+| 6 | `FoundZiGu/GuJumpgate` | 3149 | 826 | 11d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `cat9999aaa/thinshell` | 520 | 10 | 16d | **5** | desc:short, license:none, low-forks:0.019, topics:none |
+| 8 | `UIengF/claude-codex-teamwork` | 147 | 8 | 20d | **5** | desc:empty, license:none, generic-name:claude-codex-teamwork, topics:none |
+| 9 | `FULU-Foundation/OrcaSlicer-bambulab` | 6678 | 5101 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `energypantry/agent-browser-runtime` | 128 | 38 | 13d | **5** | desc:empty, license:none, generic-name:agent-browser-runtime, topics:none |
+| 11 | `limin112/wechat-publish-template` | 159 | 18 | 12d | **5** | desc:empty, license:none, generic-name:wechat-publish-template, topics:none |
+| 12 | `Blueemi/codex-eu-patcher` | 128 | 9 | 24d | **5** | desc:empty, license:none, generic-name:codex-eu-patcher, topics:none |
+| 13 | `Tong89/smartNode` | 2010 | 176 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `asuojun/claude-vision-skill` | 154 | 5 | 28d | **5** | desc:empty, license:none, generic-name:claude-vision-skill, topics:none |
+| 15 | `gtxx3600/GPTSession2CPAandSub2API` | 1039 | 286 | 22d | **5** | desc:empty, high-attention-no-desc, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 109 | 10.9% |
-| description <20 chars | 23 | 2.3% |
-| no license | 370 | 37.0% |
-| high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
-| low fork ratio (stars>500 + fsr<0.02) | 8 | 0.8% |
-| overnight surge (>300 spd + <7 days) | 8 | 0.8% |
-| generic-AI-buzzword name | 122 | 12.2% |
+| description empty | 119 | 11.9% |
+| description <20 chars | 25 | 2.5% |
+| no license | 355 | 35.5% |
+| high-attention no-desc (stars>1k + empty desc) | 7 | 0.7% |
+| low fork ratio (stars>500 + fsr<0.02) | 7 | 0.7% |
+| overnight surge (>300 spd + <7 days) | 5 | 0.5% |
+| generic-AI-buzzword name | 124 | 12.4% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
 | JavaScript | 5 |
-| Python | 3 |
-| Unknown | 3 |
-| TypeScript | 2 |
-| HTML | 2 |
+| Python | 4 |
+| Unknown | 2 |
 | Shell | 1 |
 | C | 1 |
+| TypeScript | 1 |
 | C++ | 1 |
-| PowerShell | 1 |
+| HTML | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -90,9 +89,9 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 1 | 0 | 0 | 1 | 0.0% |
 | 5000-9999 | 3 | 1 | 0 | 2 | 33.3% |
-| 1000-4999 | 60 | 7 | 1 | 52 | 11.7% |
-| 500-999 | 112 | 2 | 13 | 97 | 1.8% |
-| 100-499 | 824 | 9 | 101 | 714 | 1.1% |
+| 1000-4999 | 57 | 6 | 1 | 50 | 10.5% |
+| 500-999 | 108 | 2 | 13 | 93 | 1.9% |
+| 100-499 | 831 | 7 | 116 | 708 | 0.8% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -101,40 +100,39 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6655 | 5091 | 18d | C++ | AGPL-3.0 |
-| `V4bel/dirtyfrag` | 4788 | 768 | 22d | C | — |
-| `FoundZiGu/GuJumpgate` | 3074 | 810 | 10d | JavaScript | MIT |
-| `thananon/9arm-skills` | 2534 | 353 | 9d | Shell | — |
-| `Tong89/smartNode` | 1971 | 168 | 8d | Python | MIT |
-| `ywnd1144/Gopay_plus_automatic` | 1221 | 620 | 17d | Python | — |
-| `wrongly-cuddly-obsession/NTSB_FOIA_MU5735` | 1080 | 365 | 29d | Unknown | — |
-| `gtxx3600/GPTSession2CPAandSub2API` | 1027 | 281 | 21d | JavaScript | MIT |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6678 | 5101 | 19d | C++ | AGPL-3.0 |
+| `V4bel/dirtyfrag` | 4790 | 770 | 23d | C | — |
+| `FoundZiGu/GuJumpgate` | 3149 | 826 | 11d | JavaScript | MIT |
+| `thananon/9arm-skills` | 2556 | 357 | 10d | Shell | — |
+| `Tong89/smartNode` | 2010 | 176 | 9d | Python | MIT |
+| `ywnd1144/Gopay_plus_automatic` | 1260 | 628 | 18d | Python | — |
+| `gtxx3600/GPTSession2CPAandSub2API` | 1039 | 286 | 22d | JavaScript | MIT |
 
 ### Generic-name pattern breakdown
 
-Of 122 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 124 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 29 |
-| `claude` | 20 |
-| `skill` | 18 |
-| `skills` | 14 |
-| `codex` | 13 |
-| `agents` | 6 |
+| `agent` | 28 |
+| `skills` | 19 |
+| `claude` | 19 |
+| `skill` | 17 |
+| `codex` | 14 |
+| `agents` | 7 |
 | `awesome` | 6 |
 | `prompt` | 4 |
-| `gpt` | 3 |
 | `template` | 2 |
-| `demo` | 2 |
 | `llm` | 2 |
-| `toolkit` | 2 |
+| `demo` | 2 |
+| `gpt` | 2 |
 | `vibe` | 1 |
+| `toolkit` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 534 (53.4%)
-- Repos with at least one topic: 466 (46.6%)
+- Repos with **zero topics**: 564 (56.4%)
+- Repos with at least one topic: 436 (43.6%)
 
 ## Methodology limits
 
