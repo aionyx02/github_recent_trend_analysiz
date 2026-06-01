@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 410.0 | 225.0 | 12580 |
-| forks | 176.1 | 19.0 | 6864 |
-| open_issues | 6.6 | 1.0 | 2180 |
-| stars_per_day | 35.1 | 16.4 | 603 |
-| age_days | 16.7 | 17.0 | 29 |
+| stars | 419.1 | 224.0 | 12649 |
+| forks | 188.9 | 19.5 | 6864 |
+| open_issues | 7.5 | 1.0 | 2662 |
+| stars_per_day | 46.8 | 16.4 | 11586 |
+| age_days | 16.8 | 18.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `antirez/ds4` | 12580 | 1078 | C | Game |
-| `BigPizzaV3/CodexPlusPlus` | 9115 | 615 | Rust | AI/ML |
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6678 | 5101 | C++ | Other |
-| `nexu-io/html-anything` | 5506 | 545 | HTML | AI/ML |
-| `darrylmorley/whatcable` | 4949 | 155 | Swift | Mobile |
-| `V4bel/dirtyfrag` | 4790 | 770 | C | Other |
-| `vercel-labs/zerolang` | 4744 | 305 | C | AI/ML |
-| `vercel-labs/zero-native` | 4040 | 164 | Zig | Web |
-| `perplexityai/bumblebee` | 4000 | 346 | Go | Other |
-| `simplifaisoul/osiris` | 3786 | 758 | TypeScript | Data |
+| `antirez/ds4` | 12649 | 1095 | C | Game |
+| `pewdiepie-archdaemon/odysseus` | 11586 | 1518 | JavaScript | AI/ML |
+| `BigPizzaV3/CodexPlusPlus` | 10069 | 664 | Rust | AI/ML |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6701 | 5117 | C++ | Other |
+| `nexu-io/html-anything` | 5659 | 552 | HTML | AI/ML |
+| `V4bel/dirtyfrag` | 4794 | 772 | C | Other |
+| `vercel-labs/zerolang` | 4769 | 306 | C | AI/ML |
+| `perplexityai/bumblebee` | 4069 | 353 | Go | Other |
+| `vercel-labs/zero-native` | 4062 | 164 | Zig | Web |
+| `simplifaisoul/osiris` | 3969 | 787 | TypeScript | Data |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `op7418/guizang-social-card-skill` | 603.3 | 1810 | 3d | AI/ML |
-| `antirez/ds4` | 524.2 | 12580 | 24d | Game |
-| `helloianneo/ian-xiaohei-illustrations` | 419.7 | 1259 | 3d | AI/ML |
-| `perplexityai/bumblebee` | 400.0 | 4000 | 10d | Other |
-| `BigPizzaV3/CodexPlusPlus` | 379.8 | 9115 | 24d | AI/ML |
-| `FULU-Foundation/OrcaSlicer-bambulab` | 351.5 | 6678 | 19d | Other |
-| `Sophomoresty/gemini-web2api` | 339.5 | 679 | 2d | AI/ML |
-| `MatinSenPai/SenPaiScanner` | 330.0 | 660 | 2d | Other |
-| `vercel-labs/zerolang` | 316.3 | 4744 | 15d | AI/ML |
-| `bonus-2026/crypto-casino-bonus` | 312.0 | 312 | 1d | Finance/Trading |
+| `pewdiepie-archdaemon/odysseus` | 11586.0 | 11586 | 1d | AI/ML |
+| `op7418/guizang-social-card-skill` | 563.8 | 2255 | 4d | AI/ML |
+| `antirez/ds4` | 506.0 | 12649 | 25d | Game |
+| `BigPizzaV3/CodexPlusPlus` | 402.8 | 10069 | 25d | AI/ML |
+| `helloianneo/ian-xiaohei-illustrations` | 384.8 | 1539 | 4d | AI/ML |
+| `perplexityai/bumblebee` | 369.9 | 4069 | 11d | Other |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 335.1 | 6701 | 20d | Other |
+| `liyue-aigc/female-portrait-director` | 333.0 | 333 | 1d | AI/ML |
+| `Sophomoresty/gemini-web2api` | 324.3 | 973 | 3d | AI/ML |
+| `GordenSun/GordenPPTSkill` | 306.0 | 1224 | 4d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 401 | 345 | 215 | 127 | 31.7 | 9.2 |
-| AI/ML | 384 | 473 | 241 | 110 | 37.0 | 5.1 |
-| Web | 47 | 347 | 175 | 77 | 25.5 | 4.0 |
-| Finance/Trading | 38 | 279 | 264 | 1863 | 52.3 | 0.7 |
-| Mobile | 35 | 457 | 251 | 29 | 32.8 | 3.9 |
-| CLI/Tooling | 31 | 403 | 240 | 83 | 32.9 | 4.7 |
-| Game | 26 | 751 | 286 | 57 | 59.1 | 7.9 |
-| Security | 17 | 302 | 283 | 95 | 32.5 | 2.6 |
-| DevOps | 11 | 337 | 149 | 95 | 27.7 | 8.5 |
-| Data | 10 | 626 | 218 | 95 | 37.6 | 8.1 |
+| Other | 408 | 353 | 210 | 146 | 32.2 | 10.6 |
+| AI/ML | 369 | 512 | 246 | 123 | 69.1 | 6.0 |
+| Web | 46 | 337 | 186 | 73 | 31.1 | 3.9 |
+| Finance/Trading | 37 | 289 | 266 | 1937 | 39.7 | 0.8 |
+| CLI/Tooling | 36 | 360 | 198 | 73 | 35.7 | 4.4 |
+| Mobile | 34 | 321 | 253 | 26 | 23.9 | 3.7 |
+| Game | 26 | 766 | 298 | 58 | 57.2 | 8.3 |
+| Security | 21 | 259 | 184 | 74 | 31.3 | 1.6 |
+| DevOps | 12 | 332 | 175 | 89 | 37.6 | 7.8 |
+| Data | 11 | 608 | 219 | 89 | 53.0 | 8.4 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.121 |         0.1   |      0.104 |
-| forks       |   0.121 |   1     |         0.014 |     -0.1   |
-| open_issues |   0.1   |   0.014 |         1     |     -0     |
-| age_days    |   0.104 |  -0.1   |        -0     |      1     |
+| stars       |   1     |   0.127 |         0.103 |      0.055 |
+| forks       |   0.127 |   1     |         0.016 |     -0.096 |
+| open_issues |   0.103 |   0.016 |         1     |      0.001 |
+| age_days    |   0.055 |  -0.096 |         0.001 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.452 |         0.272 |      0.081 |
-| forks       |   0.452 |   1     |         0.232 |      0.125 |
-| open_issues |   0.272 |   0.232 |         1     |      0.102 |
-| age_days    |   0.081 |   0.125 |         0.102 |      1     |
+| stars       |   1     |   0.445 |         0.306 |      0.063 |
+| forks       |   0.445 |   1     |         0.227 |      0.14  |
+| open_issues |   0.306 |   0.227 |         1     |      0.117 |
+| age_days    |   0.063 |   0.14  |         0.117 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
 | `ai-agents` | 52 |
-| `claude-code` | 51 |
-| `typescript` | 49 |
-| `llm` | 36 |
+| `claude-code` | 52 |
+| `typescript` | 50 |
 | `ai` | 35 |
+| `llm` | 35 |
+| `python` | 31 |
 | `codex` | 31 |
-| `python` | 30 |
-| `open-source` | 30 |
-| `mcp` | 29 |
+| `open-source` | 31 |
 | `cli` | 29 |
+| `mcp` | 28 |
 | `claude` | 26 |
 | `rust` | 23 |
+| `agent` | 22 |
 | `trading-bot` | 22 |
-| `ai-agent` | 21 |
-| `agent` | 20 |
-| `skills` | 19 |
+| `ai-agent` | 19 |
 | `anthropic` | 19 |
-| `macos` | 18 |
+| `skills` | 19 |
+| `macos` | 19 |
+| `developer-tools` | 18 |
 | `openai` | 18 |
-| `react` | 17 |
