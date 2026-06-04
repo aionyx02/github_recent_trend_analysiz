@@ -1,21 +1,21 @@
 {
-  "elapsed_seconds": 632.4,
+  "elapsed_seconds": 673.9,
   "repos_total": 1000,
   "search": {
     "saved": 10,
     "skipped": 0
   },
   "languages": {
-    "fetched": 304,
-    "stale_refetched": 223,
-    "skipped": 695,
-    "failed": 1
+    "fetched": 309,
+    "stale_refetched": 233,
+    "skipped": 691,
+    "failed": 0
   },
   "topics": {
-    "fetched": 304,
-    "stale_refetched": 223,
-    "skipped": 695,
-    "failed": 1
+    "fetched": 309,
+    "stale_refetched": 233,
+    "skipped": 691,
+    "failed": 0
   },
   "manifest": {
     "bootstrapped_stamps": 0,
