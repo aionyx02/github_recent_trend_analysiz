@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 460.7 | 201.5 | 47174 |
-| forks | 92.9 | 19.0 | 6467 |
-| open_issues | 9.4 | 1.0 | 3496 |
-| stars_per_day | 50.2 | 13.8 | 15725 |
-| age_days | 17.3 | 19.0 | 29 |
+| stars | 470.6 | 200.0 | 53148 |
+| forks | 94.1 | 19.0 | 6659 |
+| open_issues | 10.8 | 1.0 | 3877 |
+| stars_per_day | 45.7 | 13.1 | 13287 |
+| age_days | 17.5 | 18.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `pewdiepie-archdaemon/odysseus` | 47174 | 5419 | JavaScript | AI/ML |
-| `BigPizzaV3/CodexPlusPlus` | 12961 | 810 | Rust | AI/ML |
-| `antirez/ds4` | 12904 | 1124 | C | Game |
-| `FULU-Foundation/OrcaSlicer-bambulab` | 6777 | 5139 | C++ | Other |
-| `nexu-io/html-anything` | 6009 | 582 | HTML | AI/ML |
-| `vercel-labs/zerolang` | 4849 | 312 | C | AI/ML |
-| `V4bel/dirtyfrag` | 4815 | 774 | C | Other |
-| `microsoft/SkillOpt` | 4809 | 478 | Python | AI/ML |
-| `simplifaisoul/osiris` | 4346 | 883 | TypeScript | Data |
-| `unicity-astrid/sdk-js` | 4288 | 6 | TypeScript | Other |
+| `pewdiepie-archdaemon/odysseus` | 53148 | 6253 | Python | AI/ML |
+| `BigPizzaV3/CodexPlusPlus` | 13825 | 857 | Rust | AI/ML |
+| `antirez/ds4` | 12976 | 1130 | C | Game |
+| `FULU-Foundation/OrcaSlicer-bambulab` | 6788 | 5144 | C++ | Other |
+| `unicity-astrid/sdk-js` | 6638 | 15 | TypeScript | Other |
+| `nexu-io/html-anything` | 6120 | 599 | HTML | AI/ML |
+| `microsoft/SkillOpt` | 5006 | 497 | Python | AI/ML |
+| `vercel-labs/zerolang` | 4874 | 315 | C | AI/ML |
+| `V4bel/dirtyfrag` | 4817 | 773 | C | Other |
+| `simplifaisoul/osiris` | 4448 | 912 | TypeScript | Data |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `pewdiepie-archdaemon/odysseus` | 15724.7 | 47174 | 3d | AI/ML |
-| `b-nnett/goose` | 1537.0 | 1537 | 1d | Mobile |
-| `cpaczek/skylight` | 981.0 | 981 | 1d | Web |
-| `SenhorH/tab-labeler` | 549.0 | 549 | 1d | Other |
-| `zgwl/chinese-buy-us-stock-guide` | 510.8 | 2043 | 4d | Other |
-| `asz798838958/aBaiAutoplus` | 482.0 | 1446 | 3d | AI/ML |
-| `BigPizzaV3/CodexPlusPlus` | 462.9 | 12961 | 28d | AI/ML |
-| `antirez/ds4` | 460.9 | 12904 | 28d | Game |
-| `Gloridust/WechatOnCloud` | 403.4 | 2017 | 5d | Other |
-| `op7418/guizang-social-card-skill` | 402.6 | 2818 | 7d | AI/ML |
+| `pewdiepie-archdaemon/odysseus` | 13287.0 | 53148 | 4d | AI/ML |
+| `b-nnett/goose` | 1025.0 | 2050 | 2d | Mobile |
+| `cpaczek/skylight` | 656.0 | 1312 | 2d | Web |
+| `zgwl/chinese-buy-us-stock-guide` | 617.2 | 3086 | 5d | Other |
+| `BigPizzaV3/CodexPlusPlus` | 476.7 | 13825 | 29d | AI/ML |
+| `antirez/ds4` | 447.4 | 12976 | 29d | Game |
+| `tastyeffectco/sandboxes` | 409.0 | 409 | 1d | AI/ML |
+| `unicity-astrid/sdk-js` | 390.5 | 6638 | 17d | Other |
+| `asz798838958/aBaiAutoplus` | 376.5 | 1506 | 4d | AI/ML |
+| `op7418/guizang-social-card-skill` | 365.4 | 2923 | 8d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 427 | 367 | 188 | 91 | 31.6 | 12.4 |
-| AI/ML | 368 | 612 | 224 | 83 | 77.9 | 8.4 |
-| Web | 52 | 348 | 198 | 71 | 40.6 | 4.4 |
-| CLI/Tooling | 42 | 319 | 215 | 66 | 36.1 | 4.8 |
-| Mobile | 38 | 327 | 206 | 38 | 59.0 | 5.1 |
-| Game | 19 | 888 | 187 | 84 | 40.3 | 11.2 |
-| Security | 19 | 263 | 163 | 51 | 25.6 | 3.3 |
-| Finance/Trading | 13 | 183 | 157 | 738 | 19.1 | 0.4 |
-| DevOps | 12 | 263 | 142 | 81 | 17.2 | 5.1 |
-| Data | 10 | 772 | 298 | 236 | 44.6 | 5.6 |
+| Other | 421 | 373 | 186 | 90 | 30.3 | 14.2 |
+| AI/ML | 378 | 619 | 224 | 78 | 68.3 | 8.9 |
+| Web | 52 | 359 | 194 | 72 | 36.3 | 4.6 |
+| CLI/Tooling | 41 | 303 | 207 | 66 | 32.2 | 4.9 |
+| Mobile | 35 | 356 | 223 | 41 | 48.8 | 6.3 |
+| Security | 19 | 344 | 182 | 49 | 37.5 | 3.2 |
+| Game | 17 | 958 | 187 | 90 | 41.6 | 11.9 |
+| Data | 14 | 619 | 294 | 199 | 33.4 | 29.7 |
+| Finance/Trading | 13 | 173 | 157 | 1046 | 13.9 | 0.4 |
+| DevOps | 10 | 238 | 144 | 19 | 16.5 | 6.7 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.475 |         0.245 |     -0.001 |
-| forks       |   0.475 |   1     |         0.139 |     -0.012 |
-| open_issues |   0.245 |   0.139 |         1     |      0.001 |
-| age_days    |  -0.001 |  -0.012 |         0.001 |      1     |
+| stars       |   1     |   0.466 |         0.226 |     -0.006 |
+| forks       |   0.466 |   1     |         0.13  |     -0.013 |
+| open_issues |   0.226 |   0.13  |         1     |      0.008 |
+| age_days    |  -0.006 |  -0.013 |         0.008 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.571 |         0.332 |      0.096 |
-| forks       |   0.571 |   1     |         0.301 |      0.131 |
-| open_issues |   0.332 |   0.301 |         1     |      0.074 |
-| age_days    |   0.096 |   0.131 |         0.074 |      1     |
+| stars       |   1     |   0.561 |         0.314 |      0.071 |
+| forks       |   0.561 |   1     |         0.293 |      0.113 |
+| open_issues |   0.314 |   0.293 |         1     |      0.068 |
+| age_days    |   0.071 |   0.113 |         0.068 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 51 |
-| `ai-agents` | 48 |
-| `llm` | 39 |
-| `codex` | 38 |
-| `ai` | 37 |
-| `typescript` | 35 |
-| `cli` | 31 |
+| `claude-code` | 49 |
+| `llm` | 48 |
+| `ai-agents` | 45 |
+| `ai` | 40 |
+| `typescript` | 38 |
+| `codex` | 36 |
+| `cli` | 32 |
 | `open-source` | 27 |
-| `rust` | 26 |
-| `mcp` | 25 |
-| `claude` | 24 |
+| `mcp` | 26 |
+| `python` | 26 |
+| `rust` | 25 |
 | `agent` | 24 |
-| `python` | 23 |
-| `anthropic` | 22 |
-| `macos` | 21 |
-| `ai-agent` | 19 |
+| `macos` | 24 |
+| `claude` | 23 |
+| `ai-agent` | 21 |
+| `developer-tools` | 20 |
 | `skills` | 18 |
-| `react` | 17 |
-| `developer-tools` | 17 |
-| `terminal` | 15 |
+| `react` | 18 |
+| `anthropic` | 16 |
+| `local-first` | 15 |
