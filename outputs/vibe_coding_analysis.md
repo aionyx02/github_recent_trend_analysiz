@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-06-17 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-06-18 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,52 +32,50 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 14 | 1.4% |
-| 待檢視 | 168 | 16.8% |
-| 訊號完整 | 818 | 81.8% |
+| 低資訊密度 | 13 | 1.3% |
+| 待檢視 | 173 | 17.3% |
+| 訊號完整 | 814 | 81.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `thananon/9arm-skills` | 2816 | 378 | 27d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:9arm-skills, topics:none |
-| 2 | `XiaomiMiMo/MiMo-Code` | 9491 | 849 | 6d | **6** | desc:empty, high-attention-no-desc, overnight-surge:1582/day, topics:none |
-| 3 | `anomalyco/rift` | 573 | 11 | 16d | **6** | desc:empty, license:none, low-forks:0.019, topics:none |
-| 4 | `rosemarycox5334-debug/PA_Agent` | 325 | 134 | 28d | **5** | desc:empty, license:none, generic-name:PA_Agent, topics:none |
-| 5 | `limin112/wechat-publish-template` | 232 | 26 | 29d | **5** | desc:empty, license:none, generic-name:wechat-publish-template, topics:none |
-| 6 | `chaseai-yt/grill-me-codex` | 234 | 30 | 11d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
-| 7 | `Tong89/smartNode` | 1987 | 176 | 26d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `FoundZiGu/GuJumpgate` | 3898 | 999 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `jmmy9609-design/gpt-pp` | 397 | 204 | 7d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 10 | `deermiya/visio-skill` | 114 | 9 | 21d | **5** | desc:empty, license:none, generic-name:visio-skill, topics:none |
-| 11 | `THUYRan/Legal-Skills-Chinese` | 283 | 37 | 27d | **5** | desc:empty, license:none, generic-name:Legal-Skills-Chinese, topics:none |
-| 12 | `intel/intel-performance-skills` | 148 | 20 | 28d | **5** | desc:empty, license:none, generic-name:intel-performance-skills, topics:none |
-| 13 | `jiaran-king/Re-Zero---Starting-LLM-` | 194 | 7 | 20d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
-| 14 | `qqfly1to19/awesome_proofreading_auto` | 142 | 24 | 25d | **5** | desc:empty, license:none, generic-name:awesome_proofreading_auto, topics:none |
-| 15 | `riyagoelrs/tiktok-scraper` | 148 | 15 | 21d | **4** | desc:empty, license:none, topics:none |
+| 1 | `thananon/9arm-skills` | 2826 | 381 | 28d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:9arm-skills, topics:none |
+| 2 | `anomalyco/rift` | 607 | 11 | 17d | **6** | desc:empty, license:none, low-forks:0.018, topics:none |
+| 3 | `intel/intel-performance-skills` | 167 | 21 | 29d | **5** | desc:empty, license:none, generic-name:intel-performance-skills, topics:none |
+| 4 | `world-action-models/awesome-world-action-models` | 112 | 2 | 1d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 5 | `THUYRan/Legal-Skills-Chinese` | 287 | 39 | 28d | **5** | desc:empty, license:none, generic-name:Legal-Skills-Chinese, topics:none |
+| 6 | `chaseai-yt/grill-me-codex` | 239 | 31 | 12d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
+| 7 | `jmmy9609-design/gpt-pp` | 397 | 204 | 8d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
+| 8 | `rosemarycox5334-debug/PA_Agent` | 336 | 140 | 29d | **5** | desc:empty, license:none, generic-name:PA_Agent, topics:none |
+| 9 | `Tong89/smartNode` | 1985 | 175 | 27d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `deermiya/visio-skill` | 117 | 9 | 22d | **5** | desc:empty, license:none, generic-name:visio-skill, topics:none |
+| 11 | `jiaran-king/Re-Zero---Starting-LLM-` | 200 | 7 | 21d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
+| 12 | `FoundZiGu/GuJumpgate` | 3906 | 1000 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `qqfly1to19/awesome_proofreading_auto` | 142 | 24 | 26d | **5** | desc:empty, license:none, generic-name:awesome_proofreading_auto, topics:none |
+| 14 | `ConiferKit/sage` | 295 | 12 | 16d | **4** | desc:empty, license:none, topics:none |
+| 15 | `yashmulgaonkar/FlightScnr` | 135 | 13 | 11d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 138 | 13.8% |
-| description <20 chars | 24 | 2.4% |
-| no license | 369 | 36.9% |
-| high-attention no-desc (stars>1k + empty desc) | 4 | 0.4% |
-| low fork ratio (stars>500 + fsr<0.02) | 6 | 0.6% |
-| overnight surge (>300 spd + <7 days) | 9 | 0.9% |
-| generic-AI-buzzword name | 145 | 14.5% |
+| description empty | 142 | 14.2% |
+| description <20 chars | 27 | 2.7% |
+| no license | 382 | 38.2% |
+| high-attention no-desc (stars>1k + empty desc) | 3 | 0.3% |
+| low fork ratio (stars>500 + fsr<0.02) | 7 | 0.7% |
+| overnight surge (>300 spd + <7 days) | 7 | 0.7% |
+| generic-AI-buzzword name | 153 | 15.3% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
 | Python | 7 |
-| Unknown | 2 |
+| Unknown | 3 |
 | Shell | 1 |
-| TypeScript | 1 |
 | Rust | 1 |
-| HTML | 1 |
 | JavaScript | 1 |
 
 ### 低資訊密度 concentration by stars bucket
@@ -87,10 +85,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 2 | 0 | 0 | 2 | 0.0% |
-| 5000-9999 | 6 | 1 | 1 | 4 | 16.7% |
-| 1000-4999 | 49 | 3 | 4 | 42 | 6.1% |
-| 500-999 | 88 | 1 | 17 | 70 | 1.1% |
-| 100-499 | 855 | 9 | 146 | 700 | 1.1% |
+| 5000-9999 | 5 | 0 | 0 | 5 | 0.0% |
+| 1000-4999 | 47 | 3 | 3 | 41 | 6.4% |
+| 500-999 | 89 | 1 | 17 | 71 | 1.1% |
+| 100-499 | 857 | 9 | 153 | 695 | 1.1% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -99,39 +97,38 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `XiaomiMiMo/MiMo-Code` | 9491 | 849 | 6d | TypeScript | MIT |
-| `FoundZiGu/GuJumpgate` | 3898 | 999 | 28d | JavaScript | MIT |
-| `thananon/9arm-skills` | 2816 | 378 | 27d | Shell | — |
-| `Tong89/smartNode` | 1987 | 176 | 26d | Python | MIT |
+| `FoundZiGu/GuJumpgate` | 3906 | 1000 | 29d | JavaScript | MIT |
+| `thananon/9arm-skills` | 2826 | 381 | 28d | Shell | — |
+| `Tong89/smartNode` | 1985 | 175 | 27d | Python | MIT |
 
 ### Generic-name pattern breakdown
 
-Of 145 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 153 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 31 |
+| `agent` | 30 |
 | `skill` | 30 |
-| `skills` | 23 |
-| `awesome` | 14 |
-| `claude` | 11 |
-| `codex` | 9 |
+| `skills` | 25 |
+| `awesome` | 17 |
+| `claude` | 13 |
+| `codex` | 12 |
 | `llm` | 5 |
 | `gpt` | 4 |
 | `vibe` | 4 |
 | `toolkit` | 3 |
-| `template` | 2 |
 | `demo` | 2 |
 | `prompt` | 2 |
 | `agents` | 2 |
+| `template` | 1 |
+| `starter` | 1 |
 | `cookbook` | 1 |
 | `copilot` | 1 |
-| `starter` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 638 (63.8%)
-- Repos with at least one topic: 362 (36.2%)
+- Repos with **zero topics**: 618 (61.8%)
+- Repos with at least one topic: 382 (38.2%)
 
 ## Methodology limits
 
