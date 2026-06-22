@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-06-21 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-06-22 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,51 +32,51 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 11 | 1.1% |
-| 待檢視 | 170 | 17.0% |
-| 訊號完整 | 819 | 81.9% |
+| 低資訊密度 | 10 | 1.0% |
+| 待檢視 | 172 | 17.2% |
+| 訊號完整 | 818 | 81.8% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `anomalyco/rift` | 626 | 12 | 20d | **6** | desc:empty, license:none, low-forks:0.019, topics:none |
-| 2 | `levy-street/world-of-claudecraft` | 1056 | 299 | 10d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 3 | `deermiya/visio-skill` | 117 | 9 | 25d | **5** | desc:empty, license:none, generic-name:visio-skill, topics:none |
-| 4 | `jiaran-king/Re-Zero---Starting-LLM-` | 206 | 7 | 24d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
-| 5 | `chaseai-yt/grill-me-codex` | 252 | 32 | 15d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
-| 6 | `gakiyukr/Codex_team_auto` | 105 | 53 | 3d | **5** | desc:empty, license:none, generic-name:Codex_team_auto, topics:none |
-| 7 | `qqfly1to19/awesome_proofreading_auto` | 145 | 24 | 29d | **5** | desc:empty, license:none, generic-name:awesome_proofreading_auto, topics:none |
-| 8 | `zhongerxin/cowart` | 657 | 61 | 2d | **5** | desc:empty, license:none, overnight-surge:328/day, topics:none |
-| 9 | `jmmy9609-design/gpt-pp` | 396 | 204 | 11d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 10 | `world-action-models/awesome-world-action-models` | 202 | 2 | 3d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
-| 11 | `Regert888/gpt-outlook-register` | 105 | 41 | 12d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
-| 12 | `pzr2508/RL_for_Game` | 121 | 2 | 6d | **4** | desc:empty, license:none, topics:none |
-| 13 | `vorpus/performativeUI` | 750 | 21 | 13d | **4** | desc:empty, license:none, topics:none |
-| 14 | `Moh4696/websites-100-audit` | 234 | 48 | 22d | **4** | desc:empty, license:none, topics:none |
-| 15 | `wechat-miniprogram/ai-mode-demo` | 230 | 35 | 15d | **4** | desc:empty, generic-name:ai-mode-demo, topics:none |
+| 1 | `zhongerxin/Cowart` | 1765 | 139 | 3d | **7** | desc:empty, license:none, high-attention-no-desc, overnight-surge:588/day, topics:none |
+| 2 | `anomalyco/rift` | 631 | 12 | 21d | **6** | desc:empty, license:none, low-forks:0.019, topics:none |
+| 3 | `Regert888/gpt-outlook-register` | 109 | 43 | 13d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
+| 4 | `gakiyukr/Codex_team_auto` | 108 | 53 | 4d | **5** | desc:empty, license:none, generic-name:Codex_team_auto, topics:none |
+| 5 | `world-action-models/awesome-world-action-models` | 214 | 2 | 4d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 6 | `jiaran-king/Re-Zero---Starting-LLM-` | 209 | 7 | 25d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
+| 7 | `levy-street/world-of-claudecraft` | 1096 | 313 | 11d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `chaseai-yt/grill-me-codex` | 257 | 33 | 16d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
+| 9 | `deermiya/visio-skill` | 120 | 9 | 26d | **5** | desc:empty, license:none, generic-name:visio-skill, topics:none |
+| 10 | `jmmy9609-design/gpt-pp` | 397 | 203 | 12d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
+| 11 | `Moh4696/websites-100-audit` | 235 | 49 | 23d | **4** | desc:empty, license:none, topics:none |
+| 12 | `zarazhangrui/zarazhangrui` | 217 | 5 | 20d | **4** | desc:empty, license:none, topics:none |
+| 13 | `clent267/FUNCAPTCHAV3` | 238 | 234 | 1d | **4** | desc:empty, license:none, topics:none |
+| 14 | `a6216abcd/Free-Residential-IP-Proxy-Controller` | 158 | 213 | 23d | **4** | desc:empty, license:none, topics:none |
+| 15 | `do-md/domd` | 348 | 13 | 27d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
 | description empty | 134 | 13.4% |
-| description <20 chars | 24 | 2.4% |
-| no license | 349 | 34.9% |
-| high-attention no-desc (stars>1k + empty desc) | 1 | 0.1% |
+| description <20 chars | 25 | 2.5% |
+| no license | 347 | 34.7% |
+| high-attention no-desc (stars>1k + empty desc) | 2 | 0.2% |
 | low fork ratio (stars>500 + fsr<0.02) | 13 | 1.3% |
-| overnight surge (>300 spd + <7 days) | 5 | 0.5% |
+| overnight surge (>300 spd + <7 days) | 4 | 0.4% |
 | generic-AI-buzzword name | 150 | 15.0% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 6 |
+| Python | 5 |
 | Unknown | 2 |
+| JavaScript | 1 |
 | Rust | 1 |
 | TypeScript | 1 |
-| JavaScript | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -85,11 +85,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 4 | 0 | 0 | 4 | 0.0% |
-| 1000-4999 | 45 | 1 | 4 | 40 | 2.2% |
-| 500-999 | 95 | 2 | 20 | 73 | 2.1% |
-| 100-499 | 849 | 8 | 146 | 695 | 0.9% |
-| <100 | 4 | 0 | 0 | 4 | 0.0% |
+| 5000-9999 | 3 | 0 | 0 | 3 | 0.0% |
+| 1000-4999 | 44 | 2 | 4 | 38 | 4.5% |
+| 500-999 | 90 | 1 | 19 | 70 | 1.1% |
+| 100-499 | 860 | 7 | 149 | 704 | 0.8% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,7 +97,8 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `levy-street/world-of-claudecraft` | 1056 | 299 | 10d | TypeScript | MIT |
+| `zhongerxin/Cowart` | 1765 | 139 | 3d | JavaScript | — |
+| `levy-street/world-of-claudecraft` | 1096 | 313 | 11d | TypeScript | MIT |
 
 ### Generic-name pattern breakdown
 
@@ -106,28 +106,28 @@ Of 150 repos with a generic-AI-buzzword token in the name, the token distributio
 
 | Token | Repos |
 |---|---:|
-| `agent` | 30 |
-| `skill` | 29 |
+| `skill` | 30 |
+| `agent` | 28 |
 | `skills` | 25 |
-| `awesome` | 16 |
-| `claude` | 14 |
-| `codex` | 11 |
-| `llm` | 5 |
+| `claude` | 16 |
+| `awesome` | 15 |
+| `codex` | 10 |
 | `gpt` | 5 |
+| `llm` | 4 |
 | `vibe` | 3 |
 | `demo` | 2 |
 | `prompt` | 2 |
+| `template` | 2 |
 | `toolkit` | 2 |
+| `copilot` | 2 |
 | `agents` | 2 |
-| `template` | 1 |
 | `cookbook` | 1 |
-| `copilot` | 1 |
 | `starter` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 616 (61.6%)
-- Repos with at least one topic: 384 (38.4%)
+- Repos with **zero topics**: 609 (60.9%)
+- Repos with at least one topic: 391 (39.1%)
 
 ## Methodology limits
 
