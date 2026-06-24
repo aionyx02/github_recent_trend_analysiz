@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 489.7 | 186.5 | 76559 |
-| forks | 73.7 | 16.0 | 9965 |
-| open_issues | 7.9 | 1.0 | 1694 |
-| stars_per_day | 42.9 | 13.0 | 5095 |
-| age_days | 17.1 | 18.0 | 29 |
+| stars | 500.0 | 182.0 | 77071 |
+| forks | 65.0 | 17.0 | 10025 |
+| open_issues | 7.9 | 1.0 | 1706 |
+| stars_per_day | 40.0 | 12.3 | 4868 |
+| age_days | 17.5 | 19.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `pewdiepie-archdaemon/odysseus` | 76559 | 9965 | Python | AI/ML |
-| `DietrichGebert/ponytail` | 50951 | 2508 | JavaScript | AI/ML |
-| `XiaomiMiMo/MiMo-Code` | 10411 | 977 | TypeScript | AI/ML |
-| `shadcn/improve` | 6016 | 241 | Unknown | Other |
-| `helloianneo/ian-xiaohei-illustrations` | 5814 | 690 | Unknown | AI/ML |
-| `AprilNEA/OpenLogi` | 5251 | 100 | Rust | Other |
-| `zgwl/chinese-buy-us-stock-guide` | 4842 | 742 | Unknown | Other |
-| `unicity-astrid/book` | 4605 | 17 | Perl | Security |
-| `omnigent-ai/omnigent` | 4505 | 518 | Python | AI/ML |
-| `unicity-astrid/handbook` | 4483 | 24 | Unknown | Other |
+| `pewdiepie-archdaemon/odysseus` | 77071 | 10025 | Python | AI/ML |
+| `DietrichGebert/ponytail` | 53550 | 2679 | JavaScript | AI/ML |
+| `XiaomiMiMo/MiMo-Code` | 10556 | 991 | TypeScript | AI/ML |
+| `unicity-astrid/book` | 6669 | 27 | Perl | Security |
+| `unicity-astrid/handbook` | 6619 | 37 | Unknown | Other |
+| `shadcn/improve` | 6100 | 245 | Unknown | Other |
+| `helloianneo/ian-xiaohei-illustrations` | 5956 | 703 | Unknown | AI/ML |
+| `zgwl/chinese-buy-us-stock-guide` | 4994 | 757 | Unknown | Other |
+| `baidu/Unlimited-OCR` | 4985 | 353 | Python | Other |
+| `StarTrail-org/PixelRAG` | 4934 | 380 | Python | AI/ML |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `DietrichGebert/ponytail` | 5095.1 | 50951 | 10d | AI/ML |
-| `pewdiepie-archdaemon/odysseus` | 3480.0 | 76559 | 22d | AI/ML |
-| `XiaomiMiMo/MiMo-Code` | 867.6 | 10411 | 12d | AI/ML |
-| `kanavtwtgg/birds.cafe` | 633.0 | 633 | 1d | Other |
-| `zhongerxin/Cowart` | 552.8 | 2211 | 4d | Other |
-| `shadcn/improve` | 501.3 | 6016 | 12d | Other |
-| `omnigent-ai/omnigent` | 409.5 | 4505 | 11d | AI/ML |
-| `lyra81604/zhengxi-views` | 394.5 | 789 | 2d | AI/ML |
-| `vercel/eve` | 391.0 | 2346 | 6d | AI/ML |
-| `baidu/Unlimited-OCR` | 311.8 | 1247 | 4d | Other |
+| `DietrichGebert/ponytail` | 4868.2 | 53550 | 11d | AI/ML |
+| `pewdiepie-archdaemon/odysseus` | 3350.9 | 77071 | 23d | AI/ML |
+| `baidu/Unlimited-OCR` | 997.0 | 4985 | 5d | Other |
+| `bozhouDev/codex-orange-book` | 879.0 | 879 | 1d | AI/ML |
+| `XiaomiMiMo/MiMo-Code` | 812.0 | 10556 | 13d | AI/ML |
+| `zhongerxin/Cowart` | 508.0 | 2540 | 5d | Other |
+| `shadcn/improve` | 469.2 | 6100 | 13d | Other |
+| `unicity-astrid/book` | 392.3 | 6669 | 17d | Security |
+| `unicity-astrid/handbook` | 389.4 | 6619 | 17d | Other |
+| `omnigent-ai/omnigent` | 386.9 | 4643 | 12d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 396 | 330 | 161 | 51 | 39.4 | 4.4 |
-| AI/ML | 388 | 738 | 210 | 78 | 54.3 | 9.1 |
-| Web | 56 | 368 | 192 | 35 | 28.5 | 32.8 |
-| Mobile | 45 | 312 | 152 | 32 | 23.9 | 4.8 |
-| CLI/Tooling | 35 | 273 | 188 | 22 | 22.5 | 4.5 |
-| Game | 17 | 200 | 177 | 9 | 41.2 | 2.1 |
-| Finance/Trading | 17 | 243 | 229 | 933 | 30.1 | 0.5 |
-| DevOps | 16 | 218 | 176 | 24 | 21.6 | 4.3 |
-| Security | 16 | 703 | 226 | 88 | 46.8 | 9.2 |
-| Data | 14 | 438 | 176 | 92 | 37.4 | 9.8 |
+| AI/ML | 405 | 735 | 206 | 78 | 54.4 | 9.1 |
+| Other | 375 | 339 | 165 | 56 | 32.5 | 4.3 |
+| Web | 62 | 351 | 174 | 33 | 30.8 | 30.0 |
+| Mobile | 49 | 298 | 147 | 30 | 21.0 | 5.1 |
+| CLI/Tooling | 33 | 287 | 178 | 24 | 21.9 | 4.9 |
+| Data | 18 | 386 | 181 | 76 | 29.5 | 5.2 |
+| Security | 18 | 773 | 192 | 83 | 47.2 | 8.9 |
+| Game | 16 | 192 | 152 | 11 | 19.2 | 2.2 |
+| DevOps | 15 | 229 | 188 | 25 | 20.8 | 4.7 |
+| Finance/Trading | 9 | 221 | 210 | 513 | 16.5 | 0.9 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.695 |         0.549 |      0.011 |
-| forks       |   0.695 |   1     |         0.475 |      0.046 |
-| open_issues |   0.549 |   0.475 |         1     |      0.02  |
-| age_days    |   0.011 |   0.046 |         0.02  |      1     |
+| stars       |   1     |   0.814 |         0.534 |      0.011 |
+| forks       |   0.814 |   1     |         0.553 |      0.02  |
+| open_issues |   0.534 |   0.553 |         1     |      0.022 |
+| age_days    |   0.011 |   0.02  |         0.022 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.575 |         0.31  |      0.078 |
-| forks       |   0.575 |   1     |         0.346 |      0.125 |
-| open_issues |   0.31  |   0.346 |         1     |      0.179 |
-| age_days    |   0.078 |   0.125 |         0.179 |      1     |
+| stars       |   1     |   0.578 |         0.334 |      0.097 |
+| forks       |   0.578 |   1     |         0.35  |      0.062 |
+| open_issues |   0.334 |   0.35  |         1     |      0.145 |
+| age_days    |   0.097 |   0.062 |         0.145 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 56 |
-| `ai-agents` | 50 |
-| `llm` | 47 |
-| `ai` | 46 |
-| `codex` | 43 |
-| `python` | 38 |
-| `skills` | 30 |
-| `claude` | 29 |
-| `typescript` | 29 |
-| `ai-agent` | 27 |
-| `macos` | 27 |
-| `developer-tools` | 26 |
-| `open-source` | 26 |
+| `claude-code` | 61 |
+| `llm` | 54 |
+| `ai-agents` | 52 |
+| `ai` | 50 |
+| `codex` | 45 |
+| `claude` | 34 |
+| `ai-agent` | 32 |
+| `python` | 31 |
+| `typescript` | 30 |
+| `macos` | 28 |
+| `developer-tools` | 27 |
 | `mcp` | 25 |
-| `cli` | 24 |
-| `agent-skills` | 21 |
+| `cli` | 23 |
+| `open-source` | 23 |
+| `agent-skills` | 22 |
 | `prompt-engineering` | 19 |
+| `agent` | 19 |
+| `anthropic` | 18 |
+| `skills` | 18 |
 | `swift` | 18 |
-| `agent` | 17 |
-| `anthropic` | 15 |
