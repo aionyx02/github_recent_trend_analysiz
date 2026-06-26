@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-06-25 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-06-26 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -40,42 +40,42 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `zhongerxin/Cowart` | 2807 | 218 | 6d | **7** | desc:empty, license:none, high-attention-no-desc, overnight-surge:468/day, topics:none |
-| 2 | `kanavtwtgg/birds.cafe` | 784 | 1 | 3d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
-| 3 | `levy-street/world-of-claudecraft` | 1252 | 377 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 4 | `world-action-models/awesome-world-action-models` | 282 | 6 | 7d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
-| 5 | `Regert888/gpt-outlook-register` | 113 | 43 | 16d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
-| 6 | `deermiya/visio-skill` | 123 | 10 | 29d | **5** | desc:empty, license:none, generic-name:visio-skill, topics:none |
-| 7 | `gakiyukr/Codex_team_auto` | 107 | 53 | 7d | **5** | desc:empty, license:none, generic-name:Codex_team_auto, topics:none |
-| 8 | `chaseai-yt/grill-me-codex` | 274 | 33 | 19d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
-| 9 | `jiaran-king/Re-Zero---Starting-LLM-` | 218 | 8 | 28d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
-| 10 | `jmmy9609-design/gpt-pp` | 402 | 206 | 15d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 11 | `J0K3R-x-Anarchy/Insta-private-connections` | 109 | 21 | 26d | **4** | desc:empty, license:none, topics:none |
-| 12 | `notedit/vtake-skills` | 108 | 12 | 26d | **4** | desc:empty, generic-name:vtake-skills, topics:none |
-| 13 | `zarazhangrui/zarazhangrui` | 252 | 5 | 23d | **4** | desc:empty, license:none, topics:none |
-| 14 | `haowang02/codex-candy-eval` | 107 | 9 | 3d | **4** | desc:short, license:none, generic-name:codex-candy-eval, topics:none |
-| 15 | `johnmiddleton12/wearable` | 285 | 140 | 26d | **4** | desc:empty, license:none, topics:none |
+| 1 | `zhongerxin/Cowart` | 3012 | 231 | 7d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 2 | `Michaelliv/pi-dynamic-workflows` | 1004 | 57 | 28d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `kanavtwtgg/birds.cafe` | 784 | 2 | 4d | **6** | desc:empty, license:none, low-forks:0.003, topics:none |
+| 4 | `Regert888/gpt-outlook-register` | 113 | 44 | 17d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
+| 5 | `world-action-models/awesome-world-action-models` | 292 | 6 | 8d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 6 | `chaseai-yt/grill-me-codex` | 278 | 33 | 20d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
+| 7 | `gakiyukr/Codex_team_auto` | 107 | 53 | 8d | **5** | desc:empty, license:none, generic-name:Codex_team_auto, topics:none |
+| 8 | `jmmy9609-design/gpt-pp` | 402 | 206 | 16d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
+| 9 | `jiaran-king/Re-Zero---Starting-LLM-` | 221 | 8 | 29d | **5** | desc:empty, license:none, generic-name:Re-Zero---Starting-LLM-, topics:none |
+| 10 | `levy-street/world-of-claudecraft` | 1285 | 384 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `bozhouDev/codex-orange-book` | 2062 | 211 | 2d | **4** | license:none, overnight-surge:1031/day, generic-name:codex-orange-book, topics:none |
+| 12 | `J-jaeyoung/bad-epoll` | 144 | 12 | 1d | **4** | desc:empty, license:none, topics:none |
+| 13 | `cauenapier/TownSquare` | 172 | 6 | 19d | **4** | desc:empty, license:none, topics:none |
+| 14 | `byJoey/cfnew-deployer` | 190 | 137 | 3d | **4** | desc:empty, license:none, topics:none |
+| 15 | `Phoenixx1202/Spectrum-Library` | 139 | 4 | 19d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 135 | 13.5% |
-| description <20 chars | 23 | 2.3% |
-| no license | 341 | 34.1% |
-| high-attention no-desc (stars>1k + empty desc) | 2 | 0.2% |
-| low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
+| description empty | 133 | 13.3% |
+| description <20 chars | 21 | 2.1% |
+| no license | 345 | 34.5% |
+| high-attention no-desc (stars>1k + empty desc) | 3 | 0.3% |
+| low fork ratio (stars>500 + fsr<0.02) | 13 | 1.3% |
 | overnight surge (>300 spd + <7 days) | 3 | 0.3% |
-| generic-AI-buzzword name | 162 | 16.2% |
+| generic-AI-buzzword name | 158 | 15.8% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 5 |
+| Python | 4 |
 | JavaScript | 2 |
+| TypeScript | 2 |
 | Unknown | 2 |
-| TypeScript | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -85,10 +85,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
 | 5000-9999 | 7 | 0 | 3 | 4 | 0.0% |
-| 1000-4999 | 49 | 2 | 5 | 42 | 4.1% |
-| 500-999 | 94 | 1 | 17 | 76 | 1.1% |
-| 100-499 | 835 | 7 | 151 | 677 | 0.8% |
-| <100 | 12 | 0 | 2 | 10 | 0.0% |
+| 1000-4999 | 49 | 3 | 5 | 41 | 6.1% |
+| 500-999 | 96 | 1 | 16 | 79 | 1.0% |
+| 100-499 | 828 | 6 | 151 | 671 | 0.7% |
+| <100 | 17 | 0 | 3 | 14 | 0.0% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -97,29 +97,30 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `zhongerxin/Cowart` | 2807 | 218 | 6d | JavaScript | — |
-| `levy-street/world-of-claudecraft` | 1252 | 377 | 14d | TypeScript | MIT |
+| `zhongerxin/Cowart` | 3012 | 231 | 7d | JavaScript | — |
+| `levy-street/world-of-claudecraft` | 1285 | 384 | 15d | TypeScript | MIT |
+| `Michaelliv/pi-dynamic-workflows` | 1004 | 57 | 28d | TypeScript | — |
 
 ### Generic-name pattern breakdown
 
-Of 162 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 158 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `skill` | 35 |
-| `agent` | 31 |
+| `skill` | 32 |
+| `agent` | 30 |
 | `skills` | 27 |
 | `claude` | 14 |
-| `awesome` | 13 |
 | `codex` | 13 |
+| `awesome` | 12 |
 | `gpt` | 7 |
 | `llm` | 4 |
 | `vibe` | 4 |
 | `agents` | 4 |
-| `demo` | 2 |
+| `demo` | 3 |
 | `prompt` | 2 |
-| `template` | 2 |
 | `toolkit` | 2 |
+| `template` | 2 |
 | `starter` | 1 |
 | `copilot` | 1 |
 
