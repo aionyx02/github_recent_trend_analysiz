@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-06-29 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-06-30 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,48 +32,48 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 9 | 0.9% |
-| 待檢視 | 78 | 7.8% |
-| 訊號完整 | 913 | 91.3% |
+| 低資訊密度 | 8 | 0.8% |
+| 待檢視 | 77 | 7.7% |
+| 訊號完整 | 915 | 91.5% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `kanavtwtgg/birds.cafe` | 738 | 3 | 7d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
-| 2 | `zhongerxin/Cowart` | 3350 | 259 | 10d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 3 | `Harlihm/Your-Self-Improving-AI-Brain` | 638 | 1 | 21d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
-| 4 | `levy-street/world-of-claudecraft` | 1367 | 410 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 5 | `world-action-models/awesome-world-action-models` | 297 | 7 | 11d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
-| 6 | `chaseai-yt/grill-me-codex` | 318 | 33 | 23d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
-| 7 | `downclash/clash` | 367 | 0 | 1d | **5** | desc:empty, license:none, overnight-surge:367/day, topics:none |
-| 8 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 347 | 121 | 1d | **5** | desc:empty, overnight-surge:347/day, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
-| 9 | `jmmy9609-design/gpt-pp` | 402 | 205 | 19d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 10 | `i5ting/learn-ai-practice` | 198 | 5 | 6d | **4** | desc:empty, license:none, topics:none |
-| 11 | `naomili0924/inference_aware_grpo_training` | 209 | 8 | 28d | **4** | desc:empty, license:none, topics:none |
-| 12 | `zhengdian1/InterleaveThinker` | 210 | 5 | 17d | **4** | desc:empty, license:none, topics:none |
-| 13 | `secret-tools/secret-tool` | 1033 | 1 | 20d | **4** | license:none, low-forks:0.001, topics:none |
-| 14 | `anomalyco/rift` | 728 | 16 | 28d | **4** | desc:empty, license:none, topics:none |
-| 15 | `vorpus/performativeUI` | 778 | 21 | 21d | **4** | desc:empty, license:none, topics:none |
+| 1 | `Harlihm/Your-Self-Improving-AI-Brain` | 754 | 1 | 22d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
+| 2 | `kanavtwtgg/birds.cafe` | 740 | 3 | 8d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
+| 3 | `zhongerxin/Cowart` | 3473 | 273 | 11d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 645 | 206 | 1d | **5** | desc:empty, overnight-surge:645/day, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
+| 5 | `jmmy9609-design/gpt-pp` | 402 | 204 | 20d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
+| 6 | `world-action-models/awesome-world-action-models` | 300 | 7 | 12d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 7 | `chaseai-yt/grill-me-codex` | 324 | 34 | 24d | **5** | desc:empty, license:none, generic-name:grill-me-codex, topics:none |
+| 8 | `levy-street/world-of-claudecraft` | 1379 | 418 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `zhengdian1/InterleaveThinker` | 210 | 5 | 18d | **4** | desc:empty, license:none, topics:none |
+| 10 | `inbrainfun/inbrain` | 303 | 191 | 19d | **4** | desc:empty, license:none, topics:none |
+| 11 | `SakanaAI/fugu` | 631 | 79 | 12d | **4** | desc:empty, license:none, topics:none |
+| 12 | `InsiderX-Pro/SE-Bridge-TTS` | 303 | 1 | 20d | **4** | desc:empty, license:none, topics:none |
+| 13 | `secret-tools/secret-tool` | 1060 | 1 | 21d | **4** | license:none, low-forks:0.001, topics:none |
+| 14 | `byJoey/cfnew-deployer` | 305 | 192 | 7d | **4** | desc:empty, license:none, topics:none |
+| 15 | `iebb/mithka` | 307 | 8 | 7d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 63 | 6.3% |
-| description <20 chars | 9 | 0.9% |
-| no license | 162 | 16.2% |
+| description empty | 61 | 6.1% |
+| description <20 chars | 8 | 0.8% |
+| no license | 158 | 15.8% |
 | high-attention no-desc (stars>1k + empty desc) | 2 | 0.2% |
-| low fork ratio (stars>500 + fsr<0.02) | 17 | 1.7% |
+| low fork ratio (stars>500 + fsr<0.02) | 14 | 1.4% |
 | overnight surge (>300 spd + <7 days) | 6 | 0.6% |
-| generic-AI-buzzword name | 97 | 9.7% |
+| generic-AI-buzzword name | 95 | 9.5% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| JavaScript | 3 |
 | Unknown | 3 |
+| JavaScript | 2 |
 | Python | 2 |
 | TypeScript | 1 |
 
@@ -84,10 +84,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 4 | 0 | 0 | 4 | 0.0% |
-| 5000-9999 | 5 | 0 | 3 | 2 | 0.0% |
-| 1000-4999 | 50 | 2 | 7 | 41 | 4.0% |
-| 500-999 | 87 | 2 | 14 | 71 | 2.3% |
-| 100-499 | 854 | 5 | 54 | 795 | 0.6% |
+| 5000-9999 | 5 | 0 | 2 | 3 | 0.0% |
+| 1000-4999 | 49 | 2 | 7 | 40 | 4.1% |
+| 500-999 | 87 | 3 | 14 | 70 | 3.4% |
+| 100-499 | 855 | 3 | 54 | 798 | 0.4% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -96,34 +96,34 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `zhongerxin/Cowart` | 3350 | 259 | 10d | JavaScript | — |
-| `levy-street/world-of-claudecraft` | 1367 | 410 | 18d | TypeScript | MIT |
+| `zhongerxin/Cowart` | 3473 | 273 | 11d | JavaScript | — |
+| `levy-street/world-of-claudecraft` | 1379 | 418 | 19d | TypeScript | MIT |
 
 ### Generic-name pattern breakdown
 
-Of 97 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 95 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `toolkit` | 20 |
+| `toolkit` | 19 |
 | `skills` | 17 |
 | `agent` | 16 |
 | `skill` | 13 |
 | `codex` | 9 |
-| `claude` | 6 |
 | `awesome` | 5 |
+| `claude` | 5 |
 | `gpt` | 3 |
 | `demo` | 2 |
 | `agents` | 2 |
 | `starter` | 1 |
 | `vibe` | 1 |
-| `llm` | 1 |
 | `copilot` | 1 |
+| `llm` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 791 (79.1%)
-- Repos with at least one topic: 209 (20.9%)
+- Repos with **zero topics**: 797 (79.7%)
+- Repos with at least one topic: 203 (20.3%)
 
 ## Methodology limits
 
