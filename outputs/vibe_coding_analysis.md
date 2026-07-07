@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-07-06 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-07-07 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -33,40 +33,40 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 14 | 1.4% |
-| 待檢視 | 80 | 8.0% |
-| 訊號完整 | 906 | 90.6% |
+| 待檢視 | 71 | 7.1% |
+| 訊號完整 | 915 | 91.5% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1469 | 406 | 7d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
-| 2 | `Harlihm/Your-Self-Improving-AI-Brain` | 818 | 1 | 28d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
-| 3 | `kanavtwtgg/birds.cafe` | 537 | 2 | 14d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
-| 4 | `huang-sir1/radiology-skills` | 543 | 10 | 17d | **6** | desc:empty, low-forks:0.018, generic-name:radiology-skills, topics:none |
-| 5 | `zhongerxin/Cowart` | 3938 | 308 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `JimLiu/science-skills` | 201 | 51 | 4d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
-| 7 | `terrense/LLM_path_for_begginers` | 314 | 8 | 13d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
-| 8 | `world-action-models/awesome-world-action-models` | 312 | 7 | 18d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
-| 9 | `jd-opensource/JoyAI-VL-Interaction` | 1097 | 97 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `jmmy9609-design/gpt-pp` | 403 | 204 | 26d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 11 | `deepreinforce-ai/Ornith-1` | 1282 | 119 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `levy-street/world-of-claudecraft` | 1489 | 464 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `google-research/tabfm` | 1333 | 124 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `Regert888/gpt-outlook-register` | 172 | 64 | 27d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
-| 15 | `ZeKaiNie/universal-examprep-skill` | 241 | 12 | 11d | **4** | desc:empty, generic-name:universal-examprep-skill, topics:none |
+| 1 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1563 | 439 | 8d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
+| 2 | `Harlihm/Your-Self-Improving-AI-Brain` | 868 | 1 | 29d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
+| 3 | `zhongerxin/Cowart` | 4026 | 320 | 18d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `kanavtwtgg/birds.cafe` | 538 | 2 | 15d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
+| 5 | `huang-sir1/radiology-skills` | 578 | 10 | 18d | **6** | desc:empty, low-forks:0.017, generic-name:radiology-skills, topics:none |
+| 6 | `deepreinforce-ai/Ornith-1` | 1353 | 126 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `jd-opensource/JoyAI-VL-Interaction` | 1141 | 101 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `Regert888/gpt-outlook-register` | 182 | 65 | 28d | **5** | desc:empty, license:none, generic-name:gpt-outlook-register, topics:none |
+| 9 | `jmmy9609-design/gpt-pp` | 403 | 204 | 27d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
+| 10 | `world-action-models/awesome-world-action-models` | 312 | 7 | 19d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 11 | `terrense/LLM_path_for_begginers` | 314 | 8 | 14d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
+| 12 | `levy-street/world-of-claudecraft` | 1516 | 472 | 26d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `google-research/tabfm` | 1451 | 131 | 20d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `JimLiu/science-skills` | 202 | 51 | 5d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
+| 15 | `ZeKaiNie/universal-examprep-skill` | 242 | 12 | 12d | **4** | desc:empty, generic-name:universal-examprep-skill, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 67 | 6.7% |
+| description empty | 63 | 6.3% |
 | description <20 chars | 11 | 1.1% |
-| no license | 602 | 60.2% |
+| no license | 601 | 60.1% |
 | high-attention no-desc (stars>1k + empty desc) | 6 | 0.6% |
-| low fork ratio (stars>500 + fsr<0.02) | 17 | 1.7% |
-| overnight surge (>300 spd + <7 days) | 7 | 0.7% |
-| generic-AI-buzzword name | 191 | 19.1% |
+| low fork ratio (stars>500 + fsr<0.02) | 13 | 1.3% |
+| overnight surge (>300 spd + <7 days) | 8 | 0.8% |
+| generic-AI-buzzword name | 193 | 19.3% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -75,8 +75,8 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Python | 6 |
 | Unknown | 4 |
 | JavaScript | 2 |
-| HTML | 1 |
 | TypeScript | 1 |
+| HTML | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -85,10 +85,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 7 | 0 | 2 | 5 | 0.0% |
+| 5000-9999 | 5 | 0 | 0 | 5 | 0.0% |
 | 1000-4999 | 48 | 6 | 4 | 38 | 12.5% |
-| 500-999 | 91 | 3 | 15 | 73 | 3.3% |
-| 100-499 | 851 | 5 | 59 | 787 | 0.6% |
+| 500-999 | 95 | 3 | 15 | 77 | 3.2% |
+| 100-499 | 849 | 5 | 52 | 792 | 0.6% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -97,37 +97,39 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `zhongerxin/Cowart` | 3938 | 308 | 17d | JavaScript | — |
-| `levy-street/world-of-claudecraft` | 1489 | 464 | 25d | TypeScript | MIT |
-| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1469 | 406 | 7d | Python | MIT |
-| `google-research/tabfm` | 1333 | 124 | 19d | Python | Apache-2.0 |
-| `deepreinforce-ai/Ornith-1` | 1282 | 119 | 14d | Unknown | MIT |
-| `jd-opensource/JoyAI-VL-Interaction` | 1097 | 97 | 24d | Python | Apache-2.0 |
+| `zhongerxin/Cowart` | 4026 | 320 | 18d | JavaScript | — |
+| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1563 | 439 | 8d | Python | MIT |
+| `levy-street/world-of-claudecraft` | 1516 | 472 | 26d | TypeScript | MIT |
+| `google-research/tabfm` | 1451 | 131 | 20d | Python | Apache-2.0 |
+| `deepreinforce-ai/Ornith-1` | 1353 | 126 | 15d | Unknown | MIT |
+| `jd-opensource/JoyAI-VL-Interaction` | 1141 | 101 | 25d | Python | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 191 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 193 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
 | `toolkit` | 87 |
 | `skills` | 21 |
 | `skill` | 21 |
-| `agent` | 14 |
-| `claude` | 13 |
-| `codex` | 11 |
-| `awesome` | 11 |
+| `agent` | 19 |
+| `codex` | 10 |
+| `awesome` | 10 |
+| `claude` | 10 |
 | `gpt` | 3 |
 | `copilot` | 3 |
 | `llm` | 2 |
 | `demo` | 2 |
 | `agents` | 2 |
 | `starter` | 1 |
+| `prompt` | 1 |
+| `vibe` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 320 (32.0%)
-- Repos with at least one topic: 680 (68.0%)
+- Repos with **zero topics**: 333 (33.3%)
+- Repos with at least one topic: 667 (66.7%)
 
 ## Methodology limits
 
