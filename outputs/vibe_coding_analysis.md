@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-07-09 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-07-10 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,51 +32,52 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 14 | 1.4% |
-| 待檢視 | 77 | 7.7% |
-| 訊號完整 | 909 | 90.9% |
+| 低資訊密度 | 15 | 1.5% |
+| 待檢視 | 73 | 7.3% |
+| 訊號完整 | 912 | 91.2% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `x4gKing/X4G` | 2768 | 5317 | 4d | **7** | desc:empty, license:none, high-attention-no-desc, overnight-surge:692/day, topics:none |
-| 2 | `kanavtwtgg/birds.cafe` | 520 | 2 | 17d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
-| 3 | `huang-sir1/radiology-skills` | 631 | 10 | 20d | **6** | desc:empty, low-forks:0.016, generic-name:radiology-skills, topics:none |
-| 4 | `zhongerxin/Cowart` | 4206 | 326 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1676 | 454 | 10d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
-| 6 | `jmmy9609-design/gpt-pp` | 404 | 205 | 29d | **5** | desc:empty, license:none, generic-name:gpt-pp, topics:none |
-| 7 | `Ssupercoder/Salary-Negotiation-Skill` | 521 | 10 | 10d | **5** | license:none, low-forks:0.019, generic-name:Salary-Negotiation-Skill, topics:none |
-| 8 | `world-action-models/awesome-world-action-models` | 312 | 7 | 21d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
-| 9 | `terrense/LLM_path_for_begginers` | 314 | 8 | 16d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
-| 10 | `google-research/tabfm` | 1598 | 143 | 22d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `levy-street/world-of-claudecraft` | 1541 | 482 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `JimLiu/science-skills` | 205 | 51 | 7d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
-| 13 | `jd-opensource/JoyAI-VL-Interaction` | 1195 | 106 | 27d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `deepreinforce-ai/Ornith-1` | 1426 | 135 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 15 | `withmarbleapp/os-taxonomy` | 855 | 154 | 1d | **4** | desc:empty, overnight-surge:855/day, topics:none |
+| 1 | `x4gKing/X4G` | 3559 | 6755 | 5d | **7** | desc:empty, license:none, high-attention-no-desc, overnight-surge:712/day, topics:none |
+| 2 | `zhongerxin/Cowart` | 4279 | 330 | 21d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `withmarbleapp/os-taxonomy` | 1771 | 316 | 1d | **6** | desc:empty, high-attention-no-desc, overnight-surge:1771/day, topics:none |
+| 4 | `kanavtwtgg/birds.cafe` | 520 | 2 | 18d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
+| 5 | `huang-sir1/radiology-skills` | 660 | 10 | 21d | **6** | desc:empty, low-forks:0.015, generic-name:radiology-skills, topics:none |
+| 6 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1719 | 461 | 11d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
+| 7 | `google-research/tabfm` | 1640 | 151 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `levy-street/world-of-claudecraft` | 1555 | 488 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `jd-opensource/JoyAI-VL-Interaction` | 1218 | 109 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `terrense/LLM_path_for_begginers` | 314 | 8 | 17d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
+| 11 | `jxnl/personal-monorepo-template` | 203 | 23 | 24d | **5** | desc:empty, license:none, generic-name:personal-monorepo-template, topics:none |
+| 12 | `JimLiu/science-skills` | 207 | 51 | 8d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
+| 13 | `world-action-models/awesome-world-action-models` | 313 | 7 | 22d | **5** | desc:empty, license:none, generic-name:awesome-world-action-models, topics:none |
+| 14 | `deepreinforce-ai/Ornith-1` | 1446 | 138 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `x4gKing/3x-ui-Upgrade` | 406 | 764 | 1d | **5** | desc:empty, license:none, overnight-surge:406/day, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 73 | 7.3% |
-| description <20 chars | 11 | 1.1% |
-| no license | 531 | 53.1% |
-| high-attention no-desc (stars>1k + empty desc) | 7 | 0.7% |
-| low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
-| overnight surge (>300 spd + <7 days) | 12 | 1.2% |
+| description empty | 72 | 7.2% |
+| description <20 chars | 12 | 1.2% |
+| no license | 527 | 52.7% |
+| high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
+| low fork ratio (stars>500 + fsr<0.02) | 11 | 1.1% |
+| overnight surge (>300 spd + <7 days) | 9 | 0.9% |
 | generic-AI-buzzword name | 144 | 14.4% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 7 |
+| Python | 6 |
+| JavaScript | 3 |
 | Unknown | 3 |
-| JavaScript | 2 |
 | TypeScript | 1 |
 | HTML | 1 |
+| Dockerfile | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -84,11 +85,11 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
-| ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 5 | 0 | 0 | 5 | 0.0% |
-| 1000-4999 | 58 | 7 | 3 | 48 | 12.1% |
-| 500-999 | 87 | 3 | 14 | 70 | 3.4% |
-| 100-499 | 847 | 4 | 60 | 783 | 0.5% |
+| ≥10000 | 4 | 0 | 0 | 4 | 0.0% |
+| 5000-9999 | 3 | 0 | 0 | 3 | 0.0% |
+| 1000-4999 | 60 | 8 | 3 | 49 | 13.3% |
+| 500-999 | 87 | 2 | 15 | 70 | 2.3% |
+| 100-499 | 846 | 5 | 55 | 786 | 0.6% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -97,13 +98,14 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `zhongerxin/Cowart` | 4206 | 326 | 20d | JavaScript | — |
-| `x4gKing/X4G` | 2768 | 5317 | 4d | Python | — |
-| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1676 | 454 | 10d | Python | MIT |
-| `google-research/tabfm` | 1598 | 143 | 22d | Python | Apache-2.0 |
-| `levy-street/world-of-claudecraft` | 1541 | 482 | 28d | TypeScript | MIT |
-| `deepreinforce-ai/Ornith-1` | 1426 | 135 | 17d | Unknown | MIT |
-| `jd-opensource/JoyAI-VL-Interaction` | 1195 | 106 | 27d | Python | Apache-2.0 |
+| `zhongerxin/Cowart` | 4279 | 330 | 21d | JavaScript | — |
+| `x4gKing/X4G` | 3559 | 6755 | 5d | Python | — |
+| `withmarbleapp/os-taxonomy` | 1771 | 316 | 1d | JavaScript | ODbL-1.0 |
+| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1719 | 461 | 11d | Python | MIT |
+| `google-research/tabfm` | 1640 | 151 | 23d | Python | Apache-2.0 |
+| `levy-street/world-of-claudecraft` | 1555 | 488 | 29d | TypeScript | MIT |
+| `deepreinforce-ai/Ornith-1` | 1446 | 138 | 18d | Unknown | MIT |
+| `jd-opensource/JoyAI-VL-Interaction` | 1218 | 109 | 28d | Python | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
@@ -111,28 +113,27 @@ Of 144 repos with a generic-AI-buzzword token in the name, the token distributio
 
 | Token | Repos |
 |---|---:|
-| `agent` | 30 |
-| `skills` | 24 |
+| `agent` | 28 |
+| `skills` | 25 |
 | `skill` | 24 |
-| `claude` | 19 |
-| `codex` | 11 |
-| `awesome` | 10 |
+| `claude` | 21 |
+| `codex` | 12 |
+| `awesome` | 9 |
 | `llm` | 4 |
-| `agents` | 4 |
+| `template` | 3 |
 | `starter` | 3 |
 | `copilot` | 3 |
 | `prompt` | 3 |
+| `agents` | 3 |
 | `toolkit` | 2 |
 | `playground` | 2 |
-| `template` | 2 |
-| `gpt` | 1 |
 | `demo` | 1 |
 | `vibe` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 367 (36.7%)
-- Repos with at least one topic: 633 (63.3%)
+- Repos with **zero topics**: 362 (36.2%)
+- Repos with at least one topic: 638 (63.8%)
 
 ## Methodology limits
 
