@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 468.4 | 176.5 | 80355 |
-| forks | 90.1 | 12.0 | 7844 |
-| open_issues | 4.8 | 0.0 | 1187 |
-| stars_per_day | 36.7 | 12.7 | 2870 |
-| age_days | 15.2 | 12.0 | 29 |
+| stars | 461.8 | 176.0 | 80944 |
+| forks | 86.0 | 11.0 | 8626 |
+| open_issues | 4.2 | 0.0 | 1186 |
+| stars_per_day | 34.1 | 11.7 | 2791 |
+| age_days | 15.5 | 13.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `DietrichGebert/ponytail` | 80355 | 4333 | JavaScript | AI/ML |
-| `baidu/Unlimited-OCR` | 13962 | 1167 | Python | Other |
-| `langchain-ai/openwiki` | 10408 | 697 | TypeScript | AI/ML |
-| `omnigent-ai/omnigent` | 7027 | 948 | Python | AI/ML |
-| `deepseek-ai/DeepSpec` | 6533 | 585 | Python | Other |
-| `elder-plinius/T3MP3ST` | 4364 | 929 | TypeScript | AI/ML |
-| `zhongerxin/Cowart` | 4345 | 332 | JavaScript | Other |
-| `x4gKing/X4G` | 4136 | 7844 | Python | Other |
-| `bikini/exploitarium` | 3865 | 1109 | Python | Security |
-| `Yu9191/wloc` | 3829 | 671 | JavaScript | Other |
+| `DietrichGebert/ponytail` | 80944 | 4369 | JavaScript | AI/ML |
+| `baidu/Unlimited-OCR` | 14042 | 1180 | Python | Other |
+| `langchain-ai/openwiki` | 10631 | 721 | TypeScript | AI/ML |
+| `deepseek-ai/DeepSpec` | 6553 | 588 | Python | Other |
+| `x4gKing/X4G` | 4559 | 8626 | Python | Other |
+| `JustVugg/colibri` | 4464 | 390 | C | Game |
+| `elder-plinius/T3MP3ST` | 4461 | 952 | TypeScript | AI/ML |
+| `zhongerxin/Cowart` | 4380 | 335 | JavaScript | Other |
+| `Yu9191/wloc` | 3956 | 700 | JavaScript | Other |
+| `bikini/exploitarium` | 3873 | 1113 | Python | Security |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `DietrichGebert/ponytail` | 2869.8 | 80355 | 28d | AI/ML |
-| `withmarbleapp/os-taxonomy` | 1122.5 | 2245 | 2d | Other |
-| `x4gKing/X4G` | 689.3 | 4136 | 6d | Other |
-| `baidu/Unlimited-OCR` | 634.6 | 13962 | 22d | Other |
-| `langchain-ai/openwiki` | 578.2 | 10408 | 18d | AI/ML |
-| `elder-plinius/T3MP3ST` | 545.5 | 4364 | 8d | AI/ML |
-| `deepseek-ai/DeepSpec` | 466.6 | 6533 | 14d | Other |
-| `Shpigford/knockoff` | 430.5 | 1722 | 4d | Other |
-| `Robbyant/lingbot-world-v2` | 365.0 | 730 | 2d | Other |
-| `Robbyant/lingbot-video` | 328.5 | 657 | 2d | Other |
+| `DietrichGebert/ponytail` | 2791.2 | 80944 | 29d | AI/ML |
+| `withmarbleapp/os-taxonomy` | 839.0 | 2517 | 3d | Other |
+| `x4gKing/X4G` | 651.3 | 4559 | 7d | Other |
+| `baidu/Unlimited-OCR` | 610.5 | 14042 | 23d | Other |
+| `langchain-ai/openwiki` | 559.5 | 10631 | 19d | AI/ML |
+| `elder-plinius/T3MP3ST` | 495.7 | 4461 | 9d | AI/ML |
+| `JustVugg/colibri` | 446.4 | 4464 | 10d | Game |
+| `deepseek-ai/DeepSpec` | 436.9 | 6553 | 15d | Other |
+| `Shpigford/knockoff` | 357.4 | 1787 | 5d | Other |
+| `Robbyant/lingbot-world-v2` | 281.3 | 844 | 3d | Other |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| AI/ML | 396 | 626 | 202 | 103 | 41.4 | 5.5 |
-| Web | 234 | 177 | 151 | 10 | 15.8 | 0.4 |
-| Other | 217 | 553 | 283 | 119 | 53.2 | 9.8 |
-| Data | 36 | 248 | 152 | 10 | 17.2 | 1.6 |
-| Mobile | 24 | 605 | 266 | 41 | 49.0 | 6.5 |
-| Finance/Trading | 24 | 228 | 152 | 695 | 33.7 | 0.4 |
-| CLI/Tooling | 21 | 551 | 284 | 44 | 43.9 | 0.9 |
-| DevOps | 17 | 291 | 160 | 11 | 18.9 | 2.4 |
-| Security | 17 | 476 | 203 | 104 | 27.8 | 4.6 |
-| Game | 14 | 402 | 202 | 29 | 50.1 | 3.9 |
+| AI/ML | 399 | 604 | 199 | 100 | 38.4 | 4.0 |
+| Web | 234 | 178 | 151 | 12 | 14.8 | 0.4 |
+| Other | 212 | 564 | 286 | 127 | 49.3 | 9.9 |
+| Data | 37 | 247 | 151 | 10 | 16.0 | 1.6 |
+| Finance/Trading | 24 | 221 | 152 | 489 | 26.3 | 0.2 |
+| Mobile | 22 | 598 | 267 | 43 | 46.5 | 6.8 |
+| CLI/Tooling | 21 | 527 | 270 | 38 | 39.3 | 1.0 |
+| DevOps | 18 | 286 | 161 | 11 | 21.1 | 2.1 |
+| Security | 17 | 446 | 183 | 94 | 37.0 | 3.8 |
+| Game | 16 | 496 | 204 | 40 | 50.7 | 4.4 |
 
 ## Correlations
 
@@ -63,39 +63,39 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.402 |         0.104 |      0.092 |
-| forks       |   0.402 |   1     |         0.06  |     -0.013 |
-| open_issues |   0.104 |   0.06  |         1     |      0.052 |
-| age_days    |   0.092 |  -0.013 |         0.052 |      1     |
+| stars       |   1     |   0.41  |         0.081 |      0.092 |
+| forks       |   0.41  |   1     |         0.039 |     -0.034 |
+| open_issues |   0.081 |   0.039 |         1     |      0.031 |
+| age_days    |   0.092 |  -0.034 |         0.031 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.772 |         0.597 |      0.326 |
-| forks       |   0.772 |   1     |         0.59  |      0.304 |
-| open_issues |   0.597 |   0.59  |         1     |      0.257 |
-| age_days    |   0.326 |   0.304 |         0.257 |      1     |
+| stars       |   1     |   0.756 |         0.574 |      0.27  |
+| forks       |   0.756 |   1     |         0.587 |      0.253 |
+| open_issues |   0.574 |   0.587 |         1     |      0.245 |
+| age_days    |   0.27  |   0.253 |         0.245 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 69 |
-| `ai-agents` | 60 |
-| `claude` | 58 |
-| `llm` | 57 |
-| `ai` | 49 |
+| `claude-code` | 68 |
+| `llm` | 61 |
+| `ai-agents` | 59 |
+| `claude` | 59 |
+| `ai` | 48 |
 | `claude-opus` | 48 |
-| `python` | 47 |
 | `manga` | 47 |
 | `manga-downloader` | 47 |
-| `codex` | 39 |
+| `python` | 45 |
+| `codex` | 38 |
+| `typescript` | 36 |
 | `anthropic` | 36 |
-| `typescript` | 35 |
-| `developer-tools` | 34 |
-| `open-source` | 34 |
-| `mcp` | 31 |
+| `developer-tools` | 35 |
+| `mcp` | 34 |
+| `open-source` | 32 |
 | `cli` | 30 |
 | `ai-agent` | 27 |
 | `hentai` | 27 |
