@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-07-19 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-07-20 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,41 +32,41 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 14 | 1.4% |
-| 待檢視 | 93 | 9.3% |
-| 訊號完整 | 893 | 89.3% |
+| 低資訊密度 | 13 | 1.3% |
+| 待檢視 | 102 | 10.2% |
+| 訊號完整 | 885 | 88.5% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `x4gKing/X4G` | 5770 | 10628 | 14d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 2 | `CluvexStudio/Aether` | 1272 | 78 | 4d | **6** | desc:empty, high-attention-no-desc, overnight-surge:318/day, topics:none |
-| 3 | `kanavtwtgg/birds.cafe` | 509 | 2 | 27d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
-| 4 | `x4gKing/3x-ui-Upgrade` | 1067 | 2196 | 10d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1947 | 491 | 20d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
-| 6 | `deepreinforce-ai/Ornith-1` | 1609 | 152 | 27d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 7 | `terrense/LLM_path_for_begginers` | 307 | 8 | 26d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
-| 8 | `Ssupercoder/Salary-Negotiation-Skill` | 524 | 10 | 20d | **5** | license:none, low-forks:0.019, generic-name:Salary-Negotiation-Skill, topics:none |
-| 9 | `JustinGamer191/Holo` | 315 | 44 | 1d | **5** | desc:empty, license:none, overnight-surge:315/day, topics:none |
-| 10 | `TobiasLee/Rebuttal-Skill` | 312 | 11 | 4d | **5** | desc:empty, license:none, generic-name:Rebuttal-Skill, topics:none |
-| 11 | `Fei-Away/Codex-Dream-Skin` | 9974 | 1036 | 3d | **5** | desc:short, license:none, overnight-surge:3325/day, generic-name:Codex-Dream-Skin, topics:none |
-| 12 | `withmarbleapp/os-taxonomy` | 3287 | 568 | 10d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `h9-tec/Awesome_ai_learning` | 206 | 27 | 2d | **5** | desc:empty, license:none, generic-name:Awesome_ai_learning, topics:none |
-| 14 | `JimLiu/science-skills` | 215 | 53 | 17d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
-| 15 | `mindscale-noah/MindMemOS` | 271 | 10 | 25d | **4** | desc:empty, license:none, topics:none |
+| 1 | `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1960 | 494 | 21d | **6** | desc:empty, high-attention-no-desc, generic-name:Codex-5.5-codex-instruct-5.5, topics:none |
+| 2 | `x4gKing/X4G` | 5907 | 10854 | 15d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `kanavtwtgg/birds.cafe` | 506 | 2 | 28d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
+| 4 | `x4gKing/3x-ui-Upgrade` | 1113 | 2294 | 11d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `withmarbleapp/os-taxonomy` | 3405 | 585 | 11d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 6 | `TobiasLee/Rebuttal-Skill` | 316 | 12 | 5d | **5** | desc:empty, license:none, generic-name:Rebuttal-Skill, topics:none |
+| 7 | `deepreinforce-ai/Ornith-1` | 1626 | 154 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `terrense/LLM_path_for_begginers` | 307 | 8 | 27d | **5** | desc:empty, license:none, generic-name:LLM_path_for_begginers, topics:none |
+| 9 | `h9-tec/Awesome_ai_learning` | 218 | 28 | 3d | **5** | desc:empty, license:none, generic-name:Awesome_ai_learning, topics:none |
+| 10 | `Ssupercoder/Salary-Negotiation-Skill` | 526 | 10 | 21d | **5** | license:none, low-forks:0.019, generic-name:Salary-Negotiation-Skill, topics:none |
+| 11 | `CluvexStudio/Aether` | 1339 | 81 | 5d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `Fei-Away/Codex-Dream-Skin` | 10844 | 1110 | 4d | **5** | desc:short, license:none, overnight-surge:2711/day, generic-name:Codex-Dream-Skin, topics:none |
+| 13 | `JimLiu/science-skills` | 216 | 53 | 18d | **5** | desc:empty, license:none, generic-name:science-skills, topics:none |
+| 14 | `akihitohyh/chatgpt-register-sub2api` | 287 | 109 | 17d | **4** | desc:empty, license:none, topics:none |
+| 15 | `x4gKing/All-Project` | 189 | 39 | 5d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 84 | 8.4% |
-| description <20 chars | 19 | 1.9% |
-| no license | 513 | 51.3% |
+| description empty | 88 | 8.8% |
+| description <20 chars | 20 | 2.0% |
+| no license | 512 | 51.2% |
 | high-attention no-desc (stars>1k + empty desc) | 6 | 0.6% |
-| low fork ratio (stars>500 + fsr<0.02) | 14 | 1.4% |
-| overnight surge (>300 spd + <7 days) | 7 | 0.7% |
-| generic-AI-buzzword name | 137 | 13.7% |
+| low fork ratio (stars>500 + fsr<0.02) | 15 | 1.5% |
+| overnight surge (>300 spd + <7 days) | 6 | 0.6% |
+| generic-AI-buzzword name | 136 | 13.6% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -77,7 +77,6 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | JavaScript | 3 |
 | HTML | 2 |
 | Rust | 1 |
-| Swift | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -85,11 +84,11 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
-| ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 4 | 2 | 0 | 2 | 50.0% |
-| 1000-4999 | 47 | 5 | 3 | 39 | 10.6% |
-| 500-999 | 108 | 2 | 27 | 79 | 1.9% |
-| 100-499 | 838 | 5 | 63 | 770 | 0.6% |
+| ≥10000 | 4 | 1 | 0 | 3 | 25.0% |
+| 5000-9999 | 4 | 1 | 0 | 3 | 25.0% |
+| 1000-4999 | 44 | 5 | 2 | 37 | 11.4% |
+| 500-999 | 112 | 2 | 30 | 80 | 1.8% |
+| 100-499 | 836 | 4 | 70 | 762 | 0.5% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,39 +97,39 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `x4gKing/X4G` | 5770 | 10628 | 14d | Python | — |
-| `withmarbleapp/os-taxonomy` | 3287 | 568 | 10d | JavaScript | ODbL-1.0 |
-| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1947 | 491 | 20d | Python | MIT |
-| `deepreinforce-ai/Ornith-1` | 1609 | 152 | 27d | Unknown | MIT |
-| `CluvexStudio/Aether` | 1272 | 78 | 4d | Rust | AGPL-3.0 |
-| `x4gKing/3x-ui-Upgrade` | 1067 | 2196 | 10d | HTML | — |
+| `x4gKing/X4G` | 5907 | 10854 | 15d | Python | — |
+| `withmarbleapp/os-taxonomy` | 3405 | 585 | 11d | JavaScript | ODbL-1.0 |
+| `yynxxxxx/Codex-5.5-codex-instruct-5.5` | 1960 | 494 | 21d | Python | MIT |
+| `deepreinforce-ai/Ornith-1` | 1626 | 154 | 28d | Unknown | MIT |
+| `CluvexStudio/Aether` | 1339 | 81 | 5d | Rust | AGPL-3.0 |
+| `x4gKing/3x-ui-Upgrade` | 1113 | 2294 | 11d | HTML | — |
 
 ### Generic-name pattern breakdown
 
-Of 137 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 136 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 26 |
-| `skills` | 21 |
+| `agent` | 24 |
+| `skills` | 20 |
+| `skill` | 19 |
 | `codex` | 17 |
-| `skill` | 17 |
 | `claude` | 17 |
-| `awesome` | 11 |
+| `awesome` | 10 |
+| `prompt` | 6 |
 | `llm` | 5 |
-| `prompt` | 5 |
+| `starter` | 4 |
 | `agents` | 3 |
-| `gpt` | 3 |
-| `starter` | 3 |
 | `template` | 3 |
-| `copilot` | 3 |
+| `gpt` | 3 |
 | `toolkit` | 2 |
+| `copilot` | 2 |
 | `vibe` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 379 (37.9%)
-- Repos with at least one topic: 621 (62.1%)
+- Repos with **zero topics**: 384 (38.4%)
+- Repos with at least one topic: 616 (61.6%)
 
 ## Methodology limits
 
