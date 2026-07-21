@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 418.8 | 191.0 | 20460 |
-| forks | 78.1 | 14.0 | 10854 |
-| open_issues | 3.9 | 0.0 | 1194 |
-| stars_per_day | 35.2 | 11.1 | 4092 |
-| age_days | 18.4 | 21.0 | 29 |
+| stars | 429.0 | 193.0 | 21081 |
+| forks | 80.8 | 14.0 | 11059 |
+| open_issues | 4.0 | 0.0 | 1192 |
+| stars_per_day | 34.8 | 11.4 | 3514 |
+| age_days | 18.8 | 22.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `xai-org/grok-build` | 20460 | 3731 | Rust | AI/ML |
-| `JustVugg/colibri` | 16611 | 1518 | C | Game |
-| `langchain-ai/openwiki` | 12547 | 864 | TypeScript | AI/ML |
-| `Fei-Away/Codex-Dream-Skin` | 10844 | 1110 | JavaScript | AI/ML |
-| `deepseek-ai/DeepSpec` | 6701 | 618 | Python | Other |
-| `x4gKing/X4G` | 5907 | 10854 | Python | Other |
-| `Yu9191/wloc` | 5803 | 1139 | JavaScript | Other |
-| `elder-plinius/T3MP3ST` | 5016 | 1039 | TypeScript | AI/ML |
-| `oso95/scroll-world` | 4025 | 502 | JavaScript | Other |
-| `bikini/exploitarium` | 3975 | 1139 | Python | Security |
+| `xai-org/grok-build` | 21081 | 3900 | Rust | AI/ML |
+| `JustVugg/colibri` | 17166 | 1589 | C | Game |
+| `langchain-ai/openwiki` | 12692 | 881 | TypeScript | AI/ML |
+| `Fei-Away/Codex-Dream-Skin` | 11330 | 1152 | JavaScript | AI/ML |
+| `deepseek-ai/DeepSpec` | 6714 | 621 | Python | Other |
+| `x4gKing/X4G` | 6026 | 11059 | Python | Other |
+| `Yu9191/wloc` | 5885 | 1162 | JavaScript | Other |
+| `elder-plinius/T3MP3ST` | 5052 | 1038 | TypeScript | AI/ML |
+| `oso95/scroll-world` | 4528 | 529 | JavaScript | Other |
+| `unicity-aos/aos-ce` | 4289 | 3 | Rust | AI/ML |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `xai-org/grok-build` | 4092.0 | 20460 | 5d | AI/ML |
-| `Fei-Away/Codex-Dream-Skin` | 2711.0 | 10844 | 4d | AI/ML |
-| `JustVugg/colibri` | 922.8 | 16611 | 18d | Game |
-| `lopopolo/harness-engineering` | 621.0 | 621 | 1d | AI/ML |
-| `langchain-ai/openwiki` | 464.7 | 12547 | 27d | AI/ML |
-| `xiejunjie524/handdraw-story-video` | 424.0 | 424 | 1d | Other |
-| `nethical6/conversation-steganography` | 418.0 | 836 | 2d | Other |
-| `x4gKing/X4G` | 393.8 | 5907 | 15d | Other |
-| `tandpfun/wardrobe` | 392.0 | 1176 | 3d | AI/ML |
-| `oso95/scroll-world` | 309.6 | 4025 | 13d | Other |
+| `xai-org/grok-build` | 3513.5 | 21081 | 6d | AI/ML |
+| `Fei-Away/Codex-Dream-Skin` | 2266.0 | 11330 | 5d | AI/ML |
+| `JustVugg/colibri` | 903.5 | 17166 | 19d | Game |
+| `unicity-aos/aos-ce` | 536.1 | 4289 | 8d | AI/ML |
+| `lopopolo/harness-engineering` | 477.0 | 954 | 2d | AI/ML |
+| `langchain-ai/openwiki` | 453.3 | 12692 | 28d | AI/ML |
+| `x4gKing/X4G` | 376.6 | 6026 | 16d | Other |
+| `Blaizzy/nativ` | 358.0 | 358 | 1d | AI/ML |
+| `oso95/scroll-world` | 323.4 | 4528 | 14d | Other |
+| `tandpfun/wardrobe` | 309.0 | 1236 | 4d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| AI/ML | 382 | 489 | 214 | 57 | 48.7 | 3.0 |
-| Web | 228 | 192 | 151 | 23 | 12.3 | 0.8 |
-| Other | 223 | 513 | 271 | 145 | 38.5 | 9.7 |
-| Mobile | 31 | 418 | 263 | 41 | 34.5 | 5.5 |
-| Finance/Trading | 30 | 236 | 212 | 396 | 19.1 | 0.3 |
-| Data | 29 | 237 | 151 | 10 | 11.1 | 0.5 |
-| CLI/Tooling | 27 | 490 | 210 | 44 | 42.7 | 2.2 |
-| Security | 20 | 462 | 204 | 98 | 38.0 | 1.6 |
-| Game | 17 | 1289 | 277 | 116 | 72.4 | 8.9 |
-| DevOps | 13 | 181 | 153 | 6 | 13.1 | 0.4 |
+| AI/ML | 387 | 502 | 219 | 58 | 48.7 | 3.2 |
+| Other | 229 | 516 | 269 | 146 | 37.4 | 9.7 |
+| Web | 221 | 195 | 151 | 18 | 11.5 | 0.9 |
+| Finance/Trading | 29 | 236 | 205 | 486 | 16.5 | 0.3 |
+| CLI/Tooling | 28 | 478 | 214 | 43 | 38.0 | 2.4 |
+| Data | 28 | 240 | 151 | 10 | 10.8 | 0.5 |
+| Mobile | 28 | 441 | 260 | 43 | 33.3 | 5.2 |
+| Security | 20 | 466 | 198 | 99 | 34.2 | 1.6 |
+| Game | 17 | 1326 | 280 | 118 | 72.6 | 7.5 |
+| DevOps | 13 | 185 | 153 | 6 | 12.1 | 0.5 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.456 |         0.109 |     -0.061 |
-| forks       |   0.456 |   1     |         0.031 |     -0.075 |
-| open_issues |   0.109 |   0.031 |         1     |      0.008 |
-| age_days    |  -0.061 |  -0.075 |         0.008 |      1     |
+| stars       |   1     |   0.447 |         0.108 |     -0.058 |
+| forks       |   0.447 |   1     |         0.03  |     -0.068 |
+| open_issues |   0.108 |   0.03  |         1     |      0.009 |
+| age_days    |  -0.058 |  -0.068 |         0.009 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.813 |         0.583 |     -0.152 |
-| forks       |   0.813 |   1     |         0.58  |     -0.178 |
-| open_issues |   0.583 |   0.58  |         1     |     -0.022 |
-| age_days    |  -0.152 |  -0.178 |        -0.022 |      1     |
+| stars       |   1     |   0.813 |         0.59  |     -0.189 |
+| forks       |   0.813 |   1     |         0.582 |     -0.213 |
+| open_issues |   0.59  |   0.582 |         1     |     -0.045 |
+| age_days    |  -0.189 |  -0.213 |        -0.045 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `llm` | 69 |
-| `claude-code` | 62 |
-| `ai-agents` | 59 |
-| `python` | 57 |
-| `claude` | 52 |
-| `ai` | 45 |
-| `codex` | 44 |
-| `claude-opus` | 44 |
-| `typescript` | 43 |
+| `llm` | 66 |
+| `claude-code` | 64 |
+| `ai-agents` | 60 |
+| `python` | 60 |
+| `claude` | 53 |
+| `typescript` | 47 |
+| `codex` | 47 |
+| `ai` | 44 |
 | `manga-downloader` | 43 |
 | `manga` | 43 |
-| `cli` | 35 |
-| `anthropic` | 34 |
+| `claude-opus` | 43 |
+| `cli` | 34 |
 | `mcp` | 32 |
+| `anthropic` | 32 |
 | `macos` | 30 |
 | `developer-tools` | 30 |
+| `local-first` | 27 |
 | `android` | 27 |
-| `local-first` | 26 |
 | `rust` | 26 |
-| `windows` | 24 |
+| `ai-agent` | 25 |
