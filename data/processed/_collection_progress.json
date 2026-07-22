@@ -1,20 +1,20 @@
 {
-  "elapsed_seconds": 1042.4,
+  "elapsed_seconds": 960.1,
   "repos_total": 1000,
   "search": {
     "saved": 10,
     "skipped": 0
   },
   "languages": {
-    "fetched": 492,
-    "stale_refetched": 454,
-    "skipped": 508,
+    "fetched": 468,
+    "stale_refetched": 432,
+    "skipped": 532,
     "failed": 0
   },
   "topics": {
-    "fetched": 491,
-    "stale_refetched": 453,
-    "skipped": 509,
+    "fetched": 468,
+    "stale_refetched": 432,
+    "skipped": 532,
     "failed": 0
   },
   "manifest": {
