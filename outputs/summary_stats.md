@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 437.4 | 197.0 | 22209 |
-| forks | 87.2 | 13.0 | 12002 |
-| open_issues | 3.8 | 0.0 | 945 |
-| stars_per_day | 33.6 | 11.0 | 2468 |
-| age_days | 19.9 | 23.0 | 29 |
+| stars | 427.9 | 190.0 | 22407 |
+| forks | 84.3 | 12.0 | 12193 |
+| open_issues | 3.8 | 0.0 | 954 |
+| stars_per_day | 32.0 | 10.4 | 2241 |
+| age_days | 20.4 | 23.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `xai-org/grok-build` | 22209 | 4194 | Rust | AI/ML |
-| `JustVugg/colibri` | 18414 | 1787 | C | Game |
-| `Fei-Away/Codex-Dream-Skin` | 12158 | 1219 | JavaScript | AI/ML |
-| `unicity-aos/aos-ce` | 7034 | 9 | Rust | AI/ML |
-| `deepseek-ai/DeepSpec` | 6759 | 626 | Python | Other |
-| `x4gKing/X4G` | 6531 | 12002 | Python | Other |
-| `Yu9191/wloc` | 6225 | 1237 | JavaScript | Other |
-| `elder-plinius/T3MP3ST` | 5138 | 1063 | TypeScript | AI/ML |
-| `oso95/scroll-world` | 5027 | 580 | JavaScript | Other |
-| `baairon/torlink` | 3802 | 251 | TypeScript | CLI/Tooling |
+| `xai-org/grok-build` | 22407 | 4233 | Rust | AI/ML |
+| `JustVugg/colibri` | 18750 | 1837 | C | Game |
+| `Fei-Away/Codex-Dream-Skin` | 12262 | 1231 | JavaScript | AI/ML |
+| `unicity-aos/aos-ce` | 7186 | 10 | Rust | AI/ML |
+| `deepseek-ai/DeepSpec` | 6765 | 628 | Python | Other |
+| `x4gKing/X4G` | 6625 | 12193 | Python | Other |
+| `elder-plinius/T3MP3ST` | 5171 | 1071 | TypeScript | AI/ML |
+| `oso95/scroll-world` | 5147 | 595 | JavaScript | Other |
+| `img2threejs/img2threejs` | 4265 | 317 | Python | AI/ML |
+| `baairon/torlink` | 3818 | 251 | TypeScript | CLI/Tooling |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `xai-org/grok-build` | 2467.7 | 22209 | 9d | AI/ML |
-| `Fei-Away/Codex-Dream-Skin` | 1519.8 | 12158 | 8d | AI/ML |
-| `JustVugg/colibri` | 837.0 | 18414 | 22d | Game |
-| `andrewyng/openworker` | 745.0 | 2235 | 3d | Other |
-| `unicity-aos/aos-ce` | 639.5 | 7034 | 11d | AI/ML |
-| `lopopolo/harness-engineering` | 459.0 | 2295 | 5d | AI/ML |
-| `Jakubantalik/thinking-orbs` | 434.5 | 869 | 2d | AI/ML |
-| `hoainho/img2threejs` | 429.8 | 3438 | 8d | AI/ML |
-| `berabuddies/redis-poc` | 351.0 | 351 | 1d | Other |
-| `x4gKing/X4G` | 343.7 | 6531 | 19d | Other |
+| `xai-org/grok-build` | 2240.7 | 22407 | 10d | AI/ML |
+| `Fei-Away/Codex-Dream-Skin` | 1362.4 | 12262 | 9d | AI/ML |
+| `andrewyng/openworker` | 936.0 | 3744 | 4d | Other |
+| `JustVugg/colibri` | 815.2 | 18750 | 23d | Game |
+| `unicity-aos/aos-ce` | 598.8 | 7186 | 12d | AI/ML |
+| `slvDev/esp32-ai` | 538.0 | 538 | 1d | Other |
+| `img2threejs/img2threejs` | 473.9 | 4265 | 9d | AI/ML |
+| `lopopolo/harness-engineering` | 389.3 | 2336 | 6d | AI/ML |
+| `x4gKing/X4G` | 331.2 | 6625 | 20d | Other |
+| `Jakubantalik/thinking-orbs` | 314.7 | 944 | 3d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| AI/ML | 384 | 517 | 226 | 62 | 44.4 | 3.1 |
-| Web | 225 | 202 | 152 | 19 | 10.8 | 0.9 |
-| Other | 223 | 544 | 257 | 158 | 41.2 | 9.0 |
-| Mobile | 31 | 406 | 221 | 41 | 35.3 | 4.9 |
-| Finance/Trading | 30 | 241 | 220 | 596 | 21.0 | 1.2 |
-| Data | 29 | 225 | 151 | 8 | 9.1 | 0.3 |
-| CLI/Tooling | 27 | 512 | 226 | 48 | 39.5 | 3.0 |
-| Security | 20 | 292 | 194 | 55 | 29.8 | 0.7 |
-| Game | 16 | 1444 | 268 | 128 | 72.6 | 7.8 |
-| DevOps | 15 | 185 | 153 | 6 | 9.7 | 0.5 |
+| AI/ML | 387 | 506 | 213 | 61 | 40.9 | 3.2 |
+| Web | 227 | 200 | 151 | 18 | 10.3 | 0.8 |
+| Other | 221 | 522 | 252 | 157 | 40.1 | 8.8 |
+| Data | 30 | 231 | 151 | 9 | 11.7 | 0.3 |
+| Finance/Trading | 30 | 231 | 204 | 530 | 27.1 | 1.0 |
+| Mobile | 29 | 429 | 266 | 44 | 32.2 | 5.3 |
+| CLI/Tooling | 26 | 533 | 264 | 51 | 41.4 | 3.1 |
+| Security | 19 | 266 | 191 | 52 | 26.6 | 0.8 |
+| Game | 17 | 1393 | 253 | 125 | 65.7 | 8.0 |
+| DevOps | 14 | 186 | 156 | 5 | 9.4 | 0.1 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.44  |         0.089 |     -0.09  |
-| forks       |   0.44  |   1     |         0.029 |     -0.047 |
-| open_issues |   0.089 |   0.029 |         1     |     -0.005 |
-| age_days    |  -0.09  |  -0.047 |        -0.005 |      1     |
+| stars       |   1     |   0.44  |         0.091 |     -0.112 |
+| forks       |   0.44  |   1     |         0.029 |     -0.058 |
+| open_issues |   0.091 |   0.029 |         1     |     -0.019 |
+| age_days    |  -0.112 |  -0.058 |        -0.019 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.81  |         0.6   |     -0.387 |
-| forks       |   0.81  |   1     |         0.585 |     -0.386 |
-| open_issues |   0.6   |   0.585 |         1     |     -0.213 |
-| age_days    |  -0.387 |  -0.386 |        -0.213 |      1     |
+| stars       |   1     |   0.809 |         0.589 |     -0.484 |
+| forks       |   0.809 |   1     |         0.585 |     -0.482 |
+| open_issues |   0.589 |   0.585 |         1     |     -0.288 |
+| age_days    |  -0.484 |  -0.482 |        -0.288 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 65 |
-| `llm` | 64 |
-| `ai-agents` | 62 |
-| `python` | 61 |
-| `claude` | 55 |
-| `codex` | 52 |
-| `typescript` | 48 |
+| `claude-code` | 69 |
+| `llm` | 66 |
+| `python` | 63 |
+| `ai-agents` | 58 |
+| `claude` | 56 |
+| `codex` | 51 |
+| `claude-opus` | 47 |
+| `typescript` | 45 |
 | `manga-downloader` | 44 |
 | `manga` | 43 |
-| `claude-opus` | 43 |
 | `ai` | 42 |
 | `mcp` | 35 |
-| `cli` | 34 |
-| `developer-tools` | 32 |
+| `cli` | 33 |
+| `developer-tools` | 33 |
+| `anthropic` | 33 |
 | `macos` | 31 |
-| `anthropic` | 31 |
-| `local-first` | 27 |
-| `agent-skills` | 26 |
-| `windows` | 26 |
+| `windows` | 28 |
+| `local-first` | 26 |
 | `rust` | 26 |
+| `hentai` | 26 |
