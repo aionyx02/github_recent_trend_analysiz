@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-08-01 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-08-02 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,40 +32,40 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 17 | 1.7% |
-| 待檢視 | 155 | 15.5% |
-| 訊號完整 | 828 | 82.8% |
+| 低資訊密度 | 20 | 2.0% |
+| 待檢視 | 148 | 14.8% |
+| 訊號完整 | 832 | 83.2% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `x4gKing/X4G` | 7194 | 13182 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 2 | `bashalarmistalt/decimen-optical-transfer` | 2473 | 296 | 1d | **6** | desc:empty, high-attention-no-desc, overnight-surge:2473/day, topics:none |
-| 3 | `x4gKing/PasarGuard` | 1339 | 2596 | 26d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 4 | `x4gKing/3x-ui` | 2060 | 4094 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `x4gKing/Marzban-Panel` | 1269 | 2437 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `x4gKing/PasarGuard-Node` | 1219 | 2396 | 25d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 7 | `x4gKing/3x-ui-Upgrade` | 1279 | 2791 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 8 | `x4gKing/Marzban-Node` | 1100 | 2215 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 9 | `that-company/dat-skill` | 179 | 0 | 12d | **5** | desc:empty, license:none, generic-name:dat-skill, topics:none |
-| 10 | `Subhan-code/Amicro--Micro-transitions-` | 1323 | 53 | 20d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `h9-tec/Awesome_ai_learning` | 254 | 37 | 15d | **5** | desc:empty, license:none, generic-name:Awesome_ai_learning, topics:none |
-| 12 | `withmarbleapp/os-taxonomy` | 3761 | 648 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `CluvexStudio/Aether` | 1658 | 111 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `Packets/tew` | 340 | 56 | 1d | **5** | desc:empty, license:none, overnight-surge:340/day, topics:none |
-| 15 | `slvDev/esp32-ai` | 2650 | 326 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 1 | `x4gKing/X4G` | 7273 | 13328 | 28d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 2 | `osama-fawad/Pekingman` | 1012 | 53 | 25d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `x4gKing/3x-ui-Upgrade` | 1290 | 2822 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `trycompai/crm` | 1060 | 131 | 1d | **6** | desc:empty, high-attention-no-desc, overnight-surge:1060/day, topics:none |
+| 5 | `x4gKing/Marzban-Panel` | 1295 | 2475 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `x4gKing/PasarGuard-Node` | 1241 | 2426 | 26d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 7 | `x4gKing/3x-ui` | 2103 | 4202 | 28d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 8 | `x4gKing/Marzban-Node` | 1131 | 2253 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 9 | `x4gKing/PasarGuard` | 1364 | 2631 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 10 | `bashalarmistalt/decimen-optical-transfer` | 3204 | 375 | 2d | **6** | desc:empty, high-attention-no-desc, overnight-surge:1602/day, topics:none |
+| 11 | `TobiasLee/Rebuttal-Skill` | 445 | 18 | 18d | **5** | desc:empty, license:none, generic-name:Rebuttal-Skill, topics:none |
+| 12 | `h9-tec/Awesome_ai_learning` | 257 | 38 | 16d | **5** | desc:empty, license:none, generic-name:Awesome_ai_learning, topics:none |
+| 13 | `Packets/tew` | 341 | 69 | 1d | **5** | desc:empty, license:none, overnight-surge:341/day, topics:none |
+| 14 | `CluvexStudio/Aether` | 1673 | 113 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `withmarbleapp/os-taxonomy` | 3783 | 649 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 121 | 12.1% |
-| description <20 chars | 35 | 3.5% |
-| no license | 275 | 27.5% |
-| high-attention no-desc (stars>1k + empty desc) | 14 | 1.4% |
-| low fork ratio (stars>500 + fsr<0.02) | 13 | 1.3% |
-| overnight surge (>300 spd + <7 days) | 9 | 0.9% |
+| description empty | 120 | 12.0% |
+| description <20 chars | 36 | 3.6% |
+| no license | 276 | 27.6% |
+| high-attention no-desc (stars>1k + empty desc) | 16 | 1.6% |
+| low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
+| overnight surge (>300 spd + <7 days) | 12 | 1.2% |
 | generic-AI-buzzword name | 133 | 13.3% |
 
 ### 低資訊密度 tier — by primary language
@@ -74,11 +74,11 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 |---|---:|
 | Dockerfile | 5 |
 | Python | 4 |
+| TypeScript | 4 |
 | Unknown | 3 |
-| TypeScript | 2 |
-| HTML | 1 |
-| JavaScript | 1 |
+| HTML | 2 |
 | Rust | 1 |
+| JavaScript | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -88,9 +88,9 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 1 | 1 | 1 | 33.3% |
 | 5000-9999 | 7 | 1 | 2 | 4 | 14.3% |
-| 1000-4999 | 71 | 11 | 6 | 54 | 15.5% |
-| 500-999 | 108 | 0 | 19 | 89 | 0.0% |
-| 100-499 | 811 | 4 | 127 | 680 | 0.5% |
+| 1000-4999 | 72 | 13 | 5 | 54 | 18.1% |
+| 500-999 | 102 | 0 | 16 | 86 | 0.0% |
+| 100-499 | 816 | 5 | 124 | 687 | 0.6% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -99,20 +99,22 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `andrewyng/openworker` | 11421 | 1536 | 11d | Python | MIT |
-| `x4gKing/X4G` | 7194 | 13182 | 27d | Python | — |
-| `withmarbleapp/os-taxonomy` | 3761 | 648 | 23d | JavaScript | ODbL-1.0 |
-| `slvDev/esp32-ai` | 2650 | 326 | 8d | Python | MIT |
-| `bashalarmistalt/decimen-optical-transfer` | 2473 | 296 | 1d | TypeScript | MIT |
-| `x4gKing/3x-ui` | 2060 | 4094 | 27d | Dockerfile | — |
-| `buchidonggua/dg-ai-notes` | 1658 | 130 | 26d | MDX | MIT |
-| `CluvexStudio/Aether` | 1658 | 111 | 17d | Rust | AGPL-3.0 |
-| `x4gKing/PasarGuard` | 1339 | 2596 | 26d | Dockerfile | — |
-| `Subhan-code/Amicro--Micro-transitions-` | 1323 | 53 | 20d | TypeScript | MIT |
-| `x4gKing/3x-ui-Upgrade` | 1279 | 2791 | 23d | HTML | — |
-| `x4gKing/Marzban-Panel` | 1269 | 2437 | 19d | Dockerfile | — |
-| `x4gKing/PasarGuard-Node` | 1219 | 2396 | 25d | Dockerfile | — |
-| `x4gKing/Marzban-Node` | 1100 | 2215 | 19d | Dockerfile | — |
+| `andrewyng/openworker` | 11717 | 1581 | 12d | Python | MIT |
+| `x4gKing/X4G` | 7273 | 13328 | 28d | Python | — |
+| `withmarbleapp/os-taxonomy` | 3783 | 649 | 24d | JavaScript | ODbL-1.0 |
+| `bashalarmistalt/decimen-optical-transfer` | 3204 | 375 | 2d | TypeScript | MIT |
+| `slvDev/esp32-ai` | 2752 | 342 | 9d | Python | MIT |
+| `x4gKing/3x-ui` | 2103 | 4202 | 28d | Dockerfile | — |
+| `buchidonggua/dg-ai-notes` | 1678 | 133 | 27d | MDX | MIT |
+| `CluvexStudio/Aether` | 1673 | 113 | 18d | Rust | AGPL-3.0 |
+| `x4gKing/PasarGuard` | 1364 | 2631 | 27d | Dockerfile | — |
+| `Subhan-code/Amicro--Micro-transitions-` | 1338 | 53 | 21d | TypeScript | MIT |
+| `x4gKing/Marzban-Panel` | 1295 | 2475 | 20d | Dockerfile | — |
+| `x4gKing/3x-ui-Upgrade` | 1290 | 2822 | 24d | HTML | — |
+| `x4gKing/PasarGuard-Node` | 1241 | 2426 | 26d | Dockerfile | — |
+| `x4gKing/Marzban-Node` | 1131 | 2253 | 20d | Dockerfile | — |
+| `trycompai/crm` | 1060 | 131 | 1d | TypeScript | MIT |
+| `osama-fawad/Pekingman` | 1012 | 53 | 25d | HTML | — |
 
 ### Generic-name pattern breakdown
 
@@ -120,27 +122,27 @@ Of 133 repos with a generic-AI-buzzword token in the name, the token distributio
 
 | Token | Repos |
 |---|---:|
-| `codex` | 23 |
+| `codex` | 24 |
 | `agent` | 23 |
-| `skills` | 22 |
-| `skill` | 18 |
-| `awesome` | 11 |
-| `claude` | 8 |
-| `agents` | 7 |
-| `prompt` | 6 |
+| `skills` | 20 |
+| `skill` | 19 |
+| `awesome` | 12 |
+| `claude` | 9 |
+| `agents` | 6 |
+| `prompt` | 4 |
 | `llm` | 4 |
+| `vibe` | 3 |
 | `gpt` | 3 |
-| `vibe` | 2 |
 | `toolkit` | 2 |
 | `copilot` | 1 |
-| `playground` | 1 |
 | `demo` | 1 |
+| `playground` | 1 |
 | `template` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 550 (55.0%)
-- Repos with at least one topic: 450 (45.0%)
+- Repos with **zero topics**: 545 (54.5%)
+- Repos with at least one topic: 455 (45.5%)
 
 ## Methodology limits
 
