@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-08-16 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-08-17 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,51 +32,51 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 18 | 1.8% |
-| 待檢視 | 133 | 13.3% |
-| 訊號完整 | 849 | 84.9% |
+| 低資訊密度 | 17 | 1.7% |
+| 待檢視 | 128 | 12.8% |
+| 訊號完整 | 855 | 85.5% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Zeejay0/gathered-scenes-zine-skill` | 3672 | 412 | 14d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
-| 2 | `sunny-glow/Auto-BenchMax` | 1231 | 28 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 3 | `OpenMouse-Project/openmouse` | 1230 | 81 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 4 | `SMNETSTUDIO/WeChat-AI` | 1753 | 1253 | 5d | **6** | desc:empty, high-attention-no-desc, overnight-surge:351/day, topics:none |
-| 5 | `ZzzLc0405/photo-abstract-editorial` | 3853 | 258 | 11d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `MiniMax-AI/MiniMax-H3` | 6127 | 364 | 16d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 7 | `andrewyng/openworker` | 14576 | 2020 | 26d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `milind-soni/OpenMausBot` | 1053 | 190 | 4d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `bashalarmistalt/decimen-optical-transfer` | 6062 | 733 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `naplesblue/apple-design-skill` | 136 | 18 | 28d | **5** | desc:empty, license:none, generic-name:apple-design-skill, topics:none |
-| 11 | `slvDev/esp32-ai` | 4015 | 526 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `gvzdv/claudish-to-english` | 1209 | 79 | 5d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `that-company/dat-skill` | 177 | 0 | 27d | **5** | desc:empty, license:none, generic-name:dat-skill, topics:none |
-| 14 | `google-gemma/gemma-translator` | 1133 | 146 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 15 | `mikiarlo3/awesome-growth-hacking-skills` | 834 | 16 | 11d | **5** | license:none, low-forks:0.019, generic-name:awesome-growth-hacking-skills, topics:none |
+| 1 | `Zeejay0/gathered-scenes-zine-skill` | 3794 | 422 | 15d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
+| 2 | `sunny-glow/Auto-BenchMax` | 1096 | 27 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `ZzzLc0405/photo-abstract-editorial` | 3978 | 263 | 12d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `OpenMouse-Project/openmouse` | 1240 | 80 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `MiniMax-AI/MiniMax-H3` | 6038 | 370 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `bashalarmistalt/decimen-optical-transfer` | 6095 | 738 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `chuspeeism/dashi-taskboard` | 2269 | 295 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `naplesblue/apple-design-skill` | 142 | 18 | 29d | **5** | desc:empty, license:none, generic-name:apple-design-skill, topics:none |
+| 9 | `T8mars/comfyui-minimax-h3-prompt-enhancer-T8` | 131 | 10 | 13d | **5** | desc:empty, license:none, generic-name:comfyui-minimax-h3-prompt-enhancer-T8, topics:none |
+| 10 | `that-company/dat-skill` | 149 | 0 | 28d | **5** | desc:empty, license:none, generic-name:dat-skill, topics:none |
+| 11 | `gvzdv/claudish-to-english` | 1254 | 81 | 6d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `SMNETSTUDIO/WeChat-AI` | 1769 | 1259 | 6d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `google-gemma/gemma-translator` | 1171 | 152 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `mikiarlo3/awesome-growth-hacking-skills` | 835 | 16 | 12d | **5** | license:none, low-forks:0.019, generic-name:awesome-growth-hacking-skills, topics:none |
+| 15 | `slvDev/esp32-ai` | 4036 | 531 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 109 | 10.9% |
-| description <20 chars | 95 | 9.5% |
-| no license | 355 | 35.5% |
-| high-attention no-desc (stars>1k + empty desc) | 13 | 1.3% |
+| description empty | 103 | 10.3% |
+| description <20 chars | 94 | 9.4% |
+| no license | 353 | 35.3% |
+| high-attention no-desc (stars>1k + empty desc) | 12 | 1.2% |
 | low fork ratio (stars>500 + fsr<0.02) | 10 | 1.0% |
-| overnight surge (>300 spd + <7 days) | 19 | 1.9% |
-| generic-AI-buzzword name | 117 | 11.7% |
+| overnight surge (>300 spd + <7 days) | 18 | 1.8% |
+| generic-AI-buzzword name | 120 | 12.0% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
 | Python | 7 |
-| TypeScript | 4 |
+| TypeScript | 3 |
 | Unknown | 2 |
-| Shell | 2 |
 | JavaScript | 2 |
+| Shell | 2 |
 | HTML | 1 |
 
 ### 低資訊密度 concentration by stars bucket
@@ -85,11 +85,11 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
-| ≥10000 | 5 | 1 | 0 | 4 | 20.0% |
-| 5000-9999 | 8 | 2 | 0 | 6 | 25.0% |
-| 1000-4999 | 79 | 10 | 7 | 62 | 12.7% |
-| 500-999 | 104 | 2 | 18 | 84 | 1.9% |
-| 100-499 | 804 | 3 | 108 | 693 | 0.4% |
+| ≥10000 | 6 | 1 | 0 | 5 | 16.7% |
+| 5000-9999 | 7 | 2 | 0 | 5 | 28.6% |
+| 1000-4999 | 78 | 9 | 7 | 62 | 11.5% |
+| 500-999 | 107 | 2 | 17 | 88 | 1.9% |
+| 100-499 | 802 | 3 | 104 | 695 | 0.4% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,47 +98,46 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `andrewyng/openworker` | 14576 | 2020 | 26d | Python | MIT |
-| `MiniMax-AI/MiniMax-H3` | 6127 | 364 | 16d | Python | — |
-| `bashalarmistalt/decimen-optical-transfer` | 6062 | 733 | 16d | TypeScript | AGPL-3.0 |
-| `slvDev/esp32-ai` | 4015 | 526 | 23d | Python | MIT |
-| `ZzzLc0405/photo-abstract-editorial` | 3853 | 258 | 11d | Unknown | — |
-| `Zeejay0/gathered-scenes-zine-skill` | 3672 | 412 | 14d | Unknown | — |
-| `chuspeeism/dashi-taskboard` | 2219 | 289 | 22d | JavaScript | Apache-2.0 |
-| `SMNETSTUDIO/WeChat-AI` | 1753 | 1253 | 5d | TypeScript | Apache-2.0 |
-| `sunny-glow/Auto-BenchMax` | 1231 | 28 | 23d | Python | — |
-| `OpenMouse-Project/openmouse` | 1230 | 81 | 19d | TypeScript | — |
-| `gvzdv/claudish-to-english` | 1209 | 79 | 5d | Shell | MIT |
-| `google-gemma/gemma-translator` | 1133 | 146 | 12d | JavaScript | Apache-2.0 |
-| `milind-soni/OpenMausBot` | 1053 | 190 | 4d | TypeScript | MIT |
+| `andrewyng/openworker` | 14677 | 2037 | 27d | Python | MIT |
+| `bashalarmistalt/decimen-optical-transfer` | 6095 | 738 | 17d | TypeScript | AGPL-3.0 |
+| `MiniMax-AI/MiniMax-H3` | 6038 | 370 | 17d | Python | — |
+| `slvDev/esp32-ai` | 4036 | 531 | 24d | Python | MIT |
+| `ZzzLc0405/photo-abstract-editorial` | 3978 | 263 | 12d | Unknown | — |
+| `Zeejay0/gathered-scenes-zine-skill` | 3794 | 422 | 15d | Unknown | — |
+| `chuspeeism/dashi-taskboard` | 2269 | 295 | 23d | JavaScript | Apache-2.0 |
+| `SMNETSTUDIO/WeChat-AI` | 1769 | 1259 | 6d | TypeScript | Apache-2.0 |
+| `gvzdv/claudish-to-english` | 1254 | 81 | 6d | Shell | MIT |
+| `OpenMouse-Project/openmouse` | 1240 | 80 | 20d | TypeScript | — |
+| `google-gemma/gemma-translator` | 1171 | 152 | 13d | JavaScript | Apache-2.0 |
+| `sunny-glow/Auto-BenchMax` | 1096 | 27 | 24d | Python | — |
 
 ### Generic-name pattern breakdown
 
-Of 117 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 120 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
 | `skill` | 22 |
-| `agent` | 17 |
-| `codex` | 16 |
-| `awesome` | 15 |
+| `agent` | 18 |
+| `codex` | 18 |
+| `awesome` | 14 |
 | `skills` | 14 |
 | `claude` | 8 |
 | `toolkit` | 6 |
-| `template` | 5 |
-| `prompt` | 3 |
+| `template` | 4 |
+| `gpt` | 4 |
+| `vibe` | 3 |
+| `prompt` | 2 |
 | `agents` | 2 |
 | `demo` | 2 |
-| `gpt` | 2 |
-| `vibe` | 2 |
 | `copilot` | 1 |
 | `llm` | 1 |
 | `starter` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 517 (51.7%)
-- Repos with at least one topic: 483 (48.3%)
+- Repos with **zero topics**: 512 (51.2%)
+- Repos with at least one topic: 488 (48.8%)
 
 ## Methodology limits
 
