@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-08-23 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-08-24 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -33,39 +33,39 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 11 | 1.1% |
-| 待檢視 | 110 | 11.0% |
-| 訊號完整 | 879 | 87.9% |
+| 待檢視 | 115 | 11.5% |
+| 訊號完整 | 874 | 87.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Zeejay0/gathered-scenes-zine-skill` | 4243 | 439 | 21d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
-| 2 | `OpenMouse-Project/openmouse` | 1379 | 85 | 26d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 3 | `elayadesign/ai-design-skills` | 1257 | 88 | 24d | **6** | desc:empty, high-attention-no-desc, generic-name:ai-design-skills, topics:none |
-| 4 | `ZzzLc0405/photo-abstract-editorial` | 4612 | 298 | 18d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `MiniMax-AI/MiniMax-H3` | 6752 | 423 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `gvzdv/claudish-to-english` | 2119 | 100 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 7 | `google-gemma/gemma-translator` | 1288 | 169 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `almendili/skills` | 354 | 25 | 6d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
-| 9 | `bashalarmistalt/decimen-optical-transfer` | 6263 | 762 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `AML-memory/agent-memory-leaderboard` | 859 | 31 | 24d | **5** | desc:empty, license:none, generic-name:agent-memory-leaderboard, topics:none |
-| 11 | `T8mars/comfyui-minimax-h3-prompt-enhancer-T8` | 160 | 11 | 19d | **5** | desc:empty, license:none, generic-name:comfyui-minimax-h3-prompt-enhancer-T8, topics:none |
-| 12 | `Infatoshi/netherite` | 335 | 26 | 24d | **4** | desc:empty, license:none, topics:none |
-| 13 | `Vyom-26/Wave-Racer` | 180 | 30 | 23d | **4** | desc:empty, license:none, topics:none |
-| 14 | `deedy/qr-data-transfer` | 452 | 87 | 22d | **4** | desc:empty, license:none, topics:none |
-| 15 | `TheRealYT/git-knife` | 425 | 16 | 12d | **4** | desc:empty, license:none, topics:none |
+| 1 | `Zeejay0/gathered-scenes-zine-skill` | 4292 | 440 | 22d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
+| 2 | `OpenMouse-Project/openmouse` | 1386 | 85 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `elayadesign/ai-design-skills` | 1262 | 88 | 25d | **6** | desc:empty, high-attention-no-desc, generic-name:ai-design-skills, topics:none |
+| 4 | `ZzzLc0405/photo-abstract-editorial` | 4673 | 300 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `MiniMax-AI/MiniMax-H3` | 6864 | 436 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `AML-memory/agent-memory-leaderboard` | 872 | 32 | 25d | **5** | desc:empty, license:none, generic-name:agent-memory-leaderboard, topics:none |
+| 7 | `google-gemma/gemma-translator` | 1305 | 171 | 20d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `T8mars/comfyui-minimax-h3-prompt-enhancer-T8` | 160 | 11 | 20d | **5** | desc:empty, license:none, generic-name:comfyui-minimax-h3-prompt-enhancer-T8, topics:none |
+| 9 | `almendili/skills` | 360 | 26 | 7d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
+| 10 | `gvzdv/claudish-to-english` | 2176 | 103 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `bashalarmistalt/decimen-optical-transfer` | 6281 | 766 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `sophiamyang/finger-frame-effect-ai` | 971 | 123 | 21d | **4** | desc:empty, license:none, topics:none |
+| 13 | `EcZachly/databricks-lakebase-app-day-1` | 195 | 628 | 21d | **4** | desc:empty, license:none, topics:none |
+| 14 | `xinwithyu/dwell-on-something` | 148 | 73 | 16d | **4** | desc:empty, license:none, topics:none |
+| 15 | `Loki200399/india-itr-copilot` | 148 | 73 | 27d | **4** | desc:empty, generic-name:india-itr-copilot, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 83 | 8.3% |
+| description empty | 84 | 8.4% |
 | description <20 chars | 175 | 17.5% |
-| no license | 460 | 46.0% |
-| high-attention no-desc (stars>1k + empty desc) | 9 | 0.9% |
-| low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
-| overnight surge (>300 spd + <7 days) | 9 | 0.9% |
+| no license | 465 | 46.5% |
+| high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
+| low fork ratio (stars>500 + fsr<0.02) | 11 | 1.1% |
+| overnight surge (>300 spd + <7 days) | 11 | 1.1% |
 | generic-AI-buzzword name | 110 | 11.0% |
 
 ### 低資訊密度 tier — by primary language
@@ -75,8 +75,8 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Unknown | 3 |
 | TypeScript | 3 |
 | Python | 3 |
-| Shell | 1 |
 | JavaScript | 1 |
+| Shell | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -85,10 +85,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 6 | 0 | 0 | 6 | 0.0% |
-| 5000-9999 | 7 | 2 | 1 | 4 | 28.6% |
-| 1000-4999 | 80 | 6 | 6 | 68 | 7.5% |
-| 500-999 | 126 | 1 | 14 | 111 | 0.8% |
-| 100-499 | 781 | 2 | 89 | 690 | 0.3% |
+| 5000-9999 | 8 | 2 | 2 | 4 | 25.0% |
+| 1000-4999 | 76 | 6 | 4 | 66 | 7.9% |
+| 500-999 | 125 | 1 | 17 | 107 | 0.8% |
+| 100-499 | 785 | 2 | 92 | 691 | 0.3% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -97,15 +97,14 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `MiniMax-AI/MiniMax-H3` | 6752 | 423 | 23d | Python | — |
-| `bashalarmistalt/decimen-optical-transfer` | 6263 | 762 | 23d | TypeScript | AGPL-3.0 |
-| `ZzzLc0405/photo-abstract-editorial` | 4612 | 298 | 18d | Unknown | — |
-| `Zeejay0/gathered-scenes-zine-skill` | 4243 | 439 | 21d | Unknown | — |
-| `chuspeeism/dashi-taskboard` | 2466 | 324 | 29d | JavaScript | Apache-2.0 |
-| `gvzdv/claudish-to-english` | 2119 | 100 | 12d | Shell | MIT |
-| `OpenMouse-Project/openmouse` | 1379 | 85 | 26d | TypeScript | — |
-| `google-gemma/gemma-translator` | 1288 | 169 | 19d | JavaScript | Apache-2.0 |
-| `elayadesign/ai-design-skills` | 1257 | 88 | 24d | Unknown | MIT |
+| `MiniMax-AI/MiniMax-H3` | 6864 | 436 | 24d | Python | — |
+| `bashalarmistalt/decimen-optical-transfer` | 6281 | 766 | 24d | TypeScript | AGPL-3.0 |
+| `ZzzLc0405/photo-abstract-editorial` | 4673 | 300 | 19d | Unknown | — |
+| `Zeejay0/gathered-scenes-zine-skill` | 4292 | 440 | 22d | Unknown | — |
+| `gvzdv/claudish-to-english` | 2176 | 103 | 13d | Shell | MIT |
+| `OpenMouse-Project/openmouse` | 1386 | 85 | 27d | TypeScript | — |
+| `google-gemma/gemma-translator` | 1305 | 171 | 20d | JavaScript | Apache-2.0 |
+| `elayadesign/ai-design-skills` | 1262 | 88 | 25d | Unknown | MIT |
 
 ### Generic-name pattern breakdown
 
@@ -113,18 +112,18 @@ Of 110 repos with a generic-AI-buzzword token in the name, the token distributio
 
 | Token | Repos |
 |---|---:|
-| `skill` | 18 |
-| `agent` | 16 |
+| `skill` | 17 |
+| `agent` | 17 |
 | `awesome` | 16 |
-| `skills` | 13 |
-| `codex` | 12 |
+| `skills` | 14 |
+| `codex` | 11 |
 | `toolkit` | 9 |
 | `claude` | 5 |
 | `template` | 4 |
-| `llm` | 4 |
+| `prompt` | 3 |
+| `llm` | 3 |
 | `gpt` | 3 |
 | `vibe` | 3 |
-| `prompt` | 2 |
 | `demo` | 2 |
 | `starter` | 2 |
 | `copilot` | 1 |
