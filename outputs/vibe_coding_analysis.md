@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-08-27 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-08-28 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -33,40 +33,40 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 15 | 1.5% |
-| 待檢視 | 99 | 9.9% |
-| 訊號完整 | 886 | 88.6% |
+| 待檢視 | 100 | 10.0% |
+| 訊號完整 | 885 | 88.5% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Zeejay0/gathered-scenes-zine-skill` | 4473 | 459 | 25d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
-| 2 | `elayadesign/ai-design-skills` | 1445 | 98 | 28d | **6** | desc:empty, high-attention-no-desc, generic-name:ai-design-skills, topics:none |
-| 3 | `ZzzLc0405/photo-abstract-editorial` | 4943 | 316 | 22d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 4 | `MiniMax-AI/MiniMax-H3` | 7246 | 476 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `tobi/walgit` | 2233 | 118 | 3d | **6** | desc:empty, high-attention-no-desc, overnight-surge:744/day, topics:none |
-| 6 | `google-gemma/gemma-translator` | 1345 | 175 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 7 | `AML-memory/agent-memory-leaderboard` | 951 | 44 | 28d | **5** | desc:empty, license:none, generic-name:agent-memory-leaderboard, topics:none |
-| 8 | `mikiarlo3/awesome-growth-hacking-skills` | 717 | 14 | 22d | **5** | license:none, low-forks:0.020, generic-name:awesome-growth-hacking-skills, topics:none |
-| 9 | `MiniMax-AI/awesome-minimax-h3-integration` | 209 | 15 | 13d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
-| 10 | `HEJustinSun/my-girlfriend-jingtian-latex` | 846 | 175 | 1d | **5** | desc:empty, license:none, overnight-surge:846/day, topics:none |
-| 11 | `wide-trace/open-higgsfield` | 781 | 5 | 1d | **5** | license:none, low-forks:0.006, overnight-surge:781/day, topics:none |
-| 12 | `bashalarmistalt/decimen-optical-transfer` | 6522 | 790 | 27d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `T8mars/comfyui-minimax-h3-prompt-enhancer-T8` | 196 | 13 | 23d | **5** | desc:empty, license:none, generic-name:comfyui-minimax-h3-prompt-enhancer-T8, topics:none |
-| 14 | `gvzdv/claudish-to-english` | 2330 | 107 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 15 | `almendili/skills` | 366 | 27 | 10d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
+| 1 | `HEJustinSun/my-girlfriend-jingtian-latex` | 3644 | 575 | 1d | **7** | desc:empty, license:none, high-attention-no-desc, overnight-surge:3644/day, topics:none |
+| 2 | `Zeejay0/gathered-scenes-zine-skill` | 4520 | 460 | 26d | **7** | desc:empty, license:none, high-attention-no-desc, generic-name:gathered-scenes-zine-skill, topics:none |
+| 3 | `elayadesign/ai-design-skills` | 1460 | 101 | 29d | **6** | desc:empty, high-attention-no-desc, generic-name:ai-design-skills, topics:none |
+| 4 | `tobi/walgit` | 2286 | 120 | 4d | **6** | desc:empty, high-attention-no-desc, overnight-surge:572/day, topics:none |
+| 5 | `MiniMax-AI/MiniMax-H3` | 7322 | 478 | 28d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `ZzzLc0405/photo-abstract-editorial` | 5005 | 318 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 7 | `google-gemma/gemma-translator` | 1351 | 176 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `MiniMax-AI/awesome-minimax-h3-integration` | 218 | 16 | 14d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
+| 9 | `gvzdv/claudish-to-english` | 2374 | 109 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `wide-trace/open-higgsfield` | 942 | 10 | 1d | **5** | license:none, low-forks:0.011, overnight-surge:942/day, topics:none |
+| 11 | `T8mars/comfyui-minimax-h3-prompt-enhancer-T8` | 203 | 14 | 24d | **5** | desc:empty, license:none, generic-name:comfyui-minimax-h3-prompt-enhancer-T8, topics:none |
+| 12 | `almendili/skills` | 369 | 27 | 11d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
+| 13 | `AML-memory/agent-memory-leaderboard` | 963 | 49 | 29d | **5** | desc:empty, license:none, generic-name:agent-memory-leaderboard, topics:none |
+| 14 | `bashalarmistalt/decimen-optical-transfer` | 6553 | 793 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `mikiarlo3/awesome-growth-hacking-skills` | 719 | 14 | 23d | **5** | license:none, low-forks:0.019, generic-name:awesome-growth-hacking-skills, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 74 | 7.4% |
-| description <20 chars | 184 | 18.4% |
-| no license | 461 | 46.1% |
-| high-attention no-desc (stars>1k + empty desc) | 8 | 0.8% |
-| low fork ratio (stars>500 + fsr<0.02) | 12 | 1.2% |
-| overnight surge (>300 spd + <7 days) | 9 | 0.9% |
-| generic-AI-buzzword name | 110 | 11.0% |
+| description empty | 73 | 7.3% |
+| description <20 chars | 199 | 19.9% |
+| no license | 473 | 47.3% |
+| high-attention no-desc (stars>1k + empty desc) | 9 | 0.9% |
+| low fork ratio (stars>500 + fsr<0.02) | 11 | 1.1% |
+| overnight surge (>300 spd + <7 days) | 13 | 1.3% |
+| generic-AI-buzzword name | 111 | 11.1% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -76,9 +76,9 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Python | 3 |
 | TypeScript | 3 |
 | Shell | 2 |
+| TeX | 1 |
 | Rust | 1 |
 | JavaScript | 1 |
-| TeX | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -87,10 +87,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 6 | 0 | 0 | 6 | 0.0% |
-| 5000-9999 | 8 | 2 | 1 | 5 | 25.0% |
-| 1000-4999 | 83 | 6 | 3 | 74 | 7.2% |
-| 500-999 | 135 | 4 | 16 | 115 | 3.0% |
-| 100-499 | 768 | 3 | 79 | 686 | 0.4% |
+| 5000-9999 | 9 | 3 | 1 | 5 | 33.3% |
+| 1000-4999 | 86 | 6 | 4 | 76 | 7.0% |
+| 500-999 | 140 | 3 | 16 | 121 | 2.1% |
+| 100-499 | 759 | 3 | 79 | 677 | 0.4% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -99,42 +99,43 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `MiniMax-AI/MiniMax-H3` | 7246 | 476 | 27d | Python | — |
-| `bashalarmistalt/decimen-optical-transfer` | 6522 | 790 | 27d | TypeScript | AGPL-3.0 |
-| `ZzzLc0405/photo-abstract-editorial` | 4943 | 316 | 22d | Unknown | — |
-| `Zeejay0/gathered-scenes-zine-skill` | 4473 | 459 | 25d | Unknown | — |
-| `gvzdv/claudish-to-english` | 2330 | 107 | 16d | Shell | MIT |
-| `tobi/walgit` | 2233 | 118 | 3d | Rust | MIT |
-| `elayadesign/ai-design-skills` | 1445 | 98 | 28d | Unknown | MIT |
-| `google-gemma/gemma-translator` | 1345 | 175 | 23d | JavaScript | Apache-2.0 |
+| `MiniMax-AI/MiniMax-H3` | 7322 | 478 | 28d | Python | — |
+| `bashalarmistalt/decimen-optical-transfer` | 6553 | 793 | 28d | TypeScript | AGPL-3.0 |
+| `ZzzLc0405/photo-abstract-editorial` | 5005 | 318 | 23d | Unknown | — |
+| `Zeejay0/gathered-scenes-zine-skill` | 4520 | 460 | 26d | Unknown | — |
+| `HEJustinSun/my-girlfriend-jingtian-latex` | 3644 | 575 | 1d | TeX | — |
+| `gvzdv/claudish-to-english` | 2374 | 109 | 17d | Shell | MIT |
+| `tobi/walgit` | 2286 | 120 | 4d | Rust | MIT |
+| `elayadesign/ai-design-skills` | 1460 | 101 | 29d | Unknown | MIT |
+| `google-gemma/gemma-translator` | 1351 | 176 | 24d | JavaScript | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 110 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 111 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 17 |
 | `awesome` | 17 |
+| `skills` | 16 |
+| `agent` | 16 |
 | `skill` | 15 |
-| `skills` | 15 |
-| `toolkit` | 10 |
-| `codex` | 8 |
+| `toolkit` | 11 |
+| `codex` | 9 |
 | `claude` | 6 |
 | `llm` | 4 |
 | `prompt` | 3 |
-| `gpt` | 3 |
 | `template` | 3 |
+| `gpt` | 3 |
 | `vibe` | 3 |
-| `demo` | 2 |
 | `starter` | 2 |
 | `playground` | 1 |
+| `demo` | 1 |
 | `test` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 385 (38.5%)
-- Repos with at least one topic: 615 (61.5%)
+- Repos with **zero topics**: 365 (36.5%)
+- Repos with at least one topic: 635 (63.5%)
 
 ## Methodology limits
 
