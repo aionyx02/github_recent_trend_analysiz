@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 817.4 | 316.0 | 204112 |
-| forks | 91.0 | 17.0 | 23591 |
-| open_issues | 5.9 | 1.0 | 528 |
-| stars_per_day | 60.1 | 17.0 | 12757 |
-| age_days | 18.8 | 22.0 | 29 |
+| stars | 820.5 | 319.5 | 205979 |
+| forks | 91.0 | 18.0 | 23878 |
+| open_issues | 6.1 | 1.0 | 540 |
+| stars_per_day | 56.0 | 16.7 | 12116 |
+| age_days | 19.4 | 22.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `deepseek-ai/deepseek-harness` | 204112 | 23591 | TypeScript | Other |
-| `anywhere-labs/dsh-desktop` | 21992 | 1077 | TypeScript | Other |
-| `guillaumemeyer/watermarks-remover` | 19353 | 2256 | Python | AI/ML |
-| `firecrawl/anydoc` | 19270 | 1143 | Rust | Other |
-| `awesome-dsh-plugin/awesome-dsh-plugin` | 13641 | 2348 | Python | Other |
-| `trycompai/crm` | 9123 | 1135 | TypeScript | AI/ML |
-| `pathwaycom/arc-task-gen` | 8925 | 58 | Python | Other |
-| `yjh051108/dsh-routing-suite` | 6961 | 140 | JavaScript | Other |
-| `FareedKhan-dev/kimi-k3-in-c` | 6741 | 1098 | C | AI/ML |
-| `zhu1090093659/dsh-web` | 6489 | 433 | TypeScript | Other |
+| `deepseek-ai/deepseek-harness` | 205979 | 23878 | TypeScript | Other |
+| `anywhere-labs/dsh-desktop` | 22373 | 1096 | TypeScript | Other |
+| `guillaumemeyer/watermarks-remover` | 19605 | 2277 | Python | AI/ML |
+| `firecrawl/anydoc` | 19570 | 1163 | Rust | Other |
+| `awesome-dsh-plugin/awesome-dsh-plugin` | 13855 | 2409 | Python | Other |
+| `pathwaycom/arc-task-gen` | 9128 | 61 | Python | Other |
+| `yjh051108/dsh-routing-suite` | 6993 | 141 | JavaScript | Other |
+| `FareedKhan-dev/kimi-k3-in-c` | 6893 | 1114 | C | AI/ML |
+| `zhu1090093659/dsh-web` | 6572 | 439 | TypeScript | Web |
+| `arvids-unavailable/openGym` | 6388 | 1039 | JavaScript | Other |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `deepseek-ai/deepseek-harness` | 12757.0 | 204112 | 16d | Other |
-| `HEJustinSun/my-girlfriend-jingtian-latex` | 2053.5 | 4107 | 2d | Other |
-| `sapientinc/PRAXIST` | 1617.5 | 3235 | 2d | Other |
-| `anywhere-labs/dsh-desktop` | 1374.5 | 21992 | 16d | Other |
-| `XiaoDuoYa/codex-with-chatgpt` | 1181.0 | 1181 | 1d | AI/ML |
-| `guillaumemeyer/watermarks-remover` | 1075.2 | 19353 | 18d | AI/ML |
-| `MetaMask-AI/metamask-desktop` | 936.0 | 936 | 1d | Finance/Trading |
-| `awesome-dsh-plugin/awesome-dsh-plugin` | 852.6 | 13641 | 16d | Other |
-| `Nanako0129/sepia` | 809.0 | 809 | 1d | AI/ML |
-| `firecrawl/anydoc` | 741.2 | 19270 | 26d | Other |
+| `deepseek-ai/deepseek-harness` | 12116.4 | 205979 | 17d | Other |
+| `sapientinc/PRAXIST` | 1807.0 | 5421 | 3d | Other |
+| `HEJustinSun/my-girlfriend-jingtian-latex` | 1393.3 | 4180 | 3d | Other |
+| `anywhere-labs/dsh-desktop` | 1316.1 | 22373 | 17d | Other |
+| `guillaumemeyer/watermarks-remover` | 1031.8 | 19605 | 19d | AI/ML |
+| `XiaoDuoYa/codex-with-chatgpt` | 845.5 | 1691 | 2d | AI/ML |
+| `awesome-dsh-plugin/awesome-dsh-plugin` | 815.0 | 13855 | 17d | Other |
+| `firecrawl/anydoc` | 724.8 | 19570 | 27d | Other |
+| `MetaMask-AI/metamask-desktop` | 614.0 | 1228 | 2d | Finance/Trading |
+| `Nanako0129/sepia` | 570.5 | 1141 | 2d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 497 | 1028 | 315 | 111 | 72.0 | 6.0 |
-| AI/ML | 313 | 671 | 340 | 78 | 53.1 | 6.1 |
-| Web | 60 | 634 | 314 | 83 | 46.3 | 3.7 |
-| Mobile | 42 | 488 | 365 | 39 | 36.2 | 9.2 |
-| Data | 26 | 322 | 297 | 20 | 24.3 | 2.5 |
-| CLI/Tooling | 22 | 592 | 338 | 62 | 36.4 | 9.2 |
-| Security | 16 | 362 | 313 | 67 | 30.2 | 2.9 |
-| Game | 10 | 545 | 334 | 38 | 30.4 | 6.8 |
-| DevOps | 8 | 444 | 230 | 74 | 25.9 | 2.4 |
-| Finance/Trading | 6 | 310 | 188 | 120 | 167.2 | 3.2 |
+| Other | 495 | 1035 | 317 | 113 | 67.1 | 6.2 |
+| AI/ML | 316 | 643 | 340 | 75 | 48.6 | 6.0 |
+| Web | 59 | 762 | 326 | 91 | 50.3 | 3.9 |
+| Mobile | 42 | 475 | 362 | 36 | 32.4 | 9.6 |
+| Data | 25 | 336 | 304 | 21 | 23.3 | 2.7 |
+| CLI/Tooling | 22 | 634 | 399 | 66 | 42.4 | 10.7 |
+| Security | 17 | 371 | 333 | 64 | 24.8 | 2.5 |
+| Game | 10 | 536 | 302 | 35 | 30.7 | 6.7 |
+| Finance/Trading | 7 | 338 | 193 | 97 | 97.2 | 2.7 |
+| DevOps | 7 | 491 | 242 | 75 | 27.5 | 3.7 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.971 |         0.097 |     -0.011 |
-| forks       |   0.971 |   1     |         0.086 |     -0.031 |
-| open_issues |   0.097 |   0.086 |         1     |     -0.069 |
-| age_days    |  -0.011 |  -0.031 |        -0.069 |      1     |
+| stars       |   1     |   0.97  |         0.098 |     -0.012 |
+| forks       |   0.97  |   1     |         0.085 |     -0.033 |
+| open_issues |   0.098 |   0.085 |         1     |     -0.079 |
+| age_days    |  -0.012 |  -0.033 |        -0.079 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.418 |         0.26  |      0.025 |
-| forks       |   0.418 |   1     |         0.578 |     -0.221 |
-| open_issues |   0.26  |   0.578 |         1     |     -0.149 |
-| age_days    |   0.025 |  -0.221 |        -0.149 |      1     |
+| stars       |   1     |   0.426 |         0.267 |      0.001 |
+| forks       |   0.426 |   1     |         0.59  |     -0.273 |
+| open_issues |   0.267 |   0.59  |         1     |     -0.185 |
+| age_days    |   0.001 |  -0.273 |        -0.185 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `dsh-plugin` | 81 |
-| `deepseek-harness` | 78 |
+| `dsh-plugin` | 80 |
+| `deepseek-harness` | 76 |
 | `ai-agents` | 60 |
-| `dsh` | 59 |
-| `claude-code` | 46 |
-| `deepseek` | 42 |
-| `llm` | 39 |
-| `codex` | 38 |
-| `ai-agent` | 34 |
-| `mcp` | 33 |
-| `typescript` | 32 |
+| `dsh` | 57 |
+| `claude-code` | 51 |
+| `llm` | 41 |
+| `deepseek` | 40 |
+| `codex` | 40 |
+| `ai-agent` | 38 |
+| `mcp` | 34 |
+| `typescript` | 30 |
 | `agent` | 29 |
-| `ai` | 27 |
-| `developer-tools` | 26 |
-| `agent-skills` | 25 |
-| `python` | 25 |
-| `windows` | 24 |
-| `macos` | 22 |
-| `rust` | 22 |
-| `claude` | 19 |
+| `developer-tools` | 28 |
+| `python` | 27 |
+| `agent-skills` | 26 |
+| `ai` | 25 |
+| `windows` | 23 |
+| `claude` | 21 |
+| `macos` | 21 |
+| `rust` | 20 |
