@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-09-05 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-09-06 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -33,40 +33,40 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 7 | 0.7% |
-| 待檢視 | 106 | 10.6% |
-| 訊號完整 | 887 | 88.7% |
+| 待檢視 | 120 | 12.0% |
+| 訊號完整 | 873 | 87.3% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `amirh00sain/SpiderPanel` | 1118 | 3758 | 17d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 2 | `MiniMax-AI/awesome-minimax-h3-integration` | 292 | 23 | 22d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
-| 3 | `itnann/Data-Analysis-Agent` | 199 | 5 | 29d | **5** | desc:empty, license:none, generic-name:Data-Analysis-Agent, topics:none |
-| 4 | `tobi/walgit` | 2428 | 137 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 5 | `yczz/oc-english` | 729 | 8 | 3d | **5** | desc:short, license:none, low-forks:0.011, topics:none |
-| 6 | `gvzdv/claudish-to-english` | 2529 | 119 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 7 | `almendili/skills` | 377 | 28 | 19d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
-| 8 | `kelvinfkr/company_skill` | 301 | 1 | 11d | **4** | desc:empty, generic-name:company_skill, topics:none |
-| 9 | `ericzakariasson/scandinavian-design` | 376 | 18 | 23d | **4** | desc:empty, license:none, topics:none |
-| 10 | `soumatheusgomes/buscandomilhao` | 194 | 39 | 8d | **4** | desc:empty, license:none, topics:none |
-| 11 | `TheRealYT/git-knife` | 454 | 16 | 25d | **4** | desc:empty, license:none, topics:none |
-| 12 | `b00nz/mVolt` | 291 | 10 | 21d | **4** | desc:empty, license:none, topics:none |
-| 13 | `aashaexo/soundshuman` | 291 | 13 | 28d | **4** | desc:empty, license:none, topics:none |
-| 14 | `wide-trace/open-higgsfield` | 1370 | 23 | 9d | **4** | license:none, low-forks:0.017, topics:none |
-| 15 | `b-nnett/codex-subscription-router` | 403 | 55 | 19d | **4** | desc:empty, generic-name:codex-subscription-router, topics:none |
+| 1 | `amirh00sain/SpiderPanel` | 1144 | 3852 | 18d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 2 | `tigerless-labs/agent-memory` | 299 | 19 | 4d | **5** | desc:empty, license:none, generic-name:agent-memory, topics:none |
+| 3 | `MiniMax-AI/awesome-minimax-h3-integration` | 295 | 24 | 23d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
+| 4 | `almendili/skills` | 377 | 28 | 20d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
+| 5 | `gvzdv/claudish-to-english` | 2533 | 120 | 26d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 6 | `yczz/oc-english` | 826 | 9 | 4d | **5** | desc:short, license:none, low-forks:0.011, topics:none |
+| 7 | `tobi/walgit` | 2438 | 138 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `lvgalvao/projeto-dados-ia-databricks` | 269 | 62 | 12d | **4** | desc:empty, license:none, topics:none |
+| 9 | `AlloxOrg/allox-os` | 215 | 2 | 24d | **4** | desc:empty, license:none, topics:none |
+| 10 | `hirotomasato/jiofarm` | 201 | 74 | 13d | **4** | desc:empty, license:none, topics:none |
+| 11 | `soumatheusgomes/buscandomilhao` | 202 | 42 | 9d | **4** | desc:empty, license:none, topics:none |
+| 12 | `QIYUEKURONG/ai-learning-planner` | 211 | 1 | 26d | **4** | desc:empty, license:none, topics:none |
+| 13 | `Danzer1xxxxChan/H3-World` | 223 | 26 | 15d | **4** | desc:empty, license:none, topics:none |
+| 14 | `KJGX66F/bot-hosting-vless` | 248 | 456 | 11d | **4** | desc:empty, license:none, topics:none |
+| 15 | `AwaisShah75/Real-Time-Person-Elderly-Fall-Detection-System` | 234 | 58 | 22d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 85 | 8.5% |
-| description <20 chars | 161 | 16.1% |
-| no license | 414 | 41.4% |
+| description empty | 96 | 9.6% |
+| description <20 chars | 17 | 1.7% |
+| no license | 265 | 26.5% |
 | high-attention no-desc (stars>1k + empty desc) | 3 | 0.3% |
-| low fork ratio (stars>500 + fsr<0.02) | 15 | 1.5% |
-| overnight surge (>300 spd + <7 days) | 8 | 0.8% |
-| generic-AI-buzzword name | 106 | 10.6% |
+| low fork ratio (stars>500 + fsr<0.02) | 16 | 1.6% |
+| overnight surge (>300 spd + <7 days) | 11 | 1.1% |
+| generic-AI-buzzword name | 116 | 11.6% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -74,10 +74,10 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 |---|---:|
 | Python | 2 |
 | Unknown | 1 |
-| Rust | 1 |
-| JavaScript | 1 |
-| Shell | 1 |
 | TypeScript | 1 |
+| Shell | 1 |
+| JavaScript | 1 |
+| Rust | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -86,10 +86,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 4 | 0 | 0 | 4 | 0.0% |
-| 5000-9999 | 5 | 0 | 0 | 5 | 0.0% |
-| 1000-4999 | 81 | 3 | 4 | 74 | 3.7% |
-| 500-999 | 138 | 1 | 20 | 117 | 0.7% |
-| 100-499 | 772 | 3 | 82 | 687 | 0.4% |
+| 5000-9999 | 4 | 0 | 0 | 4 | 0.0% |
+| 1000-4999 | 83 | 3 | 3 | 77 | 3.6% |
+| 500-999 | 136 | 1 | 19 | 116 | 0.7% |
+| 100-499 | 773 | 3 | 98 | 672 | 0.4% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,37 +98,37 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `gvzdv/claudish-to-english` | 2529 | 119 | 25d | Shell | MIT |
-| `tobi/walgit` | 2428 | 137 | 12d | Rust | MIT |
-| `amirh00sain/SpiderPanel` | 1118 | 3758 | 17d | Python | — |
+| `gvzdv/claudish-to-english` | 2533 | 120 | 26d | Shell | MIT |
+| `tobi/walgit` | 2438 | 138 | 13d | Rust | MIT |
+| `amirh00sain/SpiderPanel` | 1144 | 3852 | 18d | Python | — |
 
 ### Generic-name pattern breakdown
 
-Of 106 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 116 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 18 |
-| `skill` | 18 |
-| `skills` | 16 |
+| `skill` | 25 |
+| `agent` | 24 |
 | `awesome` | 15 |
-| `codex` | 7 |
-| `toolkit` | 7 |
-| `claude` | 5 |
-| `prompt` | 5 |
+| `skills` | 14 |
+| `codex` | 9 |
+| `prompt` | 6 |
+| `claude` | 4 |
+| `toolkit` | 3 |
+| `gpt` | 3 |
 | `llm` | 3 |
 | `agents` | 2 |
 | `starter` | 2 |
-| `template` | 2 |
-| `gpt` | 2 |
 | `vibe` | 2 |
-| `test` | 1 |
+| `template` | 2 |
+| `cookbook` | 1 |
 | `demo` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 374 (37.4%)
-- Repos with at least one topic: 626 (62.6%)
+- Repos with **zero topics**: 476 (47.6%)
+- Repos with at least one topic: 524 (52.4%)
 
 ## Methodology limits
 
