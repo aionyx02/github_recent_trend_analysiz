@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-09-08 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-09-09 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -33,51 +33,51 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 | Tier | Count | % of sample |
 |---|---:|---:|
 | 低資訊密度 | 8 | 0.8% |
-| 待檢視 | 117 | 11.7% |
-| 訊號完整 | 875 | 87.5% |
+| 待檢視 | 118 | 11.8% |
+| 訊號完整 | 874 | 87.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `amirh00sain/SpiderPanel` | 1198 | 4020 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 2 | `jtydhr88/screenwriting-skills` | 363 | 44 | 1d | **6** | desc:empty, license:none, overnight-surge:363/day, generic-name:screenwriting-skills, topics:none |
-| 3 | `almendili/skills` | 379 | 28 | 22d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
-| 4 | `MiniMax-AI/awesome-minimax-h3-integration` | 305 | 24 | 25d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
-| 5 | `gvzdv/claudish-to-english` | 2547 | 120 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 6 | `yczz/oc-english` | 853 | 14 | 6d | **5** | desc:short, license:none, low-forks:0.016, topics:none |
-| 7 | `tobi/walgit` | 2452 | 138 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `tigerless-labs/agent-memory` | 602 | 35 | 6d | **5** | desc:empty, license:none, generic-name:agent-memory, topics:none |
-| 9 | `QIYUEKURONG/ai-learning-planner` | 211 | 1 | 28d | **4** | desc:empty, license:none, topics:none |
-| 10 | `ganjoor/ganjoor-data` | 228 | 44 | 24d | **4** | desc:empty, license:none, topics:none |
-| 11 | `soumatheusgomes/buscandomilhao` | 215 | 46 | 11d | **4** | desc:empty, license:none, topics:none |
-| 12 | `sjc88661/multi-agent-discuss` | 212 | 24 | 24d | **4** | desc:empty, generic-name:multi-agent-discuss, topics:none |
-| 13 | `wanonewan/wanwan` | 304 | 1814 | 23d | **4** | desc:empty, license:none, topics:none |
-| 14 | `chenb1522/nodelume` | 204 | 0 | 25d | **4** | desc:empty, license:none, topics:none |
-| 15 | `kelvinfkr/company_skill` | 301 | 1 | 14d | **4** | desc:empty, generic-name:company_skill, topics:none |
+| 1 | `amirh00sain/SpiderPanel` | 1222 | 4125 | 21d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 2 | `almendili/skills` | 380 | 28 | 23d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
+| 3 | `yczz/oc-english` | 855 | 15 | 7d | **5** | desc:short, license:none, low-forks:0.018, topics:none |
+| 4 | `MiniMax-AI/awesome-minimax-h3-integration` | 309 | 24 | 26d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
+| 5 | `guithepc/mentor-prompt` | 133 | 0 | 23d | **5** | desc:empty, license:none, generic-name:mentor-prompt, topics:none |
+| 6 | `jtydhr88/screenwriting-skills` | 396 | 46 | 2d | **5** | desc:empty, license:none, generic-name:screenwriting-skills, topics:none |
+| 7 | `tobi/walgit` | 2459 | 140 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `gvzdv/claudish-to-english` | 2556 | 120 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `rrzu/deepseek-harness-desktop` | 141 | 0 | 19d | **4** | desc:empty, license:none, topics:none |
+| 10 | `solari-sdk/solari-cookbook` | 157 | 459 | 21d | **4** | desc:empty, generic-name:solari-cookbook, topics:none |
+| 11 | `AlloxOrg/allox-os` | 316 | 2 | 27d | **4** | desc:empty, license:none, topics:none |
+| 12 | `ericzakariasson/scandinavian-design` | 380 | 18 | 27d | **4** | desc:empty, license:none, topics:none |
+| 13 | `x4gpanell/3x-ui` | 319 | 964 | 24d | **4** | desc:empty, license:none, topics:none |
+| 14 | `wanonewan/wanwan` | 307 | 1843 | 24d | **4** | desc:empty, license:none, topics:none |
+| 15 | `MiniMax-AI/MiniMax-Music3` | 836 | 78 | 28d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 96 | 9.6% |
-| description <20 chars | 17 | 1.7% |
-| no license | 273 | 27.3% |
+| description empty | 99 | 9.9% |
+| description <20 chars | 19 | 1.9% |
+| no license | 264 | 26.4% |
 | high-attention no-desc (stars>1k + empty desc) | 3 | 0.3% |
-| low fork ratio (stars>500 + fsr<0.02) | 14 | 1.4% |
-| overnight surge (>300 spd + <7 days) | 10 | 1.0% |
-| generic-AI-buzzword name | 115 | 11.5% |
+| low fork ratio (stars>500 + fsr<0.02) | 11 | 1.1% |
+| overnight surge (>300 spd + <7 days) | 13 | 1.3% |
+| generic-AI-buzzword name | 113 | 11.3% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 2 |
-| Unknown | 2 |
+| Unknown | 3 |
+| Python | 1 |
 | TypeScript | 1 |
-| Shell | 1 |
 | JavaScript | 1 |
 | Rust | 1 |
+| Shell | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -86,10 +86,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 4 | 0 | 0 | 4 | 0.0% |
-| 5000-9999 | 5 | 0 | 0 | 5 | 0.0% |
-| 1000-4999 | 84 | 3 | 4 | 77 | 3.6% |
-| 500-999 | 131 | 2 | 15 | 114 | 1.5% |
-| 100-499 | 776 | 3 | 98 | 675 | 0.4% |
+| 5000-9999 | 6 | 0 | 0 | 6 | 0.0% |
+| 1000-4999 | 87 | 3 | 2 | 82 | 3.4% |
+| 500-999 | 129 | 1 | 19 | 109 | 0.8% |
+| 100-499 | 774 | 4 | 97 | 673 | 0.5% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,28 +98,28 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `gvzdv/claudish-to-english` | 2547 | 120 | 28d | Shell | MIT |
-| `tobi/walgit` | 2452 | 138 | 15d | Rust | MIT |
-| `amirh00sain/SpiderPanel` | 1198 | 4020 | 20d | Python | — |
+| `gvzdv/claudish-to-english` | 2556 | 120 | 29d | Shell | MIT |
+| `tobi/walgit` | 2459 | 140 | 16d | Rust | MIT |
+| `amirh00sain/SpiderPanel` | 1222 | 4125 | 21d | Python | — |
 
 ### Generic-name pattern breakdown
 
-Of 115 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 113 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 25 |
-| `skill` | 24 |
+| `agent` | 26 |
+| `skill` | 25 |
 | `awesome` | 16 |
 | `skills` | 14 |
-| `codex` | 9 |
-| `prompt` | 5 |
-| `toolkit` | 4 |
+| `codex` | 8 |
 | `claude` | 4 |
-| `llm` | 3 |
+| `toolkit` | 4 |
+| `prompt` | 3 |
 | `agents` | 2 |
 | `starter` | 2 |
 | `template` | 2 |
+| `llm` | 2 |
 | `vibe` | 2 |
 | `cookbook` | 1 |
 | `gpt` | 1 |
@@ -127,8 +127,8 @@ Of 115 repos with a generic-AI-buzzword token in the name, the token distributio
 
 ### Topics coverage
 
-- Repos with **zero topics**: 475 (47.5%)
-- Repos with at least one topic: 525 (52.5%)
+- Repos with **zero topics**: 493 (49.3%)
+- Repos with at least one topic: 507 (50.7%)
 
 ## Methodology limits
 
