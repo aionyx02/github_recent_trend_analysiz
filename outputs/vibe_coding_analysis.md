@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-09-11 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-09-12 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,55 +32,55 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 17 | 1.7% |
-| 待檢視 | 112 | 11.2% |
-| 訊號完整 | 871 | 87.1% |
+| 低資訊密度 | 19 | 1.9% |
+| 待檢視 | 120 | 12.0% |
+| 訊號完整 | 861 | 86.1% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Faizpi/bank-sampah` | 918 | 0 | 1d | **7** | desc:empty, license:none, low-forks:0.000, overnight-surge:918/day, topics:none |
-| 2 | `capncodes69/9r-bulk-add` | 922 | 1 | 20d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
-| 3 | `Edge0-AI/Edge0` | 1185 | 99 | 2d | **6** | desc:empty, high-attention-no-desc, overnight-surge:592/day, topics:none |
-| 4 | `rizqinrr/cv` | 899 | 0 | 22d | **6** | desc:empty, license:none, low-forks:0.000, topics:none |
-| 5 | `amirh00sain/SpiderPanel` | 1121 | 4004 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `guithepc/mentor-prompt` | 136 | 0 | 25d | **5** | desc:empty, license:none, generic-name:mentor-prompt, topics:none |
-| 7 | `inclusionAI/Choruz` | 626 | 9 | 8d | **5** | desc:empty, low-forks:0.014, topics:none |
-| 8 | `anthropics/fermats-last-theorem` | 1089 | 90 | 6d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `tobi/walgit` | 2480 | 145 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `yczz/oc-english` | 837 | 15 | 9d | **5** | desc:short, license:none, low-forks:0.018, topics:none |
-| 11 | `capncodes69/myfreebuff` | 920 | 2 | 6d | **5** | desc:empty, low-forks:0.002, topics:none |
-| 12 | `MiniMax-AI/awesome-minimax-h3-integration` | 316 | 24 | 28d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
-| 13 | `almendili/skills` | 382 | 29 | 25d | **5** | desc:empty, license:none, generic-name:skills, topics:none |
-| 14 | `FireRedTeam/FireRedAudio` | 846 | 15 | 19d | **5** | desc:empty, low-forks:0.018, topics:none |
-| 15 | `lyt2003-yt/swarm-agent` | 142 | 0 | 20d | **5** | desc:empty, license:none, generic-name:swarm-agent, topics:none |
+| 1 | `FireRedTeam/FireRedAudio` | 1004 | 15 | 20d | **7** | desc:empty, high-attention-no-desc, low-forks:0.015, topics:none |
+| 2 | `Faizpi/bank-sampah` | 920 | 1 | 1d | **7** | desc:empty, license:none, low-forks:0.001, overnight-surge:920/day, topics:none |
+| 3 | `amirh00sain/SpiderPanel` | 1164 | 4186 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `Edge0-AI/Edge0` | 1396 | 112 | 3d | **6** | desc:empty, high-attention-no-desc, overnight-surge:465/day, topics:none |
+| 5 | `rizqinrr/cv` | 899 | 0 | 23d | **6** | desc:empty, license:none, low-forks:0.000, topics:none |
+| 6 | `capncodes69/9r-bulk-add` | 922 | 1 | 21d | **6** | desc:empty, license:none, low-forks:0.001, topics:none |
+| 7 | `MiniMax-AI/awesome-minimax-h3-integration` | 320 | 24 | 29d | **5** | desc:empty, license:none, generic-name:awesome-minimax-h3-integration, topics:none |
+| 8 | `anthropics/fermats-last-theorem` | 1123 | 94 | 7d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `jtydhr88/screenwriting-skills` | 759 | 95 | 5d | **5** | desc:empty, license:none, generic-name:screenwriting-skills, topics:none |
+| 10 | `Royaltadetonate/Discord-Quest` | 700 | 0 | 13d | **5** | desc:empty, license:none, low-forks:0.000 |
+| 11 | `inclusionAI/Choruz` | 677 | 9 | 9d | **5** | desc:empty, low-forks:0.013, topics:none |
+| 12 | `guithepc/mentor-prompt` | 136 | 0 | 26d | **5** | desc:empty, license:none, generic-name:mentor-prompt, topics:none |
+| 13 | `tobi/walgit` | 2487 | 145 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `lyt2003-yt/swarm-agent` | 149 | 0 | 21d | **5** | desc:empty, license:none, generic-name:swarm-agent, topics:none |
+| 15 | `sitimas9/ghsibudi` | 898 | 0 | 22d | **5** | desc:short, license:none, low-forks:0.000, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 101 | 10.1% |
+| description empty | 111 | 11.1% |
 | description <20 chars | 19 | 1.9% |
-| no license | 276 | 27.6% |
-| high-attention no-desc (stars>1k + empty desc) | 4 | 0.4% |
+| no license | 283 | 28.3% |
+| high-attention no-desc (stars>1k + empty desc) | 5 | 0.5% |
 | low fork ratio (stars>500 + fsr<0.02) | 23 | 2.3% |
 | overnight surge (>300 spd + <7 days) | 14 | 1.4% |
-| generic-AI-buzzword name | 112 | 11.2% |
+| generic-AI-buzzword name | 109 | 10.9% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
 | Python | 6 |
-| Unknown | 3 |
+| Unknown | 4 |
 | Rust | 2 |
+| TypeScript | 2 |
 | PHP | 1 |
 | CSS | 1 |
 | Lean | 1 |
-| JavaScript | 1 |
 | PowerShell | 1 |
-| TypeScript | 1 |
+| JavaScript | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -89,10 +89,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 7 | 0 | 0 | 7 | 0.0% |
-| 1000-4999 | 85 | 4 | 3 | 78 | 4.7% |
-| 500-999 | 133 | 9 | 20 | 104 | 6.8% |
-| 100-499 | 772 | 4 | 89 | 679 | 0.5% |
+| 5000-9999 | 6 | 0 | 0 | 6 | 0.0% |
+| 1000-4999 | 88 | 5 | 3 | 80 | 5.7% |
+| 500-999 | 133 | 10 | 21 | 102 | 7.5% |
+| 100-499 | 770 | 4 | 96 | 670 | 0.5% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -101,18 +101,19 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `tobi/walgit` | 2480 | 145 | 18d | Rust | MIT |
-| `Edge0-AI/Edge0` | 1185 | 99 | 2d | Python | Apache-2.0 |
-| `amirh00sain/SpiderPanel` | 1121 | 4004 | 23d | Python | — |
-| `anthropics/fermats-last-theorem` | 1089 | 90 | 6d | Lean | Apache-2.0 |
+| `tobi/walgit` | 2487 | 145 | 19d | Rust | MIT |
+| `Edge0-AI/Edge0` | 1396 | 112 | 3d | Python | Apache-2.0 |
+| `amirh00sain/SpiderPanel` | 1164 | 4186 | 24d | Python | — |
+| `anthropics/fermats-last-theorem` | 1123 | 94 | 7d | Lean | Apache-2.0 |
+| `FireRedTeam/FireRedAudio` | 1004 | 15 | 20d | Python | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 112 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 109 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `agent` | 26 |
+| `agent` | 24 |
 | `skill` | 24 |
 | `awesome` | 20 |
 | `skills` | 13 |
@@ -120,19 +121,18 @@ Of 112 repos with a generic-AI-buzzword token in the name, the token distributio
 | `toolkit` | 4 |
 | `prompt` | 3 |
 | `claude` | 3 |
-| `starter` | 2 |
-| `vibe` | 2 |
+| `gpt` | 2 |
 | `llm` | 2 |
+| `starter` | 2 |
 | `cookbook` | 1 |
-| `agents` | 1 |
-| `gpt` | 1 |
 | `demo` | 1 |
-| `template` | 1 |
+| `agents` | 1 |
+| `vibe` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 498 (49.8%)
-- Repos with at least one topic: 502 (50.2%)
+- Repos with **zero topics**: 497 (49.7%)
+- Repos with at least one topic: 503 (50.3%)
 
 ## Methodology limits
 
