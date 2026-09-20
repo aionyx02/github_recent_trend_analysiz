@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 460.0 | 232.5 | 7465 |
-| forks | 72.9 | 22.0 | 3648 |
-| open_issues | 10.8 | 1.0 | 3308 |
-| stars_per_day | 49.7 | 17.3 | 3694 |
-| age_days | 16.5 | 17.0 | 29 |
+| stars | 481.7 | 238.0 | 10344 |
+| forks | 76.5 | 23.0 | 3643 |
+| open_issues | 11.5 | 1.0 | 3203 |
+| stars_per_day | 55.5 | 18.5 | 3448 |
+| age_days | 16.2 | 17.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `lnkiai/m3e-canvas` | 7465 | 778 | TypeScript | Web |
-| `browser-use/jev-ultrafast` | 6451 | 415 | Python | Other |
-| `sapientinc/PRAXIST` | 6185 | 681 | Python | Other |
-| `MengTo/threeui` | 5957 | 566 | HTML | Web |
-| `rakanki911/DLSS5-Swapper` | 5835 | 308 | JavaScript | Game |
-| `eternity4719/HowToLiveBetter` | 5528 | 417 | HTML | Web |
-| `XiaoDuoYa/codex-with-chatgpt` | 5515 | 535 | TypeScript | AI/ML |
-| `bojieli/ai-infra-book` | 4452 | 315 | Python | AI/ML |
-| `crmne/spotifast` | 4384 | 199 | Rust | Other |
-| `HEJustinSun/my-girlfriend-jingtian-latex` | 4212 | 638 | TeX | Other |
+| `browser-use/jev-ultrafast` | 10344 | 626 | Python | Other |
+| `lnkiai/m3e-canvas` | 7714 | 803 | TypeScript | Web |
+| `eternity4719/HowToLiveBetter` | 6573 | 487 | HTML | Web |
+| `sapientinc/PRAXIST` | 6361 | 699 | Python | Other |
+| `rakanki911/DLSS5-Swapper` | 5987 | 320 | JavaScript | Game |
+| `MengTo/threeui` | 5983 | 571 | HTML | Web |
+| `XiaoDuoYa/codex-with-chatgpt` | 5655 | 540 | TypeScript | AI/ML |
+| `bojieli/ai-infra-book` | 4647 | 328 | Python | AI/ML |
+| `tamaratran/fast-jev-compaction` | 4594 | 255 | TypeScript | AI/ML |
+| `crmne/spotifast` | 4440 | 204 | Rust | Other |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `tamaratran/fast-jev-compaction` | 3694.0 | 3694 | 1d | AI/ML |
-| `browser-use/jev-ultrafast` | 3225.5 | 6451 | 2d | Other |
-| `TheoLeeCJ/SemIf` | 857.0 | 1714 | 2d | Other |
-| `robbietilton/Compositor` | 719.5 | 1439 | 2d | Mobile |
-| `TianyuCodings/NanoJev` | 604.0 | 604 | 1d | Other |
-| `yynxxxxx/gpt_sub_analysis` | 529.0 | 529 | 1d | Security |
-| `eternity4719/HowToLiveBetter` | 502.5 | 5528 | 11d | Web |
-| `jarrodwatts/jev-trader` | 497.5 | 995 | 2d | AI/ML |
-| `NandhaKishorM/laya` | 492.0 | 492 | 1d | Other |
-| `arvindear/wp2shell-PoC` | 476.0 | 476 | 1d | Security |
+| `browser-use/jev-ultrafast` | 3448.0 | 10344 | 3d | Other |
+| `tamaratran/fast-jev-compaction` | 2297.0 | 4594 | 2d | AI/ML |
+| `NandhaKishorM/laya` | 2194.0 | 2194 | 1d | Other |
+| `robbietilton/Compositor` | 1070.7 | 3212 | 3d | Mobile |
+| `bespokelabsai/nimble` | 794.0 | 794 | 1d | Data |
+| `TheoLeeCJ/SemIf` | 721.0 | 2163 | 3d | Other |
+| `TianyuCodings/NanoJev` | 601.5 | 1203 | 2d | Other |
+| `arvindear/wp2shell-PoC` | 563.0 | 563 | 1d | Security |
+| `eternity4719/HowToLiveBetter` | 547.8 | 6573 | 12d | Web |
+| `githubnext/localjev` | 541.0 | 541 | 1d | Other |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 414 | 425 | 215 | 83 | 50.4 | 17.8 |
-| AI/ML | 384 | 491 | 255 | 66 | 48.1 | 5.9 |
-| Mobile | 61 | 393 | 232 | 49 | 46.9 | 7.8 |
-| Web | 52 | 788 | 239 | 82 | 53.7 | 4.6 |
-| Data | 19 | 351 | 328 | 91 | 40.3 | 7.9 |
-| CLI/Tooling | 16 | 221 | 205 | 14 | 58.7 | 1.4 |
-| Security | 15 | 313 | 278 | 73 | 105.1 | 2.5 |
-| DevOps | 14 | 200 | 152 | 19 | 13.5 | 3.7 |
-| Finance/Trading | 13 | 343 | 170 | 129 | 49.7 | 2.6 |
-| Game | 12 | 716 | 186 | 85 | 49.9 | 7.1 |
+| Other | 410 | 460 | 232 | 88 | 59.1 | 19.8 |
+| AI/ML | 381 | 494 | 255 | 67 | 50.2 | 5.7 |
+| Mobile | 62 | 430 | 236 | 60 | 57.9 | 8.1 |
+| Web | 55 | 779 | 240 | 80 | 52.5 | 3.9 |
+| CLI/Tooling | 18 | 387 | 219 | 29 | 52.5 | 3.5 |
+| Data | 18 | 408 | 346 | 124 | 76.4 | 8.6 |
+| Finance/Trading | 17 | 315 | 176 | 101 | 58.5 | 2.6 |
+| Security | 15 | 324 | 283 | 75 | 86.5 | 2.6 |
+| DevOps | 13 | 212 | 167 | 22 | 18.2 | 4.1 |
+| Game | 11 | 756 | 207 | 89 | 71.0 | 8.4 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.387 |         0.044 |      0.062 |
-| forks       |   0.387 |   1     |         0.032 |      0.01  |
-| open_issues |   0.044 |   0.032 |         1     |     -0.026 |
-| age_days    |   0.062 |   0.01  |        -0.026 |      1     |
+| stars       |   1     |   0.383 |         0.042 |      0.062 |
+| forks       |   0.383 |   1     |         0.035 |      0.028 |
+| open_issues |   0.042 |   0.035 |         1     |     -0.019 |
+| age_days    |   0.062 |   0.028 |        -0.019 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.522 |         0.28  |      0.055 |
-| forks       |   0.522 |   1     |         0.308 |     -0.009 |
-| open_issues |   0.28  |   0.308 |         1     |      0.069 |
-| age_days    |   0.055 |  -0.009 |         0.069 |      1     |
+| stars       |   1     |   0.518 |         0.269 |      0.06  |
+| forks       |   0.518 |   1     |         0.307 |      0.025 |
+| open_issues |   0.269 |   0.307 |         1     |      0.076 |
+| age_days    |   0.06  |   0.025 |         0.076 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 65 |
-| `ai-agents` | 59 |
+| `claude-code` | 64 |
+| `ai-agents` | 61 |
 | `codex` | 53 |
-| `llm` | 46 |
-| `python` | 36 |
-| `ai-agent` | 33 |
-| `developer-tools` | 32 |
+| `llm` | 47 |
+| `ai-agent` | 34 |
+| `developer-tools` | 33 |
+| `python` | 33 |
 | `mcp` | 31 |
-| `macos` | 29 |
-| `agent-skills` | 29 |
-| `typescript` | 29 |
+| `agent-skills` | 30 |
+| `typescript` | 30 |
+| `macos` | 28 |
 | `ai` | 26 |
-| `react` | 24 |
+| `react` | 23 |
 | `rust` | 22 |
 | `windows` | 22 |
 | `claude` | 21 |
 | `self-hosted` | 21 |
 | `open-source` | 20 |
-| `local-first` | 19 |
-| `linux` | 16 |
+| `awesome-list` | 18 |
+| `local-first` | 17 |
