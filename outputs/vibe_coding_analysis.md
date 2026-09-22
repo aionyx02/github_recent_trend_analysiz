@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-09-21 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-09-22 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,55 +32,53 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 17 | 1.7% |
-| 待檢視 | 140 | 14.0% |
-| 訊號完整 | 843 | 84.3% |
+| 低資訊密度 | 14 | 1.4% |
+| 待檢視 | 133 | 13.3% |
+| 訊號完整 | 853 | 85.3% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Mantitup-Org/vista` | 2377 | 36 | 16d | **8** | desc:empty, license:none, high-attention-no-desc, low-forks:0.015, topics:none |
-| 2 | `FireRedTeam/FireRedAudio` | 2002 | 18 | 29d | **7** | desc:empty, high-attention-no-desc, low-forks:0.009, topics:none |
-| 3 | `FjordWorkerShanty/Microsoft-Activation-Script` | 1586 | 0 | 22d | **7** | desc:empty, license:none, high-attention-no-desc, low-forks:0.000 |
-| 4 | `NandhaKishorM/laya` | 7492 | 637 | 2d | **6** | desc:empty, high-attention-no-desc, overnight-surge:3746/day, topics:none |
-| 5 | `HEJustinSun/my-girlfriend-jingtian-latex` | 4206 | 636 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `kajisho5/ffmpeg-skill` | 1335 | 99 | 17d | **6** | desc:empty, high-attention-no-desc, generic-name:ffmpeg-skill, topics:none |
-| 7 | `Faizpi/bank-sampah` | 647 | 1 | 9d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
-| 8 | `azerioid/azerioid-stack-manager` | 516 | 1 | 19d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
-| 9 | `rizqinrr/viserys-agent` | 693 | 10 | 8d | **6** | desc:empty, low-forks:0.014, generic-name:viserys-agent, topics:none |
-| 10 | `cheng-haha/GPT-Policy` | 241 | 4 | 10d | **5** | desc:empty, license:none, generic-name:GPT-Policy, topics:none |
-| 11 | `Edge0-AI/Edge0` | 2035 | 178 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `anthropics/fermats-last-theorem` | 1207 | 103 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `vinnylarouge/jevlike` | 1144 | 99 | 4d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `inclusionAI/Choruz` | 779 | 9 | 18d | **5** | desc:empty, low-forks:0.012, topics:none |
-| 15 | `v-modal/awesome-jev-tools` | 605 | 8 | 1d | **5** | license:none, low-forks:0.013, overnight-surge:605/day, generic-name:awesome-jev-tools |
+| 1 | `Mantitup-Org/vista` | 2378 | 43 | 17d | **8** | desc:empty, license:none, high-attention-no-desc, low-forks:0.018, topics:none |
+| 2 | `NandhaKishorM/laya` | 13795 | 1118 | 3d | **6** | desc:empty, high-attention-no-desc, overnight-surge:4598/day, topics:none |
+| 3 | `HEJustinSun/my-girlfriend-jingtian-latex` | 4211 | 634 | 25d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `azerioid/azerioid-stack-manager` | 531 | 1 | 20d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
+| 5 | `kajisho5/ffmpeg-skill` | 1355 | 100 | 18d | **6** | desc:empty, high-attention-no-desc, generic-name:ffmpeg-skill, topics:none |
+| 6 | `Faizpi/bank-sampah` | 647 | 1 | 10d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
+| 7 | `cheng-haha/GPT-Policy` | 256 | 4 | 11d | **5** | desc:empty, license:none, generic-name:GPT-Policy, topics:none |
+| 8 | `capncodes69/myfreebuff` | 649 | 3 | 17d | **5** | desc:empty, low-forks:0.005, topics:none |
+| 9 | `vinnylarouge/jevlike` | 1198 | 108 | 5d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `inclusionAI/Choruz` | 789 | 9 | 19d | **5** | desc:empty, low-forks:0.011, topics:none |
+| 11 | `Edge0-AI/Edge0` | 2041 | 181 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `Taichu-AI/ZDTaichu5.0-9B` | 1093 | 242 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `anthropics/fermats-last-theorem` | 1215 | 104 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `tobi/walgit` | 2548 | 155 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `www222fff/free-router-proxy` | 467 | 53 | 27d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 124 | 12.4% |
-| description <20 chars | 24 | 2.4% |
-| no license | 295 | 29.5% |
-| high-attention no-desc (stars>1k + empty desc) | 10 | 1.0% |
-| low fork ratio (stars>500 + fsr<0.02) | 21 | 2.1% |
-| overnight surge (>300 spd + <7 days) | 23 | 2.3% |
-| generic-AI-buzzword name | 112 | 11.2% |
+| description empty | 116 | 11.6% |
+| description <20 chars | 22 | 2.2% |
+| no license | 296 | 29.6% |
+| high-attention no-desc (stars>1k + empty desc) | 9 | 0.9% |
+| low fork ratio (stars>500 + fsr<0.02) | 18 | 1.8% |
+| overnight surge (>300 spd + <7 days) | 25 | 2.5% |
+| generic-AI-buzzword name | 111 | 11.1% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
 | Python | 6 |
-| Unknown | 2 |
 | PHP | 2 |
 | Rust | 2 |
 | TypeScript | 1 |
 | TeX | 1 |
-| JavaScript | 1 |
-| Lean | 1 |
 | PowerShell | 1 |
+| Lean | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -88,11 +86,11 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
-| ≥10000 | 2 | 0 | 1 | 1 | 0.0% |
-| 5000-9999 | 6 | 1 | 0 | 5 | 16.7% |
-| 1000-4999 | 88 | 9 | 3 | 76 | 10.2% |
-| 500-999 | 133 | 6 | 23 | 104 | 4.5% |
-| 100-499 | 771 | 1 | 113 | 657 | 0.1% |
+| ≥10000 | 3 | 1 | 0 | 2 | 33.3% |
+| 5000-9999 | 6 | 0 | 0 | 6 | 0.0% |
+| 1000-4999 | 84 | 8 | 4 | 72 | 9.5% |
+| 500-999 | 136 | 4 | 26 | 106 | 2.9% |
+| 100-499 | 771 | 1 | 103 | 667 | 0.1% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -101,34 +99,33 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `NandhaKishorM/laya` | 7492 | 637 | 2d | Python | Apache-2.0 |
-| `HEJustinSun/my-girlfriend-jingtian-latex` | 4206 | 636 | 24d | TeX | — |
-| `tobi/walgit` | 2541 | 155 | 28d | Rust | MIT |
-| `Mantitup-Org/vista` | 2377 | 36 | 16d | TypeScript | — |
-| `Edge0-AI/Edge0` | 2035 | 178 | 12d | Python | Apache-2.0 |
-| `FireRedTeam/FireRedAudio` | 2002 | 18 | 29d | Python | Apache-2.0 |
-| `FjordWorkerShanty/Microsoft-Activation-Script` | 1586 | 0 | 22d | Unknown | — |
-| `kajisho5/ffmpeg-skill` | 1335 | 99 | 17d | Python | MIT |
-| `anthropics/fermats-last-theorem` | 1207 | 103 | 16d | Lean | Apache-2.0 |
-| `vinnylarouge/jevlike` | 1144 | 99 | 4d | Python | MIT |
+| `NandhaKishorM/laya` | 13795 | 1118 | 3d | Python | Apache-2.0 |
+| `HEJustinSun/my-girlfriend-jingtian-latex` | 4211 | 634 | 25d | TeX | — |
+| `tobi/walgit` | 2548 | 155 | 29d | Rust | MIT |
+| `Mantitup-Org/vista` | 2378 | 43 | 17d | TypeScript | — |
+| `Edge0-AI/Edge0` | 2041 | 181 | 13d | Python | Apache-2.0 |
+| `kajisho5/ffmpeg-skill` | 1355 | 100 | 18d | Python | MIT |
+| `anthropics/fermats-last-theorem` | 1215 | 104 | 17d | Lean | Apache-2.0 |
+| `vinnylarouge/jevlike` | 1198 | 108 | 5d | Python | MIT |
+| `Taichu-AI/ZDTaichu5.0-9B` | 1093 | 242 | 17d | Python | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 112 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 111 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `skill` | 27 |
-| `awesome` | 22 |
-| `agent` | 20 |
-| `skills` | 10 |
+| `skill` | 26 |
+| `awesome` | 25 |
+| `agent` | 18 |
+| `skills` | 11 |
 | `gpt` | 8 |
 | `codex` | 7 |
-| `claude` | 6 |
-| `toolkit` | 2 |
+| `claude` | 5 |
 | `agents` | 2 |
 | `prompt` | 2 |
 | `llm` | 2 |
+| `toolkit` | 1 |
 | `demo` | 1 |
 | `vibe` | 1 |
 | `starter` | 1 |
@@ -136,8 +133,8 @@ Of 112 repos with a generic-AI-buzzword token in the name, the token distributio
 
 ### Topics coverage
 
-- Repos with **zero topics**: 565 (56.5%)
-- Repos with at least one topic: 435 (43.5%)
+- Repos with **zero topics**: 568 (56.8%)
+- Repos with at least one topic: 432 (43.2%)
 
 ## Methodology limits
 
