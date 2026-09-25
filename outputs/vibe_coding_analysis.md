@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-09-24 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-09-25 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,41 +32,41 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 12 | 1.2% |
-| 待檢視 | 135 | 13.5% |
-| 訊號完整 | 853 | 85.3% |
+| 低資訊密度 | 13 | 1.3% |
+| 待檢視 | 123 | 12.3% |
+| 訊號完整 | 864 | 86.4% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `kajisho5/ffmpeg-skill` | 1392 | 105 | 20d | **6** | desc:empty, high-attention-no-desc, generic-name:ffmpeg-skill, topics:none |
-| 2 | `azerioid/azerioid-stack-manager` | 580 | 3 | 22d | **6** | desc:empty, license:none, low-forks:0.005, topics:none |
-| 3 | `Faizpi/bank-sampah` | 509 | 1 | 12d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
-| 4 | `HEJustinSun/my-girlfriend-jingtian-latex` | 4206 | 632 | 27d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `Mantitup-Org/vista` | 2385 | 48 | 19d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 6 | `cheng-haha/GPT-Policy` | 270 | 4 | 13d | **5** | desc:empty, license:none, generic-name:GPT-Policy, topics:none |
-| 7 | `inclusionAI/Choruz` | 821 | 9 | 21d | **5** | desc:empty, low-forks:0.011, topics:none |
-| 8 | `vinnylarouge/jevlike` | 1279 | 113 | 7d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `capncodes69/myfreebuff` | 510 | 3 | 19d | **5** | desc:empty, low-forks:0.006, topics:none |
-| 10 | `Edge0-AI/Edge0` | 2064 | 183 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `anthropics/fermats-last-theorem` | 1223 | 106 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `Taichu-AI/ZDTaichu5.0-9B` | 1767 | 346 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `kvmem/kvmem-llama.cpp` | 570 | 51 | 9d | **4** | desc:empty, license:none, topics:none |
-| 14 | `NxcoreAI/NxMem` | 994 | 107 | 13d | **4** | desc:empty, license:none, topics:none |
-| 15 | `peggykangkang02/xialingguo-ip` | 183 | 34 | 13d | **4** | desc:empty, license:none, topics:none |
+| 1 | `kajisho5/ffmpeg-skill` | 1401 | 107 | 21d | **6** | desc:empty, high-attention-no-desc, generic-name:ffmpeg-skill, topics:none |
+| 2 | `azerioid/azerioid-stack-manager` | 674 | 3 | 23d | **6** | desc:empty, license:none, low-forks:0.004, topics:none |
+| 3 | `Contrastive-LM/CLM` | 1041 | 74 | 1d | **6** | desc:empty, high-attention-no-desc, overnight-surge:1041/day, topics:none |
+| 4 | `HEJustinSun/my-girlfriend-jingtian-latex` | 4204 | 632 | 28d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `Mantitup-Org/vista` | 2388 | 48 | 20d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 6 | `Faizpi/bank-sampah` | 505 | 1 | 13d | **6** | desc:empty, license:none, low-forks:0.002, topics:none |
+| 7 | `Observal/Axl` | 1147 | 692 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `capncodes69/myfreebuff` | 506 | 3 | 20d | **5** | desc:empty, low-forks:0.006, topics:none |
+| 9 | `vinnylarouge/jevlike` | 1298 | 114 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 10 | `Taichu-AI/ZDTaichu5.0-9B` | 2086 | 398 | 20d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `Edge0-AI/Edge0` | 2071 | 183 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `inclusionAI/Choruz` | 834 | 9 | 22d | **5** | desc:empty, low-forks:0.011, topics:none |
+| 13 | `anthropics/fermats-last-theorem` | 1226 | 106 | 20d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `TaoLiveAIGC/TaoMate-H3` | 457 | 43 | 19d | **4** | desc:empty, license:none, topics:none |
+| 15 | `taeold/djev-run` | 544 | 32 | 4d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 117 | 11.7% |
+| description empty | 109 | 10.9% |
 | description <20 chars | 21 | 2.1% |
-| no license | 298 | 29.8% |
-| high-attention no-desc (stars>1k + empty desc) | 7 | 0.7% |
+| no license | 289 | 28.9% |
+| high-attention no-desc (stars>1k + empty desc) | 9 | 0.9% |
 | low fork ratio (stars>500 + fsr<0.02) | 16 | 1.6% |
-| overnight surge (>300 spd + <7 days) | 24 | 2.4% |
-| generic-AI-buzzword name | 119 | 11.9% |
+| overnight surge (>300 spd + <7 days) | 21 | 2.1% |
+| generic-AI-buzzword name | 120 | 12.0% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -74,10 +74,10 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 |---|---:|
 | Python | 5 |
 | PHP | 2 |
+| TypeScript | 2 |
 | TeX | 1 |
-| TypeScript | 1 |
-| Rust | 1 |
 | PowerShell | 1 |
+| Rust | 1 |
 | Lean | 1 |
 
 ### 低資訊密度 concentration by stars bucket
@@ -87,10 +87,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
-| 5000-9999 | 10 | 0 | 0 | 10 | 0.0% |
-| 1000-4999 | 76 | 7 | 4 | 65 | 9.2% |
-| 500-999 | 152 | 4 | 28 | 120 | 2.6% |
-| 100-499 | 759 | 1 | 103 | 655 | 0.1% |
+| 5000-9999 | 11 | 0 | 0 | 11 | 0.0% |
+| 1000-4999 | 81 | 9 | 3 | 69 | 11.1% |
+| 500-999 | 154 | 4 | 26 | 124 | 2.6% |
+| 100-499 | 751 | 0 | 94 | 657 | 0.0% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -99,41 +99,43 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `HEJustinSun/my-girlfriend-jingtian-latex` | 4206 | 632 | 27d | TeX | — |
-| `Mantitup-Org/vista` | 2385 | 48 | 19d | TypeScript | — |
-| `Edge0-AI/Edge0` | 2064 | 183 | 15d | Python | Apache-2.0 |
-| `Taichu-AI/ZDTaichu5.0-9B` | 1767 | 346 | 19d | Python | Apache-2.0 |
-| `kajisho5/ffmpeg-skill` | 1392 | 105 | 20d | Python | MIT |
-| `vinnylarouge/jevlike` | 1279 | 113 | 7d | Python | MIT |
-| `anthropics/fermats-last-theorem` | 1223 | 106 | 19d | Lean | Apache-2.0 |
+| `HEJustinSun/my-girlfriend-jingtian-latex` | 4204 | 632 | 28d | TeX | — |
+| `Mantitup-Org/vista` | 2388 | 48 | 20d | TypeScript | — |
+| `Taichu-AI/ZDTaichu5.0-9B` | 2086 | 398 | 20d | Python | Apache-2.0 |
+| `Edge0-AI/Edge0` | 2071 | 183 | 16d | Python | Apache-2.0 |
+| `kajisho5/ffmpeg-skill` | 1401 | 107 | 21d | Python | MIT |
+| `vinnylarouge/jevlike` | 1298 | 114 | 8d | Python | MIT |
+| `anthropics/fermats-last-theorem` | 1226 | 106 | 20d | Lean | Apache-2.0 |
+| `Observal/Axl` | 1147 | 692 | 25d | TypeScript | Apache-2.0 |
+| `Contrastive-LM/CLM` | 1041 | 74 | 1d | Python | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 119 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 120 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `awesome` | 29 |
+| `awesome` | 31 |
 | `skill` | 25 |
-| `agent` | 20 |
+| `agent` | 19 |
 | `skills` | 12 |
 | `codex` | 9 |
 | `gpt` | 7 |
-| `claude` | 4 |
+| `claude` | 3 |
+| `prompt` | 3 |
 | `llm` | 3 |
-| `prompt` | 2 |
 | `agents` | 2 |
 | `toolkit` | 1 |
+| `starter` | 1 |
 | `vibe` | 1 |
 | `demo` | 1 |
-| `starter` | 1 |
 | `cookbook` | 1 |
 | `playground` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 559 (55.9%)
-- Repos with at least one topic: 441 (44.1%)
+- Repos with **zero topics**: 552 (55.2%)
+- Repos with at least one topic: 448 (44.8%)
 
 ## Methodology limits
 
