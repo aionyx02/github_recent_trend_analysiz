@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 590.6 | 268.0 | 28166 |
-| forks | 89.2 | 28.0 | 3636 |
-| open_issues | 10.2 | 1.0 | 2030 |
-| stars_per_day | 57.0 | 20.2 | 2817 |
-| age_days | 16.1 | 17.0 | 29 |
+| stars | 619.8 | 284.5 | 31439 |
+| forks | 91.2 | 29.0 | 3748 |
+| open_issues | 10.0 | 1.0 | 2040 |
+| stars_per_day | 59.4 | 20.7 | 3858 |
+| age_days | 16.3 | 17.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `NandhaKishorM/laya` | 28166 | 2455 | Python | AI/ML |
-| `eternity4719/HowToLiveBetter` | 26512 | 2011 | HTML | Web |
-| `browser-use/jev-ultrafast` | 21297 | 1480 | Python | AI/ML |
-| `lnkiai/m3e-canvas` | 8439 | 891 | TypeScript | Web |
-| `jaredpalmer/kev` | 7797 | 489 | Python | Other |
-| `Human-Agent-Society/reef` | 7211 | 686 | Python | AI/ML |
-| `tamaratran/fast-jev-compaction` | 7170 | 454 | TypeScript | AI/ML |
-| `zai-org/ZCode` | 7137 | 2161 | TypeScript | AI/ML |
-| `jev-chat/jev-chat-jarvis` | 7069 | 1200 | Kotlin | AI/ML |
-| `mizorewww/laya-mlx` | 6612 | 518 | Python | AI/ML |
+| `eternity4719/HowToLiveBetter` | 31439 | 2353 | HTML | Web |
+| `NandhaKishorM/laya` | 28953 | 2527 | Python | AI/ML |
+| `browser-use/jev-ultrafast` | 21500 | 1497 | Python | AI/ML |
+| `lnkiai/m3e-canvas` | 8484 | 895 | TypeScript | Web |
+| `jaredpalmer/kev` | 8003 | 506 | Python | Other |
+| `Human-Agent-Society/reef` | 7348 | 686 | Python | AI/ML |
+| `zai-org/ZCode` | 7231 | 2194 | TypeScript | AI/ML |
+| `tamaratran/fast-jev-compaction` | 7225 | 463 | TypeScript | AI/ML |
+| `jev-chat/jev-chat-jarvis` | 7169 | 1212 | Kotlin | AI/ML |
+| `mizorewww/laya-mlx` | 6644 | 522 | Python | AI/ML |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `NandhaKishorM/laya` | 2816.6 | 28166 | 10d | AI/ML |
-| `KKKKhazix/AIHOT` | 2442.0 | 2442 | 1d | AI/ML |
-| `browser-use/jev-ultrafast` | 1774.8 | 21297 | 12d | AI/ML |
-| `eternity4719/HowToLiveBetter` | 1262.5 | 26512 | 21d | Web |
-| `jev-chat/jev-chat-jarvis` | 1009.9 | 7069 | 7d | AI/ML |
-| `zai-org/ZCode` | 892.1 | 7137 | 8d | AI/ML |
-| `firelex/jeff` | 846.0 | 846 | 1d | Other |
-| `yihui-dev/awesome-opus5-5-videos` | 845.0 | 845 | 1d | AI/ML |
-| `dzhng/jevgrep` | 817.5 | 1635 | 2d | AI/ML |
-| `mizorewww/laya-mlx` | 734.7 | 6612 | 9d | AI/ML |
+| `KKKKhazix/AIHOT` | 3858.0 | 3858 | 1d | AI/ML |
+| `NandhaKishorM/laya` | 2632.1 | 28953 | 11d | AI/ML |
+| `browser-use/jev-ultrafast` | 1653.8 | 21500 | 13d | AI/ML |
+| `eternity4719/HowToLiveBetter` | 1429.0 | 31439 | 22d | Web |
+| `firelex/jeff` | 1148.0 | 1148 | 1d | Other |
+| `feder-cr/dots` | 1026.0 | 1026 | 1d | AI/ML |
+| `jev-chat/jev-chat-jarvis` | 896.1 | 7169 | 8d | AI/ML |
+| `zai-org/ZCode` | 803.4 | 7231 | 9d | AI/ML |
+| `wy51ai/floorplan-3d` | 801.0 | 801 | 1d | Web |
+| `jaredpalmer/kev` | 666.9 | 8003 | 12d | Other |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 401 | 444 | 245 | 84 | 39.7 | 14.5 |
-| AI/ML | 375 | 723 | 309 | 96 | 77.1 | 7.9 |
-| Web | 72 | 975 | 252 | 87 | 69.7 | 4.9 |
-| Mobile | 67 | 511 | 243 | 105 | 46.3 | 6.9 |
-| CLI/Tooling | 18 | 321 | 216 | 35 | 34.4 | 3.4 |
-| Finance/Trading | 18 | 613 | 267 | 72 | 70.0 | 5.8 |
-| Data | 17 | 453 | 275 | 148 | 45.5 | 8.9 |
-| Game | 12 | 415 | 302 | 48 | 62.6 | 16.1 |
-| DevOps | 10 | 360 | 158 | 26 | 32.6 | 3.3 |
-| Security | 10 | 357 | 338 | 82 | 25.8 | 3.7 |
+| Other | 411 | 455 | 262 | 82 | 43.0 | 13.6 |
+| AI/ML | 370 | 760 | 327 | 100 | 79.8 | 7.8 |
+| Web | 73 | 1064 | 251 | 94 | 78.2 | 6.0 |
+| Mobile | 65 | 549 | 253 | 112 | 47.2 | 8.3 |
+| Finance/Trading | 18 | 631 | 270 | 75 | 58.8 | 4.0 |
+| CLI/Tooling | 16 | 367 | 260 | 39 | 31.8 | 3.9 |
+| Data | 16 | 482 | 278 | 149 | 36.8 | 9.9 |
+| Game | 12 | 465 | 344 | 51 | 58.6 | 18.3 |
+| Security | 10 | 449 | 346 | 103 | 31.5 | 4.3 |
+| DevOps | 9 | 395 | 176 | 30 | 32.9 | 3.0 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.518 |         0.097 |     -0.006 |
-| forks       |   0.518 |   1     |         0.086 |      0.03  |
-| open_issues |   0.097 |   0.086 |         1     |      0.032 |
-| age_days    |  -0.006 |   0.03  |         0.032 |      1     |
+| stars       |   1     |   0.53  |         0.079 |      0.002 |
+| forks       |   0.53  |   1     |         0.072 |      0.041 |
+| open_issues |   0.079 |   0.072 |         1     |      0.03  |
+| age_days    |   0.002 |   0.041 |         0.03  |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.583 |         0.307 |      0.026 |
-| forks       |   0.583 |   1     |         0.334 |     -0.052 |
-| open_issues |   0.307 |   0.334 |         1     |      0.043 |
-| age_days    |   0.026 |  -0.052 |         0.043 |      1     |
+| stars       |   1     |   0.608 |         0.304 |      0.022 |
+| forks       |   0.608 |   1     |         0.342 |     -0.024 |
+| open_issues |   0.304 |   0.342 |         1     |      0.039 |
+| age_days    |   0.022 |  -0.024 |         0.039 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `llm` | 54 |
-| `ai-agents` | 51 |
-| `claude-code` | 48 |
-| `codex` | 43 |
+| `ai-agents` | 54 |
+| `llm` | 53 |
+| `claude-code` | 51 |
+| `codex` | 42 |
 | `jev` | 38 |
-| `macos` | 37 |
+| `macos` | 36 |
 | `developer-tools` | 31 |
 | `awesome-list` | 30 |
 | `python` | 28 |
-| `mcp` | 27 |
+| `mcp` | 28 |
+| `typescript` | 28 |
 | `agent-skills` | 27 |
-| `typescript` | 25 |
 | `awesome` | 25 |
+| `ai` | 24 |
 | `windows` | 23 |
-| `ai` | 22 |
 | `apimart` | 20 |
+| `rust` | 19 |
 | `typesafe` | 19 |
-| `rust` | 17 |
-| `swift` | 17 |
 | `ai-agent` | 17 |
+| `android` | 16 |
