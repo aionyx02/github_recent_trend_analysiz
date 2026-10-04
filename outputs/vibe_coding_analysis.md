@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-10-03 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-10-04 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,52 +32,51 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 16 | 1.6% |
-| 待檢視 | 119 | 11.9% |
-| 訊號完整 | 865 | 86.5% |
+| 低資訊密度 | 15 | 1.5% |
+| 待檢視 | 127 | 12.7% |
+| 訊號完整 | 858 | 85.8% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `Mantitup-Org/vista` | 2371 | 47 | 28d | **8** | desc:empty, license:none, high-attention-no-desc, low-forks:0.020, topics:none |
-| 2 | `kajisho5/ffmpeg-skill` | 1461 | 119 | 29d | **6** | desc:empty, high-attention-no-desc, generic-name:ffmpeg-skill, topics:none |
-| 3 | `Vodiwalker/vodiwalker_panel` | 1102 | 2932 | 22d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 4 | `ArasTey/lunel` | 1005 | 2405 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `wy51ai/floorplan-3d` | 1350 | 275 | 3d | **6** | desc:empty, high-attention-no-desc, overnight-surge:450/day, topics:none |
-| 6 | `LinkMouseIndex/SteamSharedAccount-AllGame` | 553 | 0 | 24d | **5** | desc:empty, license:none, low-forks:0.000 |
-| 7 | `Lumid-Off/AirCard-Windows` | 1194 | 89 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `Edge0-AI/Edge0` | 2609 | 274 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `Taichu-AI/ZDTaichu5.0-9B` | 2986 | 551 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `vinnylarouge/jevlike` | 1341 | 117 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `anthropics/fermats-last-theorem` | 1250 | 106 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `reladraw/reladraw` | 1036 | 21 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `google-research/rrsi` | 1208 | 113 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `fsiaonma/elpis` | 522 | 4 | 3d | **5** | desc:short, license:none, low-forks:0.008, topics:none |
-| 15 | `Contrastive-LM/CLM` | 2749 | 238 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 1 | `Mantitup-Org/vista` | 2366 | 47 | 29d | **8** | desc:empty, license:none, high-attention-no-desc, low-forks:0.020, topics:none |
+| 2 | `wy51ai/floorplan-3d` | 1372 | 283 | 4d | **6** | desc:empty, high-attention-no-desc, overnight-surge:343/day, topics:none |
+| 3 | `Vodiwalker/vodiwalker_panel` | 1140 | 3028 | 23d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 4 | `ArasTey/lunel` | 1016 | 2421 | 24d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 5 | `imexlovery/video-report-agent` | 161 | 12 | 25d | **5** | desc:empty, license:none, generic-name:video-report-agent, topics:none |
+| 6 | `cloudflare/forge` | 1002 | 38 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `anthropics/fermats-last-theorem` | 1250 | 106 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `google-research/rrsi` | 1232 | 119 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `fsiaonma/elpis` | 546 | 4 | 4d | **5** | desc:short, license:none, low-forks:0.007, topics:none |
+| 10 | `Lumid-Off/AirCard-Windows` | 1219 | 91 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `vinnylarouge/jevlike` | 1341 | 117 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `Taichu-AI/ZDTaichu5.0-9B` | 3124 | 551 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `reladraw/reladraw` | 1048 | 23 | 26d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `Edge0-AI/Edge0` | 2858 | 333 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 15 | `Contrastive-LM/CLM` | 2785 | 239 | 10d | **5** | desc:empty, high-attention-no-desc, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 109 | 10.9% |
-| description <20 chars | 19 | 1.9% |
-| no license | 275 | 27.5% |
+| description empty | 113 | 11.3% |
+| description <20 chars | 17 | 1.7% |
+| no license | 303 | 30.3% |
 | high-attention no-desc (stars>1k + empty desc) | 13 | 1.3% |
-| low fork ratio (stars>500 + fsr<0.02) | 16 | 1.6% |
-| overnight surge (>300 spd + <7 days) | 13 | 1.3% |
-| generic-AI-buzzword name | 115 | 11.5% |
+| low fork ratio (stars>500 + fsr<0.02) | 20 | 2.0% |
+| overnight surge (>300 spd + <7 days) | 39 | 3.9% |
+| generic-AI-buzzword name | 110 | 11.0% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 9 |
-| TypeScript | 3 |
+| Python | 8 |
+| TypeScript | 4 |
 | HTML | 1 |
-| Unknown | 1 |
-| Rust | 1 |
 | Lean | 1 |
+| Rust | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -87,9 +86,9 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 3 | 0 | 0 | 3 | 0.0% |
 | 5000-9999 | 10 | 0 | 0 | 10 | 0.0% |
-| 1000-4999 | 103 | 13 | 3 | 87 | 12.6% |
-| 500-999 | 155 | 2 | 22 | 131 | 1.3% |
-| 100-499 | 729 | 1 | 94 | 634 | 0.1% |
+| 1000-4999 | 105 | 13 | 4 | 88 | 12.4% |
+| 500-999 | 162 | 1 | 26 | 135 | 0.6% |
+| 100-499 | 720 | 1 | 97 | 622 | 0.1% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -98,34 +97,34 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `Taichu-AI/ZDTaichu5.0-9B` | 2986 | 551 | 28d | Python | Apache-2.0 |
-| `Contrastive-LM/CLM` | 2749 | 238 | 9d | Python | Apache-2.0 |
-| `Edge0-AI/Edge0` | 2609 | 274 | 24d | Python | Apache-2.0 |
-| `Mantitup-Org/vista` | 2371 | 47 | 28d | TypeScript | — |
-| `kajisho5/ffmpeg-skill` | 1461 | 119 | 29d | Python | MIT |
-| `wy51ai/floorplan-3d` | 1350 | 275 | 3d | HTML | MIT |
-| `vinnylarouge/jevlike` | 1341 | 117 | 16d | Python | MIT |
-| `anthropics/fermats-last-theorem` | 1250 | 106 | 28d | Lean | Apache-2.0 |
-| `google-research/rrsi` | 1208 | 113 | 16d | Python | Apache-2.0 |
-| `Lumid-Off/AirCard-Windows` | 1194 | 89 | 14d | Rust | MIT |
-| `Vodiwalker/vodiwalker_panel` | 1102 | 2932 | 22d | Python | — |
-| `reladraw/reladraw` | 1036 | 21 | 25d | TypeScript | Apache-2.0 |
-| `ArasTey/lunel` | 1005 | 2405 | 23d | Python | — |
+| `Taichu-AI/ZDTaichu5.0-9B` | 3124 | 551 | 29d | Python | Apache-2.0 |
+| `Edge0-AI/Edge0` | 2858 | 333 | 25d | Python | Apache-2.0 |
+| `Contrastive-LM/CLM` | 2785 | 239 | 10d | Python | Apache-2.0 |
+| `Mantitup-Org/vista` | 2366 | 47 | 29d | TypeScript | — |
+| `wy51ai/floorplan-3d` | 1372 | 283 | 4d | HTML | MIT |
+| `vinnylarouge/jevlike` | 1341 | 117 | 17d | Python | MIT |
+| `anthropics/fermats-last-theorem` | 1250 | 106 | 29d | Lean | Apache-2.0 |
+| `google-research/rrsi` | 1232 | 119 | 17d | Python | Apache-2.0 |
+| `Lumid-Off/AirCard-Windows` | 1219 | 91 | 15d | Rust | MIT |
+| `Vodiwalker/vodiwalker_panel` | 1140 | 3028 | 23d | Python | — |
+| `reladraw/reladraw` | 1048 | 23 | 26d | TypeScript | Apache-2.0 |
+| `ArasTey/lunel` | 1016 | 2421 | 24d | Python | — |
+| `cloudflare/forge` | 1002 | 38 | 12d | TypeScript | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 115 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 110 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
-| `awesome` | 33 |
-| `skill` | 21 |
-| `agent` | 21 |
-| `skills` | 11 |
-| `codex` | 7 |
+| `awesome` | 32 |
+| `agent` | 20 |
+| `skill` | 20 |
+| `skills` | 10 |
+| `codex` | 8 |
 | `gpt` | 5 |
-| `claude` | 5 |
-| `llm` | 4 |
+| `claude` | 4 |
+| `llm` | 3 |
 | `vibe` | 2 |
 | `toolkit` | 1 |
 | `prompt` | 1 |
@@ -136,8 +135,8 @@ Of 115 repos with a generic-AI-buzzword token in the name, the token distributio
 
 ### Topics coverage
 
-- Repos with **zero topics**: 566 (56.6%)
-- Repos with at least one topic: 434 (43.4%)
+- Repos with **zero topics**: 541 (54.1%)
+- Repos with at least one topic: 459 (45.9%)
 
 ## Methodology limits
 
