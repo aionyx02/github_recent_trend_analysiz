@@ -1,1001 +1,1001 @@
 full_name,stars,forks,age_days,stars_per_day,primary_language,license,desc_len,score,tier,reasons
-kargulstudio/sales-crm,1274,253,1,1274.0,TypeScript,,0,7,低資訊密度,"desc:empty, license:none, high-attention-no-desc, overnight-surge:1274/day, topics:none"
-ArasTey/lunel,1028,2443,25,41.1,Python,NOASSERTION,0,6,低資訊密度,"desc:empty, license:none, high-attention-no-desc, topics:none"
-Vodiwalker/vodiwalker_panel,1161,3097,24,48.4,Python,,0,6,低資訊密度,"desc:empty, license:none, high-attention-no-desc, topics:none"
-fsiaonma/elpis,550,4,5,110.0,TypeScript,,5,5,低資訊密度,"desc:short, license:none, low-forks:0.007, topics:none"
-imexlovery/video-report-agent,167,12,26,6.4,Python,,0,5,低資訊密度,"desc:empty, license:none, generic-name:video-report-agent, topics:none"
-cloudflare/forge,1026,39,13,78.9,TypeScript,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-vinnylarouge/jevlike,1344,118,18,74.7,Python,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-reladraw/reladraw,1067,24,27,39.5,TypeScript,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-wy51ai/floorplan-3d,1414,291,5,282.8,HTML,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-google-research/rrsi,1253,121,18,69.6,Python,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-Lumid-Off/AirCard-Windows,1249,97,16,78.1,Rust,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-Contrastive-LM/CLM,2844,245,11,258.5,Python,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
-taeold/djev-run,577,37,14,41.2,HTML,,0,4,待檢視,"desc:empty, license:none, topics:none"
-tristanbuckmaster/fluid_lean,269,19,26,10.3,Lean,,0,4,待檢視,"desc:empty, license:none, topics:none"
-corvofeng/atv-core,228,14,8,28.5,Rust,,0,4,待檢視,"desc:empty, license:none, topics:none"
-peggykangkang02/xialingguo-ip,188,33,24,7.8,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
-arden-aaai/cpa-plugin-codex-turn-state,169,59,17,9.9,Go,MIT,0,4,待檢視,"desc:empty, generic-name:cpa-plugin-codex-turn-state, topics:none"
-faligame/Parasite-Eve-2-HD-Remaster,173,3,23,7.5,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
-Atomicx7/Duo-animation,223,35,24,9.3,Kotlin,,0,4,待檢視,"desc:empty, license:none, topics:none"
-blendi-remade/fly-brain-minecraft,150,21,28,5.4,Java,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-x4gpanell/SuperJinX,341,753,2,170.5,HTML,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-TronIsHere/vibefarsiui,206,11,17,12.1,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-leoliu0/texres,181,3,18,10.1,Rust,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-theo-kirby/tmax,147,3,29,5.1,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
-hezhanleiok/freesub,376,519,27,13.9,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
-xsolla-baku-gametech-hackathon/team-Omzo,212,0,24,8.8,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-TaoLiveAIGC/TaoMate-H3,613,59,29,21.1,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-Marco-C-VBH/RepoPilot,201,8,25,8.0,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-pbs05/ponwrt,226,181,11,20.5,C,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-edgcpp/compiler,781,86,12,65.1,C,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-ythx-101/live-panel-skill,562,76,1,562.0,HTML,NOASSERTION,232,4,待檢視,"license:none, overnight-surge:562/day, generic-name:live-panel-skill, topics:none"
-wen1207/ArxivAgent,193,0,28,6.9,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
-XGEN-Labs/XGEN-JING,272,24,19,14.3,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-Kaleidoscope-XinFang/ai-video-ad-studio,198,3,28,7.1,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-NxcoreAI/NxMem,982,87,24,40.9,TypeScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-nex-agi/Nex-N2.5,981,24,27,36.3,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
-kvmem/kvmem-llama.cpp,841,84,20,42.0,C++,,0,4,待檢視,"desc:empty, license:none, topics:none"
-wangmingxuan666/Tiersense,819,137,10,81.9,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
-Rieranthony/product-film-skill,393,29,8,49.1,TypeScript,MIT,0,4,待檢視,"desc:empty, generic-name:product-film-skill, topics:none"
-gireeshkumarreddy/cinematic-portofilo,157,63,29,5.4,JavaScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-gfhdhytghd/viewflow,176,2,27,6.5,Rust,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-YXBwbWFya2V0/AppMarket,298,151,1,298.0,Kotlin,,0,4,待檢視,"desc:empty, license:none, topics:none"
-FeatureNAB/mmWave-Sensor,166,11,13,12.8,Unknown,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-xikhar/spiderbench,486,91,7,69.4,JavaScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-x4gpanell/3x-ui_runonflux,224,502,24,9.3,Go,,0,4,待檢視,"desc:empty, license:none, topics:none"
-raw13g/raw13g.github.io,189,201,15,12.6,JavaScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-rizqinrr/viserys-agent,557,19,22,25.3,JavaScript,Apache-2.0,0,4,待檢視,"desc:empty, generic-name:viserys-agent, topics:none"
-facok/comfyui-SelfLift,287,13,27,10.6,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
-extend-hq/jevbox,568,65,5,113.6,TypeScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-niedachu/MateriaSim,293,11,20,14.7,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
-dabit3/jev-experiments,397,31,17,23.4,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-kargulstudio/workflow-editor,397,59,19,20.9,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-xsolla-baku-gametech-hackathon/team-enthuzone,336,0,25,13.4,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-sanqianzilanyue/ai-voice-breath-kiss-water,156,15,4,39.0,HTML,,0,4,待檢視,"desc:empty, license:none, topics:none"
-BagasRizkyHarySaputra/SIAPIN,184,0,29,6.3,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-OmooLab/AnyImage,148,5,15,9.9,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-BlueKnightNet/Blue-Knight-Panel,161,54,26,6.2,JavaScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-markxplorer969/profile,216,0,9,24.0,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
-Kablex/ComfyUI-Ref2VA-VSA,468,63,29,16.1,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-shengshu-ai/Motus2,690,5,23,30.0,Unknown,,70,4,待檢視,"license:none, low-forks:0.007, topics:none"
-omnirush-ai/omnirush-gui,1565,26,13,120.4,TypeScript,NOASSERTION,59,4,待檢視,"license:none, low-forks:0.017, topics:none"
-blendi-remade/agentcraft,344,50,1,344.0,Java,MIT,0,4,待檢視,"desc:empty, overnight-surge:344/day, topics:none"
-h0m3us3r/eSpDR,239,28,9,26.6,C++,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-CTNicholas/jev-workflow-builder,148,18,13,11.4,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
-HytidelLegend/htd-ai-augmented-education,339,47,11,30.8,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-deillusion/Aha-Engine,496,4,24,20.7,JavaScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
-Faizpi/bank-sampah,457,1,23,19.9,PHP,,0,4,待檢視,"desc:empty, license:none, topics:none"
-kuuky29/UniRoot,203,15,25,8.1,Kotlin,,0,4,待檢視,"desc:empty, license:none, topics:none"
-slop-place/zulu,864,3,12,72.0,Swift,,23,4,待檢視,"license:none, low-forks:0.003, topics:none"
-Re1nhard-1/deconv-preflight,194,7,13,14.9,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-KevinXu02/aha-3d,265,11,11,24.1,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-JaxsonWang/cpa-plugin-oai-basispoints,170,51,10,17.0,Go,MIT,0,3,待檢視,"desc:empty, topics:none"
-xinxuxin/keystone-bench,534,3,27,19.8,Python,NOASSERTION,163,3,待檢視,"license:none, low-forks:0.006"
-lightorigins/Light-O1,168,7,14,12.0,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-huangbai-AI/post-production-skill,250,42,15,16.7,Unknown,,70,3,待檢視,"license:none, generic-name:post-production-skill, topics:none"
-anonymous-report-421/GPT-as-Policy,576,25,21,27.4,HTML,MIT,13,3,待檢視,"desc:short, generic-name:GPT-as-Policy, topics:none"
-rmalde/minecraft-agent,575,62,14,41.1,JavaScript,,107,3,待檢視,"license:none, generic-name:minecraft-agent, topics:none"
-inclusionAI/Ming-Image,170,15,17,10.0,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-XueshiQiao/qduo,173,7,12,14.4,Swift,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
-brainstormity/Jev-X-Sentiment-Analysis,189,36,15,12.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-Spikemumotor/kfebskpv,202,1,26,7.8,Unknown,,0,3,待檢視,"desc:empty, license:none"
-elijah-semyonov/DuoLikeAnimation,157,39,24,6.5,Swift,MIT,0,3,待檢視,"desc:empty, topics:none"
-browser-use/life-recorder,320,40,23,13.9,Swift,MIT,0,3,待檢視,"desc:empty, topics:none"
-anthropics/uplifting-biomolecular-modeling,326,48,17,19.2,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-evondev/evondevKit,326,36,14,23.3,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-tqmane/gunshot,391,45,23,17.0,Objective-C,NOASSERTION,18,3,待檢視,"desc:short, license:none, topics:none"
-Zefan-Cai/Open-Jev,391,52,14,27.9,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-githubnext/localjev,815,54,16,50.9,TypeScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-RLinf/APXinf-robo,183,25,27,6.8,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-riba2534/claude-opus-5-5-demo,987,139,11,89.7,JavaScript,,20,3,待檢視,"license:none, generic-name:claude-opus-5-5-demo, topics:none"
-PartSpearSnare/uvvpalkw,480,0,26,18.5,Unknown,,0,3,待檢視,"desc:empty, license:none"
-AlibabaResearch/SparkDiffusion,421,47,16,26.3,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-storytold/effectcraft,290,67,3,96.7,Rust,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-opusvideo/awesome-claude-video,178,10,9,19.8,Unknown,,122,3,待檢視,"license:none, generic-name:awesome-claude-video, topics:none"
-latticeverse/LatticeVerse,290,0,8,36.2,Unknown,MIT,0,3,待檢視,"desc:empty, topics:none"
-letstri/motion-panels,177,1,27,6.6,TypeScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-jmedina21/deck-as-controller,165,2,4,41.2,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-StevensND/nfsmw-nx,193,9,7,27.6,C,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
-i-am-manware/Manware-s-AI-Learning-Toolkit,695,86,29,24.0,Unknown,,79,3,待檢視,"license:none, generic-name:Manware-s-AI-Learning-Toolkit, topics:none"
-TencentARC/GameHorizon,561,1,14,40.1,Unknown,Apache-2.0,168,3,待檢視,"low-forks:0.002, topics:none"
-LanyXiaosheng/bookflow-skill,194,30,23,8.4,Unknown,MIT,9,3,待檢視,"desc:short, generic-name:bookflow-skill, topics:none"
-15838328874/pi,270,11,28,9.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-zhoufuweigg/guoapp,282,86,8,35.2,Unknown,,19,3,待檢視,"desc:short, license:none, topics:none"
-0xkuch/Fibo,281,1,15,18.7,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-Avenuezensport/efjvysuz,1903,0,12,158.6,Unknown,,174,3,待檢視,"license:none, low-forks:0.000"
-HangYu8123/Pocket-Agent-CLI,164,10,24,6.8,C++,NOASSERTION,68,3,待檢視,"license:none, generic-name:Pocket-Agent-CLI, topics:none"
-mater1996/travel-planning,284,29,13,21.8,Python,NOASSERTION,15,3,待檢視,"desc:short, license:none, topics:none"
-xieyouxixi/hwb-math-modeling-skills,195,5,18,10.8,Python,,23,3,待檢視,"license:none, generic-name:hwb-math-modeling-skills, topics:none"
-deadinside28/bloodborne_pc,559,47,3,186.3,C++,GPL-2.0,0,3,待檢視,"desc:empty, topics:none"
-ninjahawk/livenerf,1267,17,12,105.6,Python,MIT,54,3,待檢視,"low-forks:0.013, topics:none"
-yjz211/vivid-figures-skill,435,28,24,18.1,HTML,NOASSERTION,58,3,待檢視,"license:none, generic-name:vivid-figures-skill, topics:none"
-Codemumarina/jopziuud,297,0,26,11.4,Unknown,,0,3,待檢視,"desc:empty, license:none"
-droidrun/mobile-jev,434,54,17,25.5,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-andrewroxby/claude-style-patch,148,7,26,5.7,Unknown,NOASSERTION,71,3,待檢視,"license:none, generic-name:claude-style-patch, topics:none"
-dealerdefi/Jevmind,183,6,19,9.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-elmasas/lcs-recomp,183,5,10,18.3,C++,MIT,0,3,待檢視,"desc:empty, topics:none"
-kazdenc/regen-icons,183,17,21,8.7,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-OnlistTeam/ai-manager,1046,16,13,80.5,Rust,AGPL-3.0,50,3,待檢視,"low-forks:0.015, topics:none"
-JamesKInner/Covalent-MAS,339,1,15,22.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-liangshanbo789/chatgpt-plus-pro-team-billing,1088,15,25,43.5,TypeScript,,133,3,待檢視,"license:none, low-forks:0.014"
-zjwzcx/Awesome-Astra-Embodied-AI,1085,26,22,49.3,Unknown,,41,3,待檢視,"license:none, generic-name:Awesome-Astra-Embodied-AI, topics:none"
-ElgenTidwell/Chisel,216,23,8,27.0,C#,BSD-3-Clause,0,3,待檢視,"desc:empty, topics:none"
-LetMeHappyCode/auto-video-agent,217,7,27,8.0,Python,,69,3,待檢視,"license:none, generic-name:auto-video-agent, topics:none"
-Barty-Bart/gpt-6-astra-10k-websites,163,68,27,6.0,Unknown,,97,3,待檢視,"license:none, generic-name:gpt-6-astra-10k-websites, topics:none"
-cheng-haha/GPT-Policy,295,5,24,12.3,Python,NOASSERTION,41,3,待檢視,"license:none, generic-name:GPT-Policy, topics:none"
-LinkMouseIndex/allinonetools,400,0,26,15.4,Unknown,,0,3,待檢視,"desc:empty, license:none"
-Dingo-Shenanigans/ReSkate,367,51,2,183.5,C++,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
-mattyamonaca/JP_Market_Vis,150,20,26,5.8,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-dbreunig/building-with-jev-skill,151,11,17,8.9,Unknown,,85,3,待檢視,"license:none, generic-name:building-with-jev-skill, topics:none"
-unitreerobotics/unifolm-wla,208,23,23,9.0,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-portingpete/The-Darkness-Recomp,208,6,19,10.9,C++,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
-storytold/designcraft,209,65,3,69.7,Rust,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
-deepseek-ai/deepseek-recipe,375,32,24,15.6,Rust,MIT,0,3,待檢視,"desc:empty, topics:none"
-RhuanCruz/swiftui-logo-draw,158,14,29,5.4,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-feiyuaq/zcfsrf,157,0,2,78.5,Unknown,,16,3,待檢視,"desc:short, license:none, topics:none"
-mizchi/explainer,387,7,10,38.7,HTML,MIT,0,3,待檢視,"desc:empty, topics:none"
-DefiLeoo/YOINK,382,22,23,16.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-Sac-Y/Jev-cu,616,59,16,38.5,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-swoonqx/TypingPet,239,14,10,23.9,Unknown,,9,3,待檢視,"desc:short, license:none, topics:none"
-joshhhhhan/VISTA,214,13,29,7.4,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-yynxxxxx/gpt_sub_analysis,613,316,17,36.1,Unknown,,113,3,待檢視,"license:none, generic-name:gpt_sub_analysis, topics:none"
-voxivoid/recipe-lab-sony-pmca,598,38,26,23.0,Java,MIT,0,3,待檢視,"desc:empty, topics:none"
-zgcagi/ZGCM-1,594,74,27,22.0,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
-datawhalechina/jev-cookbook,167,22,14,11.9,Python,NOASSERTION,120,3,待檢視,"license:none, generic-name:jev-cookbook, topics:none"
-LYiHub/pub-dsh-privacy-router,166,32,23,7.2,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
-rbrown101010/bluey-by-riley,168,50,2,84.0,Swift,,106,2,訊號完整,"license:none, topics:none"
-TheJustinSunPrize/awards,167,210,24,7.0,Python,NOASSERTION,114,2,訊號完整,"license:none, topics:none"
-EverettFish/holo-card-studio,1868,249,27,69.2,Python,NOASSERTION,285,2,訊號完整,"license:none, topics:none"
-JohnHeibel/PDoomVideo,1807,192,12,150.6,JavaScript,,73,2,訊號完整,"license:none, topics:none"
-kydlikebtc/awesome-jev,593,18,12,49.4,Python,NOASSERTION,279,2,訊號完整,"license:none, generic-name:awesome-jev"
-JoasASantos/Offensive-Security-AI-Models,596,67,7,85.1,Unknown,,65,2,訊號完整,"license:none, topics:none"
-v-modal/vmodal_sdk_swift_iphoneduo,597,2,22,27.1,Swift,MIT,65,2,訊號完整,low-forks:0.003
-terrafying/ai-torture-chamber,692,185,10,69.2,Python,NOASSERTION,138,2,訊號完整,"license:none, topics:none"
-HarlandZZC/OmniVChat,190,15,16,11.9,Python,NOASSERTION,73,2,訊號完整,"license:none, topics:none"
-xianxie6/qingming-riverside,190,50,17,11.2,JavaScript,NOASSERTION,48,2,訊號完整,"license:none, topics:none"
-yang0/handraw-style,4324,513,29,149.1,HTML,NOASSERTION,20,2,訊號完整,"license:none, topics:none"
-jianruntech/geo-score,619,12,26,23.8,Python,MIT,218,2,訊號完整,low-forks:0.019
-feitangyuan/motion-web,629,49,26,24.2,HTML,NOASSERTION,162,2,訊號完整,"license:none, topics:none"
-youart-open-source/awesome-gpt-image-2-5-prompts,592,42,24,24.7,JavaScript,NOASSERTION,150,2,訊號完整,"license:none, generic-name:awesome-gpt-image-2-5-prompts"
-suversal/WrapPin,262,55,20,13.1,Swift,NOASSERTION,23,2,訊號完整,"license:none, topics:none"
-emmericp/D2R-3D,262,27,7,37.4,C++,,34,2,訊號完整,"license:none, topics:none"
-GBurgardt/pokemon-emerald-arena,242,12,22,11.0,HTML,NOASSERTION,91,2,訊號完整,"license:none, topics:none"
-Smart-Paocai/VioletToolBox,249,30,23,10.8,C#,GPL-3.0,17,2,訊號完整,"desc:short, topics:none"
-tsymbaluyk/maskgate,249,0,25,10.0,Unknown,,206,2,訊號完整,"license:none, topics:none"
-haxybaxy/video-pedal,343,29,25,13.7,Python,,112,2,訊號完整,"license:none, topics:none"
-mangfufu/director-desk,346,83,28,12.4,JavaScript,MIT,17,2,訊號完整,"desc:short, topics:none"
-serein-morii/DiPlay-CN,353,23,5,70.6,Kotlin,GPL-3.0,9,2,訊號完整,"desc:short, topics:none"
-SecFathy/xss-specialist,155,10,7,22.1,Python,,93,2,訊號完整,"license:none, topics:none"
-ZallaxDev/pokeemerald-3Ds-dualscreen,205,8,8,25.6,C,NOASSERTION,116,2,訊號完整,"license:none, topics:none"
-Kaixxrua/excel-codex-bridge,208,29,10,20.8,Python,Unlicense,24,2,訊號完整,"generic-name:excel-codex-bridge, topics:none"
-standardagents/jevpilot,209,39,17,12.3,JavaScript,,64,2,訊號完整,"license:none, topics:none"
-gnipbao/minimax-h3-video-reverse-skill,210,32,14,15.0,Python,MIT,66,2,訊號完整,"generic-name:minimax-h3-video-reverse-skill, topics:none"
-brainbrick-trades/The-Quant-Trading-Vault,339,97,7,48.4,Unknown,,34,2,訊號完整,"license:none, topics:none"
-wuyoscar/AISafetyHot-Hub,157,1,3,52.3,TeX,NOASSERTION,62,2,訊號完整,"license:none, topics:none"
-wenziai/wenzi-xhs-agent-skills,153,29,4,38.2,Unknown,,56,2,訊號完整,"license:none, generic-name:wenzi-xhs-agent-skills"
-apimart001a/llm-gateway-comparison,153,0,17,9.0,Python,NOASSERTION,182,2,訊號完整,"license:none, generic-name:llm-gateway-comparison"
-empero-org/brewery-ai,148,16,1,148.0,Python,NOASSERTION,88,2,訊號完整,"license:none, topics:none"
-FSECDEV/Threat-Intelligence-Hackers-Forums,380,23,19,20.0,Unknown,,28,2,訊號完整,"license:none, topics:none"
-msk1039/nagomi,368,45,24,15.3,TypeScript,NOASSERTION,70,2,訊號完整,"license:none, topics:none"
-autorunhq/autorun,369,19,19,19.4,C,NOASSERTION,46,2,訊號完整,"license:none, topics:none"
-Saivion/SwiftPieces,212,7,15,14.1,TypeScript,NOASSERTION,223,2,訊號完整,"license:none, topics:none"
-yibie/jev-engineering-zh,152,25,12,12.7,Unknown,NOASSERTION,48,2,訊號完整,"license:none, topics:none"
-jtydhr88/music-composition-skills,147,19,17,8.6,Unknown,MIT,67,2,訊號完整,"generic-name:music-composition-skills, topics:none"
-wss7750/shanhui-ai-kefu,186,4,19,9.8,Unknown,,42,2,訊號完整,"license:none, topics:none"
-zwliJay/jev-forge,149,15,15,9.9,Python,NOASSERTION,222,2,訊號完整,"license:none, topics:none"
-n0de-sudo/Perfect-Rules,1052,216,27,39.0,JavaScript,,46,2,訊號完整,"license:none, topics:none"
-hanaganfur1/Foxigrow,217,0,25,8.7,Unknown,,39,2,訊號完整,"license:none, topics:none"
-ucashier/UCashier-USDT-Payment,312,28,8,39.0,Unknown,,123,2,訊號完整,"license:none, topics:none"
-petershifi123-wq/solve-lite,158,0,9,17.6,Python,NOASSERTION,136,2,訊號完整,"license:none, topics:none"
-LevinAi-arch/rtx-5070ti-laptop-160w-power-limit,161,10,20,8.1,C++,,136,2,訊號完整,"license:none, topics:none"
-wildcard1719/RCWS_v5,157,33,23,6.8,Unknown,,51,2,訊號完整,"license:none, topics:none"
-Guo-Yixin/coding-agent,180,5,15,12.0,Python,MIT,48,2,訊號完整,"generic-name:coding-agent, topics:none"
-yasinozmeen/animasyon-stil-katalogu,149,11,7,21.3,HTML,,96,2,訊號完整,"license:none, topics:none"
-duoduoler-ops/Table-skills,358,18,29,12.3,Python,MIT,55,2,訊號完整,"generic-name:Table-skills, topics:none"
-Jakeschincariol/instagram-agent-skill,329,74,21,15.7,Python,MIT,158,2,訊號完整,"generic-name:instagram-agent-skill, topics:none"
-malevrigns/agent-jev,338,32,13,26.0,Python,Apache-2.0,245,2,訊號完整,"generic-name:agent-jev, topics:none"
-ThinkWatchProject/ThinkWatch-Lite,1054,14,22,47.9,TypeScript,MIT,207,2,訊號完整,low-forks:0.013
-unclebob/uml-viewer,393,40,21,18.7,Clojure,,48,2,訊號完整,"license:none, topics:none"
-Omni-Interaction-Gander/Omni-Interaction-Agent,428,31,27,15.9,Python,Apache-2.0,175,2,訊號完整,"generic-name:Omni-Interaction-Agent, topics:none"
-Barty-Bart/motion-graphics,433,71,9,48.1,HTML,NOASSERTION,49,2,訊號完整,"license:none, topics:none"
-fhshaik/typesafe-mario,433,54,18,24.1,Python,,81,2,訊號完整,"license:none, topics:none"
-yappologistic/Spun,436,19,27,16.1,C++,NOASSERTION,78,2,訊號完整,"license:none, topics:none"
-moguzbulbul/blueprint-animation,403,20,7,57.6,JavaScript,NOASSERTION,126,2,訊號完整,"license:none, topics:none"
-PacesaLab/BindCraft2,408,69,21,19.4,Python,NOASSERTION,74,2,訊號完整,"license:none, topics:none"
-deepseek-ai/DeepEP-Ascend,221,23,4,55.2,C++,,107,2,訊號完整,"license:none, topics:none"
-mmastrac/djev-spark,222,16,16,13.9,HTML,,74,2,訊號完整,"license:none, topics:none"
-ANDRETRIPOL/OpenGhost,222,18,9,24.7,JavaScript,NOASSERTION,175,2,訊號完整,"license:none, topics:none"
-maverickgao8848/kouyu,165,15,28,5.9,CSS,,92,2,訊號完整,"license:none, topics:none"
-justxor/sobesrazborgoogle,177,24,9,19.7,Unknown,,60,2,訊號完整,"license:none, topics:none"
-telepath-computer/television,155,14,3,51.7,TypeScript,NOASSERTION,128,2,訊號完整,"license:none, topics:none"
-tue09/awesome-reasoning-generalization,155,5,24,6.5,Python,,56,2,訊號完整,"license:none, generic-name:awesome-reasoning-generalization"
-wh000wh000/awesome-jev-live,215,14,16,13.4,Python,NOASSERTION,143,2,訊號完整,"license:none, generic-name:awesome-jev-live"
-mvanhorn/agent-tincan,216,17,12,18.0,Go,MIT,78,2,訊號完整,"generic-name:agent-tincan, topics:none"
-Shelpid/SETS,217,64,12,18.1,JavaScript,NOASSERTION,30,2,訊號完整,"license:none, topics:none"
-zhangchenfu48-del/ResearchAnalyse-,162,17,27,6.0,Python,,26,2,訊號完整,"license:none, topics:none"
-dimentary/llm-robotics-playground,163,8,17,9.6,Python,MIT,104,2,訊號完整,"generic-name:llm-robotics-playground, topics:none"
-win4r/MuseAI-Skills,320,107,9,35.6,HTML,,141,2,訊號完整,"license:none, generic-name:MuseAI-Skills"
-TripoGrowthLab/awesome-astra-prompts,323,20,29,11.1,JavaScript,NOASSERTION,178,2,訊號完整,"license:none, generic-name:awesome-astra-prompts"
-K0nd1us/QQ-agent,305,19,28,10.9,JavaScript,MIT,27,2,訊號完整,"generic-name:QQ-agent, topics:none"
-openaiotlab/CUHK-X,305,9,27,11.3,Python,NOASSERTION,120,2,訊號完整,"license:none, topics:none"
-zzzz7788990213-ops/EvoVLM,390,4,2,195.0,Python,,124,2,訊號完整,"license:none, topics:none"
-kunchenguid/kun,392,36,28,14.0,JavaScript,,136,2,訊號完整,"license:none, topics:none"
-yureii1996/cek-probe-model,183,0,24,7.6,Python,,43,2,訊號完整,"license:none, topics:none"
-dofastted/vm2api,792,195,18,44.0,JavaScript,NOASSERTION,25,2,訊號完整,"license:none, topics:none"
-Epic0522/REGTA-3DSPort-Complete,186,14,21,8.9,C++,,51,2,訊號完整,"license:none, topics:none"
-qiz029/dscode,1020,2,23,44.3,JavaScript,MIT,115,2,訊號完整,low-forks:0.002
-nykooi1/vibe-wise,1364,68,5,272.8,Python,MIT,80,2,訊號完整,"generic-name:vibe-wise, topics:none"
-benjiyaya/ComfyUI-Qwen-Image-2.1-Prompt-Enhancer,175,17,14,12.5,Python,MIT,85,2,訊號完整,"generic-name:ComfyUI-Qwen-Image-2.1-Prompt-Enhancer, topics:none"
-kiri603/To-Sheet-Music-Skill,175,14,26,6.7,Python,MIT,348,2,訊號完整,"generic-name:To-Sheet-Music-Skill, topics:none"
-wz1119/Codex-Minecraft-Gameplay,178,16,28,6.4,Python,Apache-2.0,102,2,訊號完整,"generic-name:Codex-Minecraft-Gameplay, topics:none"
-nimaone/persian_tts,179,17,18,9.9,Python,,84,2,訊號完整,"license:none, topics:none"
-MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold,179,27,5,35.8,Shell,NOASSERTION,48,2,訊號完整,"license:none, topics:none"
-secwind7/polytech-tree,300,31,13,23.1,Python,NOASSERTION,301,2,訊號完整,"license:none, topics:none"
-kerpopule/hermes-jev-skills,1028,103,16,64.2,Python,MIT,135,2,訊號完整,"generic-name:hermes-jev-skills, topics:none"
-999sian/melee-pc,415,27,20,20.8,C,,129,2,訊號完整,"license:none, topics:none"
-zhuyansen/awesome-claude-video-skills,415,43,7,59.3,Unknown,NOASSERTION,150,2,訊號完整,"license:none, generic-name:awesome-claude-video-skills"
-HRuiCcc/RuiC-card-skill,486,37,27,18.0,JavaScript,NOASSERTION,227,2,訊號完整,"license:none, generic-name:RuiC-card-skill"
-OmniJev/awesome-jev-gallery,492,31,17,28.9,JavaScript,NOASSERTION,117,2,訊號完整,"license:none, generic-name:awesome-jev-gallery"
-rgem227/knoweldge-base,497,6,12,41.4,Python,,56,2,訊號完整,"license:none, topics:none"
-mabdulre9/electrical-engineering,469,35,14,33.5,Unknown,,64,2,訊號完整,"license:none, topics:none"
-Jakeschincariol/replica-skill,446,38,1,446.0,Python,MIT,137,2,訊號完整,"overnight-surge:446/day, generic-name:replica-skill"
-v-modal/vmodal_sdk_robotics,463,1,28,16.5,Python,,19,2,訊號完整,"desc:short, license:none"
-michelle11032424-jpg/Interpark-,203,35,11,18.5,Python,,37,2,訊號完整,"license:none, topics:none"
-DanFessler/trellis,204,5,8,25.5,TypeScript,NOASSERTION,109,2,訊號完整,"license:none, topics:none"
-realZachi/pg-jev,908,67,17,53.4,Shell,NOASSERTION,103,2,訊號完整,"license:none, topics:none"
-facebookresearch/context-language-models,522,65,16,32.6,Python,NOASSERTION,49,2,訊號完整,"license:none, topics:none"
-TianyuCodings/JevHarness,525,19,13,40.4,Python,,108,2,訊號完整,"license:none, topics:none"
-Andonywang123/Epost,197,1,28,7.0,Python,,193,2,訊號完整,"license:none, topics:none"
-AlayaLab/PWM,197,7,29,6.8,Unknown,,69,2,訊號完整,"license:none, topics:none"
-ysh1112/codex-model-watch,199,31,14,14.2,HTML,MIT,117,2,訊號完整,"generic-name:codex-model-watch, topics:none"
-HangYu8123/mini-harness,199,16,21,9.5,Python,,74,2,訊號完整,"license:none, topics:none"
-audiocn/ui,187,7,4,46.8,TypeScript,NOASSERTION,52,2,訊號完整,"license:none, topics:none"
-yuedizhibo/MHI2Q-CarPlay-AltScreen,274,38,9,30.4,Shell,NOASSERTION,223,2,訊號完整,"license:none, topics:none"
-donvito/codex-astra-luna-orchestrator,1684,133,29,58.1,Python,Apache-2.0,64,2,訊號完整,"generic-name:codex-astra-luna-orchestrator, topics:none"
-angusdevgo/IDM_Pro_Tool,1260,276,24,52.5,C#,GPL-3.0,12,2,訊號完整,"desc:short, topics:none"
-omlahore/RemoveMacAI,1268,23,5,253.6,Swift,MIT,99,2,訊號完整,low-forks:0.018
-sitimas9/cdcrafthh,224,1,27,8.3,Python,,63,2,訊號完整,"license:none, topics:none"
-grmchn/dopa-drill,224,93,7,32.0,JavaScript,NOASSERTION,30,2,訊號完整,"license:none, topics:none"
-mpociot/claude-siri-ai,225,16,20,11.2,Swift,MIT,81,2,訊號完整,"generic-name:claude-siri-ai, topics:none"
-ilkerzg/storycast,228,75,10,22.8,TypeScript,,26,2,訊號完整,"license:none, topics:none"
-kevinzhow/Rungic,278,11,11,25.3,Python,,116,2,訊號完整,"license:none, topics:none"
-diggerhq/shipvideo,279,31,10,27.9,TypeScript,,111,2,訊號完整,"license:none, topics:none"
-nilbuild/video-demo,189,16,17,11.1,TypeScript,MIT,71,2,訊號完整,"generic-name:video-demo, topics:none"
-netease-youdao/Confucius4-R2T2,764,70,26,29.4,Python,NOASSERTION,83,2,訊號完整,"license:none, topics:none"
-ERRRC/xingcezhenti,767,118,18,42.6,Unknown,,28,2,訊號完整,"license:none, topics:none"
-botiverse/raft-source,483,90,19,25.4,TypeScript,NOASSERTION,102,2,訊號完整,"license:none, topics:none"
-v-modal/awesome-jev-tools,745,48,15,49.7,Unknown,,92,2,訊號完整,"license:none, generic-name:awesome-jev-tools"
-evangelosvlachos96-dotcom/booking-microservices,751,3,29,25.9,C#,MIT,177,2,訊號完整,low-forks:0.004
-truanayangi-com/truanayangi,637,138,26,24.5,TypeScript,,111,2,訊號完整,"license:none, topics:none"
-LSPosed/ZygiskNext,642,13,15,42.8,C,,35,2,訊號完整,"license:none, topics:none"
-justxor/Linux-,653,67,11,59.4,Unknown,,145,2,訊號完整,"license:none, topics:none"
-oil-oil/oil-ui,557,33,4,139.2,Python,MIT,19,2,訊號完整,"desc:short, topics:none"
-JourniOne-ai/JourniOne-Planning-Skills,501,76,18,27.8,JavaScript,,65,2,訊號完整,"license:none, generic-name:JourniOne-Planning-Skills"
-Jakeschincariol/youtube-agent-skill,518,109,18,28.8,Python,MIT,295,2,訊號完整,"generic-name:youtube-agent-skill, topics:none"
-ERRRC/kaogongzhentizhengliu,695,109,20,34.8,Unknown,NOASSERTION,44,2,訊號完整,"license:none, topics:none"
-PSRben/VisionHOPE,704,12,7,100.6,Python,MIT,99,2,訊號完整,low-forks:0.017
-ryana/jevify,194,5,15,12.9,Unknown,,32,2,訊號完整,"license:none, topics:none"
-RocYan98/CodexBoard,195,11,20,9.8,TypeScript,,187,2,訊號完整,"license:none, topics:none"
-lukeTheNeuromancer/system-design-notes-zh,195,15,11,17.7,Unknown,,85,2,訊號完整,"license:none, topics:none"
-Continuum-AI-Corp/OrcaBonsai-27B-Uncensored,566,66,16,35.4,Python,NOASSERTION,147,2,訊號完整,"license:none, topics:none"
-wuyoscar/jev-skill,571,44,14,40.8,Python,MIT,68,2,訊號完整,"generic-name:jev-skill, topics:none"
-atria-asi/Atria-Dawn-Preview,573,29,22,26.0,Unknown,MIT,0,2,訊號完整,desc:empty
-arsumbris/arsumbris,256,15,21,12.2,Python,NOASSERTION,86,2,訊號完整,"license:none, topics:none"
-RubinLabs26/ISpotify,1901,1,14,135.8,Python,MIT,92,2,訊號完整,low-forks:0.001
-bespokelabsai/nimble,2054,161,16,128.4,Python,,71,2,訊號完整,"license:none, topics:none"
-unreallabsai/unreal-agent,2071,118,13,159.3,Go,MIT,25,2,訊號完整,"generic-name:unreal-agent, topics:none"
-yibie/awesome-jev,2147,323,17,126.3,Python,,131,2,訊號完整,"license:none, generic-name:awesome-jev"
-To3akaRin/mac-computer-use,1128,16,26,43.4,JavaScript,MIT,115,2,訊號完整,low-forks:0.014
-aliyun/ai-agent-handbook,1140,168,23,49.6,Unknown,Apache-2.0,79,2,訊號完整,"generic-name:ai-agent-handbook, topics:none"
-emo-xiaoyu/harness-mix,280,12,27,10.4,TypeScript,Apache-2.0,0,2,訊號完整,desc:empty
-alchaincyf/3d-vibe-coding-handbook,271,41,21,12.9,HTML,,52,2,訊號完整,"license:none, generic-name:3d-vibe-coding-handbook"
-yinsuecci/mockrunning,192,20,11,17.5,Python,,24,2,訊號完整,"license:none, topics:none"
-DartNative/dartnative,193,6,29,6.7,Dart,NOASSERTION,37,2,訊號完整,"license:none, topics:none"
-AgentSystemLabs/agent-office,607,153,8,75.9,TypeScript,MIT,146,2,訊號完整,"generic-name:agent-office, topics:none"
-BlueHeisenberg/SCSKiller,604,8,5,120.8,C#,GPL-3.0,145,2,訊號完整,low-forks:0.013
-PAICNI/CFNext,1293,845,29,44.6,JavaScript,,53,2,訊號完整,"license:none, topics:none"
-facebookincubator/muse-gadget-sdk,1345,251,2,672.5,C,Apache-2.0,37,2,訊號完整,"overnight-surge:672/day, topics:none"
-zhengkid/Dream-RSI,1350,118,21,64.3,Unknown,,84,2,訊號完整,"license:none, topics:none"
-NativeDog1/dsh-boot-animation,230,19,9,25.6,JavaScript,NOASSERTION,61,2,訊號完整,"license:none, topics:none"
-guanmo-ai/awesome-ai-motion,231,33,7,33.0,JavaScript,NOASSERTION,140,2,訊號完整,"license:none, generic-name:awesome-ai-motion"
-composio-community/open-dot,573,79,5,114.6,TypeScript,,106,2,訊號完整,"license:none, topics:none"
-lfzk550/fanzha-ai-proxy,578,369,27,21.4,Unknown,,39,2,訊號完整,"license:none, topics:none"
-QwenLM/Qwen-Image-2.1,1733,104,20,86.7,Python,NOASSERTION,55,2,訊號完整,"license:none, topics:none"
-jadense-ai/jadense-in-zotero,172,4,26,6.6,TypeScript,NOASSERTION,52,2,訊號完整,"license:none, topics:none"
-kraayenjon/awesome-jev,172,35,16,10.8,Unknown,NOASSERTION,196,2,訊號完整,"license:none, generic-name:awesome-jev"
-sdli1995/dlssg_for_sm86,4267,238,27,158.0,Unknown,,36,2,訊號完整,"license:none, topics:none"
-cdyforever/how-to-live-better,7643,514,16,477.7,HTML,,44,2,訊號完整,"license:none, topics:none"
-Work-Fisher/AIFISHER,253,42,20,12.7,TypeScript,NOASSERTION,80,2,訊號完整,"license:none, topics:none"
-monteduro/killmyidea,253,33,17,14.9,TypeScript,,68,2,訊號完整,"license:none, topics:none"
-yym8224961/world.execute-me-ascii,244,15,8,30.5,Python,,25,2,訊號完整,"license:none, topics:none"
-pavrus117/ai-os-maps-guide,169,54,12,14.1,Unknown,,121,2,訊號完整,"license:none, topics:none"
-mcncarl/jianying-headless,2974,1950,19,156.5,Python,NOASSERTION,100,2,訊號完整,"license:none, topics:none"
-CopilotKit/OpenDots,3472,460,5,694.4,TypeScript,MIT,69,2,訊號完整,"overnight-surge:694/day, topics:none"
-charlenemercury/roster-match,168,5,6,28.0,JavaScript,AGPL-3.0,60,1,訊號完整,topics:none
-TheGreatSimon/AnvilCSG,166,2,20,8.3,Unknown,NOASSERTION,125,1,訊號完整,license:none
-browser-use/jev-ultrafast,22065,1586,18,1225.8,Python,MIT,30,1,訊號完整,topics:none
-Niko1221/Strata,12879,1084,10,1287.9,C++,MIT,165,1,訊號完整,topics:none
-itsPLK/ps5-pkg-manager,166,13,17,9.8,C,GPL-3.0,45,1,訊號完整,topics:none
-mogons/noraz-agent,170,167,23,7.4,TypeScript,MIT,146,1,訊號完整,generic-name:noraz-agent
-ScottieFox/caustic-volume,170,18,8,21.2,HTML,MIT,98,1,訊號完整,topics:none
-keithxc/deskport,171,8,25,6.8,C,GPL-3.0,136,1,訊號完整,topics:none
-tobi/disktree,2350,149,10,235.0,Rust,MIT,82,1,訊號完整,topics:none
-jarrodwatts/jev-trader,2815,530,18,156.4,TypeScript,MIT,62,1,訊號完整,topics:none
-vinzdg/codenotch,2729,434,29,94.1,Swift,MIT,101,1,訊號完整,topics:none
-feder-cr/dots,2610,437,5,522.0,Python,MIT,94,1,訊號完整,overnight-surge:522/day
-TianyuCodings/NanoJev,2493,254,17,146.6,Python,MIT,99,1,訊號完整,topics:none
-OffGridPete/Fieldwatch,2413,279,19,127.0,Kotlin,MIT,62,1,訊號完整,topics:none
-driceroland/Search,2399,218,14,171.4,Swift,MIT,57,1,訊號完整,topics:none
-ipenywis/laya-ultrafast,245,41,13,18.8,Python,MIT,36,1,訊號完整,topics:none
-jasonku09/grill-with-ui,243,43,18,13.5,HTML,MIT,101,1,訊號完整,topics:none
-jh3y/lid-plane,243,15,24,10.1,Swift,GPL-3.0,94,1,訊號完整,topics:none
-denialwm/droidloom,253,9,28,9.0,Rust,NOASSERTION,189,1,訊號完整,license:none
-Devin-AXIS/jev-dsh-decision,253,83,14,18.1,JavaScript,,101,1,訊號完整,license:none
-MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks,252,37,21,12.0,Python,AGPL-3.0,50,1,訊號完整,topics:none
-LerSent001/holo-card,252,29,27,9.3,JavaScript,MIT,101,1,訊號完整,topics:none
-miyang-ai/Mi-Ripple,250,6,24,10.4,Python,MIT,96,1,訊號完整,topics:none
-faintonce/open-revo,250,6,23,10.9,Unknown,MIT,136,1,訊號完整,topics:none
-yu1745/wetype-ime-linux,249,28,11,22.6,C,GPL-3.0,70,1,訊號完整,topics:none
-AbdelStark/awesome-typesafe-jev,563,141,17,33.1,HTML,MIT,137,1,訊號完整,generic-name:awesome-typesafe-jev
-OpSafari/hypoarena,562,29,4,140.5,Python,MIT,344,1,訊號完整,topics:none
-VDERR/dsh-echocat-skill-panel,196,5,16,12.2,JavaScript,MIT,26,1,訊號完整,generic-name:dsh-echocat-skill-panel
-ios-bundles/CarrierSIM,196,18,6,32.7,Python,MIT,127,1,訊號完整,topics:none
-way2pramil/awesome-kicad-projects,195,11,23,8.5,Python,CC-BY-4.0,46,1,訊號完整,generic-name:awesome-kicad-projects
-Davipar/djev-dev,194,11,15,12.9,Python,Apache-2.0,147,1,訊號完整,topics:none
-SK8-ENGINE/skate-3-rust-engine,604,58,26,23.2,Rust,GPL-3.0,102,1,訊號完整,topics:none
-razorback16/openjev,612,48,16,38.2,Python,Apache-2.0,65,1,訊號完整,topics:none
-AnotiaWang/awesome-decision-models,610,125,17,35.9,Python,CC0-1.0,158,1,訊號完整,generic-name:awesome-decision-models
-codingnoye/gksdud,607,44,18,33.7,Swift,MIT,20,1,訊號完整,topics:none
-Haleclipse/CometixCode,605,38,14,43.2,Rust,AGPL-3.0,92,1,訊號完整,topics:none
-avinash201199/System-Design-KIT,193,35,9,21.4,Unknown,MIT,172,1,訊號完整,topics:none
-valentynkit/awesome-jev-typesafe,190,50,16,11.9,JavaScript,CC0-1.0,63,1,訊號完整,generic-name:awesome-jev-typesafe
-fruitflydev/flycoinrh,190,62,24,7.9,Python,MIT,81,1,訊號完整,topics:none
-jnz/INSLIB,598,95,26,23.0,C,AGPL-3.0,39,1,訊號完整,topics:none
-HeyOkay/HaloBattery,593,48,9,65.9,Python,MIT,100,1,訊號完整,topics:none
-thruwire/foreman,673,52,17,39.6,Python,MIT,80,1,訊號完整,topics:none
-cobanov/awesome-fly,672,61,22,30.5,Unknown,CC0-1.0,129,1,訊號完整,generic-name:awesome-fly
-skopevoj/spoti.pw,662,4046,27,24.5,Objective-C,NOASSERTION,53,1,訊號完整,license:none
-ViceVerse-cz/Serein,658,32,25,26.3,Rust,Apache-2.0,62,1,訊號完整,topics:none
-logicrw/awesome-jev-projects,653,55,16,40.8,JavaScript,MIT,115,1,訊號完整,generic-name:awesome-jev-projects
-gylive/ccodex-sleep-state,643,149,16,40.2,Go,GPL-3.0,87,1,訊號完整,topics:none
-mizzlelover/gongwen-gbt9704-skill,749,144,25,30.0,JavaScript,MIT,123,1,訊號完整,generic-name:gongwen-gbt9704-skill
-SunnyMaria/csapp-zh-markdown,746,84,18,41.4,Python,,79,1,訊號完整,license:none
-jev-chat/jev-chat-windows,741,161,13,57.0,Python,NOASSERTION,79,1,訊號完整,license:none
-icubaby/SideRail,549,1300,14,39.2,TypeScript,NOASSERTION,48,1,訊號完整,license:none
-MiaAI-Lab/Qwen3.8-27B-16gb-NVIDIA-GPUs-one-click-install,547,57,29,18.9,Python,MIT,73,1,訊號完整,topics:none
-gargpratyush/jev-router,545,76,18,30.3,JavaScript,MIT,73,1,訊號完整,topics:none
-intrinsic-ai/intrinsic-core,542,65,26,20.8,C++,Apache-2.0,129,1,訊號完整,topics:none
-featherless-ai/simple-jev,586,66,16,36.6,Python,Apache-2.0,50,1,訊號完整,topics:none
-Sadpainy/Stuxnet,580,109,28,20.7,C,AGPL-3.0,160,1,訊號完整,topics:none
-InternLM/Intern-Decision,572,25,10,57.2,Python,Apache-2.0,31,1,訊號完整,topics:none
-punkpeye/awesome-remote-mcp-servers,785,1058,26,30.2,Unknown,MIT,35,1,訊號完整,generic-name:awesome-remote-mcp-servers
-FeiZhuLulu/real-api-pricing,781,30,29,26.9,HTML,MIT,152,1,訊號完整,topics:none
-qwdwqfwq/topconf-paper-figure-gallery,781,52,17,45.9,HTML,NOASSERTION,156,1,訊號完整,license:none
-ithtelab/workbuddy-manager,775,188,23,33.7,Python,NOASSERTION,96,1,訊號完整,license:none
-cloudflare/cf,771,28,13,59.3,TypeScript,Apache-2.0,45,1,訊號完整,topics:none
-superagents-lab/jev-search,512,61,17,30.1,TypeScript,MIT,119,1,訊號完整,topics:none
-jerryjliu/docjev,510,32,15,34.0,Python,Apache-2.0,50,1,訊號完整,topics:none
-cobanov/awesome-jev,506,117,16,31.6,Unknown,CC0-1.0,109,1,訊號完整,generic-name:awesome-jev
-deepseek-ai/DeepGEMM-Ascend,505,39,5,101.0,C++,MIT,96,1,訊號完整,topics:none
-AgriciDaniel/jev-seo,504,82,12,42.0,Python,MIT,100,1,訊號完整,topics:none
-zihenghe04/AIBro,501,42,22,22.8,JavaScript,AGPL-3.0,90,1,訊號完整,topics:none
-bjarneo/flux,501,38,9,55.7,Swift,MIT,99,1,訊號完整,topics:none
-egoist/mygo,562,14,8,70.2,Go,MIT,59,1,訊號完整,topics:none
-bangtutorial/bang-motion,561,86,29,19.3,HTML,MIT,224,1,訊號完整,topics:none
-op7418/guizang-product-video-skill,684,60,16,42.8,Python,AGPL-3.0,95,1,訊號完整,generic-name:guizang-product-video-skill
-sganggs/Stronghold-Protocol,680,154,2,340.0,JavaScript,GPL-3.0,48,1,訊號完整,overnight-surge:340/day
-VAST-AI-Research/Mira-Scene,187,10,14,13.4,Python,MIT,72,1,訊號完整,topics:none
-911waler/qbox,201,40,29,6.9,Shell,MIT,96,1,訊號完整,topics:none
-HarnessRouter/SystemOneHarness,200,18,15,13.3,Python,Apache-2.0,122,1,訊號完整,topics:none
-ahang008/ah-douyin-clean-downloader,200,33,13,15.4,Python,NOASSERTION,37,1,訊號完整,license:none
-seamusc/papermono-shopping-list,200,5,7,28.6,C++,GPL-3.0,87,1,訊號完整,topics:none
-mini-harness/mini-harness,199,20,29,6.9,Python,,128,1,訊號完整,license:none
-rianfalltwilight-lab/scex-extrabotany,198,0,29,6.8,Java,MIT,76,1,訊號完整,topics:none
-MysticGSI/mysticgsi,198,64,9,22.0,Shell,Apache-2.0,71,1,訊號完整,topics:none
-samyost1/3dicon,533,46,11,48.5,Python,MIT,92,1,訊號完整,topics:none
-LBEILC/RhineLabUI,739,101,27,27.4,TypeScript,MIT,62,1,訊號完整,topics:none
-ethanplusai/codex-on-crack,736,67,17,43.3,JavaScript,MIT,136,1,訊號完整,generic-name:codex-on-crack
-vladtrc/iw4L,728,79,21,34.7,Rust,Apache-2.0,76,1,訊號完整,topics:none
-waligoraamodio288-rgb/hongguo-desktop-releases,712,42,20,35.6,Unknown,,75,1,訊號完整,license:none
-receptron/laya,790,70,15,52.7,TypeScript,MIT,108,1,訊號完整,topics:none
-JohnHeibel/ClaudeAnimationBase,787,75,11,71.5,JavaScript,MIT,145,1,訊號完整,topics:none
-jackwener/wx-cli-again,786,1730,20,39.3,Rust,Apache-2.0,70,1,訊號完整,topics:none
-freefrank/LostOdysseyRecomp,471,19,29,16.2,C++,GPL-3.0,96,1,訊號完整,topics:none
-lhlGitHub/threejs-architecture-effects,470,61,12,39.2,TypeScript,MIT,133,1,訊號完整,topics:none
-xepes0/wloc,468,257,23,20.3,JavaScript,AGPL-3.0,61,1,訊號完整,topics:none
-amywork777/lipflow,501,62,5,100.2,Python,MIT,119,1,訊號完整,topics:none
-jkudish/jev-mcp,496,55,17,29.2,JavaScript,MIT,69,1,訊號完整,topics:none
-kyotofin/tax-doc-classifier,494,61,16,30.9,TypeScript,Apache-2.0,113,1,訊號完整,topics:none
-Sophomoresty/turnstile-bypass,491,174,27,18.2,Python,MIT,66,1,訊號完整,topics:none
-kuhnhomeuk-cell/procedural-film,490,55,17,28.8,JavaScript,MIT,140,1,訊號完整,topics:none
-openai/mcp-extensions,769,44,5,153.8,TypeScript,Apache-2.0,69,1,訊號完整,topics:none
-blixvip/NullMotion,761,66,16,47.6,HTML,,198,1,訊號完整,license:none
-okf-memory/okf-agent-memory,753,59,29,26.0,Go,MIT,255,1,訊號完整,generic-name:okf-agent-memory
-chasmlol/2010-rust-rewrite-mashup,751,55,7,107.3,Rust,Apache-2.0,112,1,訊號完整,topics:none
-xaidan777/ArcEngine,189,29,19,9.9,JavaScript,MIT,20,1,訊號完整,topics:none
-antfu/pulls.review,189,6,18,10.5,TypeScript,MIT,44,1,訊號完整,topics:none
-kunpengtalk/OmniStudio,188,39,25,7.5,TypeScript,MIT,117,1,訊號完整,topics:none
-aowang-ai/jev-trade,187,36,17,11.0,TypeScript,NOASSERTION,30,1,訊號完整,license:none
-iamzulx/crypto-rag,464,6,29,16.0,Python,MIT,173,1,訊號完整,topics:none
-deepseek-ai/DeepSelect,463,45,25,18.5,Cuda,MIT,73,1,訊號完整,topics:none
-AetherLabsAI/RSIAgent,462,49,21,22.0,Python,Apache-2.0,156,1,訊號完整,topics:none
-Clash-Projects/LastWave-Desktop,460,8,24,19.2,Dart,,72,1,訊號完整,license:none
-coccofresco/TriAevum,458,17,27,17.0,C++,GPL-3.0,130,1,訊號完整,topics:none
-Likely7/Veyra-NRVideo,455,22,25,18.2,C++,GPL-3.0,301,1,訊號完整,topics:none
-agents-universe/agents-universe,454,1,24,18.9,Python,Apache-2.0,81,1,訊號完整,generic-name:agents-universe
-hanyang9/UMR,451,33,27,16.7,Python,MIT,51,1,訊號完整,topics:none
-3zwr1/AMD-NR---OptiScaler,447,10,14,31.9,C++,GPL-3.0,221,1,訊號完整,topics:none
-LuwuDynamics/xgoduck_hardware,483,66,10,48.3,Unknown,,263,1,訊號完整,license:none
-Innei/lody-ios,482,37,29,16.6,Swift,NOASSERTION,97,1,訊號完整,license:none
-TencentARC/GAE-GeometricAutoEncoder,480,16,18,26.7,Python,NOASSERTION,90,1,訊號完整,license:none
-elliotttate/Wind-Waker-Recomp,477,22,6,79.5,C,GPL-3.0,70,1,訊號完整,topics:none
-apple/xcode-project-format,475,17,19,25.0,Swift,Apache-2.0,96,1,訊號完整,topics:none
-Loopera-ai/loopera,472,77,26,18.2,Unknown,NOASSERTION,127,1,訊號完整,license:none
-athemeroy/awesome-claude-5-5-videos,472,33,9,52.4,Python,CC-BY-4.0,151,1,訊號完整,generic-name:awesome-claude-5-5-videos
-maanHimself/OpenDLSS-NR,818,66,14,58.4,JavaScript,MIT,102,1,訊號完整,topics:none
-anishfn/shapeshift,818,89,12,68.2,TypeScript,MIT,132,1,訊號完整,topics:none
-LockedinLabs-AI/agent-console,803,146,14,57.4,JavaScript,MIT,291,1,訊號完整,generic-name:agent-console
-heyjunpenn/awesome-jev,929,71,15,61.9,Astro,MIT,84,1,訊號完整,generic-name:awesome-jev
-angusdevgo/Seep-Reverse-Lab,915,271,11,83.2,Lua,GPL-3.0,102,1,訊號完整,topics:none
-yifanzhang-pro/recurrent-looped-tranformer,908,90,22,41.3,HTML,Apache-2.0,60,1,訊號完整,topics:none
-wy-coliney/jev-browser-use,903,34,16,56.4,JavaScript,MIT,94,1,訊號完整,topics:none
-Maelic/RelateAnything,898,128,29,31.0,Python,AGPL-3.0,77,1,訊號完整,topics:none
-StartLuxLabs/StartLux-Decision,205,18,5,41.0,Python,Apache-2.0,153,1,訊號完整,topics:none
-g8row/PhotosBackup,204,24,26,7.8,Swift,MIT,20,1,訊號完整,topics:none
-DozenTwelve/Papermorph,203,17,1,203.0,HTML,MIT,81,1,訊號完整,topics:none
-Michael-Jiahao-Zhang/game-the-llm-reviewer,203,5,13,15.6,Unknown,MIT,84,1,訊號完整,generic-name:game-the-llm-reviewer
-blakcat-app/blakcat,203,0,16,12.7,Unknown,,98,1,訊號完整,license:none
-developerAmira/telegram-bot,202,355,23,8.8,JavaScript,,86,1,訊號完整,license:none
-yasouxken/cve-2026-41940-PoC,201,34,13,15.5,Python,,279,1,訊號完整,license:none
-circle-group/hktex,201,5,25,8.0,Python,MIT,62,1,訊號完整,topics:none
-minorun365/minorun-marp-skill,401,14,14,28.6,Python,Apache-2.0,51,1,訊號完整,generic-name:minorun-marp-skill
-browser-use/browser-use-pi,398,21,29,13.7,TypeScript,MIT,64,1,訊號完整,topics:none
-Foadsf/vintage-latex,438,24,25,17.5,PowerShell,NOASSERTION,154,1,訊號完整,license:none
-TencentARC/WorldCrafter,431,14,20,21.6,Python,NOASSERTION,85,1,訊號完整,license:none
-nftechie/doomfly,423,63,28,15.1,Python,MIT,142,1,訊號完整,topics:none
-hokindeng/object-permanence,418,13,18,23.2,Python,NOASSERTION,57,1,訊號完整,license:none
-Jarvis322/macos-sysdata,888,38,29,30.6,Swift,NOASSERTION,159,1,訊號完整,license:none
-nftechie/stonkfly,864,161,24,36.0,Python,MIT,113,1,訊號完整,topics:none
-eternityspring/reelbench-skills,861,108,23,37.4,JavaScript,Apache-2.0,68,1,訊號完整,generic-name:reelbench-skills
-nilbuild/page-mascot,856,87,20,42.8,Python,MIT,60,1,訊號完整,topics:none
-gazijarin/itsgiving,1026,129,26,39.5,Python,MIT,53,1,訊號完整,topics:none
-echris6/motion-video-kit,1025,92,7,146.4,Python,MIT,198,1,訊號完整,topics:none
-perseval-BLR/NeuralScreen,1021,55,28,36.5,Python,NOASSERTION,155,1,訊號完整,license:none
-aimeoa/hanshuang-codex,997,144,28,35.6,Python,MIT,35,1,訊號完整,generic-name:hanshuang-codex
-glanderness/BeefTV,825,169,10,82.5,TypeScript,MIT,52,1,訊號完整,topics:none
-Rizzo-AI-Academy/rizzo-flow,824,53,13,63.4,Python,Apache-2.0,91,1,訊號完整,topics:none
-supermemoryai/company-brain,938,135,9,104.2,TypeScript,Apache-2.0,124,1,訊號完整,topics:none
-jesse-engineer/qijing-ai-guide,186,10,16,11.6,Unknown,,76,1,訊號完整,license:none
-jcx396905-gif/DuoFold-Android,184,10,22,8.4,Java,MIT,190,1,訊號完整,topics:none
-disler/ten-levels-of-jev,183,52,7,26.1,TypeScript,MIT,96,1,訊號完整,topics:none
-yifanzhang-pro/KLPO,182,17,15,12.1,Python,Apache-2.0,102,1,訊號完整,topics:none
-CATCHINGL/O.status,182,9,23,7.9,Kotlin,NOASSERTION,84,1,訊號完整,license:none
-Inferact/tpu-megakernels,147,14,11,13.4,Python,Apache-2.0,35,1,訊號完整,topics:none
-sdcb/SimdPaddleOCR,393,56,29,13.6,C#,Apache-2.0,121,1,訊號完整,topics:none
-walidboulanouar/awesome-jev-use-cases,391,59,15,26.1,Unknown,CC0-1.0,122,1,訊號完整,generic-name:awesome-jev-use-cases
-fulldiagnose/antigravity-fixer,391,44,5,78.2,Python,MIT,76,1,訊號完整,topics:none
-BillionsBobby/JevRouter,389,22,16,24.3,TypeScript,MIT,65,1,訊號完整,topics:none
-modelscope/ms-cookbook,411,76,23,17.9,HTML,Apache-2.0,92,1,訊號完整,generic-name:ms-cookbook
-linranff/GTA_SZ,410,41,28,14.6,TypeScript,MIT,31,1,訊號完整,topics:none
-PostHog/jeeves,410,21,5,82.0,Python,MIT,52,1,訊號完整,topics:none
-agamrossen/VolAnti,405,65,29,14.0,C,NOASSERTION,150,1,訊號完整,license:none
-Tencent/WeVisDoc,405,19,20,20.2,Python,Apache-2.0,200,1,訊號完整,topics:none
-shhivv/arc-cua,152,14,14,10.9,Python,MIT,57,1,訊號完整,topics:none
-dorkitude/webctl,152,17,14,10.9,Go,MIT,70,1,訊號完整,topics:none
-ryh842487118-bot/orbit,150,42,28,5.4,HTML,Apache-2.0,145,1,訊號完整,topics:none
-isas1/skills,210,16,15,14.0,Unknown,MIT,87,1,訊號完整,generic-name:skills
-getgat-dev/gat,208,2,27,7.7,Rust,Apache-2.0,71,1,訊號完整,topics:none
-APUS-AI-Lab/fast-browser-use,206,20,15,13.7,Python,MIT,113,1,訊號完整,topics:none
-dgreenheck/tidewater,1110,247,11,100.9,JavaScript,MIT,32,1,訊號完整,topics:none
-lemomo-ai/lemo-opuscar,1100,131,8,137.5,JavaScript,NOASSERTION,224,1,訊號完整,license:none
-youngyangyang04/llm-master,1084,108,22,49.3,Unknown,MIT,100,1,訊號完整,generic-name:llm-master
-Mapika/decider,1070,46,18,59.4,Python,Apache-2.0,129,1,訊號完整,topics:none
-CAPCOM-TD-OSS/REDox,1054,29,4,263.5,C#,Apache-2.0,147,1,訊號完整,topics:none
-xflare-bot/pokemonlive,149,31,28,5.3,JavaScript,MIT,59,1,訊號完整,topics:none
-indada/repopilot,149,5,16,9.3,TypeScript,MIT,239,1,訊號完整,topics:none
-YongshengWin/VpsCT,148,33,19,7.8,Go,MIT,45,1,訊號完整,topics:none
-agentverse-os/AgentVerse-OS,976,26,22,44.4,Rust,Apache-2.0,349,1,訊號完整,topics:none
-chasmlol/SkyCraft,942,62,4,235.5,C++,MIT,132,1,訊號完整,topics:none
-tugrawork-creator/saas-motion-kit,211,19,9,23.4,Python,NOASSERTION,182,1,訊號完整,license:none
-blackbearreloaded/ProsperoEden,374,37,4,93.5,C++,GPL-3.0,30,1,訊號完整,topics:none
-joeseesun/qiaomu-download,373,60,15,24.9,Python,MIT,240,1,訊號完整,topics:none
-qybaihe/mu,371,36,12,30.9,TypeScript,MIT,148,1,訊號完整,topics:none
-34306/vphone-web,369,43,29,12.7,HTML,GPL-3.0,73,1,訊號完整,topics:none
-deepseek-ai/DeepJIT,366,39,26,14.1,C++,MIT,52,1,訊號完整,topics:none
-webprodigies-org/flute,365,108,19,19.2,TypeScript,MIT,68,1,訊號完整,topics:none
-bridge-mind/bridgeclip,362,80,10,36.2,TypeScript,MIT,55,1,訊號完整,topics:none
-MisakaZentai/world-execute-me-dsh-pv,388,38,5,77.6,Python,MIT,130,1,訊號完整,topics:none
-moritzkremb/jev-voice-browser,385,63,17,22.6,JavaScript,MIT,166,1,訊號完整,topics:none
-yappologistic/Sung,385,23,27,14.3,C++,MIT,114,1,訊號完整,topics:none
-Basiliskplubless/ExtremeInjector,148,0,12,12.3,Unknown,,298,1,訊號完整,license:none
-apimart-66/ai-api-aggregator,148,0,18,8.2,Python,NOASSERTION,171,1,訊號完整,license:none
-HuangZeLinCute/CourtMind,148,13,19,7.8,Python,Apache-2.0,55,1,訊號完整,topics:none
-DSDS-CMHL/EasyAntigravity,148,7,18,8.2,JavaScript,MIT,43,1,訊號完整,topics:none
-mini-yifan/dsh-orb-cordis,148,12,6,24.7,TypeScript,MIT,22,1,訊號完整,topics:none
-wdobry/laya-playground,181,42,14,12.9,JavaScript,MIT,116,1,訊號完整,generic-name:laya-playground
-yielded-dev/auth,181,5,24,7.5,TypeScript,MIT,71,1,訊號完整,topics:none
-hashtagbasit/SteamOS-ARM-Handhelds,181,12,10,18.1,Shell,NOASSERTION,126,1,訊號完整,license:none
-isinternets/Dawn,181,34,17,10.6,C++,GPL-3.0,24,1,訊號完整,topics:none
-hugelton/Felucca,181,16,2,90.5,C,GPL-3.0,31,1,訊號完整,topics:none
-qzz0518/Dukou,181,45,29,6.2,Swift,MIT,127,1,訊號完整,topics:none
-alicasuu/llmwiki-operational,180,20,18,10.0,Python,MIT,104,1,訊號完整,topics:none
-AMAP-ML/DreamX-Rec,179,1,17,10.5,Python,Apache-2.0,86,1,訊號完整,topics:none
-tjsky/pinyin-annotator,352,67,17,20.7,HTML,MIT,35,1,訊號完整,topics:none
-urosidoki/htn_planner,350,24,15,23.3,C++,MIT,59,1,訊號完整,topics:none
-hellogumbo/awesome-jev,215,68,17,12.6,JavaScript,CC0-1.0,79,1,訊號完整,generic-name:awesome-jev
-wangyunjeff/sub2api-state-kit,214,61,16,13.4,Go,LGPL-3.0,56,1,訊號完整,topics:none
-Ray-T-r/Minecraft-Forbric-mod-loader,214,31,24,8.9,Java,Apache-2.0,89,1,訊號完整,topics:none
-ashleyotooligan/ant-1,212,1,22,9.6,HTML,MIT,89,1,訊號完整,topics:none
-Turbo1123/Turbo-IO,212,59,26,8.2,Objective-C,NOASSERTION,169,1,訊號完整,license:none
-rit3zh/expo-dynamic-notifications,212,10,16,13.2,TypeScript,MIT,61,1,訊號完整,topics:none
-LCPD15/DXL,153,4,25,6.1,C++,AGPL-3.0,86,1,訊號完整,topics:none
-MACOS-DO/sub4api,158,37,15,10.5,Go,LGPL-3.0,23,1,訊號完整,topics:none
-NVlabs/Skill2Env,158,17,18,8.8,Python,Apache-2.0,41,1,訊號完整,topics:none
-timpratim/macbrow,157,18,16,9.8,Python,MIT,53,1,訊號完整,topics:none
-allenv0/SCM,338,17,1,338.0,JavaScript,MIT,78,1,訊號完整,overnight-surge:338/day
-ekzhang/openjev-sglang,336,45,17,19.8,Python,,63,1,訊號完整,license:none
-nmatt0/mithril,334,36,27,12.4,C++,MIT,52,1,訊號完整,topics:none
-MartinDelophy/awesome-gpt-6-astra,332,43,29,11.4,JavaScript,CC0-1.0,114,1,訊號完整,generic-name:awesome-gpt-6-astra
-madhvantyagi/Gnos,330,25,22,15.0,Python,MIT,178,1,訊號完整,topics:none
-0xjohnnydev/airlift,356,52,20,17.8,Objective-C,MIT,69,1,訊號完整,topics:none
-blixvip/MotionClone,355,29,24,14.8,Python,,187,1,訊號完整,license:none
-kitze/unclutter,355,37,17,20.9,TypeScript,MIT,85,1,訊號完整,topics:none
-opencoredev/bg0,354,36,20,17.7,TypeScript,Apache-2.0,64,1,訊號完整,topics:none
-z1n-k/zia,150,6,16,9.4,JavaScript,MIT,57,1,訊號完整,topics:none
-martin-marek/score-centering,150,9,20,7.5,Python,MIT,61,1,訊號完整,topics:none
-mubix/cyber-resume-reviewer-skill,182,16,27,6.7,Python,MIT,65,1,訊號完整,generic-name:cyber-resume-reviewer-skill
-idlerunner00/procedural-pixel-creatures,159,19,3,53.0,C#,MIT,47,1,訊號完整,topics:none
-tamaratran/jev-pruner,158,10,16,9.9,TypeScript,MIT,84,1,訊號完整,topics:none
-dirkjanm/askWAM,158,16,23,6.9,C,MIT,53,1,訊號完整,topics:none
-TravellingEngineer/barney,158,2,29,5.4,Rust,MPL-2.0,30,1,訊號完整,topics:none
-KazamaDono/taoxd,315,66,21,15.0,Makefile,MIT,46,1,訊號完整,topics:none
-Speedstu/CUDA-for-AMD-Windows,311,26,21,14.8,PowerShell,NOASSERTION,73,1,訊號完整,license:none
-MiaAI-Lab/DeepSeek-v4.1-Flash-DGX-Sparks,217,40,23,9.4,Python,AGPL-3.0,45,1,訊號完整,topics:none
-bestagentkits/design-studio-ai,216,58,27,8.0,TypeScript,MIT,113,1,訊號完整,topics:none
-YeJe-cpu/SeeCut,216,32,9,24.0,JavaScript,NOASSERTION,141,1,訊號完整,license:none
-togethercomputer/tev1,215,24,11,19.5,Python,MIT,71,1,訊號完整,topics:none
-chaseleantj/deskworlds,342,49,16,21.4,JavaScript,MIT,38,1,訊號完整,topics:none
-fossaryhq/catalog,155,16,26,6.0,Shell,NOASSERTION,79,1,訊號完整,license:none
-tgmtproxy/telegram-mtproto-proxy-list,154,1,21,7.3,HTML,,129,1,訊號完整,license:none
-chuspeeism/iphone-duo,154,25,24,6.4,JavaScript,MIT,128,1,訊號完整,topics:none
-Susie-Meow/card-design-generator,154,29,15,10.3,HTML,MIT,314,1,訊號完整,topics:none
-apimart002w/openrouter-alternatives,153,0,17,9.0,Python,NOASSERTION,173,1,訊號完整,license:none
-KnowClip-ai/knowclip,310,6,21,14.8,TypeScript,AGPL-3.0,51,1,訊號完整,topics:none
-hr98w/jev-visual,306,28,17,18.0,Python,MIT,135,1,訊號完整,topics:none
-mohit67890/imajev,305,38,11,27.7,Python,Apache-2.0,138,1,訊號完整,topics:none
-witnesstodark/mr-mak-workspace,303,90,19,15.9,Python,MIT,110,1,訊號完整,topics:none
-jakubkrehel/loading,303,13,20,15.2,TypeScript,MIT,69,1,訊號完整,topics:none
-openJiuwen-ai/iCode,302,50,6,50.3,Python,Apache-2.0,204,1,訊號完整,topics:none
-Lanye-z/MHI2Q-CarPlay-MMI-Mirror,328,43,24,13.7,Shell,MIT,98,1,訊號完整,topics:none
-codejunkie99/keel,326,43,12,27.2,Rust,MIT,86,1,訊號完整,topics:none
-emma-sue/AegisOps,326,51,24,13.6,Python,,86,1,訊號完整,license:none
-shhivv/third-hand,321,25,15,21.4,Swift,MIT,41,1,訊號完整,topics:none
-adonis-singh/re4,321,29,19,16.9,C++,NOASSERTION,95,1,訊號完整,license:none
-R44VC0RP/opensend,157,9,25,6.3,TypeScript,,67,1,訊號完整,license:none
-NaiveAI-Labs/Naive-N0.5-Flash,156,7,7,22.3,Python,MIT,108,1,訊號完整,topics:none
-joeseesun/opus-video-prompts,162,20,7,23.1,Unknown,,103,1,訊號完整,license:none
-xiahongchi/Fire3D,161,17,27,6.0,Python,MIT,32,1,訊號完整,topics:none
-planetscale/lead,160,10,17,9.4,Rust,AGPL-3.0,144,1,訊號完整,topics:none
-Badtheorylabs/interference-search,178,11,9,19.8,Python,Apache-2.0,105,1,訊號完整,topics:none
-GanyuanRan/Autoloom,178,3,4,44.5,JavaScript,NOASSERTION,184,1,訊號完整,license:none
-QwenLM/Qwen-Live-Harness,177,16,24,7.4,TypeScript,Apache-2.0,108,1,訊號完整,topics:none
-vx-lang/Vx,177,17,25,7.1,Rust,NOASSERTION,29,1,訊號完整,license:none
-karanb192/awesome-claude-code-mods,176,42,19,9.3,JavaScript,CC0-1.0,181,1,訊號完整,generic-name:awesome-claude-code-mods
-ashhart/MCDMA,165,14,20,8.2,C++,Apache-2.0,31,1,訊號完整,topics:none
-Akun-python/autumn-recruitment,164,22,5,32.8,Jupyter Notebook,MIT,198,1,訊號完整,topics:none
-unjs/upm,298,9,11,27.1,TypeScript,MIT,75,1,訊號完整,topics:none
-shengjidaguai-china/goutoujunshi-jev-chat,297,24,11,27.0,Python,MIT,31,1,訊號完整,topics:none
-vinilana/jev-gateway,296,41,16,18.5,TypeScript,MIT,72,1,訊號完整,topics:none
-hexiaofeier/hehe-industry-research-skill-pack,295,19,19,15.5,Python,MIT,77,1,訊號完整,generic-name:hehe-industry-research-skill-pack
-sciaschi/CBFD-Recompiled,223,14,8,27.9,C,MIT,31,1,訊號完整,topics:none
-aimod-cc/agent2api,223,57,23,9.7,Rust,NOASSERTION,98,1,訊號完整,license:none
-fatwang2/awesome-jev,221,53,16,13.8,JavaScript,MIT,86,1,訊號完整,generic-name:awesome-jev
-vianziro/Whatsapp-Dekstop,218,20,27,8.1,Go,MIT,298,1,訊號完整,topics:none
-jkudish/jev-browser,310,29,17,18.2,JavaScript,MIT,38,1,訊號完整,topics:none
-kryvora-network/kryvora-node,1231,69,12,102.6,Go,NOASSERTION,74,1,訊號完整,license:none
-mikehasa/golive-skill,1223,96,11,111.2,TypeScript,MIT,237,1,訊號完整,generic-name:golive-skill
-volotat/mini-AGI,1186,189,15,79.1,Python,MIT,93,1,訊號完整,topics:none
-theoephraim/awesome-cloudflare-selfhosted,1142,61,19,60.1,JavaScript,MIT,95,1,訊號完整,generic-name:awesome-cloudflare-selfhosted
-alchaincyf/huashu-mac-use,295,45,28,10.5,Swift,MIT,84,1,訊號完整,topics:none
-Heman10x-NGU/openJev-verdict-2.0,293,44,15,19.5,Python,NOASSERTION,147,1,訊號完整,license:none
-Mosi-AI/RoboICL,293,15,15,19.5,Python,MIT,44,1,訊號完整,topics:none
-mx3353672833-debug/moto-gps-waveshare,293,51,29,10.1,C++,NOASSERTION,124,1,訊號完整,license:none
-new-coke/strikers,291,17,24,12.1,C++,,108,1,訊號完整,license:none
-zj-unicom-ai/vision-hub-platform,290,8,25,11.6,Java,MIT,287,1,訊號完整,topics:none
-TreapGoGo/deepseek-whale-girl,289,4,6,48.2,HTML,MIT,88,1,訊號完整,topics:none
-ayushjain1144/trackeverything,301,18,17,17.7,Unknown,,110,1,訊號完整,license:none
-miuuyy/Astra-Ares,299,24,12,24.9,JavaScript,MIT,93,1,訊號完整,topics:none
-danieldeer/seriousdb,299,119,22,13.6,Python,MIT,54,1,訊號完整,topics:none
-NotProtonNot/NotProton,179,15,11,16.3,Swift,GPL-3.0,20,1,訊號完整,topics:none
-matthewprice/JobFinderOS,178,35,28,6.4,Python,MIT,122,1,訊號完整,topics:none
-firelex/jeff,1381,66,6,230.2,Python,MIT,183,1,訊號完整,topics:none
-QingYunA/answer-me-with-html,1379,93,2,689.5,JavaScript,MIT,136,1,訊號完整,overnight-surge:690/day
-BennyThink/NFCX,278,43,23,12.1,Go,MIT,87,1,訊號完整,topics:none
-Inginnng/EditHere,278,19,23,12.1,C++,MIT,39,1,訊號完整,topics:none
-flybook-git/flybook,227,42,23,9.9,Unknown,MIT,113,1,訊號完整,topics:none
-lubin776/tvbox-api-backup,227,148,20,11.3,Python,GPL-3.0,71,1,訊號完整,topics:none
-DhananjayBhosale/MacDuo,226,23,24,9.4,Swift,MIT,79,1,訊號完整,topics:none
-KillaBoi/BrokenPipe,225,53,20,11.2,PowerShell,Apache-2.0,61,1,訊號完整,topics:none
-CHOMPI-Club/CHOMPI,224,40,5,44.8,C++,MIT,84,1,訊號完整,topics:none
-Swordpdf/PS5SX2,295,25,9,32.8,C++,GPL-3.0,23,1,訊號完整,topics:none
-jexp/neo4jev,164,22,18,9.1,Jupyter Notebook,MIT,111,1,訊號完整,topics:none
-gebdag/gta2-rtx-remix,163,4,17,9.6,C++,MIT,27,1,訊號完整,topics:none
-kshetrajna12/reflex,162,18,17,9.5,Python,MIT,124,1,訊號完整,topics:none
-byalex33/changelog.earth,162,4,15,10.8,JavaScript,MIT,93,1,訊號完整,topics:none
-alvinunreal/awesome-submitlist,162,5,28,5.8,JavaScript,CC0-1.0,195,1,訊號完整,generic-name:awesome-submitlist
-RCL-Robotics/SURE-map,162,6,27,6.0,Python,Apache-2.0,63,1,訊號完整,topics:none
-achimala/dream-loop,1636,170,27,60.6,JavaScript,MIT,81,1,訊號完整,topics:none
-feitangyuan/onetake,1587,102,8,198.4,Python,NOASSERTION,208,1,訊號完整,license:none
-hydra-db/open-glean,1573,505,17,92.5,TypeScript,Apache-2.0,98,1,訊號完整,topics:none
-0xNatoshi/jev-codex-router,273,43,17,16.1,JavaScript,MIT,145,1,訊號完整,generic-name:jev-codex-router
-pandaligx/RTX-FG-Manager,272,11,23,11.8,Rust,MIT,78,1,訊號完整,topics:none
-FerryCorleone/crush-monitor,271,27,14,19.4,TypeScript,MIT,55,1,訊號完整,topics:none
-XiaochangXu/AVBox,270,55,28,9.6,Java,AGPL-3.0,8,1,訊號完整,desc:short
-ops120/wechat-local-viewer,287,150,27,10.6,Python,MIT,55,1,訊號完整,topics:none
-ScottStevenson/SuperAstra,287,32,28,10.2,Python,MIT,46,1,訊號完整,topics:none
-mirkovicdev/HFTENGINE,286,26,18,15.9,TypeScript,NOASSERTION,304,1,訊號完整,license:none
-noahdunnagan/mcopt,280,13,1,280.0,Java,Apache-2.0,105,1,訊號完整,topics:none
-merijjeyn/jive,176,16,13,13.5,Python,MIT,60,1,訊號完整,topics:none
-saawant12/orbit-store-ps5,176,6,2,88.0,Unknown,,73,1,訊號完整,license:none
-troyedwardsjr/z2rs,174,13,16,10.9,Rust,MIT,116,1,訊號完整,topics:none
-KyThuatUAV/ESP32_FC,174,47,28,6.2,C++,GPL-3.0,63,1,訊號完整,topics:none
-Made-In-Basement/ember,173,13,21,8.2,Assembly,NOASSERTION,145,1,訊號完整,license:none
-VaderChen/YourDesk,262,34,26,10.1,Go,NOASSERTION,236,1,訊號完整,license:none
-dmtrKovalenko/bashka,234,8,19,12.3,Rust,MIT,154,1,訊號完整,topics:none
-dagowda/notRDP,233,25,8,29.1,C,MIT,58,1,訊號完整,topics:none
-kdbhalala/avdslim,231,9,18,12.8,Go,MIT,115,1,訊號完整,topics:none
-justxor/claude-code-pro-course,231,40,4,57.8,Shell,MIT,209,1,訊號完整,generic-name:claude-code-pro-course
-Amal-David/awesome-jev,230,19,16,14.4,Python,CC0-1.0,80,1,訊號完整,generic-name:awesome-jev
-mini-yifan/deepseek-harness-orb,230,13,21,11.0,TypeScript,MIT,124,1,訊號完整,topics:none
-masihsultani/whiteboard-animator,229,23,26,8.8,Python,MIT,97,1,訊號完整,topics:none
-glaz-boga-poisk-bot/glaz-boga,228,12,12,19.0,Unknown,,139,1,訊號完整,license:none
-danielwh2/cube-motion,228,6,22,10.4,TypeScript,MIT,135,1,訊號完整,topics:none
-HyNetworks/OpenGFW,275,90,15,18.3,Go,MPL-2.0,52,1,訊號完整,topics:none
-mode-io/vllm-jev,275,9,10,27.5,Python,Apache-2.0,43,1,訊號完整,topics:none
-Phyzicalorg/Phyzical_org,274,0,25,11.0,Python,NOASSERTION,154,1,訊號完整,license:none
-Jakeschincariol/linkedin-agent-skill,1281,195,27,47.4,Python,MIT,217,1,訊號完整,generic-name:linkedin-agent-skill
-Inkloom-art/inkloom,1279,1309,14,91.4,TypeScript,NOASSERTION,235,1,訊號完整,license:none
-Mak5er/AirCard-iOS,1660,185,15,110.7,Swift,MIT,66,1,訊號完整,topics:none
-yihui-dev/awesome-opus5-5-videos,2062,206,7,294.6,Unknown,MIT,164,1,訊號完整,generic-name:awesome-opus5-5-videos
-deepopen-com/deepopen,2052,221,13,157.8,Python,Apache-2.0,99,1,訊號完整,topics:none
-openai/NavierStokesAndEuler,2028,208,26,78.0,Lean,Apache-2.0,62,1,訊號完整,topics:none
-kaankiziltug/logo-design-skill,1945,125,8,243.1,HTML,MIT,167,1,訊號完整,generic-name:logo-design-skill
-fromgof/TridentVision,259,68,25,10.4,Verilog,AGPL-3.0,135,1,訊號完整,topics:none
-Jakeschincariol/arena-skill,258,32,7,36.9,Python,MIT,174,1,訊號完整,generic-name:arena-skill
-ALLENLION35/geo-first-principles,257,2,28,9.2,HTML,MIT,113,1,訊號完整,topics:none
-czg86389-hub/muse2api,257,70,9,28.6,Python,MIT,140,1,訊號完整,topics:none
-FBddcz/embodied-jev,255,9,14,18.2,Python,MIT,92,1,訊號完整,topics:none
-howseen-ai/claude-motion-design,269,28,7,38.4,Python,MIT,129,1,訊號完整,generic-name:claude-motion-design
-wzj52501/awesome-competitive-olympiad-algorithms,269,30,26,10.3,C++,MIT,86,1,訊號完整,generic-name:awesome-competitive-olympiad-algorithms
-trustfuture/simon-skills,268,60,14,19.1,JavaScript,MIT,58,1,訊號完整,generic-name:simon-skills
-dgreenheck/threejs-particle-fluids,267,34,9,29.7,TypeScript,MIT,48,1,訊號完整,topics:none
-anteloc/ldraw-nova,266,19,11,24.2,Python,AGPL-3.0,96,1,訊號完整,topics:none
-sopersone/cabbage-trading-machine,263,61,10,26.3,Python,Apache-2.0,120,1,訊號完整,topics:none
-kitze/skillbox,262,24,17,15.4,TypeScript,MIT,107,1,訊號完整,topics:none
-ZacharyZhang-NY/OmaPhoto,248,10,8,31.0,C++,MIT,64,1,訊號完整,topics:none
-z7786/wenxi,242,20,15,16.1,Dart,AGPL-3.0,49,1,訊號完整,topics:none
-mizorewww/x_gift_bot,241,124,2,120.5,Go,MIT,38,1,訊號完整,topics:none
-egoist/lorca,240,18,16,15.0,Rust,GPL-3.0,110,1,訊號完整,topics:none
-kiyoakii/is-gpt-nerfed,239,15,19,12.6,Python,MIT,32,1,訊號完整,generic-name:is-gpt-nerfed
-imikerussell/beebots,238,112,9,26.4,TypeScript,MIT,100,1,訊號完整,topics:none
-p2r3/Arachnidium,236,8,10,23.6,Python,MIT,47,1,訊號完整,topics:none
-max99x/wutw-public,236,25,22,10.7,GDScript,CC0-1.0,90,1,訊號完整,topics:none
-jealous-sound/azerothcore-wotlk-coa,236,162,27,8.7,C++,GPL-2.0,23,1,訊號完整,topics:none
-agent-launch/agent-launcher,261,1,24,10.9,TypeScript,MIT,66,1,訊號完整,generic-name:agent-launcher
-HammingDev/haiming-app-monetization,259,32,25,10.4,Unknown,MIT,45,1,訊號完整,topics:none
-jtydhr88/screenwriting-skills,1566,167,28,55.9,Python,MIT,78,1,訊號完整,generic-name:screenwriting-skills
-852wa/JIZURA,1558,216,11,141.6,HTML,MIT,24,1,訊號完整,topics:none
-storytold/photocraft,1549,156,4,387.2,Rust,Apache-2.0,75,1,訊號完整,overnight-surge:387/day
-nanaism/yomiyasu,1485,34,4,371.2,Python,MIT,102,1,訊號完整,overnight-surge:371/day
-Vincentwei1021/anything2explainer,2245,312,26,86.3,TypeScript,NOASSERTION,259,1,訊號完整,license:none
-mexicat/pdoom-video,2369,257,10,236.9,TypeScript,MIT,53,1,訊號完整,topics:none
-cneuralnetwork/kharcha,168,20,1,168.0,TypeScript,MIT,92,1,訊號完整,topics:none
-Liyucheng1997/332_lab-jev-chat,167,18,13,12.8,Kotlin,MIT,57,1,訊號完整,topics:none
-blackbearreloaded/ProsperoEden-Legacy,167,17,13,12.8,Unknown,GPL-3.0,44,1,訊號完整,topics:none
-SiliconLabAI/OpenJev,167,39,14,11.9,TypeScript,MIT,14,1,訊號完整,desc:short
-kangleyao/slider-captcha-lab,167,76,27,6.2,Python,MIT,52,1,訊號完整,topics:none
-robbietilton/Compositor,8113,812,18,450.7,Swift,MIT,33,1,訊號完整,topics:none
-MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold,248,53,4,62.0,Shell,Apache-2.0,50,1,訊號完整,topics:none
-madeye/ServerBox,247,27,8,30.9,Kotlin,GPL-3.0,143,1,訊號完整,topics:none
-pipotoufikxyz-lgtm/dlssg_for_sm86-MFG-version,247,6,22,11.2,C++,MIT,96,1,訊號完整,topics:none
-dashersw/coyopedal,247,10,22,11.2,C++,GPL-3.0,98,1,訊號完整,topics:none
-LynnReal-AI/LynnReal-Omni,246,11,21,11.7,Python,NOASSERTION,291,1,訊號完整,license:none
-Droid-Deck/DroidDeck,1760,55,10,176.0,C,GPL-3.0,50,1,訊號完整,topics:none
-rehan-remade/universal-modder,3588,310,4,897.0,Python,MIT,198,1,訊號完整,overnight-surge:897/day
-newliver666/apk-reverse,3212,651,15,214.1,Python,MIT,53,1,訊號完整,topics:none
-Edge0-AI/Edge0,3080,388,26,118.5,Python,Apache-2.0,148,1,訊號完整,topics:none
-jaskirat1616/mactap-app,591,21,26,22.7,Swift,MIT,44,1,訊號完整,topics:none
-jeremyipark/vision-demos,591,84,26,22.7,Python,Apache-2.0,37,1,訊號完整,topics:none
-Liuziyu77/Valen,624,57,11,56.7,Python,Apache-2.0,81,1,訊號完整,topics:none
-eternity4719/HowToLiveBetter,42722,3368,27,1582.3,HTML,CC-BY-4.0,96,1,訊號完整,topics:none
-zai-org/ZCode,7428,2264,14,530.6,TypeScript,Apache-2.0,63,1,訊號完整,topics:none
-tamaratran/fast-jev-compaction,7408,501,17,435.8,TypeScript,MIT,202,1,訊號完整,topics:none
-Mak5er/AirCard,6133,387,18,340.7,Swift,MIT,61,1,訊號完整,topics:none
-KKKKhazix/AIHOT,5936,1506,6,989.3,TypeScript,MIT,43,1,訊號完整,overnight-surge:989/day
-TheoLeeCJ/SemIf-OpenJev,4699,340,18,261.1,Python,MIT,99,1,訊號完整,topics:none
-shihabal3amri/DiPlay,4488,584,10,448.8,Kotlin,GPL-3.0,98,1,訊號完整,topics:none
-yi1108/printfilm,4099,449,24,170.8,Python,MIT,27,1,訊號完整,topics:none
-ashemag/human-atlas,4070,1042,29,140.3,TypeScript,MIT,112,1,訊號完整,topics:none
-CopilotKit/openmuse,3970,548,19,208.9,TypeScript,MIT,108,1,訊號完整,topics:none
-wilbert-MD-PhD/medical-illustration,169,12,28,6.0,Python,NOASSERTION,234,1,訊號完整,license:none
-wyuzhi/qisi-video-remix,169,22,23,7.3,Unknown,MIT,52,1,訊號完整,topics:none
-scottstts/Jelly-Baby,168,43,29,5.8,JavaScript,GPL-3.0,30,1,訊號完整,topics:none
-NandhaKishorM/laya,30862,2719,16,1928.9,Python,Apache-2.0,203,0,訊號完整,
-jev-chat/jev-chat-jarvis,7355,1224,13,565.8,Kotlin,MIT,71,0,訊號完整,
-mizorewww/laya-mlx,6772,542,15,451.5,Python,Apache-2.0,129,0,訊號完整,
-yetone/magpie,5068,361,11,460.7,Go,MIT,90,0,訊號完整,
-qingjian-team/qingjian,4457,312,27,165.1,Rust,GPL-3.0,43,0,訊號完整,
-sixtysevenlf/dsh-blender-plugin,168,8,21,8.0,Python,BSD-3-Clause,333,0,訊號完整,
-pallavi-shekhar/ai-engineering-interview-questions-company-wise,1630,164,15,108.7,Markdown,Apache-2.0,91,0,訊號完整,
-Clearailhc/clearai-dsh,1271,41,22,57.8,JavaScript,Apache-2.0,82,0,訊號完整,
-edenfunf/reelmimic,1318,161,6,219.7,JavaScript,MIT,133,0,訊號完整,
-tornikegomareli/omarchy-spaces,173,18,9,19.2,QML,MIT,99,0,訊號完整,
-evnsnclr/neurocraft-fly-public,174,13,28,6.2,Unknown,MIT,135,0,訊號完整,
-AFK-surf/Comma,174,12,4,43.5,Elixir,AGPL-3.0,267,0,訊號完整,
-chrissotraidis/bluewake,174,15,6,29.0,C,GPL-3.0,75,0,訊號完整,
-Roberto02800/turnstile-token,175,38,8,21.9,Python,MIT,155,0,訊號完整,
-maiphucgiang/codebuddy2api,175,43,24,7.3,Python,MIT,53,0,訊號完整,
-happy666End/MenuBarHider,176,0,16,11.0,Swift,MIT,80,0,訊號完整,
-awlevin/typesafe-computer-use,1168,113,18,64.9,Python,MIT,108,0,訊號完整,
-sumimakito/Mac-Duo,1168,84,24,48.7,Swift,Apache-2.0,59,0,訊號完整,
-ollaya-dev/ollaya,1199,69,11,109.0,Rust,Apache-2.0,142,0,訊號完整,
-incoai/splash,1206,110,16,75.4,C++,Apache-2.0,67,0,訊號完整,
-shilapi/xcertplay,1228,195,22,55.8,Kotlin,GPL-3.0,65,0,訊號完整,
-unstablebuild/rune,1229,91,24,51.2,Go,GPL-3.0,36,0,訊號完整,
-kerim0x1/bettercode,275,4,14,19.6,TypeScript,MIT,192,0,訊號完整,
-nihui/qwenimage-ncnn-vulkan,276,13,13,21.2,C++,Apache-2.0,129,0,訊號完整,
-Marcos66236/github-stars-history,276,29,18,15.3,Python,MIT,115,0,訊號完整,
-pch/rawmakase,232,8,8,29.0,Rust,MIT,82,0,訊號完整,
-NiazMorshed2007/jev-review,233,22,17,13.7,TypeScript,MIT,98,0,訊號完整,
-int64ago/vistep,234,16,29,8.1,TypeScript,MIT,108,0,訊號完整,
-Claude-Reverser/Ambient,234,9,21,11.1,Swift,MIT,94,0,訊號完整,
-luxine/CalcKernel,262,10,7,37.4,Rust,MIT,81,0,訊號完整,
-openshaders/openshaders,262,11,28,9.4,Unknown,MIT,52,0,訊號完整,
-BootLoops-ai/bootloops,265,51,3,88.3,Python,MIT,180,0,訊號完整,
-CruxGarden/plasma-ui,270,26,17,15.9,TypeScript,MIT,29,0,訊號完整,
-SyncSo-Inc/syncso,270,9,11,24.5,Unknown,MIT,144,0,訊號完整,
-Leviidev/Husk,254,19,22,11.5,C,GPL-2.0,24,0,訊號完整,
-Adolanium/hermes-gadget-sdk,254,32,1,254.0,C++,MIT,113,0,訊號完整,
-kloxeld/xscrape,255,34,14,18.2,Python,MIT,194,0,訊號完整,
-davidondrej/cloudroom-core,256,40,17,15.1,Rust,Apache-2.0,90,0,訊號完整,
-Simreal-AI/Simreal-MLBench,302,40,13,23.2,Python,Apache-2.0,142,0,訊號完整,
-fidetolabs/qanat,290,52,29,10.0,Python,MIT,92,0,訊號完整,
-logan-markewich/jeff,291,23,15,19.4,Python,MIT,75,0,訊號完整,
-xiaYuTian11/maskit,293,45,25,11.7,Python,AGPL-3.0,105,0,訊號完整,
-farlume/termish,294,1,28,10.5,Kotlin,MIT,81,0,訊號完整,
-richard1208/parallio,223,10,10,22.3,TypeScript,MIT,63,0,訊號完整,
-FluidInference/FluidUse,225,17,13,17.3,Swift,Apache-2.0,151,0,訊號完整,
-cv-superding/dsh-deepseek-web-login,226,27,24,9.4,JavaScript,Apache-2.0,174,0,訊號完整,
-blendi-remade/dioramas,226,25,4,56.5,JavaScript,MIT,147,0,訊號完整,
-VII-Cae/hyalite--liquid-glass,228,11,27,8.4,JavaScript,MIT,113,0,訊號完整,
-amirmushichge/unreal-home-wizard,280,38,10,28.0,PowerShell,Apache-2.0,91,0,訊號完整,
-aaronyi97/wedding-video-guided-wizard,282,61,24,11.8,Python,MIT,64,0,訊號完整,
-CharlesFeng0314/JEV_sees,287,9,4,71.8,Python,MIT,86,0,訊號完整,
-jasonwong1991/WonderBox,273,19,14,19.5,Swift,MIT,143,0,訊號完整,
-sevenevesai/riso-windowseat,274,32,12,22.8,HTML,MIT,140,0,訊號完整,
-noskillish/bankmcp,275,43,27,10.2,TypeScript,MIT,182,0,訊號完整,
-FankChen/tracecrate,307,3,24,12.8,TypeScript,MIT,155,0,訊號完整,
-NihilDigit/piko,309,4,16,19.3,Kotlin,MIT,89,0,訊號完整,
-Appllama/liquid-glass-screens,310,30,29,10.7,TypeScript,GPL-3.0,93,0,訊號完整,
-fstandhartinger/jevbench,220,22,15,14.7,Python,MIT,98,0,訊號完整,
-countervolts/d4r,221,7,7,31.6,C++,Apache-2.0,72,0,訊號完整,
-HeyPuter/builder,221,62,13,17.0,JavaScript,Apache-2.0,116,0,訊號完整,
-tswawa/WechatVibe,221,31,11,20.1,Python,Apache-2.0,67,0,訊號完整,
-Frankweb33/flybrain-robot-bridge,223,37,20,11.2,Python,MIT,164,0,訊號完整,
-munmunjaklin458-afk/cline-pass-switcher,223,47,28,8.0,JavaScript,MIT,71,0,訊號完整,
-HuskerMinion/techo5,223,27,20,11.2,Go,MIT,215,0,訊號完整,
-edison-land/paragravity,223,19,12,18.6,Python,MIT,84,0,訊號完整,
-romancitodev/cargo-pretty,297,1,27,11.0,Rust,MIT,55,0,訊號完整,
-XiantingWu/PQCensus,298,0,29,10.3,Python,Apache-2.0,192,0,訊號完整,
-rust-alert/ra2.exe,299,16,28,10.7,Rust,Apache-2.0,71,0,訊號完整,
-xiaomoBoy/pi-bluebook,299,18,26,11.5,Markdown,MIT,99,0,訊號完整,
-amontlabs/lcu,300,12,12,25.0,Python,MIT,73,0,訊號完整,
-ejfkdev/ddc,357,59,16,22.3,Rust,MIT,206,0,訊號完整,
-leter/zh-tech-writing,332,16,10,33.2,Unknown,MIT,53,0,訊號完整,
-itsmostafa/system-one-connector,339,39,17,19.9,Go,MIT,132,0,訊號完整,
-alpcanaydin/tusk,340,19,6,56.7,Rust,MIT,131,0,訊號完整,
-Appllama/liquid-glass-chat-ui,215,27,7,30.7,TypeScript,MIT,99,0,訊號完整,
-DeeJanuz/frametop,216,13,8,27.0,Python,MIT,90,0,訊號完整,
-ZCodium-project/ZCodium,216,9,11,19.6,TypeScript,MIT,185,0,訊號完整,
-makezur/agenticSTAR,217,9,24,9.0,Python,MIT,74,0,訊號完整,
-reco-tools/ritridata,217,1,15,14.5,Rust,AGPL-3.0,111,0,訊號完整,
-FuturixAI-and-Quantum-Works/Prism-Legal-OS,327,12,22,14.9,TypeScript,AGPL-3.0,74,0,訊號完整,
-jankeesvw/omarchy-meeting-recorder,328,33,10,32.8,Rust,MIT,136,0,訊號完整,
-emir/AIKON,329,31,8,41.1,Java,MIT,133,0,訊號完整,
-kuratlielia/arc-library,303,14,10,30.3,TypeScript,MIT,111,0,訊號完整,
-sutro-sh/jev-align,303,23,15,20.2,Python,Apache-2.0,69,0,訊號完整,
-Gen-Verse/ScienceBuddy,304,44,20,15.2,Python,MIT,87,0,訊號完整,
-ResistanceTo/MiniWatts,305,15,24,12.7,Swift,Apache-2.0,184,0,訊號完整,
-biusberline/cloudflare-turnstile-solver,358,35,28,12.8,Python,MIT,142,0,訊號完整,
-pengchujin/livecanvas,362,26,4,90.5,Swift,MIT,92,0,訊號完整,
-strands-labs/strands-decider,363,56,5,72.6,Python,Apache-2.0,181,0,訊號完整,
-muellerberndt/cadence,366,43,27,13.6,Python,GPL-3.0,166,0,訊號完整,
-TeamGDB/Yakumo,367,18,16,22.9,C++,MIT,110,0,訊號完整,
-saragordic/rooms,370,14,11,33.6,Swift,MIT,103,0,訊號完整,
-Doulor/DoulorCloud,211,12,12,17.6,TypeScript,MIT,107,0,訊號完整,
-L0NE-6/WorkBuddy-Daily,212,102,22,9.6,Python,MIT,115,0,訊號完整,
-shinshin86/mesh-avatar-studio,212,24,1,212.0,TypeScript,MIT,92,0,訊號完整,
-CluvexStudio/ZedSecure,212,9,5,42.4,Kotlin,AGPL-3.0,129,0,訊號完整,
-kaolti/phantomat,213,18,10,21.3,C++,BSD-3-Clause,66,0,訊號完整,
-liyupi/ai-model-world,214,31,17,12.6,TypeScript,MIT,225,0,訊號完整,
-lakeday-org/perch,346,19,18,19.2,JavaScript,MIT,42,0,訊號完整,
-mdpsec/bug-bounty-hunting-prompts,349,107,4,87.2,Unknown,MIT,77,0,訊號完整,
-leemysw/yovoice,355,43,19,18.7,TypeScript,Apache-2.0,134,0,訊號完整,
-storytold/printcraft,357,77,4,89.2,Rust,Apache-2.0,79,0,訊號完整,
-openOMSI-Project/openOMSI,394,94,7,56.3,Rust,MIT,103,0,訊號完整,
-groundboxerrespect/Dlls5-auto,394,2,22,17.9,Python,MIT,274,0,訊號完整,
-Yinsongxu/LLM2Jev,395,39,15,26.3,Python,Apache-2.0,158,0,訊號完整,
-repoboost-hq/buy-github-stars,206,14,17,12.1,Unknown,MIT,188,0,訊號完整,
-arikchakma/gpu-time,209,4,23,9.1,Python,MIT,44,0,訊號完整,
-zhaoyuxiangyyds-lab/AnyDoor,210,21,17,12.4,Java,MIT,174,0,訊號完整,
-hirotomasato/yowes,210,75,15,14.0,Python,MIT,92,0,訊號完整,
-nMaas8388/github-ranking-audit,211,13,17,12.4,Python,MIT,122,0,訊號完整,
-caxete/crypto-tax-calculator,378,123,14,27.0,Python,AGPL-3.0,100,0,訊號完整,
-tudoumashu/ai-memory-skillpack,379,0,26,14.6,Python,MIT,60,0,訊號完整,
-repoboost-hq/github-launch-checklist,379,9,17,22.3,Python,MIT,201,0,訊號完整,
-storytold/vectorcraft,379,73,4,94.8,Rust,Apache-2.0,85,0,訊號完整,
-RaycarlLei/tool-journal,385,18,27,14.3,TypeScript,MIT,135,0,訊號完整,
-nmatt0/moria,388,42,27,14.4,C++,MIT,42,0,訊號完整,
-jaydendavisnc/inkwave,388,137,8,48.5,JavaScript,MIT,86,0,訊號完整,
-MaxGramser/homeassistant_espscreen,389,38,22,17.7,Python,AGPL-3.0,192,0,訊號完整,
-jev-chat/jev-chat-jarvis-mac,459,130,13,35.3,Python,MIT,49,0,訊號完整,
-whirlchat/whirl,464,41,2,232.0,TypeScript,MIT,108,0,訊號完整,
-chenkanglin198904/Personal_External_Brain,201,1,11,18.3,Python,MIT,182,0,訊號完整,
-wanghui2323/learnbuddy,203,1,28,7.2,Python,MIT,78,0,訊號完整,
-heise3/academic-deai,203,8,1,203.0,Python,MIT,164,0,訊號完整,
-impossibleG/phorminx,204,3,19,10.7,Rust,MIT,156,0,訊號完整,
-rorygallagher2024/lg-webos-dashboard,428,15,27,15.9,JavaScript,MIT,254,0,訊號完整,
-loysger/Antigravity,430,1,26,16.5,TypeScript,MIT,155,0,訊號完整,
-rushiranpise/Shizuku-Next,431,14,8,53.9,Kotlin,Apache-2.0,95,0,訊號完整,
-MelisaPeteRs2006/Silent-Crypto-Miner,398,51,16,24.9,Python,MIT,345,0,訊號完整,
-vincentsch/explainroo,405,13,9,45.0,JavaScript,MIT,182,0,訊號完整,
-Continuum-AI-Corp/scuttle,409,0,11,37.2,Go,Apache-2.0,122,0,訊號完整,
-ZeroDayEvil/ai-security-tool,409,9,24,17.0,HTML,MIT,247,0,訊號完整,
-ng-native/ng-native,410,14,7,58.6,TypeScript,MIT,95,0,訊號完整,
-opencoredev/social-sdk,411,35,26,15.8,TypeScript,MIT,143,0,訊號完整,
-storytold/lightcraft,389,78,4,97.2,Rust,Apache-2.0,76,0,訊號完整,
-superwesleyhys-ux/factcircuit,506,43,28,18.1,Python,MIT,152,0,訊號完整,
-showlab/Show-Harness,509,32,27,18.9,Python,Apache-2.0,32,0,訊號完整,
-ZacharyZhang-NY/Ely-GPUI-Components,512,27,4,128.0,Rust,MIT,90,0,訊號完整,
-kunchenguid/compact-adviser,197,25,17,11.6,TypeScript,MIT,66,0,訊號完整,
-SysAdminDoc/HushFacebook,198,5,10,19.8,Java,GPL-3.0,175,0,訊號完整,
-Mikeli7666/DuoBar,199,10,22,9.0,Swift,MIT,96,0,訊號完整,
-atlas-vtt/atlas-vtt,486,51,14,34.7,TypeScript,AGPL-3.0,116,0,訊號完整,
-nhovongoc0-max/meme-radar,488,186,23,21.2,JavaScript,AGPL-3.0,34,0,訊號完整,
-MichaelKinsy/PiG,492,31,17,28.9,Go,MIT,227,0,訊號完整,
-Aureliengmz/clearwater,497,93,11,45.2,HTML,MIT,94,0,訊號完整,
-shinthink/blitzstrike,498,5,22,22.6,TypeScript,MIT,125,0,訊號完整,
-lucasmarkes/hairline,467,28,3,155.7,TypeScript,MIT,90,0,訊號完整,
-storytold/filmcraft,474,89,4,118.5,Rust,Apache-2.0,85,0,訊號完整,
-devswha/herdr-web-ui,479,42,17,28.2,TypeScript,MIT,117,0,訊號完整,
-sno-ai/sno-station,440,352,15,29.3,TypeScript,Apache-2.0,331,0,訊號完整,
-timoncool/YuE2-Studio,449,40,12,37.4,TypeScript,MIT,184,0,訊號完整,
-kevinzakka/mjbatch,586,59,24,24.4,Python,Apache-2.0,79,0,訊號完整,
-ruc-datalab/EvoOntology,594,48,19,31.3,Python,MIT,103,0,訊號完整,
-lingyired/status-trio,596,35,22,27.1,Swift,Apache-2.0,201,0,訊號完整,
-StayLameBro/backburner,605,55,3,201.7,Python,MIT,101,0,訊號完整,
-Goncafer47/Stablecoin-Payment-Gateway,195,46,12,16.2,Python,MIT,300,0,訊號完整,
-judegomila/OnCo,195,32,29,6.7,TypeScript,MIT,211,0,訊號完整,
-ashleydarosa/CC-Checker-Validator-Generator,196,42,13,15.1,Python,MIT,295,0,訊號完整,
-WallpaperMachine/WallpaperMachine,196,5,20,9.8,Swift,GPL-2.0,132,0,訊號完整,
-filliptm/ComfyUI-FL-YuE2,196,21,23,8.5,Python,Apache-2.0,60,0,訊號完整,
-BagasRizkyHarySaputra/MLBB-waydroid-LinuxCloudMLBB,197,0,6,32.8,Shell,MIT,210,0,訊號完整,
-eliasstravik/herdr-projects,574,41,16,35.9,Rust,MIT,117,0,訊號完整,
-unicodef1wn/grokbot-field-notes,577,80,16,36.1,Python,MIT,132,0,訊號完整,
-SelmiAbderrahim/rankme.fast,533,19,12,44.4,TypeScript,AGPL-3.0,29,0,訊號完整,
-coldteadotai/abide,544,43,16,34.0,TypeScript,MIT,54,0,訊號完整,
-letorig/video-generator-client,552,87,20,27.6,Python,MIT,107,0,訊號完整,
-amitshekhariitbhu/ai-engineering-course,502,95,11,45.6,Markdown,Apache-2.0,259,0,訊號完整,
-saragordic/window-sweaters,743,24,19,39.1,C,GPL-3.0,66,0,訊號完整,
-viettranx/3dviz-pro-max,662,85,24,27.6,JavaScript,MIT,203,0,訊號完整,
-devagrawal09/jev-review,670,43,18,37.2,TypeScript,MIT,74,0,訊號完整,
-bilibili/Index-Translate,682,16,19,35.9,Python,Apache-2.0,39,0,訊號完整,
-bytwelve/photoMap,189,11,28,6.8,TypeScript,MIT,55,0,訊號完整,
-Soniavasseur/Wallet-Risk-Scanner,190,33,12,15.8,Python,MIT,325,0,訊號完整,
-SpiralMotorman/AquaClicker,190,41,24,7.9,HTML,MIT,68,0,訊號完整,
-timschneeb/ShizuStore,192,4,17,11.3,Kotlin,GPL-3.0,115,0,訊號完整,
-suoha888/Trader-Archives,192,80,22,8.7,HTML,MIT,65,0,訊號完整,
-shihabal3amri/DiAuto,193,26,12,16.1,Kotlin,AGPL-3.0,84,0,訊號完整,
-suversal/apple-store-inventory-monitor,193,31,26,7.4,Rust,GPL-3.0,71,0,訊號完整,
-Miaotofu01/Study-Mate,616,35,17,36.2,Python,MIT,32,0,訊號完整,
-ESPARGOS/esp-sdr,617,74,6,102.8,C,GPL-3.0,140,0,訊號完整,
-henryzawadzki6542/cloudflare-turnstile-bypass,624,41,26,24.0,Python,MIT,171,0,訊號完整,
-ardeyouxipianyi/workbuddy2api-hub,630,145,22,28.6,Python,MIT,65,0,訊號完整,
-amitshekhariitbhu/ai-system-design,632,87,9,70.2,Markdown,Apache-2.0,97,0,訊號完整,
-alexgreensh/anidoodle,795,64,12,66.2,TypeScript,Apache-2.0,157,0,訊號完整,
-Edwardxlai/easyread,797,56,4,199.2,Python,MIT,86,0,訊號完整,
-penso/herdr-gpui,834,45,14,59.6,Rust,Apache-2.0,159,0,訊號完整,
-angel291592/Intent-Router,845,91,12,70.4,Python,MIT,196,0,訊號完整,
-usamahz/cpu-performance-engineering,845,65,17,49.7,Python,MIT,160,0,訊號完整,
-wfzyx/von,849,69,16,53.1,Python,Apache-2.0,115,0,訊號完整,
-aizhimou/javranking-extension,852,55,27,31.6,TypeScript,MIT,44,0,訊號完整,
-kostja94/bricks,187,0,9,20.8,JavaScript,MIT,111,0,訊號完整,
-Xu123-Bob/Baize,187,2,22,8.5,JavaScript,MIT,112,0,訊號完整,
-255308153/CtxGuard,188,15,20,9.4,Python,MIT,94,0,訊號完整,
-z-liu-xiugou/research-workbench-assistant,189,0,27,7.0,Python,Apache-2.0,113,0,訊號完整,
-Colinjqq/content-forecast,189,10,26,7.3,Python,MIT,101,0,訊號完整,
-wilsjo2/OptiScaler-DLSSNR-PreSR-Multipass,765,57,29,26.4,C++,GPL-3.0,113,0,訊號完整,
-Oldcircle/geo-sleuth,701,90,16,43.8,Python,MIT,231,0,訊號完整,
-Alex314618-create/JevRev,703,30,13,54.1,TypeScript,MIT,95,0,訊號完整,
-Qiuner/birdview,713,67,22,32.4,TypeScript,MIT,83,0,訊號完整,
-GongZhiren/State-of-Thought,148,1,27,5.5,Python,MIT,60,0,訊號完整,
-zhihui-hu/one-ip,1033,1253,25,41.3,TypeScript,AGPL-3.0,115,0,訊號完整,
-nokia-applied-research/AnyJev,1039,134,13,79.9,Python,Apache-2.0,149,0,訊號完整,
-freestylefly/WeChatBridge,1046,359,13,80.5,Swift,MIT,44,0,訊號完整,
-SysAdminDoc/HushFeed,147,7,29,5.1,Java,GPL-3.0,98,0,訊號完整,
-Pal-AI-Lab/Cortico,183,15,21,8.7,TypeScript,MIT,63,0,訊號完整,
-MiniMax-AI/OpenAgentCore,184,17,13,14.2,Go,MIT,96,0,訊號完整,
-deepakness/cogsend,185,28,12,15.4,TypeScript,MIT,119,0,訊號完整,
-mitkox/esf,186,32,15,12.4,Go,MIT,71,0,訊號完整,
-OpenWAM-Official/OpenWAM,949,57,28,33.9,Python,Apache-2.0,114,0,訊號完整,
-ant-research/AntOmniEvo,989,93,19,52.1,Python,Apache-2.0,92,0,訊號完整,
-dmoshehun-prog/learn-from-materials,868,90,26,33.4,Python,MIT,88,0,訊號完整,
-FlashML-org/FreeVideo,870,78,21,41.4,Python,Apache-2.0,168,0,訊號完整,
-lingxuanqjc-alt/note-bridge-desktop,894,47,26,34.4,Python,MIT,47,0,訊號完整,
-undefined-ui/second-brain-os,912,142,27,33.8,HTML,MIT,159,0,訊號完整,
-TypeLLM/TypeLLM,927,58,17,54.5,Python,Apache-2.0,39,0,訊號完整,
-Aleph1-9012/Evangelion,153,4,28,5.5,Shell,Apache-2.0,62,0,訊號完整,
-js713-lab/sonic-match-mcp,153,0,24,6.4,Python,MIT,126,0,訊號完整,
-Xuanwo/cida,153,8,9,17.0,Swift,Apache-2.0,78,0,訊號完整,
-GetBrew/growth-engineer,154,12,18,8.6,TypeScript,MIT,134,0,訊號完整,
-libingzheren/Jev-Mem,155,16,14,11.1,Python,MIT,45,0,訊號完整,
-cclank/clay-safari,180,45,27,6.7,JavaScript,MIT,83,0,訊號完整,
-ssssssanjiu/clawd-conduit,180,10,25,7.2,Shell,MIT,148,0,訊號完整,
-pliablepixels/gap-trap,180,8,21,8.6,JavaScript,MIT,145,0,訊號完整,
-scarletkc/seiso,181,11,7,25.9,Rust,MIT,93,0,訊號完整,
-brandynfisher/ToolReplay,182,21,20,9.1,Python,MIT,135,0,訊號完整,
-blixvip/easyedit,149,13,18,8.3,Python,MIT,155,0,訊號完整,
-chadhurley25075-png/pd-bridge,150,13,28,5.4,Python,Apache-2.0,134,0,訊號完整,
-NuvexNetwork/nuvex-services,150,313,4,37.5,TypeScript,Apache-2.0,112,0,訊號完整,
-Zhangweihui666/silver-tourism-digital-twin,150,0,5,30.0,JavaScript,MIT,106,0,訊號完整,
-beyondtahir/beyondseo,151,38,21,7.2,Python,MIT,211,0,訊號完整,
-z91772524-ai/pojia-next,152,17,17,8.9,Python,MIT,170,0,訊號完整,
-theNetworkChuck/paperclip-guide,163,22,10,16.3,TypeScript,MIT,145,0,訊號完整,
-DayuanJiang/PecoFence,164,8,21,7.8,Rust,Apache-2.0,134,0,訊號完整,
-miflow13/mochi-desktop,165,10,28,5.9,Python,MIT,105,0,訊號完整,
-ghuntley/underclass,177,11,14,12.6,Rust,MIT,243,0,訊號完整,
-githubuser420x/FGOAC-scooby,177,20,20,8.8,C#,MIT,60,0,訊號完整,
-lordx64/phantom-kv,178,26,17,10.5,Python,MIT,123,0,訊號完整,
-Echo-Storm/ls-addon-manager,158,1,13,12.2,C++,MIT,268,0,訊號完整,
-Atomburstofficial/geiger,158,7,28,5.6,JavaScript,MIT,134,0,訊號完整,
-tshemsedinov/reslop,159,9,28,5.7,JavaScript,MIT,44,0,訊號完整,
-techflag/workdsh,159,37,24,6.6,TypeScript,MIT,244,0,訊號完整,
-DevMortimer/pi-warden,161,23,18,8.9,TypeScript,MIT,269,0,訊號完整,
-danielroe/airspace,161,5,23,7.0,TypeScript,MIT,30,0,訊號完整,
-jakesgoodapps/DuoLauncher,156,21,24,6.5,Kotlin,MIT,124,0,訊號完整,
-skydoves/nowinandroid-kmp,156,8,26,6.0,Kotlin,Apache-2.0,91,0,訊號完整,
-y0usaf/pi-jev,157,13,18,8.7,TypeScript,MIT,126,0,訊號完整,
-inlark/inlark,158,7,9,17.6,TypeScript,AGPL-3.0,33,0,訊號完整,
-SpikeCalls/FlyDrones,248,53,19,13.1,Python,MIT,138,0,訊號完整,
-jaredpalmer/kev,8479,559,17,498.8,Python,Apache-2.0,96,0,訊號完整,
-agentsea/nautilo,170,6,18,9.4,TypeScript,MIT,167,0,訊號完整,
-yudaprasetya007/routeVSCODE,170,0,24,7.1,JavaScript,MIT,89,0,訊號完整,
-limelit-co/open,171,144,23,7.4,Go,Apache-2.0,208,0,訊號完整,
-suvamneog/jobradar,171,25,10,17.1,Python,MIT,122,0,訊號完整,
-awangwang123/jianhao-travel-planner,172,14,11,15.6,HTML,MIT,82,0,訊號完整,
-KingKongRobotics/jumper,173,24,6,28.8,Python,Apache-2.0,37,0,訊號完整,
-dzhng/jevgrep,2287,161,8,285.9,TypeScript,MIT,118,0,訊號完整,
-Louis-CFM/coucou,3605,582,7,515.0,Swift,MIT,194,0,訊號完整,
-ntfargo/Relapse-Exploit,1748,436,17,102.8,JavaScript,MIT,34,0,訊號完整,
-linguo2625469/workbuddy2api-panel,1947,557,22,88.5,Go,MIT,120,0,訊號完整,
-anmolkapil/plexo,1420,126,19,74.7,TypeScript,MIT,72,0,訊號完整,
-Ebony-Vinyl/dsh-our-free-model,1536,44,10,153.6,JavaScript,MIT,280,0,訊號完整,
-mizorewww/laya-coreml,1546,130,15,103.1,Python,Apache-2.0,154,0,訊號完整,
-Chuloo/mural,1597,313,22,72.6,TypeScript,MIT,100,0,訊號完整,
-ra2-games/ra2,256,36,22,11.6,TypeScript,GPL-3.0,58,0,訊號完整,
-jamespolyakov9829/captcha-api,261,36,9,29.0,Python,MIT,129,0,訊號完整,
-Mastershort/neonplan3d,234,30,7,33.4,TypeScript,MIT,264,0,訊號完整,
-Shellishack/infinite-pokemon,236,36,20,11.8,TypeScript,MIT,138,0,訊號完整,
-itzender5820/mousiki,237,17,26,9.1,C++,Apache-2.0,72,0,訊號完整,
-hsandhu/mobilecode,239,28,29,8.2,TypeScript,MIT,82,0,訊號完整,
-amitshekhariitbhu/ai-engineer-roadmap,241,25,14,17.2,Markdown,Apache-2.0,114,0,訊號完整,
-RomanSlack/jev-drone,249,36,18,13.8,Python,MIT,102,0,訊號完整,
-haplollc/ThinkingOrbs,251,20,15,16.7,Swift,MIT,120,0,訊號完整,
-XiaoPuOuO/openchatx-mcp,252,17,11,22.9,TypeScript,MIT,167,0,訊號完整,
-MoshiurRahmanAdib/Conflux-Icon-Theme,243,2,26,9.3,Python,GPL-3.0,93,0,訊號完整,
-MirroS-Lab/S-Space,243,6,28,8.7,Python,Apache-2.0,57,0,訊號完整,
-repoboost-hq/github-search-ranking,245,5,17,14.4,Unknown,MIT,123,0,訊號完整,
-youcci/playport,245,14,3,81.7,Kotlin,GPL-3.0,113,0,訊號完整,
-surya-koritala/Glyd,246,1,15,16.4,Rust,BSD-3-Clause,58,0,訊號完整,
-furkan-bayrak/lg-tv-blocklist,246,6,25,9.8,Python,CC-BY-4.0,97,0,訊號完整,
+deillusion/Aha-Engine,513,4,25,20.5,JavaScript,NOASSERTION,0,6,低資訊密度,"desc:empty, license:none, low-forks:0.008, topics:none"
+nex-agi/Nex-N2.5,1054,25,28,37.6,Unknown,,0,6,低資訊密度,"desc:empty, license:none, high-attention-no-desc, topics:none"
+ArasTey/lunel,1034,2452,26,39.8,Python,NOASSERTION,0,6,低資訊密度,"desc:empty, license:none, high-attention-no-desc, topics:none"
+kargulstudio/sales-crm,1547,323,1,1547.0,TypeScript,MIT,0,6,低資訊密度,"desc:empty, high-attention-no-desc, overnight-surge:1547/day, topics:none"
+Vodiwalker/vodiwalker_panel,1182,3157,25,47.3,Python,,0,6,低資訊密度,"desc:empty, license:none, high-attention-no-desc, topics:none"
+Contrastive-LM/CLM,2873,249,12,239.4,Python,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+fsiaonma/elpis,552,4,6,92.0,TypeScript,,5,5,低資訊密度,"desc:short, license:none, low-forks:0.007, topics:none"
+wy51ai/floorplan-3d,1435,294,6,239.2,HTML,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+cloudflare/forge,1054,41,14,75.3,TypeScript,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+google-research/rrsi,1272,122,19,66.9,Python,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+reladraw/reladraw,1078,25,28,38.5,TypeScript,Apache-2.0,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+Lumid-Off/AirCard-Windows,1275,102,17,75.0,Rust,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+vinnylarouge/jevlike,1347,118,19,70.9,Python,MIT,0,5,低資訊密度,"desc:empty, high-attention-no-desc, topics:none"
+YXBwbWFya2V0/AppMarket,341,163,1,341.0,Kotlin,,0,5,低資訊密度,"desc:empty, license:none, overnight-surge:341/day, topics:none"
+imexlovery/video-report-agent,173,12,27,6.4,Python,,0,5,低資訊密度,"desc:empty, license:none, generic-name:video-report-agent, topics:none"
+0xhamssog/pons-token-scanner,165,0,5,33.0,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+taeold/djev-run,578,37,15,38.5,HTML,,0,4,待檢視,"desc:empty, license:none, topics:none"
+rizqinrr/viserys-agent,557,19,23,24.2,JavaScript,Apache-2.0,0,4,待檢視,"desc:empty, generic-name:viserys-agent, topics:none"
+pbs05/ponwrt,229,185,12,19.1,C,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+extend-hq/jevbox,648,74,6,108.0,TypeScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+Marco-C-VBH/RepoPilot,201,8,26,7.7,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+corvofeng/atv-core,229,14,9,25.4,Rust,,0,4,待檢視,"desc:empty, license:none, topics:none"
+shengshu-ai/Motus2,793,7,24,33.0,Unknown,,70,4,待檢視,"license:none, low-forks:0.009, topics:none"
+ythx-101/live-panel-skill,614,82,2,307.0,HTML,NOASSERTION,232,4,待檢視,"license:none, overnight-surge:307/day, generic-name:live-panel-skill, topics:none"
+rauchg/gdp-ts,627,17,1,627.0,TypeScript,MIT,0,4,待檢視,"desc:empty, overnight-surge:627/day, topics:none"
+BlueKnightNet/Blue-Knight-Panel,163,56,27,6.0,JavaScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+XGEN-Labs/XGEN-JING,274,24,20,13.7,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+peggykangkang02/xialingguo-ip,188,33,25,7.5,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
+kargulstudio/kanban,157,29,19,8.3,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+NxcoreAI/NxMem,982,87,25,39.3,TypeScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+tristanbuckmaster/fluid_lean,269,19,27,10.0,Lean,,0,4,待檢視,"desc:empty, license:none, topics:none"
+omnirush-ai/omnirush-gui,1989,36,14,142.1,TypeScript,NOASSERTION,59,4,待檢視,"license:none, low-forks:0.018, topics:none"
+facok/comfyui-SelfLift,291,13,28,10.4,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
+edgcpp/compiler,813,91,13,62.5,C,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+arden-aaai/cpa-plugin-codex-turn-state,169,59,18,9.4,Go,MIT,0,4,待檢視,"desc:empty, generic-name:cpa-plugin-codex-turn-state, topics:none"
+OmooLab/AnyImage,153,5,16,9.6,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+wen1207/ArxivAgent,193,0,29,6.7,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
+kvmem/kvmem-llama.cpp,852,86,21,40.6,C++,,0,4,待檢視,"desc:empty, license:none, topics:none"
+wangmingxuan666/Tiersense,892,149,11,81.1,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
+sanqianzilanyue/ai-voice-breath-kiss-water,162,16,5,32.4,HTML,,0,4,待檢視,"desc:empty, license:none, topics:none"
+slop-place/zulu,880,3,13,67.7,Swift,,23,4,待檢視,"license:none, low-forks:0.003, topics:none"
+Kaleidoscope-XinFang/ai-video-ad-studio,198,3,29,6.8,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+niedachu/MateriaSim,293,11,21,14.0,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
+raw13g/raw13g.github.io,191,201,16,11.9,JavaScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+h0m3us3r/eSpDR,246,28,10,24.6,C++,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+FeatureNAB/mmWave-Sensor,182,12,14,13.0,Unknown,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+xikhar/spiderbench,488,92,8,61.0,JavaScript,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+TronIsHere/vibefarsiui,206,11,18,11.4,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+leoliu0/texres,181,3,19,9.5,Rust,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+kuuky29/UniRoot,204,15,26,7.8,Kotlin,,0,4,待檢視,"desc:empty, license:none, topics:none"
+Atomicx7/Duo-animation,223,35,25,8.9,Kotlin,,0,4,待檢視,"desc:empty, license:none, topics:none"
+markxplorer969/profile,216,0,10,21.6,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
+x4gpanell/SuperJinX,364,806,3,121.3,HTML,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+xsolla-baku-gametech-hackathon/team-Omzo,212,0,25,8.5,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+Rieranthony/product-film-skill,399,30,9,44.3,TypeScript,MIT,0,4,待檢視,"desc:empty, generic-name:product-film-skill, topics:none"
+dabit3/jev-experiments,398,31,18,22.1,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+x4gpanell/3x-ui_runonflux,223,505,25,8.9,Go,,0,4,待檢視,"desc:empty, license:none, topics:none"
+HytidelLegend/htd-ai-augmented-education,406,52,12,33.8,Python,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+hezhanleiok/freesub,381,523,28,13.6,Python,,0,4,待檢視,"desc:empty, license:none, topics:none"
+Faizpi/bank-sampah,457,1,24,19.0,PHP,,0,4,待檢視,"desc:empty, license:none, topics:none"
+gfhdhytghd/viewflow,176,2,28,6.3,Rust,NOASSERTION,0,4,待檢視,"desc:empty, license:none, topics:none"
+xsolla-baku-gametech-hackathon/team-enthuzone,336,0,26,12.9,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+faligame/Parasite-Eve-2-HD-Remaster,176,3,24,7.3,Unknown,,0,4,待檢視,"desc:empty, license:none, topics:none"
+kargulstudio/workflow-editor,407,62,20,20.4,TypeScript,,0,4,待檢視,"desc:empty, license:none, topics:none"
+AlibabaResearch/SparkDiffusion,424,50,17,24.9,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+Re1nhard-1/deconv-preflight,194,7,14,13.9,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+LanyXiaosheng/bookflow-skill,195,30,24,8.1,Unknown,MIT,9,3,待檢視,"desc:short, generic-name:bookflow-skill, topics:none"
+storytold/effectcraft,447,104,4,111.8,Rust,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+OnlistTeam/ai-manager,1047,16,14,74.8,Rust,AGPL-3.0,50,3,待檢視,"low-forks:0.015, topics:none"
+zjwzcx/Awesome-Astra-Embodied-AI,1090,26,23,47.4,Unknown,,41,3,待檢視,"license:none, generic-name:Awesome-Astra-Embodied-AI, topics:none"
+droidrun/mobile-jev,435,54,18,24.2,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+swoonqx/TypingPet,243,14,11,22.1,Unknown,,9,3,待檢視,"desc:short, license:none, topics:none"
+Zefan-Cai/Open-Jev,393,53,15,26.2,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+mater1996/travel-planning,284,29,14,20.3,Python,NOASSERTION,15,3,待檢視,"desc:short, license:none, topics:none"
+deepseek-ai/deepseek-recipe,378,32,25,15.1,Rust,MIT,0,3,待檢視,"desc:empty, topics:none"
+brainstormity/Jev-X-Sentiment-Analysis,190,37,16,11.9,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+JamesKInner/Covalent-MAS,339,1,16,21.2,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+LetMeHappyCode/auto-video-agent,217,7,28,7.8,Python,,69,3,待檢視,"license:none, generic-name:auto-video-agent, topics:none"
+yjz211/vivid-figures-skill,437,28,25,17.5,HTML,NOASSERTION,58,3,待檢視,"license:none, generic-name:vivid-figures-skill, topics:none"
+15838328874/pi,273,12,29,9.4,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+ReedGAOOO/FCMGuard-HyperOS,155,18,22,7.0,Java,MIT,0,3,待檢視,"desc:empty, topics:none"
+blendi-remade/agentcraft,402,61,2,201.0,Java,MIT,0,3,待檢視,"desc:empty, topics:none"
+riba2534/claude-opus-5-5-demo,1000,141,12,83.3,JavaScript,,20,3,待檢視,"license:none, generic-name:claude-opus-5-5-demo, topics:none"
+0xhamssog/evem-transaction-manager,162,0,2,81.0,TypeScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+elmasas/lcs-recomp,187,6,11,17.0,C++,MIT,0,3,待檢視,"desc:empty, topics:none"
+0xhamssog/evm-trading-executor,163,0,4,40.8,Solidity,MIT,0,3,待檢視,"desc:empty, topics:none"
+Barty-Bart/gpt-6-astra-10k-websites,164,68,28,5.9,Unknown,,97,3,待檢視,"license:none, generic-name:gpt-6-astra-10k-websites, topics:none"
+KevinXu02/aha-3d,272,13,12,22.7,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+elijah-semyonov/DuoLikeAnimation,157,39,25,6.3,Swift,MIT,0,3,待檢視,"desc:empty, topics:none"
+evondev/evondevKit,334,37,15,22.3,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+voxivoid/recipe-lab-sony-pmca,605,38,27,22.4,Java,MIT,0,3,待檢視,"desc:empty, topics:none"
+PartSpearSnare/uvvpalkw,480,0,27,17.8,Unknown,,0,3,待檢視,"desc:empty, license:none"
+zgcagi/ZGCM-1,596,74,28,21.3,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+TencentARC/GameHorizon,561,1,15,37.4,Unknown,Apache-2.0,168,3,待檢視,"low-forks:0.002, topics:none"
+zhoufuweigg/guoapp,340,111,9,37.8,Unknown,,19,3,待檢視,"desc:short, license:none, topics:none"
+unitreerobotics/unifolm-wla,209,24,24,8.7,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+anonymous-report-421/GPT-as-Policy,578,25,22,26.3,HTML,MIT,13,3,待檢視,"desc:short, generic-name:GPT-as-Policy, topics:none"
+rmalde/minecraft-agent,579,62,15,38.6,JavaScript,,107,3,待檢視,"license:none, generic-name:minecraft-agent, topics:none"
+xinxuxin/keystone-bench,556,3,28,19.9,Python,NOASSERTION,163,3,待檢視,"license:none, low-forks:0.005"
+anthropics/uplifting-biomolecular-modeling,329,50,18,18.3,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+yksr-melt/Meltype,366,22,6,61.0,C#,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
+browser-use/life-recorder,320,40,24,13.3,Swift,MIT,0,3,待檢視,"desc:empty, topics:none"
+0xkuch/Fibo,281,1,16,17.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+BeetleEnhance33/Adobe-InDesign,200,0,4,50.0,Unknown,,0,3,待檢視,"desc:empty, license:none"
+githubnext/localjev,817,54,17,48.1,TypeScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+storytold/designcraft,279,89,4,69.8,Rust,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+latticeverse/LatticeVerse,301,0,9,33.4,Unknown,MIT,0,3,待檢視,"desc:empty, topics:none"
+cheng-haha/GPT-Policy,300,5,25,12.0,Python,NOASSERTION,41,3,待檢視,"license:none, generic-name:GPT-Policy, topics:none"
+Codemumarina/jopziuud,297,0,27,11.0,Unknown,,0,3,待檢視,"desc:empty, license:none"
+Sac-Y/Jev-cu,616,59,17,36.2,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+tqmane/gunshot,394,45,24,16.4,Objective-C,NOASSERTION,18,3,待檢視,"desc:short, license:none, topics:none"
+ElgenTidwell/Chisel,222,25,9,24.7,C#,BSD-3-Clause,0,3,待檢視,"desc:empty, topics:none"
+yynxxxxx/gpt_sub_analysis,613,318,18,34.1,Unknown,,113,3,待檢視,"license:none, generic-name:gpt_sub_analysis, topics:none"
+mizchi/explainer,401,9,11,36.5,HTML,MIT,0,3,待檢視,"desc:empty, topics:none"
+StevensND/nfsmw-nx,196,11,8,24.5,C,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
+xieyouxixi/hwb-math-modeling-skills,196,5,19,10.3,Python,,23,3,待檢視,"license:none, generic-name:hwb-math-modeling-skills, topics:none"
+LinkMouseIndex/allinonetools,400,0,27,14.8,Unknown,,0,3,待檢視,"desc:empty, license:none"
+Dingo-Shenanigans/ReSkate,438,67,3,146.0,C++,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
+DefiLeoo/YOINK,383,22,24,16.0,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+deadinside28/bloodborne_pc,942,81,4,235.5,C++,GPL-2.0,0,3,待檢視,"desc:empty, topics:none"
+Spikemumotor/kfebskpv,202,1,27,7.5,Unknown,,0,3,待檢視,"desc:empty, license:none"
+letstri/motion-panels,177,1,28,6.3,TypeScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+Avenuezensport/efjvysuz,1902,0,13,146.3,Unknown,,174,3,待檢視,"license:none, low-forks:0.000"
+lightorigins/Light-O1,168,7,15,11.2,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+inclusionAI/Ming-Image,173,16,18,9.6,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+HangYu8123/Pocket-Agent-CLI,170,11,25,6.8,C++,NOASSERTION,68,3,待檢視,"license:none, generic-name:Pocket-Agent-CLI, topics:none"
+LYiHub/pub-dsh-privacy-router,166,33,24,6.9,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+jmedina21/deck-as-controller,171,2,5,34.2,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+jasonbitsmith/muse-skills,168,13,1,168.0,Unknown,,34,3,待檢視,"license:none, generic-name:muse-skills, topics:none"
+kazdenc/regen-icons,185,17,22,8.4,JavaScript,MIT,0,3,待檢視,"desc:empty, topics:none"
+ninjahawk/livenerf,1312,19,13,100.9,Python,MIT,54,3,待檢視,"low-forks:0.014, topics:none"
+datawhalechina/jev-cookbook,184,23,15,12.3,Python,NOASSERTION,120,3,待檢視,"license:none, generic-name:jev-cookbook, topics:none"
+RLinf/APXinf-robo,183,25,28,6.5,Python,Apache-2.0,0,3,待檢視,"desc:empty, topics:none"
+liangshanbo789/chatgpt-plus-pro-team-billing,1150,15,26,44.2,TypeScript,,133,3,待檢視,"license:none, low-forks:0.013"
+dealerdefi/Jevmind,183,6,20,9.2,Python,MIT,0,3,待檢視,"desc:empty, topics:none"
+nykooi1/vibe-wise,2175,106,6,362.5,Python,MIT,80,3,待檢視,"overnight-surge:362/day, generic-name:vibe-wise, topics:none"
+XueshiQiao/qduo,184,7,13,14.2,Swift,GPL-3.0,0,3,待檢視,"desc:empty, topics:none"
+JaxsonWang/cpa-plugin-oai-basispoints,172,51,11,15.6,Go,MIT,0,3,待檢視,"desc:empty, topics:none"
+opusvideo/awesome-claude-video,180,10,10,18.0,Unknown,,122,3,待檢視,"license:none, generic-name:awesome-claude-video, topics:none"
+brandforemanwhirl/tmeyzipl,250,0,13,19.2,Unknown,,0,3,待檢視,"desc:empty, license:none"
+feiyuaq/zcfsrf,180,0,3,60.0,Unknown,,16,3,待檢視,"desc:short, license:none, topics:none"
+huangbai-AI/post-production-skill,250,42,16,15.6,Unknown,,70,3,待檢視,"license:none, generic-name:post-production-skill, topics:none"
+v-modal/vmodal_sdk_swift_iphoneduo,596,2,23,25.9,Swift,MIT,65,2,訊號完整,low-forks:0.003
+youart-open-source/awesome-gpt-image-2-5-prompts,591,42,25,23.6,JavaScript,NOASSERTION,150,2,訊號完整,"license:none, generic-name:awesome-gpt-image-2-5-prompts"
+JoasASantos/Offensive-Security-AI-Models,606,68,8,75.8,Unknown,,65,2,訊號完整,"license:none, topics:none"
+win4r/MuseAI-Skills,324,107,10,32.4,HTML,,141,2,訊號完整,"license:none, generic-name:MuseAI-Skills"
+composio-community/open-dot,579,82,6,96.5,TypeScript,,106,2,訊號完整,"license:none, topics:none"
+lfzk550/fanzha-ai-proxy,578,370,28,20.6,Unknown,,39,2,訊號完整,"license:none, topics:none"
+kunchenguid/kun,404,39,29,13.9,JavaScript,,136,2,訊號完整,"license:none, topics:none"
+zhengkid/Dream-RSI,1354,118,22,61.5,Unknown,,84,2,訊號完整,"license:none, topics:none"
+atria-asi/Atria-Dawn-Preview,576,30,23,25.0,Unknown,MIT,0,2,訊號完整,desc:empty
+facebookresearch/context-language-models,571,71,17,33.6,Python,NOASSERTION,49,2,訊號完整,"license:none, topics:none"
+Continuum-AI-Corp/OrcaBonsai-27B-Uncensored,569,66,17,33.5,Python,NOASSERTION,147,2,訊號完整,"license:none, topics:none"
+Jakeschincariol/youtube-agent-skill,569,125,19,29.9,Python,MIT,295,2,訊號完整,"generic-name:youtube-agent-skill, topics:none"
+gangmoonrotation/Discord-Quest-Completer,392,0,1,392.0,Unknown,,157,2,訊號完整,"license:none, overnight-surge:392/day"
+grmchn/dopa-drill,226,94,8,28.2,JavaScript,NOASSERTION,30,2,訊號完整,"license:none, topics:none"
+deepseek-ai/DeepEP-Ascend,224,23,5,44.8,C++,,107,2,訊號完整,"license:none, topics:none"
+ysh1112/codex-model-watch,201,31,15,13.4,HTML,MIT,117,2,訊號完整,"generic-name:codex-model-watch, topics:none"
+sitimas9/cdcrafthh,224,1,28,8.0,Python,,63,2,訊號完整,"license:none, topics:none"
+wh000wh000/awesome-jev-live,224,14,17,13.2,Python,NOASSERTION,143,2,訊號完整,"license:none, generic-name:awesome-jev-live"
+ANDRETRIPOL/OpenGhost,232,18,10,23.2,JavaScript,NOASSERTION,175,2,訊號完整,"license:none, topics:none"
+HectoTeacher56/Adobe-Substance-3d,392,0,1,392.0,Unknown,,152,2,訊號完整,"license:none, overnight-surge:392/day"
+Barty-Bart/motion-graphics,466,77,10,46.6,HTML,NOASSERTION,49,2,訊號完整,"license:none, topics:none"
+zzzz7788990213-ops/EvoVLM,463,5,3,154.3,Python,,124,2,訊號完整,"license:none, topics:none"
+ilkerzg/storycast,229,76,11,20.8,TypeScript,,26,2,訊號完整,"license:none, topics:none"
+SwimmerShield/Better-Discord,392,0,1,392.0,Unknown,,146,2,訊號完整,"license:none, overnight-surge:392/day"
+elstongun/leviathan,545,28,1,545.0,Rust,Apache-2.0,210,2,訊號完整,"overnight-surge:545/day, topics:none"
+pavrus117/ai-os-maps-guide,178,54,13,13.7,Unknown,,121,2,訊號完整,"license:none, topics:none"
+kydlikebtc/awesome-jev,594,19,13,45.7,Python,NOASSERTION,279,2,訊號完整,"license:none, generic-name:awesome-jev"
+MiaAI-Lab/Qwen3.8-Flash-Next-Single-DGX-Spark-TensorFold,184,29,6,30.7,Shell,NOASSERTION,48,2,訊號完整,"license:none, topics:none"
+ERRRC/xingcezhenti,784,122,19,41.3,Unknown,,28,2,訊號完整,"license:none, topics:none"
+kraayenjon/awesome-jev,172,36,17,10.1,Unknown,NOASSERTION,196,2,訊號完整,"license:none, generic-name:awesome-jev"
+netease-youdao/Confucius4-R2T2,765,70,27,28.3,Python,NOASSERTION,83,2,訊號完整,"license:none, topics:none"
+dofastted/vm2api,807,195,19,42.5,JavaScript,NOASSERTION,25,2,訊號完整,"license:none, topics:none"
+oil-oil/oil-ui,700,39,5,140.0,Python,MIT,19,2,訊號完整,"desc:short, topics:none"
+secwind7/polytech-tree,303,31,14,21.6,Python,NOASSERTION,301,2,訊號完整,"license:none, topics:none"
+v-modal/awesome-jev-tools,752,48,16,47.0,Unknown,,92,2,訊號完整,"license:none, generic-name:awesome-jev-tools"
+openaiotlab/CUHK-X,305,9,28,10.9,Python,NOASSERTION,120,2,訊號完整,"license:none, topics:none"
+terrafying/ai-torture-chamber,732,194,11,66.5,Python,NOASSERTION,138,2,訊號完整,"license:none, topics:none"
+HarlandZZC/OmniVChat,200,15,17,11.8,Python,NOASSERTION,73,2,訊號完整,"license:none, topics:none"
+emo-xiaoyu/harness-mix,280,12,28,10.0,TypeScript,Apache-2.0,0,2,訊號完整,desc:empty
+To3akaRin/mac-computer-use,1128,16,27,41.8,JavaScript,MIT,115,2,訊號完整,low-forks:0.014
+angusdevgo/IDM_Pro_Tool,1294,285,25,51.8,C#,GPL-3.0,12,2,訊號完整,"desc:short, topics:none"
+PacesaLab/BindCraft2,411,70,22,18.7,Python,NOASSERTION,74,2,訊號完整,"license:none, topics:none"
+Guo-Yixin/coding-agent,180,5,16,11.2,Python,MIT,48,2,訊號完整,"generic-name:coding-agent, topics:none"
+truanayangi-com/truanayangi,638,138,27,23.6,TypeScript,,111,2,訊號完整,"license:none, topics:none"
+diggerhq/shipvideo,312,32,11,28.4,TypeScript,,111,2,訊號完整,"license:none, topics:none"
+LSPosed/ZygiskNext,662,14,16,41.4,C,,35,2,訊號完整,"license:none, topics:none"
+mvanhorn/agent-tincan,225,21,13,17.3,Go,MIT,78,2,訊號完整,"generic-name:agent-tincan, topics:none"
+jianruntech/geo-score,619,12,27,22.9,Python,MIT,218,2,訊號完整,low-forks:0.019
+AgentSystemLabs/agent-office,618,158,9,68.7,TypeScript,MIT,146,2,訊號完整,"generic-name:agent-office, topics:none"
+Jakeschincariol/replica-skill,616,53,2,308.0,Python,MIT,137,2,訊號完整,"overnight-surge:308/day, generic-name:replica-skill"
+mpociot/claude-siri-ai,225,16,21,10.7,Swift,MIT,81,2,訊號完整,"generic-name:claude-siri-ai, topics:none"
+feitangyuan/motion-web,648,51,27,24.0,HTML,NOASSERTION,162,2,訊號完整,"license:none, topics:none"
+yureii1996/cek-probe-model,183,0,25,7.3,Python,,43,2,訊號完整,"license:none, topics:none"
+TianyuCodings/JevHarness,525,19,14,37.5,Python,,108,2,訊號完整,"license:none, topics:none"
+wuyoscar/jev-skill,574,44,15,38.3,Python,MIT,68,2,訊號完整,"generic-name:jev-skill, topics:none"
+moguzbulbul/blueprint-animation,410,20,8,51.2,JavaScript,NOASSERTION,126,2,訊號完整,"license:none, topics:none"
+mcncarl/jianying-headless,2981,1948,20,149.1,Python,NOASSERTION,100,2,訊號完整,"license:none, topics:none"
+monteduro/killmyidea,255,33,18,14.2,TypeScript,,68,2,訊號完整,"license:none, topics:none"
+cdyforever/how-to-live-better,8222,562,17,483.6,HTML,,44,2,訊號完整,"license:none, topics:none"
+CopilotKit/OpenDots,3814,511,6,635.7,TypeScript,MIT,69,2,訊號完整,"overnight-surge:636/day, topics:none"
+FSECDEV/Threat-Intelligence-Hackers-Forums,380,23,20,19.0,Unknown,,28,2,訊號完整,"license:none, topics:none"
+v-modal/vmodal_sdk_robotics,461,1,29,15.9,Python,,19,2,訊號完整,"desc:short, license:none"
+yym8224961/world.execute-me-ascii,252,15,9,28.0,Python,,25,2,訊號完整,"license:none, topics:none"
+AgentMemoryRepo/agentmemoryrepo,455,23,1,455.0,Unknown,MIT,26,2,訊號完整,"overnight-surge:455/day, topics:none"
+yappologistic/Spun,436,19,28,15.6,C++,NOASSERTION,78,2,訊號完整,"license:none, topics:none"
+fhshaik/typesafe-mario,433,55,19,22.8,Python,,81,2,訊號完整,"license:none, topics:none"
+Omni-Interaction-Gander/Omni-Interaction-Agent,451,31,28,16.1,Python,Apache-2.0,175,2,訊號完整,"generic-name:Omni-Interaction-Agent, topics:none"
+Shelpid/SETS,217,64,13,16.7,JavaScript,NOASSERTION,30,2,訊號完整,"license:none, topics:none"
+standardagents/jevpilot,212,39,18,11.8,JavaScript,,64,2,訊號完整,"license:none, topics:none"
+JourniOne-ai/JourniOne-Planning-Skills,523,80,19,27.5,JavaScript,,65,2,訊號完整,"license:none, generic-name:JourniOne-Planning-Skills"
+zhuyansen/awesome-claude-video-skills,428,44,8,53.5,Unknown,NOASSERTION,150,2,訊號完整,"license:none, generic-name:awesome-claude-video-skills"
+hanaganfur1/Foxigrow,217,0,26,8.3,Unknown,,39,2,訊號完整,"license:none, topics:none"
+Jakeschincariol/instagram-agent-skill,374,82,22,17.0,Python,MIT,158,2,訊號完整,"generic-name:instagram-agent-skill, topics:none"
+GBurgardt/pokemon-emerald-arena,251,14,23,10.9,HTML,NOASSERTION,91,2,訊號完整,"license:none, topics:none"
+serein-morii/DiPlay-CN,420,26,6,70.0,Kotlin,GPL-3.0,9,2,訊號完整,"desc:short, topics:none"
+tsymbaluyk/maskgate,248,0,26,9.5,Unknown,,206,2,訊號完整,"license:none, topics:none"
+Minorthedisengage/Discord-Server-Raider,392,0,1,392.0,Unknown,,155,2,訊號完整,"license:none, overnight-surge:392/day"
+Neutronrucurl/Adobe-Acrobat-Pro,392,0,1,392.0,Unknown,,156,2,訊號完整,"license:none, overnight-surge:392/day"
+Gryphonpebastion/Total-Commander,392,0,1,392.0,Unknown,,149,2,訊號完整,"license:none, overnight-surge:392/day"
+CrewPotterRectify/Autodesk-Inventor,392,0,1,392.0,Unknown,,152,2,訊號完整,"license:none, overnight-surge:392/day"
+rbrown101010/bluey-by-riley,183,50,3,61.0,Swift,,106,2,訊號完整,"license:none, topics:none"
+wz1119/Codex-Minecraft-Gameplay,180,16,29,6.2,Python,Apache-2.0,102,2,訊號完整,"generic-name:Codex-Minecraft-Gameplay, topics:none"
+pauseseamandart18/AnyDesk,392,0,1,392.0,Unknown,,154,2,訊號完整,"license:none, overnight-surge:392/day"
+KazekagePyre/Adobe-Audition,392,0,1,392.0,Unknown,,153,2,訊號完整,"license:none, overnight-surge:392/day"
+audiocn/ui,212,10,5,42.4,TypeScript,NOASSERTION,52,2,訊號完整,"license:none, topics:none"
+malevrigns/agent-jev,341,33,14,24.4,Python,Apache-2.0,245,2,訊號完整,"generic-name:agent-jev, topics:none"
+kiri603/To-Sheet-Music-Skill,178,14,27,6.6,Python,MIT,348,2,訊號完整,"generic-name:To-Sheet-Music-Skill, topics:none"
+nimaone/persian_tts,179,17,19,9.4,Python,,84,2,訊號完整,"license:none, topics:none"
+haxybaxy/video-pedal,343,29,26,13.2,Python,,112,2,訊號完整,"license:none, topics:none"
+benjiyaya/ComfyUI-Qwen-Image-2.1-Prompt-Enhancer,177,17,15,11.8,Python,MIT,85,2,訊號完整,"generic-name:ComfyUI-Qwen-Image-2.1-Prompt-Enhancer, topics:none"
+petershifi123-wq/solve-lite,177,0,10,17.7,Python,NOASSERTION,136,2,訊號完整,"license:none, topics:none"
+mangfufu/director-desk,349,83,29,12.0,JavaScript,MIT,17,2,訊號完整,"desc:short, topics:none"
+noahdunnagan/mcopt,352,16,1,352.0,Java,Apache-2.0,105,2,訊號完整,"overnight-surge:352/day, topics:none"
+999sian/melee-pc,417,27,21,19.9,C,,129,2,訊號完整,"license:none, topics:none"
+brainbrick-trades/The-Quant-Trading-Vault,340,98,8,42.5,Unknown,,34,2,訊號完整,"license:none, topics:none"
+ucashier/UCashier-USDT-Payment,312,28,9,34.7,Unknown,,123,2,訊號完整,"license:none, topics:none"
+DanFessler/trellis,205,5,9,22.8,TypeScript,NOASSERTION,109,2,訊號完整,"license:none, topics:none"
+arsumbris/arsumbris,257,16,22,11.7,Python,NOASSERTION,86,2,訊號完整,"license:none, topics:none"
+unclebob/uml-viewer,394,41,22,17.9,Clojure,,48,2,訊號完整,"license:none, topics:none"
+michelle11032424-jpg/Interpark-,205,35,12,17.1,Python,,37,2,訊號完整,"license:none, topics:none"
+sdli1995/dlssg_for_sm86,4289,238,28,153.2,Unknown,,36,2,訊號完整,"license:none, topics:none"
+VarnishTrackPrize/ultra-Iso,392,0,1,392.0,Unknown,,147,2,訊號完整,"license:none, overnight-surge:392/day"
+msk1039/nagomi,370,45,25,14.8,TypeScript,NOASSERTION,70,2,訊號完整,"license:none, topics:none"
+gnipbao/minimax-h3-video-reverse-skill,216,34,15,14.4,Python,MIT,66,2,訊號完整,"generic-name:minimax-h3-video-reverse-skill, topics:none"
+K0nd1us/QQ-agent,320,21,29,11.0,JavaScript,MIT,27,2,訊號完整,"generic-name:QQ-agent, topics:none"
+rgem227/knoweldge-base,497,6,13,38.2,Python,,56,2,訊號完整,"license:none, topics:none"
+OmniJev/awesome-jev-gallery,495,32,18,27.5,JavaScript,NOASSERTION,117,2,訊號完整,"license:none, generic-name:awesome-jev-gallery"
+botiverse/raft-source,492,94,20,24.6,TypeScript,NOASSERTION,102,2,訊號完整,"license:none, topics:none"
+mabdulre9/electrical-engineering,469,35,15,31.3,Unknown,,64,2,訊號完整,"license:none, topics:none"
+HRuiCcc/RuiC-card-skill,491,37,28,17.5,JavaScript,NOASSERTION,227,2,訊號完整,"license:none, generic-name:RuiC-card-skill"
+autorunhq/autorun,376,19,20,18.8,C,NOASSERTION,46,2,訊號完整,"license:none, topics:none"
+Noblebroplain/Ads-Blocker,392,0,1,392.0,Unknown,,156,2,訊號完整,"license:none, overnight-surge:392/day"
+mmastrac/djev-spark,222,16,17,13.1,HTML,,74,2,訊號完整,"license:none, topics:none"
+Kaixxrua/excel-codex-bridge,208,28,11,18.9,Python,Unlicense,24,2,訊號完整,"generic-name:excel-codex-bridge, topics:none"
+qiz029/dscode,1019,2,24,42.5,JavaScript,MIT,115,2,訊號完整,low-forks:0.002
+n0de-sudo/Perfect-Rules,1065,219,28,38.0,JavaScript,,46,2,訊號完整,"license:none, topics:none"
+ThinkWatchProject/ThinkWatch-Lite,1059,14,23,46.0,TypeScript,MIT,207,2,訊號完整,low-forks:0.013
+QwenLM/Qwen-Image-2.1,1744,103,21,83.0,Python,NOASSERTION,55,2,訊號完整,"license:none, topics:none"
+NativeDog1/dsh-boot-animation,236,20,10,23.6,JavaScript,NOASSERTION,61,2,訊號完整,"license:none, topics:none"
+tue09/awesome-reasoning-generalization,155,5,25,6.2,Python,,56,2,訊號完整,"license:none, generic-name:awesome-reasoning-generalization"
+emmericp/D2R-3D,273,29,8,34.1,C++,,34,2,訊號完整,"license:none, topics:none"
+AgentsLoop/awesome-opus-5.5-games,160,19,26,6.2,JavaScript,,90,2,訊號完整,"license:none, generic-name:awesome-opus-5.5-games"
+guanmo-ai/awesome-ai-motion,238,33,8,29.8,JavaScript,NOASSERTION,140,2,訊號完整,"license:none, generic-name:awesome-ai-motion"
+realZachi/pg-jev,983,73,18,54.6,Shell,NOASSERTION,103,2,訊號完整,"license:none, topics:none"
+ERRRC/kaogongzhentizhengliu,706,110,21,33.6,Unknown,NOASSERTION,44,2,訊號完整,"license:none, topics:none"
+apimart001a/llm-gateway-comparison,153,0,18,8.5,Python,NOASSERTION,182,2,訊號完整,"license:none, generic-name:llm-gateway-comparison"
+justxor/Linux-,829,86,12,69.1,Unknown,,145,2,訊號完整,"license:none, topics:none"
+wildcard1719/RCWS_v5,159,33,24,6.6,Unknown,,51,2,訊號完整,"license:none, topics:none"
+lukeTheNeuromancer/system-design-notes-zh,196,15,12,16.3,Unknown,,85,2,訊號完整,"license:none, topics:none"
+SecFathy/xss-specialist,156,10,8,19.5,Python,,93,2,訊號完整,"license:none, topics:none"
+zwliJay/jev-forge,157,15,16,9.8,Python,NOASSERTION,222,2,訊號完整,"license:none, topics:none"
+ZallaxDev/pokeemerald-3Ds-dualscreen,243,11,9,27.0,C,NOASSERTION,116,2,訊號完整,"license:none, topics:none"
+aliyun/ai-agent-handbook,1151,172,24,48.0,Unknown,Apache-2.0,79,2,訊號完整,"generic-name:ai-agent-handbook, topics:none"
+TheJustinSunPrize/awards,168,214,25,6.7,Python,NOASSERTION,114,2,訊號完整,"license:none, topics:none"
+ryana/jevify,194,5,16,12.1,Unknown,,32,2,訊號完整,"license:none, topics:none"
+yinsuecci/mockrunning,194,21,12,16.2,Python,,24,2,訊號完整,"license:none, topics:none"
+Andonywang123/Epost,196,1,29,6.8,Python,,193,2,訊號完整,"license:none, topics:none"
+RocYan98/CodexBoard,195,11,21,9.3,TypeScript,,187,2,訊號完整,"license:none, topics:none"
+kevinzhow/Rungic,286,12,12,23.8,Python,,116,2,訊號完整,"license:none, topics:none"
+sendrepute/sendrepute-campaigns,234,1,10,23.4,Shell,,62,2,訊號完整,"license:none, topics:none"
+xianxie6/qingming-riverside,192,50,18,10.7,JavaScript,NOASSERTION,48,2,訊號完整,"license:none, topics:none"
+maverickgao8848/kouyu,170,15,29,5.9,CSS,,92,2,訊號完整,"license:none, topics:none"
+JaonM/AutoEnvAgentRL,160,13,25,6.4,Python,,49,2,訊號完整,"license:none, topics:none"
+RubinLabs26/ISpotify,1901,1,15,126.7,Python,MIT,92,2,訊號完整,low-forks:0.001
+wenziai/wenzi-xhs-agent-skills,154,29,5,30.8,Unknown,,56,2,訊號完整,"license:none, generic-name:wenzi-xhs-agent-skills"
+facebookincubator/muse-gadget-sdk,1494,289,3,498.0,C,Apache-2.0,37,2,訊號完整,"overnight-surge:498/day, topics:none"
+yuedizhibo/MHI2Q-CarPlay-AltScreen,284,39,10,28.4,Shell,NOASSERTION,223,2,訊號完整,"license:none, topics:none"
+kerpopule/hermes-jev-skills,1040,104,17,61.2,Python,MIT,135,2,訊號完整,"generic-name:hermes-jev-skills, topics:none"
+yasinozmeen/animasyon-stil-katalogu,153,11,8,19.1,HTML,,96,2,訊號完整,"license:none, topics:none"
+Smart-Paocai/VioletToolBox,288,32,24,12.0,C#,GPL-3.0,17,2,訊號完整,"desc:short, topics:none"
+JohnHeibel/PDoomVideo,1847,194,13,142.1,JavaScript,,73,2,訊號完整,"license:none, topics:none"
+EverettFish/holo-card-studio,1873,248,28,66.9,Python,NOASSERTION,285,2,訊號完整,"license:none, topics:none"
+jadense-ai/jadense-in-zotero,172,4,27,6.4,TypeScript,NOASSERTION,52,2,訊號完整,"license:none, topics:none"
+empero-org/brewery-ai,193,23,1,193.0,Python,NOASSERTION,88,2,訊號完整,"license:none, topics:none"
+justxor/sobesrazborgoogle,190,26,10,19.0,Unknown,,60,2,訊號完整,"license:none, topics:none"
+Work-Fisher/AIFISHER,258,43,21,12.3,TypeScript,NOASSERTION,80,2,訊號完整,"license:none, topics:none"
+telepath-computer/television,188,15,4,47.0,TypeScript,NOASSERTION,128,2,訊號完整,"license:none, topics:none"
+yibie/awesome-jev,2170,326,18,120.6,Python,,131,2,訊號完整,"license:none, generic-name:awesome-jev"
+LevinAi-arch/rtx-5070ti-laptop-160w-power-limit,162,10,21,7.7,C++,,136,2,訊號完整,"license:none, topics:none"
+unreallabsai/unreal-agent,2077,119,14,148.4,Go,MIT,25,2,訊號完整,"generic-name:unreal-agent, topics:none"
+zhangchenfu48-del/ResearchAnalyse-,162,17,28,5.8,Python,,26,2,訊號完整,"license:none, topics:none"
+wuyoscar/AISafetyHot-Hub,164,1,4,41.0,TeX,NOASSERTION,62,2,訊號完整,"license:none, topics:none"
+alchaincyf/huashu-art-motion,301,45,1,301.0,JavaScript,MIT,34,2,訊號完整,"overnight-surge:301/day, topics:none"
+bespokelabsai/nimble,2074,161,17,122.0,Python,,71,2,訊號完整,"license:none, topics:none"
+PSRben/VisionHOPE,799,12,8,99.9,Python,MIT,99,2,訊號完整,low-forks:0.015
+suversal/WrapPin,262,55,21,12.5,Swift,NOASSERTION,23,2,訊號完整,"license:none, topics:none"
+nilbuild/video-demo,189,16,18,10.5,TypeScript,MIT,71,2,訊號完整,"generic-name:video-demo, topics:none"
+wss7750/shanhui-ai-kefu,196,4,20,9.8,Unknown,,42,2,訊號完整,"license:none, topics:none"
+Epic0522/REGTA-3DSPort-Complete,186,14,22,8.5,C++,,51,2,訊號完整,"license:none, topics:none"
+dimentary/llm-robotics-playground,163,8,18,9.1,Python,MIT,104,2,訊號完整,"generic-name:llm-robotics-playground, topics:none"
+alchaincyf/3d-vibe-coding-handbook,272,42,22,12.4,HTML,,52,2,訊號完整,"license:none, generic-name:3d-vibe-coding-handbook"
+HangYu8123/mini-harness,199,16,22,9.0,Python,,74,2,訊號完整,"license:none, topics:none"
+Saivion/SwiftPieces,260,10,16,16.2,TypeScript,NOASSERTION,223,2,訊號完整,"license:none, topics:none"
+MiaAI-Lab/DeepSeek-v4.1-Flash-EXL3-2x-DGX-Sparks,255,38,22,11.6,Python,AGPL-3.0,50,1,訊號完整,topics:none
+miyang-ai/Mi-Ripple,250,7,25,10.0,Python,MIT,96,1,訊號完整,topics:none
+shhivv/arc-cua,263,23,15,17.5,Python,MIT,57,1,訊號完整,topics:none
+hr98w/jev-visual,309,28,18,17.2,Python,MIT,135,1,訊號完整,topics:none
+mini-yifan/deepseek-harness-orb,245,13,22,11.1,TypeScript,MIT,124,1,訊號完整,topics:none
+kitze/skillbox,263,24,18,14.6,TypeScript,MIT,107,1,訊號完整,topics:none
+jasonku09/grill-with-ui,244,43,19,12.8,HTML,MIT,101,1,訊號完整,topics:none
+unjs/upm,311,10,12,25.9,TypeScript,MIT,75,1,訊號完整,topics:none
+jkudish/jev-browser,311,30,18,17.3,JavaScript,MIT,38,1,訊號完整,topics:none
+Jakeschincariol/arena-skill,292,38,8,36.5,Python,MIT,174,1,訊號完整,generic-name:arena-skill
+hugelton/Felucca,264,23,3,88.0,C,GPL-3.0,31,1,訊號完整,topics:none
+madeye/ServerBox,255,28,9,28.3,Kotlin,GPL-3.0,143,1,訊號完整,topics:none
+ops120/wechat-local-viewer,287,150,28,10.2,Python,MIT,55,1,訊號完整,topics:none
+VaderChen/YourDesk,263,35,27,9.7,Go,NOASSERTION,236,1,訊號完整,license:none
+ScottStevenson/SuperAstra,287,32,29,9.9,Python,MIT,46,1,訊號完整,topics:none
+Mosi-AI/RoboICL,308,16,16,19.2,Python,MIT,44,1,訊號完整,topics:none
+joeseesun/opus-video-prompts,175,20,8,21.9,Unknown,,103,1,訊號完整,license:none
+deepseek-ai/DeepJIT,366,39,27,13.6,C++,MIT,52,1,訊號完整,topics:none
+KyThuatUAV/ESP32_FC,173,47,29,6.0,C++,GPL-3.0,63,1,訊號完整,topics:none
+KnowClip-ai/knowclip,320,6,22,14.5,TypeScript,AGPL-3.0,51,1,訊號完整,topics:none
+troyedwardsjr/z2rs,173,13,17,10.2,Rust,MIT,116,1,訊號完整,topics:none
+yasouxken/cve-2026-41940-PoC,261,34,14,18.6,Python,,279,1,訊號完整,license:none
+robbietilton/Compositor,8674,860,19,456.5,Swift,MIT,33,1,訊號完整,topics:none
+keithxc/deskport,174,8,26,6.7,C,GPL-3.0,136,1,訊號完整,topics:none
+shengjidaguai-china/goutoujunshi-jev-chat,318,25,12,26.5,Python,MIT,31,1,訊號完整,topics:none
+agent-launch/agent-launcher,261,1,25,10.4,TypeScript,MIT,66,1,訊號完整,generic-name:agent-launcher
+LynnReal-AI/LynnReal-Omni,247,11,22,11.2,Python,NOASSERTION,291,1,訊號完整,license:none
+Chengjun023/agent-smith,247,1,5,49.4,Python,MIT,134,1,訊號完整,generic-name:agent-smith
+ZacharyZhang-NY/OmaPhoto,251,10,9,27.9,C++,MIT,64,1,訊號完整,topics:none
+denialwm/droidloom,257,9,29,8.9,Rust,NOASSERTION,189,1,訊號完整,license:none
+dashersw/coyopedal,247,10,23,10.7,C++,GPL-3.0,98,1,訊號完整,topics:none
+surya-koritala/Glyd,247,1,16,15.4,Rust,NOASSERTION,58,1,訊號完整,license:none
+wzj52501/awesome-competitive-olympiad-algorithms,272,30,27,10.1,C++,MIT,86,1,訊號完整,generic-name:awesome-competitive-olympiad-algorithms
+egoist/lorca,244,19,17,14.4,Rust,GPL-3.0,110,1,訊號完整,topics:none
+webprodigies-org/flute,373,110,20,18.6,TypeScript,MIT,68,1,訊號完整,topics:none
+z7786/wenxi,271,20,16,16.9,Dart,AGPL-3.0,49,1,訊號完整,topics:none
+MiaAI-Lab/GLM-5.3-Flash-EXL3-2x-DGX-Sparks-TensorFold,267,57,5,53.4,Shell,Apache-2.0,50,1,訊號完整,topics:none
+antfu/pulls.review,374,14,19,19.7,TypeScript,MIT,44,1,訊號完整,topics:none
+QingYunA/answer-me-with-html,1627,112,3,542.3,JavaScript,MIT,136,1,訊號完整,overnight-surge:542/day
+openai/NavierStokesAndEuler,2028,208,27,75.1,Lean,Apache-2.0,62,1,訊號完整,topics:none
+ALLENLION35/geo-first-principles,269,2,29,9.3,HTML,MIT,113,1,訊號完整,topics:none
+joeseesun/qiaomu-download,375,60,16,23.4,Python,MIT,240,1,訊號完整,topics:none
+0xjohnnydev/airlift,372,53,21,17.7,Objective-C,MIT,69,1,訊號完整,topics:none
+czg86389-hub/muse2api,265,72,10,26.5,Python,MIT,140,1,訊號完整,topics:none
+StartLuxLabs/StartLux-Decision,221,19,6,36.8,Python,Apache-2.0,153,1,訊號完整,topics:none
+fromgof/TridentVision,261,69,26,10.0,Verilog,AGPL-3.0,135,1,訊號完整,topics:none
+0xNatoshi/jev-codex-router,273,45,18,15.2,JavaScript,MIT,145,1,訊號完整,generic-name:jev-codex-router
+faintonce/open-revo,255,7,24,10.6,Unknown,MIT,136,1,訊號完整,topics:none
+HammingDev/haiming-app-monetization,260,32,26,10.0,Unknown,MIT,45,1,訊號完整,topics:none
+gatewai-dev/framefields,223,5,3,74.3,TypeScript,Apache-2.0,46,1,訊號完整,topics:none
+bridge-mind/bridgeclip,362,80,11,32.9,TypeScript,MIT,55,1,訊號完整,topics:none
+howseen-ai/claude-motion-design,274,27,8,34.2,Python,MIT,129,1,訊號完整,generic-name:claude-motion-design
+pipotoufikxyz-lgtm/dlssg_for_sm86-MFG-version,253,6,23,11.0,C++,MIT,96,1,訊號完整,topics:none
+sopersone/cabbage-trading-machine,265,61,11,24.1,Python,Apache-2.0,120,1,訊號完整,topics:none
+dgreenheck/threejs-particle-fluids,272,34,10,27.2,TypeScript,MIT,48,1,訊號完整,topics:none
+Ray-T-r/Minecraft-Forbric-mod-loader,223,22,25,8.9,Java,Apache-2.0,89,1,訊號完整,topics:none
+yappologistic/Sung,387,23,28,13.8,C++,MIT,114,1,訊號完整,topics:none
+Devin-AXIS/jev-dsh-decision,253,83,15,16.9,JavaScript,,101,1,訊號完整,license:none
+moritzkremb/jev-voice-browser,386,63,18,21.4,JavaScript,MIT,166,1,訊號完整,topics:none
+LerSent001/holo-card,254,29,28,9.1,JavaScript,MIT,101,1,訊號完整,topics:none
+new-coke/strikers,293,17,25,11.7,C++,,108,1,訊號完整,license:none
+Phyzicalorg/Phyzical_org,274,0,26,10.5,Python,NOASSERTION,154,1,訊號完整,license:none
+p2r3/Arachnidium,275,9,11,25.0,Python,MIT,47,1,訊號完整,topics:none
+emma-sue/AegisOps,326,51,25,13.0,Python,,86,1,訊號完整,license:none
+shinshin86/mesh-avatar-studio,326,37,1,326.0,TypeScript,MIT,92,1,訊號完整,overnight-surge:326/day
+saawant12/orbit-store-ps5,327,14,3,109.0,Unknown,,73,1,訊號完整,license:none
+codejunkie99/keel,327,43,13,25.2,Rust,MIT,86,1,訊號完整,topics:none
+Speedstu/CUDA-for-AMD-Windows,312,26,22,14.2,PowerShell,NOASSERTION,73,1,訊號完整,license:none
+miuuyy/Astra-Ares,300,24,13,23.1,JavaScript,MIT,93,1,訊號完整,topics:none
+KazamaDono/taoxd,315,66,22,14.3,Makefile,MIT,46,1,訊號完整,topics:none
+Akun-python/autumn-recruitment,175,22,6,29.2,Jupyter Notebook,MIT,198,1,訊號完整,topics:none
+jh3y/lid-plane,243,15,25,9.7,Swift,GPL-3.0,94,1,訊號完整,topics:none
+dikeckaan/mu300-linux,184,35,19,9.7,C,NOASSERTION,226,1,訊號完整,license:none
+justxor/claude-code-pro-course,243,41,5,48.6,Shell,MIT,209,1,訊號完整,generic-name:claude-code-pro-course
+achimala/dream-loop,1641,170,28,58.6,JavaScript,MIT,81,1,訊號完整,topics:none
+kiyoakii/is-gpt-nerfed,243,15,20,12.2,Python,MIT,32,1,訊號完整,generic-name:is-gpt-nerfed
+CHOMPI-Club/CHOMPI,241,45,6,40.2,C++,MIT,84,1,訊號完整,topics:none
+Lanye-z/MHI2Q-CarPlay-MMI-Mirror,332,43,25,13.3,Shell,MIT,98,1,訊號完整,topics:none
+Swordpdf/PS5SX2,333,26,10,33.3,C++,GPL-3.0,23,1,訊號完整,topics:none
+feitangyuan/onetake,1702,109,9,189.1,Python,NOASSERTION,208,1,訊號完整,license:none
+GanyuanRan/Autoloom,241,5,5,48.2,JavaScript,NOASSERTION,184,1,訊號完整,license:none
+witnesstodark/mr-mak-workspace,316,91,20,15.8,Python,MIT,110,1,訊號完整,topics:none
+mode-io/vllm-jev,302,9,11,27.5,Python,Apache-2.0,43,1,訊號完整,topics:none
+Inginnng/EditHere,298,19,24,12.4,C++,MIT,39,1,訊號完整,topics:none
+danieldeer/seriousdb,302,118,23,13.1,Python,MIT,54,1,訊號完整,topics:none
+vinilana/jev-gateway,298,41,17,17.5,TypeScript,MIT,72,1,訊號完整,topics:none
+jcx396905-gif/DuoFold-Android,184,10,23,8.0,Java,MIT,190,1,訊號完整,topics:none
+FerryCorleone/crush-monitor,276,27,15,18.4,TypeScript,MIT,55,1,訊號完整,topics:none
+XiaochangXu/AVBox,276,55,29,9.5,Java,AGPL-3.0,8,1,訊號完整,desc:short
+Vincentwei1021/mg-styles-15,302,58,3,100.7,Python,MIT,140,1,訊號完整,topics:none
+masihsultani/whiteboard-animator,230,23,27,8.5,Python,MIT,97,1,訊號完整,topics:none
+TreapGoGo/deepseek-whale-girl,297,4,7,42.4,HTML,MIT,88,1,訊號完整,topics:none
+CATCHINGL/O.status,184,9,24,7.7,Kotlin,NOASSERTION,84,1,訊號完整,license:none
+openJiuwen-ai/iCode,304,50,7,43.4,Python,Apache-2.0,204,1,訊號完整,topics:none
+hexiaofeier/hehe-industry-research-skill-pack,296,19,20,14.8,Python,MIT,77,1,訊號完整,generic-name:hehe-industry-research-skill-pack
+jakubkrehel/loading,308,13,21,14.7,TypeScript,MIT,69,1,訊號完整,topics:none
+alchaincyf/huashu-mac-use,296,45,29,10.2,Swift,MIT,84,1,訊號完整,topics:none
+852wa/JIZURA,1604,218,12,133.7,HTML,MIT,24,1,訊號完整,topics:none
+HyNetworks/OpenGFW,277,90,16,17.3,Go,MPL-2.0,52,1,訊號完整,topics:none
+Heman10x-NGU/openJev-verdict-2.0,293,44,16,18.3,Python,NOASSERTION,147,1,訊號完整,license:none
+trustfuture/simon-skills,278,60,15,18.5,JavaScript,MIT,58,1,訊號完整,generic-name:simon-skills
+hydra-db/open-glean,1579,504,18,87.7,TypeScript,Apache-2.0,98,1,訊號完整,topics:none
+BennyThink/NFCX,279,44,24,11.6,Go,MIT,87,1,訊號完整,topics:none
+ayushjain1144/trackeverything,304,18,18,16.9,Unknown,,110,1,訊號完整,license:none
+Made-In-Basement/ember,173,13,22,7.9,Assembly,NOASSERTION,145,1,訊號完整,license:none
+lubin776/tvbox-api-backup,229,150,21,10.9,Python,GPL-3.0,71,1,訊號完整,topics:none
+mirkovicdev/HFTENGINE,289,26,19,15.2,TypeScript,NOASSERTION,304,1,訊號完整,license:none
+anteloc/ldraw-nova,288,22,12,24.0,Python,AGPL-3.0,96,1,訊號完整,topics:none
+nanaism/yomiyasu,1571,35,5,314.2,Python,MIT,102,1,訊號完整,overnight-surge:314/day
+chaseleantj/deskworlds,343,49,17,20.2,JavaScript,MIT,38,1,訊號完整,topics:none
+madhvantyagi/Gnos,335,24,23,14.6,Python,MIT,178,1,訊號完整,topics:none
+ekzhang/openjev-sglang,336,45,18,18.7,Python,,63,1,訊號完整,license:none
+dmtrKovalenko/bashka,235,8,20,11.8,Rust,MIT,154,1,訊號完整,topics:none
+jtydhr88/screenwriting-skills,1575,167,29,54.3,Python,MIT,78,1,訊號完整,generic-name:screenwriting-skills
+adonis-singh/re4,322,30,20,16.1,C++,NOASSERTION,95,1,訊號完整,license:none
+urosidoki/htn_planner,354,28,16,22.1,C++,MIT,59,1,訊號完整,topics:none
+opencoredev/bg0,355,36,21,16.9,TypeScript,Apache-2.0,64,1,訊號完整,topics:none
+tjsky/pinyin-annotator,356,68,18,19.8,HTML,MIT,35,1,訊號完整,topics:none
+Calcium-Ion/moejs,173,3,11,15.7,Go,Apache-2.0,80,1,訊號完整,topics:none
+blixvip/MotionClone,357,29,25,14.3,Python,,187,1,訊號完整,license:none
+FBddcz/embodied-jev,257,9,15,17.1,Python,MIT,92,1,訊號完整,topics:none
+dagowda/notRDP,233,25,9,25.9,C,MIT,58,1,訊號完整,topics:none
+pandaligx/RTX-FG-Manager,277,11,24,11.5,Rust,MIT,78,1,訊號完整,topics:none
+mohit67890/imajev,312,41,12,26.0,Python,Apache-2.0,138,1,訊號完整,topics:none
+kitze/unclutter,359,39,18,19.9,TypeScript,MIT,85,1,訊號完整,topics:none
+merijjeyn/jive,177,16,14,12.6,Python,MIT,60,1,訊號完整,topics:none
+shhivv/third-hand,322,26,16,20.1,Swift,MIT,41,1,訊號完整,topics:none
+imikerussell/beebots,246,115,10,24.6,TypeScript,MIT,100,1,訊號完整,topics:none
+ipenywis/laya-ultrafast,246,42,14,17.6,Python,MIT,36,1,訊號完整,topics:none
+wdobry/laya-playground,182,42,15,12.1,JavaScript,MIT,116,1,訊號完整,generic-name:laya-playground
+yifanzhang-pro/KLPO,182,17,16,11.4,Python,Apache-2.0,67,1,訊號完整,topics:none
+getgat-dev/gat,233,2,28,8.3,Rust,Apache-2.0,71,1,訊號完整,topics:none
+Mak5er/AirCard-iOS,1706,195,16,106.6,Swift,MIT,66,1,訊號完整,topics:none
+kdbhalala/avdslim,233,9,19,12.3,Go,MIT,115,1,訊號完整,topics:none
+rit3zh/expo-dynamic-notifications,225,11,17,13.2,TypeScript,MIT,61,1,訊號完整,topics:none
+KillaBoi/BrokenPipe,225,53,21,10.7,PowerShell,Apache-2.0,61,1,訊號完整,topics:none
+browser-use/jev-ultrafast,22164,1597,19,1166.5,Python,MIT,30,1,訊號完整,topics:none
+DhananjayBhosale/MacDuo,226,23,25,9.0,Swift,MIT,79,1,訊號完整,topics:none
+isinternets/Dawn,182,34,18,10.1,C++,GPL-3.0,24,1,訊號完整,topics:none
+max99x/wutw-public,238,25,23,10.3,GDScript,CC0-1.0,90,1,訊號完整,topics:none
+jealous-sound/azerothcore-wotlk-coa,237,165,28,8.5,C++,GPL-2.0,23,1,訊號完整,topics:none
+danielwh2/cube-motion,228,6,23,9.9,TypeScript,MIT,135,1,訊號完整,topics:none
+Amal-David/awesome-jev,230,19,17,13.5,Python,CC0-1.0,80,1,訊號完整,generic-name:awesome-jev
+genex-games/genex-desktop,291,35,3,97.0,TypeScript,MIT,64,1,訊號完整,topics:none
+glaz-boga-poisk-bot/glaz-boga,228,12,13,17.5,Unknown,,139,1,訊號完整,license:none
+sciaschi/CBFD-Recompiled,229,14,9,25.4,C,MIT,31,1,訊號完整,topics:none
+zj-unicom-ai/vision-hub-platform,290,8,26,11.2,Java,MIT,287,1,訊號完整,topics:none
+aimod-cc/agent2api,240,62,24,10.0,Rust,NOASSERTION,78,1,訊號完整,license:none
+vx-lang/Vx,192,20,26,7.4,Rust,NOASSERTION,29,1,訊號完整,license:none
+R44VC0RP/opensend,157,9,26,6.0,TypeScript,,67,1,訊號完整,license:none
+ryh842487118-bot/orbit,154,42,29,5.3,HTML,Apache-2.0,145,1,訊號完整,topics:none
+chuspeeism/iphone-duo,155,25,25,6.2,JavaScript,MIT,128,1,訊號完整,topics:none
+NaiveAI-Labs/Naive-N0.5-Flash,156,7,8,19.5,Python,MIT,108,1,訊號完整,topics:none
+MACOS-DO/sub4api,158,37,16,9.9,Go,LGPL-3.0,23,1,訊號完整,topics:none
+z1n-k/zia,158,6,17,9.3,JavaScript,MIT,57,1,訊號完整,topics:none
+Susie-Meow/card-design-generator,158,28,16,9.9,HTML,MIT,314,1,訊號完整,topics:none
+dirkjanm/askWAM,158,15,24,6.6,C,MIT,53,1,訊號完整,topics:none
+timpratim/macbrow,156,18,17,9.2,Python,MIT,53,1,訊號完整,topics:none
+tgmtproxy/telegram-mtproto-proxy-list,156,1,22,7.1,HTML,,129,1,訊號完整,license:none
+angusdevgo/Seep-Reverse-Lab,956,279,12,79.7,Lua,GPL-3.0,102,1,訊號完整,topics:none
+agentverse-os/AgentVerse-OS,976,26,23,42.4,Rust,Apache-2.0,349,1,訊號完整,topics:none
+chasmlol/SkyCraft,1003,67,5,200.6,C++,MIT,132,1,訊號完整,topics:none
+NVlabs/Skill2Env,158,17,19,8.3,Python,Apache-2.0,41,1,訊號完整,topics:none
+yu1745/wetype-ime-linux,249,28,12,20.8,C,GPL-3.0,70,1,訊號完整,topics:none
+RCL-Robotics/SURE-map,162,6,28,5.8,Python,Apache-2.0,63,1,訊號完整,topics:none
+kshetrajna12/reflex,162,18,18,9.0,Python,MIT,124,1,訊號完整,topics:none
+N3urda/hongguoTV,187,23,14,13.4,TypeScript,GPL-3.0,29,1,訊號完整,topics:none
+byalex33/changelog.earth,163,4,16,10.2,JavaScript,MIT,93,1,訊號完整,topics:none
+alvinunreal/awesome-submitlist,163,5,29,5.6,JavaScript,CC0-1.0,195,1,訊號完整,generic-name:awesome-submitlist
+mini-yifan/dsh-orb-cordis,164,15,7,23.4,TypeScript,MIT,22,1,訊號完整,topics:none
+gebdag/gta2-rtx-remix,164,4,18,9.1,C++,MIT,27,1,訊號完整,topics:none
+aowang-ai/jev-trade,189,36,18,10.5,TypeScript,NOASSERTION,30,1,訊號完整,license:none
+kunpengtalk/OmniStudio,189,39,26,7.3,TypeScript,MIT,117,1,訊號完整,topics:none
+isod89/sloop-fm1,186,19,1,186.0,C,GPL-3.0,45,1,訊號完整,topics:none
+hashtagbasit/SteamOS-ARM-Port,186,12,11,16.9,Shell,NOASSERTION,72,1,訊號完整,license:none
+VAST-AI-Research/Mira-Scene,187,11,15,12.5,Python,MIT,72,1,訊號完整,topics:none
+xaidan777/ArcEngine,189,29,20,9.4,JavaScript,MIT,20,1,訊號完整,topics:none
+fruitflydev/flycoinrh,190,62,25,7.6,Python,MIT,81,1,訊號完整,topics:none
+valentynkit/awesome-jev-typesafe,190,51,17,11.2,JavaScript,CC0-1.0,63,1,訊號完整,generic-name:awesome-jev-typesafe
+0xhamssog/robinhood-stock-token-arbitrage-bot,164,1,20,8.2,TypeScript,,121,1,訊號完整,license:none
+rit3zh/morphlet,195,13,1,195.0,TypeScript,MIT,50,1,訊號完整,topics:none
+glanderness/BeefTV,855,176,11,77.7,TypeScript,MIT,52,1,訊號完整,topics:none
+eternityspring/reelbench-skills,865,108,24,36.0,JavaScript,Apache-2.0,68,1,訊號完整,generic-name:reelbench-skills
+qwdwqfwq/topconf-paper-figure-gallery,816,53,18,45.3,HTML,NOASSERTION,156,1,訊號完整,license:none
+maanHimself/OpenDLSS-NR,823,69,15,54.9,JavaScript,MIT,102,1,訊號完整,topics:none
+anishfn/shapeshift,825,89,13,63.5,TypeScript,MIT,132,1,訊號完整,topics:none
+yifanzhang-pro/recurrent-looped-tranformer,908,90,23,39.5,HTML,Apache-2.0,60,1,訊號完整,topics:none
+nilbuild/page-mascot,925,94,21,44.0,Python,MIT,60,1,訊號完整,topics:none
+punkpeye/awesome-remote-mcp-servers,825,1106,27,30.6,Unknown,MIT,35,1,訊號完整,generic-name:awesome-remote-mcp-servers
+Rizzo-AI-Academy/rizzo-flow,833,53,14,59.5,Python,Apache-2.0,91,1,訊號完整,topics:none
+egoist/mygo,711,19,9,79.0,Go,MIT,59,1,訊號完整,topics:none
+wy-coliney/jev-browser-use,931,36,17,54.8,JavaScript,MIT,94,1,訊號完整,topics:none
+heyjunpenn/awesome-jev,935,71,16,58.4,Astro,MIT,84,1,訊號完整,generic-name:awesome-jev
+supermemoryai/company-brain,954,134,10,95.4,TypeScript,Apache-2.0,124,1,訊號完整,topics:none
+nftechie/stonkfly,868,161,25,34.7,Python,MIT,113,1,訊號完整,topics:none
+fossaryhq/catalog,154,16,27,5.7,Shell,NOASSERTION,79,1,訊號完整,license:none
+perseval-BLR/NeuralScreen,1024,55,29,35.3,Python,NOASSERTION,155,1,訊號完整,license:none
+gazijarin/itsgiving,1030,130,27,38.1,Python,MIT,53,1,訊號完整,topics:none
+aimeoa/hanshuang-codex,1039,151,29,35.8,Python,MIT,35,1,訊號完整,generic-name:hanshuang-codex
+CAPCOM-TD-OSS/REDox,1106,29,5,221.2,C#,Apache-2.0,147,1,訊號完整,topics:none
+LCPD15/DXL,153,4,26,5.9,C++,AGPL-3.0,86,1,訊號完整,topics:none
+echris6/motion-video-kit,1040,94,8,130.0,Python,MIT,198,1,訊號完整,topics:none
+avinash201199/System-Design-KIT,193,35,10,19.3,Unknown,MIT,172,1,訊號完整,topics:none
+Davipar/djev-dev,194,11,16,12.1,Python,Apache-2.0,147,1,訊號完整,topics:none
+Mapika/decider,1087,46,19,57.2,Python,Apache-2.0,129,1,訊號完整,topics:none
+youngyangyang04/llm-master,1090,109,23,47.4,Unknown,MIT,100,1,訊號完整,generic-name:llm-master
+disler/ten-levels-of-jev,195,55,8,24.4,TypeScript,MIT,96,1,訊號完整,topics:none
+way2pramil/awesome-kicad-projects,195,11,24,8.1,Python,CC-BY-4.0,46,1,訊號完整,generic-name:awesome-kicad-projects
+mihawk-99/PS5_RetroArch,193,15,17,11.4,C++,GPL-3.0,58,1,訊號完整,topics:none
+apimart002w/openrouter-alternatives,153,0,18,8.5,Python,NOASSERTION,173,1,訊號完整,license:none
+MCG-NJU/OneStreamer,154,3,5,30.8,Python,Apache-2.0,95,1,訊號完整,topics:none
+JohnHeibel/ClaudeAnimationBase,877,81,12,73.1,JavaScript,MIT,145,1,訊號完整,topics:none
+eternity4719/HowToLiveBetter,45590,3629,28,1628.2,HTML,CC-BY-4.0,96,1,訊號完整,topics:none
+QwenLM/Qwen-Live-Harness,179,17,25,7.2,TypeScript,Apache-2.0,108,1,訊號完整,topics:none
+matthewprice/JobFinderOS,179,35,29,6.2,Python,MIT,122,1,訊號完整,topics:none
+AMAP-ML/DreamX-Rec,179,1,18,9.9,Python,Apache-2.0,86,1,訊號完整,topics:none
+newliver666/apk-reverse,3229,654,16,201.8,Python,MIT,53,1,訊號完整,topics:none
+Edge0-AI/Edge0,3291,443,27,121.9,Python,Apache-2.0,148,1,訊號完整,topics:none
+tobi/disktree,2383,153,11,216.6,Rust,MIT,82,1,訊號完整,topics:none
+mexicat/pdoom-video,2414,265,11,219.5,TypeScript,MIT,53,1,訊號完整,topics:none
+driceroland/Search,2419,219,15,161.3,Swift,MIT,57,1,訊號完整,topics:none
+Droid-Deck/DroidDeck,2426,78,11,220.5,C,GPL-3.0,50,1,訊號完整,topics:none
+TianyuCodings/NanoJev,2500,256,18,138.9,Python,MIT,99,1,訊號完整,topics:none
+feder-cr/dots,2628,456,6,438.0,Python,MIT,94,1,訊號完整,overnight-surge:438/day
+TheoLeeCJ/SemIf-OpenJev,4708,341,19,247.8,Python,MIT,99,1,訊號完整,topics:none
+shihabal3amri/DiPlay,5126,666,11,466.0,Kotlin,GPL-3.0,98,1,訊號完整,topics:none
+omlahore/RemoveMacAI,2691,61,6,448.5,Swift,MIT,99,1,訊號完整,overnight-surge:448/day
+cneuralnetwork/kharcha,188,21,2,94.0,TypeScript,MIT,92,1,訊號完整,topics:none
+jarrodwatts/jev-trader,2837,536,19,149.3,TypeScript,MIT,62,1,訊號完整,topics:none
+Niko1221/Strata,15002,1267,11,1363.8,C++,MIT,165,1,訊號完整,topics:none
+tamaratran/fast-jev-compaction,7435,508,18,413.1,TypeScript,MIT,202,1,訊號完整,topics:none
+zai-org/ZCode,7461,2272,15,497.4,TypeScript,Apache-2.0,63,1,訊號完整,topics:none
+CopilotKit/openmuse,4047,564,20,202.3,TypeScript,MIT,108,1,訊號完整,topics:none
+yi1108/printfilm,4106,449,25,164.2,Python,MIT,27,1,訊號完整,topics:none
+rehan-remade/universal-modder,4243,375,5,848.6,Python,MIT,198,1,訊號完整,overnight-surge:849/day
+Mak5er/AirCard,6243,397,19,328.6,Swift,MIT,61,1,訊號完整,topics:none
+charlenemercury/roster-match,185,5,7,26.4,JavaScript,AGPL-3.0,60,1,訊號完整,topics:none
+OffGridPete/Fieldwatch,2646,302,20,132.3,Kotlin,MIT,62,1,訊號完整,topics:none
+Vincentwei1021/anything2explainer,2266,315,27,83.9,TypeScript,NOASSERTION,259,1,訊號完整,license:none
+NotProtonNot/NotProton,181,17,12,15.1,Swift,GPL-3.0,20,1,訊號完整,topics:none
+mubix/cyber-resume-reviewer-skill,182,16,28,6.5,Python,MIT,65,1,訊號完整,generic-name:cyber-resume-reviewer-skill
+alicasuu/llmwiki-operational,180,20,19,9.5,Python,MIT,104,1,訊號完整,topics:none
+Badtheorylabs/interference-search,180,11,10,18.0,Python,Apache-2.0,105,1,訊號完整,topics:none
+storytold/photocraft,2719,269,5,543.8,Rust,Apache-2.0,75,1,訊號完整,overnight-surge:544/day
+TheGreatSimon/AnvilCSG,166,2,21,7.9,Unknown,NOASSERTION,125,1,訊號完整,license:none
+Liyucheng1997/332_lab-jev-chat,166,18,14,11.9,Kotlin,MIT,57,1,訊號完整,topics:none
+kangleyao/slider-captcha-lab,168,76,28,6.0,Python,MIT,52,1,訊號完整,topics:none
+idlerunner00/procedural-pixel-creatures,164,19,4,41.0,C#,MIT,47,1,訊號完整,topics:none
+jaisuriya-11/tsuzuri,165,10,26,6.3,Go,NOASSERTION,120,1,訊號完整,license:none
+bigmak94/AstroQuest,165,11,2,82.5,C++,GPL-2.0,253,1,訊號完整,topics:none
+itsPLK/ps5-pkg-manager,168,13,18,9.3,C,GPL-3.0,45,1,訊號完整,topics:none
+wyuzhi/qisi-video-remix,170,22,24,7.1,Unknown,MIT,52,1,訊號完整,topics:none
+mogons/noraz-agent,170,167,24,7.1,TypeScript,MIT,146,1,訊號完整,generic-name:noraz-agent
+planetscale/lead,160,10,18,8.9,Rust,AGPL-3.0,144,1,訊號完整,topics:none
+wilbert-MD-PhD/medical-illustration,170,12,29,5.9,Python,NOASSERTION,234,1,訊號完整,license:none
+ashhart/MCDMA,170,14,21,8.1,C,Apache-2.0,31,1,訊號完整,topics:none
+SiliconLabAI/OpenJev,170,38,15,11.3,TypeScript,MIT,14,1,訊號完整,desc:short
+adunext/adu-motion-video,160,22,7,22.9,JavaScript,MIT,101,1,訊號完整,topics:none
+xiahongchi/Fire3D,161,17,28,5.8,Python,MIT,32,1,訊號完整,topics:none
+Inkloom-art/inkloom,1405,1438,15,93.7,TypeScript,NOASSERTION,235,1,訊號完整,license:none
+firelex/jeff,1404,68,7,200.6,Python,MIT,183,1,訊號完整,topics:none
+Jakeschincariol/linkedin-agent-skill,1368,202,28,48.9,Python,MIT,217,1,訊號完整,generic-name:linkedin-agent-skill
+jexp/neo4jev,166,23,19,8.7,Jupyter Notebook,MIT,111,1,訊號完整,topics:none
+waligoraamodio288-rgb/hongguo-desktop-releases,1163,57,21,55.4,Unknown,,75,1,訊號完整,license:none
+lemomo-ai/lemo-opuscar,1259,144,9,139.9,JavaScript,NOASSERTION,224,1,訊號完整,license:none
+kryvora-network/kryvora-node,1252,69,13,96.3,Go,NOASSERTION,74,1,訊號完整,license:none
+theoephraim/awesome-cloudflare-selfhosted,1146,61,20,57.3,JavaScript,MIT,95,1,訊號完整,generic-name:awesome-cloudflare-selfhosted
+arielshad/3d-asset-server,161,14,1,161.0,TypeScript,Apache-2.0,21,1,訊號完整,topics:none
+ScottieFox/caustic-volume,172,18,9,19.1,HTML,MIT,98,1,訊號完整,topics:none
+mikehasa/golive-skill,1229,96,12,102.4,TypeScript,MIT,237,1,訊號完整,generic-name:golive-skill
+volotat/mini-AGI,1197,190,16,74.8,Python,MIT,93,1,訊號完整,topics:none
+yihui-dev/awesome-opus5-5-videos,2205,219,8,275.6,Unknown,MIT,164,1,訊號完整,generic-name:awesome-opus5-5-videos
+kaankiziltug/logo-design-skill,2106,143,9,234.0,HTML,MIT,167,1,訊號完整,generic-name:logo-design-skill
+deepopen-com/deepopen,2053,220,14,146.6,Python,Apache-2.0,99,1,訊號完整,topics:none
+programmerguohuajing/DiPlay-Legacy-Android,159,16,5,31.8,Kotlin,GPL-3.0,59,1,訊號完整,topics:none
+tamaratran/jev-pruner,159,10,17,9.4,TypeScript,MIT,84,1,訊號完整,topics:none
+dgreenheck/tidewater,1120,247,12,93.3,JavaScript,MIT,32,1,訊號完整,topics:none
+kuhnhomeuk-cell/procedural-film,491,56,18,27.3,JavaScript,MIT,140,1,訊號完整,topics:none
+elliotttate/Wind-Waker-Recomp,491,22,7,70.1,C,GPL-3.0,70,1,訊號完整,topics:none
+agents-universe/agents-universe,470,1,25,18.8,Python,Apache-2.0,81,1,訊號完整,generic-name:agents-universe
+xepes0/wloc,475,258,24,19.8,JavaScript,AGPL-3.0,61,1,訊號完整,topics:none
+lhlGitHub/threejs-architecture-effects,476,61,13,36.6,TypeScript,MIT,133,1,訊號完整,topics:none
+kyotofin/tax-doc-classifier,497,62,17,29.2,TypeScript,Apache-2.0,113,1,訊號完整,topics:none
+LuwuDynamics/xgoduck_hardware,498,66,11,45.3,Unknown,,263,1,訊號完整,license:none
+Loopera-ai/loopera,499,80,27,18.5,Unknown,NOASSERTION,127,1,訊號完整,license:none
+athemeroy/awesome-claude-5-5-videos,482,34,10,48.2,Python,CC-BY-4.0,151,1,訊號完整,generic-name:awesome-claude-5-5-videos
+g8row/PhotosBackup,204,23,27,7.6,Swift,MIT,20,1,訊號完整,topics:none
+Civilcliadapt/Reason-14,204,0,1,204.0,Unknown,,155,1,訊號完整,license:none
+ahang008/ah-douyin-clean-downloader,204,32,14,14.6,Python,NOASSERTION,37,1,訊號完整,license:none
+uniteoceanunderpass/Serato-DJ-Pro,204,0,1,204.0,Unknown,,154,1,訊號完整,license:none
+Sophomoresty/turnstile-bypass,492,174,28,17.6,Python,MIT,66,1,訊號完整,topics:none
+portingpete/The-Darkness-Recomp,212,6,20,10.6,C++,GPL-3.0,143,1,訊號完整,topics:none
+jesse-engineer/qijing-ai-guide,197,10,17,11.6,Unknown,,76,1,訊號完整,license:none
+ios-bundles/CarrierSIM,205,19,7,29.3,Python,MIT,127,1,訊號完整,topics:none
+APUS-AI-Lab/fast-browser-use,205,21,16,12.8,Python,MIT,113,1,訊號完整,topics:none
+bjarneo/flux,506,39,10,50.6,Swift,MIT,99,1,訊號完整,topics:none
+AgriciDaniel/jev-seo,509,82,13,39.2,Python,MIT,100,1,訊號完整,topics:none
+superagents-lab/jev-search,512,61,18,28.4,TypeScript,MIT,119,1,訊號完整,topics:none
+InternLM/Intern-Decision,598,28,11,54.4,Python,Apache-2.0,31,1,訊號完整,topics:none
+jnz/INSLIB,604,96,27,22.4,C,AGPL-3.0,39,1,訊號完整,topics:none
+jaskirat1616/mactap-app,605,21,27,22.4,Swift,MIT,44,1,訊號完整,topics:none
+intrinsic-ai/intrinsic-core,547,65,27,20.3,C++,Apache-2.0,129,1,訊號完整,topics:none
+jerryjliu/docjev,513,32,16,32.1,Python,Apache-2.0,50,1,訊號完整,topics:none
+deepseek-ai/DeepGEMM-Ascend,515,39,6,85.8,C++,MIT,96,1,訊號完整,topics:none
+cobanov/awesome-jev,516,118,17,30.4,Unknown,CC0-1.0,109,1,訊號完整,generic-name:awesome-jev
+zihenghe04/AIBro,516,42,23,22.4,JavaScript,AGPL-3.0,90,1,訊號完整,topics:none
+amywork777/lipflow,519,62,6,86.5,Python,MIT,119,1,訊號完整,topics:none
+jkudish/jev-mcp,501,56,18,27.8,JavaScript,MIT,69,1,訊號完整,topics:none
+isas1/skills,212,16,16,13.2,Unknown,MIT,87,1,訊號完整,generic-name:skills
+BillionsBobby/JevRouter,407,22,17,23.9,TypeScript,MIT,65,1,訊號完整,topics:none
+linranff/GTA_SZ,411,41,29,14.2,TypeScript,MIT,31,1,訊號完整,topics:none
+PostHog/jeeves,412,21,6,68.7,Python,MIT,52,1,訊號完整,topics:none
+modelscope/ms-cookbook,414,76,24,17.2,HTML,Apache-2.0,92,1,訊號完整,generic-name:ms-cookbook
+blackbearreloaded/ProsperoEden,416,41,5,83.2,C++,GPL-3.0,30,1,訊號完整,topics:none
+hokindeng/object-permanence,418,13,19,22.0,Python,NOASSERTION,57,1,訊號完整,license:none
+bestagentkits/design-studio-ai,216,58,28,7.7,TypeScript,MIT,113,1,訊號完整,topics:none
+Turbo1123/Turbo-IO,213,59,27,7.9,Objective-C,NOASSERTION,169,1,訊號完整,license:none
+wangyunjeff/sub2api-state-kit,214,61,17,12.6,Go,LGPL-3.0,56,1,訊號完整,topics:none
+hellogumbo/awesome-jev,215,68,18,11.9,JavaScript,CC0-1.0,79,1,訊號完整,generic-name:awesome-jev
+YeJe-cpu/SeeCut,218,32,10,21.8,JavaScript,NOASSERTION,141,1,訊號完整,license:none
+vianziro/Whatsapp-Dekstop,218,20,28,7.8,Go,MIT,298,1,訊號完整,topics:none
+flybook-git/flybook,218,42,24,9.1,Unknown,MIT,113,1,訊號完整,topics:none
+MiaAI-Lab/DeepSeek-v4.1-Flash-DGX-Sparks,218,40,24,9.1,Python,AGPL-3.0,45,1,訊號完整,topics:none
+karanb192/awesome-claude-code-mods,219,50,20,10.9,JavaScript,CC0-1.0,181,1,訊號完整,generic-name:awesome-claude-code-mods
+3zwr1/AMD-NR---OptiScaler,491,10,15,32.7,C++,GPL-3.0,221,1,訊號完整,topics:none
+fatwang2/awesome-jev,220,55,17,12.9,JavaScript,MIT,86,1,訊號完整,generic-name:awesome-jev
+togethercomputer/tev1,220,25,12,18.3,Python,MIT,71,1,訊號完整,topics:none
+nftechie/doomfly,425,63,29,14.7,Python,MIT,142,1,訊號完整,topics:none
+Tencent/WeVisDoc,425,20,21,20.2,Python,Apache-2.0,200,1,訊號完整,topics:none
+tugrawork-creator/saas-motion-kit,212,19,10,21.2,Python,NOASSERTION,182,1,訊號完整,license:none
+hanyang9/UMR,453,33,28,16.2,Python,MIT,51,1,訊號完整,topics:none
+TencentARC/WorldCrafter,431,15,21,20.5,Python,NOASSERTION,85,1,訊號完整,license:none
+fulldiagnose/antigravity-fixer,397,45,6,66.2,Python,MIT,76,1,訊號完整,topics:none
+coccofresco/TriAevum,461,17,28,16.5,C++,GPL-3.0,130,1,訊號完整,topics:none
+Likely7/Veyra-NRVideo,461,23,26,17.7,C++,GPL-3.0,304,1,訊號完整,topics:none
+Foadsf/vintage-latex,438,24,26,16.8,PowerShell,NOASSERTION,154,1,訊號完整,license:none
+minorun365/minorun-marp-skill,402,16,15,26.8,Python,Apache-2.0,51,1,訊號完整,generic-name:minorun-marp-skill
+MisakaZentai/world-execute-me-dsh-pv,402,42,6,67.0,Python,MIT,130,1,訊號完整,topics:none
+walidboulanouar/awesome-jev-use-cases,393,63,16,24.6,Unknown,CC0-1.0,122,1,訊號完整,generic-name:awesome-jev-use-cases
+DozenTwelve/Papermorph,394,43,2,197.0,HTML,MIT,81,1,訊號完整,topics:none
+ashleyotooligan/ant-1,219,1,23,9.5,HTML,MIT,89,1,訊號完整,topics:none
+yielded-dev/auth,199,5,25,8.0,TypeScript,MIT,71,1,訊號完整,topics:none
+CosmicVeteran/Ableton-Live-12,200,0,1,200.0,Unknown,,96,1,訊號完整,license:none
+MysticGSI/mysticgsi,200,66,10,20.0,Shell,Apache-2.0,71,1,訊號完整,topics:none
+fuchsiaravengrade/Autodesk-CFD,200,0,1,200.0,Unknown,,149,1,訊號完整,license:none
+circle-group/hktex,202,5,26,7.8,Python,MIT,62,1,訊號完整,topics:none
+seamusc/papermono-shopping-list,202,5,8,25.2,C++,GPL-3.0,87,1,訊號完整,topics:none
+DeckhandCelebrate/Catia-Cad,200,0,1,200.0,Unknown,,156,1,訊號完整,license:none
+planeheadforge56/AutoCad,200,0,1,200.0,Unknown,,155,1,訊號完整,license:none
+CicadaShanty/Display-Fusion,200,0,1,200.0,Unknown,,147,1,訊號完整,license:none
+ZombieThrasherCalm11/Adobe-After-Effects,200,0,1,200.0,Unknown,,146,1,訊號完整,license:none
+ethanplusai/codex-on-crack,738,68,18,41.0,JavaScript,MIT,136,1,訊號完整,generic-name:codex-on-crack
+LBEILC/RhineLabUI,747,103,28,26.7,TypeScript,MIT,62,1,訊號完整,topics:none
+jev-chat/jev-chat-windows,748,163,14,53.4,Python,NOASSERTION,79,1,訊號完整,license:none
+mizzlelover/gongwen-gbt9704-skill,751,144,26,28.9,JavaScript,MIT,123,1,訊號完整,generic-name:gongwen-gbt9704-skill
+op7418/guizang-product-video-skill,692,60,17,40.7,Python,AGPL-3.0,95,1,訊號完整,generic-name:guizang-product-video-skill
+mizorewww/x_gift_bot,466,193,3,155.3,Go,MIT,38,1,訊號完整,topics:none
+chasmlol/2010-rust-rewrite-mashup,771,58,8,96.4,Rust,Apache-2.0,112,1,訊號完整,topics:none
+SunnyMaria/csapp-zh-markdown,772,86,19,40.6,Python,,79,1,訊號完整,license:none
+openai/mcp-extensions,783,46,6,130.5,TypeScript,Apache-2.0,69,1,訊號完整,topics:none
+cloudflare/cf,787,31,14,56.2,TypeScript,Apache-2.0,45,1,訊號完整,topics:none
+AnotiaWang/awesome-decision-models,614,125,18,34.1,Python,CC0-1.0,158,1,訊號完整,generic-name:awesome-decision-models
+ithtelab/workbuddy-manager,788,190,24,32.8,Python,NOASSERTION,96,1,訊號完整,license:none
+blixvip/NullMotion,791,67,17,46.5,HTML,,198,1,訊號完整,license:none
+jackwener/wx-cli-again,795,1731,21,37.9,Rust,Apache-2.0,70,1,訊號完整,topics:none
+receptron/laya,800,71,16,50.0,TypeScript,MIT,108,1,訊號完整,topics:none
+razorback16/openjev,625,50,17,36.8,Python,Apache-2.0,65,1,訊號完整,topics:none
+SK8-ENGINE/skate-3-rust-engine,633,61,27,23.4,Rust,GPL-3.0,102,1,訊號完整,topics:none
+Haleclipse/CometixCode,606,38,15,40.4,Rust,AGPL-3.0,92,1,訊號完整,topics:none
+HeyOkay/HaloBattery,608,48,10,60.8,Python,MIT,100,1,訊號完整,topics:none
+codingnoye/gksdud,612,44,19,32.2,Swift,MIT,20,1,訊號完整,topics:none
+VDERR/dsh-echocat-skill-panel,196,5,17,11.5,JavaScript,MIT,26,1,訊號完整,generic-name:dsh-echocat-skill-panel
+vladtrc/iw4L,766,82,22,34.8,Rust,Apache-2.0,76,1,訊號完整,topics:none
+icubaby/SideRail,553,1323,15,36.9,TypeScript,NOASSERTION,48,1,訊號完整,license:none
+gargpratyush/jev-router,553,78,19,29.1,JavaScript,MIT,73,1,訊號完整,topics:none
+samyost1/3dicon,536,46,12,44.7,Python,MIT,92,1,訊號完整,topics:none
+apple/xcode-project-format,477,18,20,23.9,Swift,Apache-2.0,96,1,訊號完整,topics:none
+Clash-Projects/LastWave-Desktop,478,9,25,19.1,Dart,,72,1,訊號完整,license:none
+TencentARC/GAE-GeometricAutoEncoder,482,17,19,25.4,Python,NOASSERTION,90,1,訊號完整,license:none
+deepseek-ai/DeepSelect,463,45,26,17.8,Cuda,MIT,73,1,訊號完整,topics:none
+AetherLabsAI/RSIAgent,464,49,22,21.1,Python,Apache-2.0,156,1,訊號完整,topics:none
+Michael-Jiahao-Zhang/game-the-llm-reviewer,203,5,14,14.5,Unknown,MIT,84,1,訊號完整,generic-name:game-the-llm-reviewer
+developerAmira/telegram-bot,203,356,24,8.5,JavaScript,,86,1,訊號完整,license:none
+DestroyerLast28/Instagram-Liker-Bot,203,0,1,203.0,Unknown,,147,1,訊號完整,license:none
+BrightVanquisherMold/PH-Downloader,203,0,1,203.0,Unknown,,155,1,訊號完整,license:none
+CrownScreenDescribe/SlideShow-Video-Maker,201,0,1,201.0,Unknown,,153,1,訊號完整,license:none
+Rainfoderrick/Microsoft-Visio,201,0,1,201.0,Unknown,,154,1,訊號完整,license:none
+Spiritunderfringe/Microsoft-Office,201,0,1,201.0,Unknown,,152,1,訊號完整,license:none
+pyramidqueenyell/AnyUnlock,200,0,1,200.0,Unknown,,97,1,訊號完整,license:none
+CapturePantherFeel/DVD-Creator,200,0,1,200.0,Unknown,,157,1,訊號完整,license:none
+skopevoj/spoti.pw,683,4146,28,24.4,Objective-C,NOASSERTION,53,1,訊號完整,license:none
+thruwire/foreman,677,52,18,37.6,Python,MIT,80,1,訊號完整,topics:none
+cobanov/awesome-fly,675,63,23,29.3,Unknown,CC0-1.0,129,1,訊號完整,generic-name:awesome-fly
+ViceVerse-cz/Serein,664,32,26,25.5,Rust,Apache-2.0,62,1,訊號完整,topics:none
+slayerwidowforum/Microsoft-365,200,0,1,200.0,Unknown,,151,1,訊號完整,license:none
+LogoJumper64/Adobe-Photoshop,200,0,1,200.0,Unknown,,144,1,訊號完整,license:none
+AbdelStark/awesome-typesafe-jev,567,141,18,31.5,HTML,MIT,137,1,訊號完整,generic-name:awesome-typesafe-jev
+Liuziyu77/Valen,647,58,12,53.9,Python,Apache-2.0,81,1,訊號完整,topics:none
+gylive/ccodex-sleep-state,644,149,17,37.9,Go,GPL-3.0,87,1,訊號完整,topics:none
+jeremyipark/vision-demos,595,85,27,22.0,Python,Apache-2.0,37,1,訊號完整,topics:none
+featherless-ai/simple-jev,590,66,17,34.7,Python,Apache-2.0,50,1,訊號完整,topics:none
+Sadpainy/Stuxnet,580,108,29,20.0,C,AGPL-3.0,160,1,訊號完整,topics:none
+OpSafari/hypoarena,557,29,5,111.4,Python,MIT,344,1,訊號完整,topics:none
+blakcat-app/blakcat,203,0,17,11.9,Unknown,,98,1,訊號完整,license:none
+HarnessRouter/SystemOneHarness,202,18,16,12.6,Python,Apache-2.0,122,1,訊號完整,topics:none
+logicrw/awesome-jev-projects,659,55,17,38.8,JavaScript,MIT,115,1,訊號完整,generic-name:awesome-jev-projects
+NandhaKishorM/laya,31109,2742,17,1829.9,Python,Apache-2.0,203,0,訊號完整,
+jev-chat/jev-chat-jarvis,7382,1225,14,527.3,Kotlin,MIT,71,0,訊號完整,
+mizorewww/laya-mlx,6790,543,16,424.4,Python,Apache-2.0,129,0,訊號完整,
+KKKKhazix/AIHOT,6126,1536,7,875.1,TypeScript,MIT,43,0,訊號完整,
+yetone/magpie,5363,383,12,446.9,Go,MIT,90,0,訊號完整,
+qingjian-team/qingjian,4694,328,28,167.6,Rust,GPL-3.0,43,0,訊號完整,
+Louis-CFM/coucou,3772,625,8,471.5,Swift,MIT,202,0,訊號完整,
+dzhng/jevgrep,2335,171,9,259.4,TypeScript,MIT,118,0,訊號完整,
+cclank/clay-safari,180,45,28,6.4,JavaScript,MIT,83,0,訊號完整,
+tornikegomareli/omarchy-spaces,178,19,10,17.8,QML,MIT,99,0,訊號完整,
+suvamneog/jobradar,178,25,11,16.2,Python,MIT,122,0,訊號完整,
+awangwang123/jianhao-travel-planner,178,14,12,14.8,HTML,MIT,82,0,訊號完整,
+maiphucgiang/codebuddy2api,177,43,25,7.1,Python,MIT,53,0,訊號完整,
+lordx64/phantom-kv,177,26,18,9.8,Python,MIT,123,0,訊號完整,
+githubuser420x/FGOAC-scooby,177,20,21,8.4,C#,MIT,60,0,訊號完整,
+ghuntley/underclass,177,11,15,11.8,Rust,MIT,243,0,訊號完整,
+happy666End/MenuBarHider,176,0,17,10.4,Swift,MIT,80,0,訊號完整,
+sixtysevenlf/dsh-blender-plugin,175,9,22,8.0,Python,BSD-3-Clause,333,0,訊號完整,
+Roberto02800/turnstile-token,175,38,9,19.4,Python,MIT,155,0,訊號完整,
+libingzheren/Jev-Mem,175,17,15,11.7,Python,MIT,45,0,訊號完整,
+evnsnclr/neurocraft-fly-public,175,13,29,6.0,Unknown,MIT,135,0,訊號完整,
+davidondrej/cloudroom-core,256,40,18,14.2,Rust,Apache-2.0,90,0,訊號完整,
+kloxeld/xscrape,255,34,15,17.0,Python,MIT,194,0,訊號完整,
+danielroe/airspace,162,5,24,6.8,TypeScript,MIT,30,0,訊號完整,
+techflag/workdsh,162,38,25,6.5,TypeScript,MIT,244,0,訊號完整,
+DevMortimer/pi-warden,161,23,19,8.5,TypeScript,MIT,269,0,訊號完整,
+z91772524-ai/pojia-next,161,18,18,8.9,Python,MIT,170,0,訊號完整,
+NuvexNetwork/nuvex-services,160,313,5,32.0,TypeScript,Apache-2.0,112,0,訊號完整,
+tshemsedinov/reslop,160,9,29,5.5,JavaScript,MIT,44,0,訊號完整,
+jakesgoodapps/DuoLauncher,159,21,25,6.4,Kotlin,MIT,124,0,訊號完整,
+agentsea/nautilo,171,6,19,9.0,TypeScript,MIT,167,0,訊號完整,
+SpiralMotorman/AquaClicker,190,41,25,7.6,HTML,MIT,68,0,訊號完整,
+deepakness/cogsend,190,28,13,14.6,TypeScript,MIT,119,0,訊號完整,
+Soniavasseur/Wallet-Risk-Scanner,190,33,13,14.6,Python,MIT,325,0,訊號完整,
+Colinjqq/content-forecast,189,10,27,7.0,Python,MIT,101,0,訊號完整,
+OpenCourant/OpenCourant,189,44,3,63.0,Fortran,AGPL-3.0,113,0,訊號完整,
+Xu123-Bob/Baize,188,2,23,8.2,JavaScript,MIT,112,0,訊號完整,
+mitkox/esf,186,32,16,11.6,Go,MIT,71,0,訊號完整,
+Pal-AI-Lab/Cortico,186,15,22,8.5,TypeScript,MIT,63,0,訊號完整,
+GongZhiren/State-of-Thought,155,1,28,5.5,Python,MIT,60,0,訊號完整,
+Xuanwo/cida,155,8,10,15.5,Swift,Apache-2.0,78,0,訊號完整,
+beyondtahir/beyondseo,154,39,22,7.0,Python,MIT,211,0,訊號完整,
+Aleph1-9012/Evangelion,154,4,29,5.3,Shell,Apache-2.0,62,0,訊號完整,
+joeseesun/qiaomu-clipper,193,28,3,64.3,TypeScript,MIT,105,0,訊號完整,
+suoha888/Trader-Archives,192,81,23,8.3,HTML,MIT,65,0,訊號完整,
+AFK-surf/Comma,191,14,5,38.2,Elixir,AGPL-3.0,267,0,訊號完整,
+bytwelve/photoMap,190,11,29,6.6,TypeScript,MIT,55,0,訊號完整,
+FlashML-org/FreeVideo,1008,96,22,45.8,Python,Apache-2.0,168,0,訊號完整,
+usamahz/cpu-performance-engineering,1008,77,18,56.0,Python,MIT,160,0,訊號完整,
+undefined-ui/second-brain-os,973,155,28,34.8,HTML,MIT,159,0,訊號完整,
+Atomburstofficial/geiger,158,7,29,5.4,JavaScript,MIT,134,0,訊號完整,
+mariagorskikh/open-instinct,158,27,2,79.0,TypeScript,MIT,183,0,訊號完整,
+y0usaf/pi-jev,157,13,19,8.3,TypeScript,MIT,126,0,訊號完整,
+skydoves/nowinandroid-kmp,157,8,27,5.8,Kotlin,Apache-2.0,91,0,訊號完整,
+yoge7388095s/eth-trading-bot,156,121,1,156.0,JavaScript,Unlicense,86,0,訊號完整,
+leter/zh-tech-writing,332,16,11,30.2,Unknown,MIT,53,0,訊號完整,
+kuratlielia/arc-library,330,17,11,30.0,TypeScript,MIT,111,0,訊號完整,
+FuturixAI-and-Quantum-Works/Prism-Legal-OS,328,12,23,14.3,TypeScript,AGPL-3.0,74,0,訊號完整,
+Mastershort/neonplan3d,327,39,8,40.9,TypeScript,MIT,264,0,訊號完整,
+NihilDigit/piko,321,4,17,18.9,Kotlin,MIT,89,0,訊號完整,
+farlume/termish,309,1,29,10.7,Kotlin,MIT,81,0,訊號完整,
+Gen-Verse/ScienceBuddy,308,44,21,14.7,Python,MIT,87,0,訊號完整,
+leemysw/yovoice,360,43,20,18.0,TypeScript,Apache-2.0,134,0,訊號完整,
+cv-superding/dsh-deepseek-web-login,229,28,25,9.2,JavaScript,Apache-2.0,174,0,訊號完整,
+VII-Cae/hyalite--liquid-glass,228,11,28,8.1,JavaScript,MIT,113,0,訊號完整,
+munmunjaklin458-afk/cline-pass-switcher,226,50,29,7.8,JavaScript,MIT,71,0,訊號完整,
+HuskerMinion/techo5,225,30,21,10.7,Go,MIT,215,0,訊號完整,
+edison-land/paragravity,224,19,13,17.2,Python,MIT,84,0,訊號完整,
+Frankweb33/flybrain-robot-bridge,224,37,21,10.7,Python,MIT,164,0,訊號完整,
+HeyPuter/builder,224,63,14,16.0,JavaScript,Apache-2.0,116,0,訊號完整,
+KingKongRobotics/jumper,334,33,7,47.7,Python,Apache-2.0,25,0,訊號完整,
+xiaYuTian11/maskit,293,45,26,11.3,Python,AGPL-3.0,105,0,訊號完整,
+logan-markewich/jeff,293,23,16,18.3,Python,MIT,75,0,訊號完整,
+FluidInference/FluidUse,233,18,14,16.6,Swift,Apache-2.0,151,0,訊號完整,
+GetBrew/growth-engineer,231,15,19,12.2,TypeScript,MIT,134,0,訊號完整,
+DeeJanuz/frametop,231,14,9,25.7,Python,MIT,90,0,訊號完整,
+countervolts/d4r,230,8,8,28.8,C++,Apache-2.0,72,0,訊號完整,
+blendi-remade/dioramas,229,25,5,45.8,JavaScript,MIT,147,0,訊號完整,
+fstandhartinger/jevbench,229,23,16,14.3,Python,MIT,98,0,訊號完整,
+ResistanceTo/MiniWatts,307,16,25,12.3,Swift,Apache-2.0,184,0,訊號完整,
+sutro-sh/jev-align,304,23,16,19.0,Python,Apache-2.0,69,0,訊號完整,
+CharlesFeng0314/JEV_sees,303,11,5,60.6,Python,MIT,86,0,訊號完整,
+xiaomoBoy/pi-bluebook,301,18,27,11.1,Markdown,MIT,99,0,訊號完整,
+SyncSo-Inc/syncso,301,10,12,25.1,Unknown,MIT,144,0,訊號完整,
+Simreal-AI/Simreal-MLBench,301,40,14,21.5,Python,Apache-2.0,142,0,訊號完整,
+rust-alert/ra2.exe,300,16,29,10.3,Rust,Apache-2.0,71,0,訊號完整,
+romancitodev/cargo-pretty,297,1,28,10.6,Rust,MIT,55,0,訊號完整,
+opencoredev/social-sdk,415,37,27,15.4,TypeScript,MIT,143,0,訊號完整,
+strands-labs/strands-decider,412,59,6,68.7,Python,Apache-2.0,181,0,訊號完整,
+ZeroDayEvil/ai-security-tool,408,9,25,16.3,HTML,MIT,247,0,訊號完整,
+MelisaPeteRs2006/Silent-Crypto-Miner,398,51,17,23.4,Python,MIT,345,0,訊號完整,
+allenv0/SCM,398,28,2,199.0,JavaScript,MIT,78,0,訊號完整,
+qybaihe/mu,398,39,13,30.6,TypeScript,MIT,148,0,訊號完整,
+tudoumashu/ai-memory-skillpack,396,0,27,14.7,Python,MIT,60,0,訊號完整,
+Yinsongxu/LLM2Jev,396,39,16,24.8,Python,Apache-2.0,158,0,訊號完整,
+richard1208/parallio,222,10,11,20.2,TypeScript,MIT,63,0,訊號完整,
+reco-tools/ritridata,217,1,16,13.6,Rust,AGPL-3.0,111,0,訊號完整,
+ZCodium-project/ZCodium,217,10,12,18.1,TypeScript,MIT,185,0,訊號完整,
+makezur/agenticSTAR,217,9,25,8.7,Python,MIT,74,0,訊號完整,
+Appllama/liquid-glass-chat-ui,215,27,8,26.9,TypeScript,MIT,99,0,訊號完整,
+liyupi/ai-model-world,215,31,18,11.9,TypeScript,MIT,225,0,訊號完整,
+kaolti/phantomat,215,19,11,19.5,C++,BSD-3-Clause,66,0,訊號完整,
+L0NE-6/WorkBuddy-Daily,214,101,23,9.3,Python,MIT,115,0,訊號完整,
+nmatt0/moria,391,43,28,14.0,C++,MIT,42,0,訊號完整,
+RaycarlLei/tool-journal,384,18,28,13.7,TypeScript,MIT,135,0,訊號完整,
+muellerberndt/cadence,381,46,28,13.6,Python,GPL-3.0,166,0,訊號完整,
+repoboost-hq/github-launch-checklist,379,9,18,21.1,Python,MIT,201,0,訊號完整,
+caxete/crypto-tax-calculator,378,123,15,25.2,Python,AGPL-3.0,100,0,訊號完整,
+pengchujin/livecanvas,378,26,5,75.6,Swift,MIT,92,0,訊號完整,
+saragordic/rooms,373,14,12,31.1,Swift,MIT,103,0,訊號完整,
+TeamGDB/Yakumo,372,19,17,21.9,C++,MIT,110,0,訊號完整,
+ejfkdev/ddc,358,59,17,21.1,Rust,MIT,206,0,訊號完整,
+lakeday-org/perch,346,19,19,18.2,JavaScript,MIT,42,0,訊號完整,
+alpcanaydin/tusk,346,19,7,49.4,Rust,MIT,131,0,訊號完整,
+biusberline/cloudflare-turnstile-solver,346,35,29,11.9,Python,MIT,142,0,訊號完整,
+itsmostafa/system-one-connector,342,39,18,19.0,Go,MIT,132,0,訊號完整,
+nmatt0/mithril,338,38,28,12.1,C++,MIT,52,0,訊號完整,
+emir/AIKON,336,32,9,37.3,Java,MIT,133,0,訊號完整,
+jankeesvw/omarchy-meeting-recorder,334,34,11,30.4,Rust,MIT,136,0,訊號完整,
+heise3/academic-deai,205,8,2,102.5,Python,MIT,164,0,訊號完整,
+impossibleG/phorminx,204,3,20,10.2,Rust,MIT,156,0,訊號完整,
+Aureliengmz/clearwater,500,95,12,41.7,HTML,MIT,94,0,訊號完整,
+nhovongoc0-max/meme-radar,489,187,24,20.4,JavaScript,AGPL-3.0,34,0,訊號完整,
+whirlchat/whirl,486,44,3,162.0,TypeScript,MIT,108,0,訊號完整,
+rushiranpise/Shizuku-Next,466,14,9,51.8,Kotlin,Apache-2.0,95,0,訊號完整,
+jev-chat/jev-chat-jarvis-mac,465,130,14,33.2,Python,MIT,49,0,訊號完整,
+timoncool/YuE2-Studio,461,41,13,35.5,TypeScript,MIT,184,0,訊號完整,
+tswawa/WechatVibe,210,32,12,17.5,Python,Apache-2.0,67,0,訊號完整,
+arikchakma/gpu-time,210,4,24,8.8,Python,MIT,44,0,訊號完整,
+zhaoyuxiangyyds-lab/AnyDoor,210,21,18,11.7,Java,MIT,174,0,訊號完整,
+shihabal3amri/DiAuto,210,28,13,16.2,Kotlin,AGPL-3.0,84,0,訊號完整,
+chrissotraidis/bluewake,207,15,7,29.6,C,GPL-3.0,75,0,訊號完整,
+Mikeli7666/DuoBar,207,11,23,9.0,Swift,MIT,96,0,訊號完整,
+repoboost-hq/buy-github-stars,206,14,18,11.4,Unknown,MIT,188,0,訊號完整,
+WallpaperMachine/WallpaperMachine,206,5,21,9.8,Swift,GPL-2.0,132,0,訊號完整,
+loysger/Antigravity,430,1,27,15.9,TypeScript,MIT,155,0,訊號完整,
+openOMSI-Project/openOMSI,427,107,8,53.4,Rust,MIT,103,0,訊號完整,
+ng-native/ng-native,423,15,8,52.9,TypeScript,MIT,95,0,訊號完整,
+jaydendavisnc/inkwave,422,145,9,46.9,JavaScript,MIT,86,0,訊號完整,
+Doulor/DoulorCloud,213,12,13,16.4,TypeScript,MIT,107,0,訊號完整,
+hirotomasato/yowes,212,76,16,13.2,Python,MIT,92,0,訊號完整,
+nMaas8388/github-ranking-audit,211,13,18,11.7,Python,MIT,122,0,訊號完整,
+SysAdminDoc/HushFacebook,211,5,11,19.2,Java,GPL-3.0,175,0,訊號完整,
+vincentsch/explainroo,461,18,10,46.1,JavaScript,MIT,182,0,訊號完整,
+MaxGramser/homeassistant_espscreen,460,40,23,20.0,Python,AGPL-3.0,169,0,訊號完整,
+Continuum-AI-Corp/scuttle,458,0,12,38.2,Go,Apache-2.0,122,0,訊號完整,
+sno-ai/sno-station,447,356,16,27.9,TypeScript,Apache-2.0,331,0,訊號完整,
+rorygallagher2024/lg-webos-dashboard,445,17,28,15.9,JavaScript,MIT,254,0,訊號完整,
+mdpsec/bug-bounty-hunting-prompts,438,111,5,87.6,Unknown,MIT,77,0,訊號完整,
+nealbridges/VulnHunter,433,75,13,33.3,Python,Apache-2.0,224,0,訊號完整,
+Leviidev/Husk,433,26,23,18.8,C,GPL-2.0,24,0,訊號完整,
+viettranx/3dviz-pro-max,672,86,25,26.9,JavaScript,MIT,203,0,訊號完整,
+devagrawal09/jev-review,671,43,19,35.3,TypeScript,MIT,74,0,訊號完整,
+ardeyouxipianyi/workbuddy2api-hub,652,151,23,28.3,Python,MIT,65,0,訊號完整,
+amitshekhariitbhu/ai-system-design,637,87,10,63.7,Markdown,Apache-2.0,97,0,訊號完整,
+Miaotofu01/Study-Mate,635,35,18,35.3,Python,MIT,32,0,訊號完整,
+ruc-datalab/EvoOntology,621,50,20,31.1,Python,MIT,103,0,訊號完整,
+henryzawadzki6542/cloudflare-turnstile-bypass,615,41,27,22.8,Python,MIT,171,0,訊號完整,
+sganggs/Stronghold-Protocol,795,174,3,265.0,JavaScript,GPL-3.0,48,0,訊號完整,
+kevinzakka/mjbatch,586,59,25,23.4,Python,Apache-2.0,79,0,訊號完整,
+eliasstravik/herdr-projects,580,41,17,34.1,Rust,MIT,117,0,訊號完整,
+unicodef1wn/grokbot-field-notes,579,80,17,34.1,Python,MIT,132,0,訊號完整,
+wanghui2323/learnbuddy,203,1,29,7.0,Python,MIT,78,0,訊號完整,
+255308153/CtxGuard,202,15,21,9.6,Python,MIT,94,0,訊號完整,
+chenkanglin198904/Personal_External_Brain,201,1,12,16.8,Python,MIT,182,0,訊號完整,
+kostja94/bricks,200,0,10,20.0,JavaScript,MIT,111,0,訊號完整,
+ESPARGOS/esp-sdr,678,83,7,96.9,C,GPL-3.0,140,0,訊號完整,
+superwesleyhys-ux/factcircuit,517,42,29,17.8,Python,MIT,152,0,訊號完整,
+showlab/Show-Harness,514,32,28,18.4,Python,Apache-2.0,32,0,訊號完整,
+storytold/printcraft,511,114,5,102.2,Rust,Apache-2.0,79,0,訊號完整,
+amitshekhariitbhu/ai-engineering-course,509,95,12,42.4,Markdown,Apache-2.0,259,0,訊號完整,
+atlas-vtt/atlas-vtt,503,54,15,33.5,TypeScript,AGPL-3.0,116,0,訊號完整,
+shinthink/blitzstrike,500,5,23,21.7,TypeScript,MIT,125,0,訊號完整,
+lingyired/status-trio,599,36,23,26.0,Swift,Apache-2.0,201,0,訊號完整,
+amontlabs/lcu,599,27,13,46.1,Python,MIT,73,0,訊號完整,
+storytold/lightcraft,555,117,5,111.0,Rust,Apache-2.0,76,0,訊號完整,
+letorig/video-generator-client,552,87,21,26.3,Python,MIT,107,0,訊號完整,
+SelmiAbderrahim/rankme.fast,550,19,13,42.3,TypeScript,AGPL-3.0,29,0,訊號完整,
+ZacharyZhang-NY/Ely-GPUI-Components,549,30,5,109.8,Rust,MIT,90,0,訊號完整,
+coldteadotai/abide,548,44,17,32.2,TypeScript,MIT,54,0,訊號完整,
+devswha/herdr-web-ui,545,54,18,30.3,TypeScript,MIT,117,0,訊號完整,
+storytold/vectorcraft,539,119,5,107.8,Rust,Apache-2.0,85,0,訊號完整,
+MichaelKinsy/PiG,521,35,18,28.9,Go,MIT,227,0,訊號完整,
+Goncafer47/Stablecoin-Payment-Gateway,195,46,13,15.0,Python,MIT,300,0,訊號完整,
+z-liu-xiugou/research-workbench-assistant,194,0,28,6.9,Python,Apache-2.0,113,0,訊號完整,
+ashleydarosa/CC-Checker-Validator-Generator,194,42,14,13.9,Python,MIT,295,0,訊號完整,
+suversal/apple-store-inventory-monitor,193,31,27,7.1,Rust,GPL-3.0,71,0,訊號完整,
+BlueHeisenberg/SCSKiller,1098,24,6,183.0,C#,GPL-3.0,145,0,訊號完整,
+nokia-applied-research/AnyJev,1073,135,14,76.6,Python,Apache-2.0,149,0,訊號完整,
+zhihui-hu/one-ip,1034,1257,26,39.8,TypeScript,AGPL-3.0,115,0,訊號完整,
+ant-research/AntOmniEvo,1009,94,20,50.5,Python,Apache-2.0,92,0,訊號完整,
+Edwardxlai/easyread,816,58,5,163.2,Python,MIT,86,0,訊號完整,
+bilibili/Index-Translate,814,19,20,40.7,Python,Apache-2.0,39,0,訊號完整,
+filliptm/ComfyUI-FL-YuE2,198,21,24,8.2,Python,Apache-2.0,60,0,訊號完整,
+kunchenguid/compact-adviser,197,25,18,10.9,TypeScript,MIT,66,0,訊號完整,
+BagasRizkyHarySaputra/MLBB-waydroid-LinuxCloudMLBB,197,0,7,28.1,Shell,MIT,210,0,訊號完整,
+Henryfud/werm,196,0,1,196.0,HTML,MIT,108,0,訊號完整,
+xevrion/gyotaku,196,7,10,19.6,Rust,GPL-3.0,113,0,訊號完整,
+MiniMax-AI/OpenAgentCore,195,19,14,13.9,Go,MIT,96,0,訊號完整,
+penso/herdr-gpui,933,51,15,62.2,Rust,Apache-2.0,182,0,訊號完整,
+lingxuanqjc-alt/note-bridge-desktop,931,48,27,34.5,Python,MIT,47,0,訊號完整,
+TypeLLM/TypeLLM,931,58,18,51.7,Python,Apache-2.0,39,0,訊號完整,
+angel291592/Intent-Router,894,99,13,68.8,Python,MIT,196,0,訊號完整,
+dmoshehun-prog/learn-from-materials,885,91,27,32.8,Python,MIT,88,0,訊號完整,
+wfzyx/von,857,70,17,50.4,Python,Apache-2.0,115,0,訊號完整,
+aizhimou/javranking-extension,857,55,28,30.6,TypeScript,MIT,44,0,訊號完整,
+alexgreensh/anidoodle,818,65,13,62.9,TypeScript,Apache-2.0,157,0,訊號完整,
+Oldcircle/geo-sleuth,782,99,17,46.0,Python,MIT,231,0,訊號完整,
+storytold/filmcraft,744,147,5,148.8,Rust,Apache-2.0,85,0,訊號完整,
+saragordic/window-sweaters,744,24,20,37.2,C,GPL-3.0,66,0,訊號完整,
+Qiuner/birdview,715,67,23,31.1,TypeScript,MIT,83,0,訊號完整,
+StayLameBro/backburner,712,69,4,178.0,Python,MIT,101,0,訊號完整,
+Alex314618-create/JevRev,706,30,14,50.4,TypeScript,MIT,95,0,訊號完整,
+lucasmarkes/hairline,699,40,4,174.8,TypeScript,MIT,90,0,訊號完整,
+OpenWAM-Official/OpenWAM,955,57,29,32.9,Python,Apache-2.0,114,0,訊號完整,
+brandynfisher/ToolReplay,182,21,21,8.7,Python,MIT,135,0,訊號完整,
+yakuikai/tokentab,181,54,14,12.9,Python,MIT,211,0,訊號完整,
+limelit-co/open,181,147,24,7.5,Go,Apache-2.0,208,0,訊號完整,
+pliablepixels/gap-trap,180,8,22,8.2,JavaScript,MIT,145,0,訊號完整,
+ssssssanjiu/clawd-conduit,180,10,26,6.9,Shell,MIT,148,0,訊號完整,
+inlark/inlark,180,8,10,18.0,TypeScript,AGPL-3.0,33,0,訊號完整,
+jaredpalmer/kev,8559,563,18,475.5,Python,Apache-2.0,96,0,訊號完整,
+haplollc/ThinkingOrbs,255,20,16,15.9,Swift,MIT,120,0,訊號完整,
+linguo2625469/workbuddy2api-panel,2028,580,23,88.2,Go,MIT,120,0,訊號完整,
+Ebony-Vinyl/dsh-our-free-model,1960,51,11,178.2,JavaScript,MIT,280,0,訊號完整,
+ntfargo/Relapse-Exploit,1768,451,18,98.2,JavaScript,MIT,34,0,訊號完整,
+pallavi-shekhar/ai-engineering-interview-questions-company-wise,1669,167,16,104.3,Markdown,Apache-2.0,91,0,訊號完整,
+Chuloo/mural,1609,315,23,70.0,TypeScript,MIT,100,0,訊號完整,
+mizorewww/laya-coreml,1551,130,16,96.9,Python,Apache-2.0,154,0,訊號完整,
+edenfunf/reelmimic,1442,169,7,206.0,JavaScript,MIT,133,0,訊號完整,
+scarletkc/seiso,183,11,8,22.9,Rust,MIT,93,0,訊號完整,
+Clearailhc/clearai-dsh,1294,42,23,56.3,JavaScript,Apache-2.0,82,0,訊號完整,
+shilapi/xcertplay,1247,198,23,54.2,Kotlin,GPL-3.0,65,0,訊號完整,
+unstablebuild/rune,1233,92,25,49.3,Go,GPL-3.0,36,0,訊號完整,
+incoai/splash,1232,113,17,72.5,C++,Apache-2.0,67,0,訊號完整,
+ollaya-dev/ollaya,1214,70,12,101.2,Rust,Apache-2.0,142,0,訊號完整,
+awlevin/typesafe-computer-use,1174,113,19,61.8,Python,MIT,108,0,訊號完整,
+sumimakito/Mac-Duo,1173,84,25,46.9,Swift,Apache-2.0,59,0,訊號完整,
+freestylefly/WeChatBridge,1130,373,14,80.7,Swift,MIT,44,0,訊號完整,
+yudaprasetya007/routeVSCODE,170,0,25,6.8,JavaScript,MIT,89,0,訊號完整,
+theNetworkChuck/paperclip-guide,169,22,11,15.4,TypeScript,MIT,145,0,訊號完整,
+DayuanJiang/PecoFence,168,9,22,7.6,Rust,Apache-2.0,134,0,訊號完整,
+Zhangweihui666/silver-tourism-digital-twin,167,0,6,27.8,JavaScript,MIT,106,0,訊號完整,
+miflow13/mochi-desktop,166,10,29,5.7,Python,MIT,105,0,訊號完整,
+fumingyang2004/Tulpa,166,9,9,18.4,Python,MIT,118,0,訊號完整,
+Echo-Storm/ls-addon-manager,165,1,14,11.8,C++,MIT,268,0,訊號完整,
+anmolkapil/plexo,1442,126,20,72.1,TypeScript,MIT,72,0,訊號完整,
+amirmushichge/unreal-home-wizard,284,38,11,25.8,PowerShell,Apache-2.0,91,0,訊號完整,
+aaronyi97/wedding-video-guided-wizard,284,61,25,11.4,Python,MIT,64,0,訊號完整,
+nihui/qwenimage-ncnn-vulkan,278,13,14,19.9,C++,Apache-2.0,129,0,訊號完整,
+Marcos66236/github-stars-history,276,29,19,14.5,Python,MIT,115,0,訊號完整,
+sevenevesai/riso-windowseat,275,32,13,21.2,HTML,MIT,140,0,訊號完整,
+kerim0x1/bettercode,275,4,15,18.3,TypeScript,MIT,192,0,訊號完整,
+noskillish/bankmcp,275,43,28,9.8,TypeScript,MIT,182,0,訊號完整,
+FankChen/tracecrate,308,3,25,12.3,TypeScript,MIT,155,0,訊號完整,
+itzender5820/mousiki,240,17,27,8.9,C++,Apache-2.0,72,0,訊號完整,
+pch/rawmakase,239,8,9,26.6,Rust,MIT,82,0,訊號完整,
+CluvexStudio/ZedSecure,238,9,6,39.7,Kotlin,AGPL-3.0,129,0,訊號完整,
+Claude-Reverser/Ambient,234,9,22,10.6,Swift,MIT,94,0,訊號完整,
+timschneeb/ShizuStore,234,5,18,13.0,Kotlin,GPL-3.0,115,0,訊號完整,
+NiazMorshed2007/jev-review,233,22,18,12.9,TypeScript,MIT,98,0,訊號完整,
+Adolanium/hermes-gadget-sdk,292,41,2,146.0,C++,MIT,113,0,訊號完整,
+BootLoops-ai/bootloops,287,57,4,71.8,Python,MIT,180,0,訊號完整,
+openshaders/openshaders,262,11,29,9.0,Unknown,MIT,52,0,訊號完整,
+luxine/CalcKernel,262,10,8,32.8,Rust,MIT,81,0,訊號完整,
+jamespolyakov9829/captcha-api,261,36,10,26.1,Python,MIT,129,0,訊號完整,
+ra2-games/ra2,258,36,23,11.2,TypeScript,GPL-3.0,58,0,訊號完整,
+MoshiurRahmanAdib/Conflux-Icon-Theme,245,2,27,9.1,Python,GPL-3.0,93,0,訊號完整,
+repoboost-hq/github-search-ranking,245,5,18,13.6,Unknown,MIT,123,0,訊號完整,
+amitshekhariitbhu/ai-engineer-roadmap,244,25,15,16.3,Markdown,Apache-2.0,114,0,訊號完整,
+MirroS-Lab/S-Space,243,6,29,8.4,Python,Apache-2.0,57,0,訊號完整,
+XiaoPuOuO/openchatx-mcp,254,17,12,21.2,TypeScript,MIT,167,0,訊號完整,
+RomanSlack/jev-drone,251,36,19,13.2,Python,MIT,102,0,訊號完整,
+furkan-bayrak/lg-tv-blocklist,249,6,26,9.6,Python,CC-BY-4.0,97,0,訊號完整,
+SpikeCalls/FlyDrones,248,53,20,12.4,Python,MIT,138,0,訊號完整,
+youcci/playport,247,15,4,61.8,Kotlin,GPL-3.0,113,0,訊號完整,
+Shellishack/infinite-pokemon,246,37,21,11.7,TypeScript,MIT,138,0,訊號完整,
+jasonwong1991/WonderBox,273,19,15,18.2,Swift,MIT,143,0,訊號完整,
+CruxGarden/plasma-ui,271,26,18,15.1,TypeScript,MIT,29,0,訊號完整,
