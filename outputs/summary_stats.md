@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 721.3 | 299.5 | 31631 |
-| forks | 99.4 | 31.5 | 3276 |
-| open_issues | 14.4 | 2.0 | 1764 |
-| stars_per_day | 77.0 | 22.1 | 11384 |
+| stars | 758.0 | 301.0 | 31883 |
+| forks | 111.1 | 31.0 | 4435 |
+| open_issues | 15.4 | 2.0 | 1774 |
+| stars_per_day | 80.9 | 22.0 | 6385 |
 | age_days | 16.7 | 18.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `NandhaKishorM/laya` | 31631 | 2798 | Python | AI/ML |
-| `storytold/photocraft` | 22483 | 2931 | Rust | Other |
-| `browser-use/jev-ultrafast` | 22351 | 1623 | Python | AI/ML |
-| `Niko1221/Strata` | 17970 | 1592 | C++ | AI/ML |
-| `robbietilton/Compositor` | 12686 | 1143 | Swift | Mobile |
-| `openai/math` | 11384 | 1160 | Lean | Other |
-| `cdyforever/how-to-live-better` | 9997 | 701 | HTML | Web |
-| `jaredpalmer/kev` | 8714 | 571 | Python | Other |
-| `zai-org/ZCode` | 7534 | 2296 | TypeScript | AI/ML |
-| `tamaratran/fast-jev-compaction` | 7503 | 517 | TypeScript | AI/ML |
+| `NandhaKishorM/laya` | 31883 | 2834 | Python | AI/ML |
+| `storytold/photocraft` | 31619 | 4435 | Rust | Other |
+| `browser-use/jev-ultrafast` | 22449 | 1644 | Python | AI/ML |
+| `Niko1221/Strata` | 19113 | 1725 | C++ | AI/ML |
+| `robbietilton/Compositor` | 14480 | 1339 | Swift | Mobile |
+| `openai/math` | 12770 | 1356 | Lean | Other |
+| `cdyforever/how-to-live-better` | 10504 | 743 | HTML | Web |
+| `jaredpalmer/kev` | 8800 | 576 | Python | Other |
+| `shihabal3amri/DiPlay` | 8009 | 1013 | Kotlin | Mobile |
+| `zai-org/ZCode` | 7588 | 2311 | TypeScript | AI/ML |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `openai/math` | 11384.0 | 11384 | 1d | Other |
-| `storytold/photocraft` | 3211.9 | 22483 | 7d | Other |
-| `alchaincyf/huashu-art-motion` | 2262.0 | 2262 | 1d | Other |
-| `NandhaKishorM/laya` | 1664.8 | 31631 | 19d | AI/ML |
-| `Niko1221/Strata` | 1382.3 | 17970 | 13d | AI/ML |
-| `browser-use/jev-ultrafast` | 1064.3 | 22351 | 21d | AI/ML |
-| `alejandrobujan/tendedero` | 853.0 | 853 | 1d | Mobile |
-| `rehan-remade/universal-modder` | 775.3 | 5427 | 7d | AI/ML |
-| `LoreanXavier/pt-pc` | 769.0 | 769 | 1d | Game |
-| `KKKKhazix/AIHOT` | 740.9 | 6668 | 9d | AI/ML |
+| `openai/math` | 6385.0 | 12770 | 2d | Other |
+| `storytold/photocraft` | 3952.4 | 31619 | 8d | Other |
+| `mhtsec/ARTEX` | 1888.0 | 1888 | 1d | AI/ML |
+| `nullmoth/nvidia-macos-driver` | 1644.0 | 1644 | 1d | Other |
+| `NandhaKishorM/laya` | 1594.2 | 31883 | 20d | AI/ML |
+| `alchaincyf/huashu-art-motion` | 1376.0 | 2752 | 2d | Other |
+| `Niko1221/Strata` | 1365.2 | 19113 | 14d | AI/ML |
+| `storytold/wordcraft` | 1193.0 | 1193 | 1d | Other |
+| `alejandrobujan/tendedero` | 1149.0 | 1149 | 1d | Mobile |
+| `LoreanXavier/pt-pc` | 1116.0 | 1116 | 1d | Game |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 400 | 590 | 281 | 92 | 94.4 | 20.2 |
-| AI/ML | 369 | 905 | 342 | 117 | 70.9 | 10.3 |
-| Mobile | 73 | 856 | 293 | 85 | 63.3 | 17.4 |
-| Web | 69 | 542 | 249 | 80 | 56.9 | 6.2 |
-| CLI/Tooling | 23 | 411 | 225 | 51 | 33.8 | 5.2 |
-| Finance/Trading | 18 | 706 | 242 | 94 | 45.9 | 6.0 |
-| Data | 17 | 745 | 315 | 160 | 64.8 | 11.2 |
-| Game | 17 | 555 | 231 | 51 | 85.2 | 20.9 |
-| DevOps | 7 | 418 | 221 | 34 | 24.1 | 3.7 |
-| Security | 7 | 604 | 465 | 158 | 28.7 | 5.0 |
+| Other | 405 | 650 | 281 | 112 | 96.1 | 22.6 |
+| AI/ML | 371 | 926 | 338 | 124 | 74.6 | 10.0 |
+| Web | 71 | 546 | 257 | 84 | 63.3 | 5.6 |
+| Mobile | 70 | 897 | 312 | 88 | 68.2 | 18.6 |
+| CLI/Tooling | 20 | 405 | 230 | 53 | 32.1 | 4.8 |
+| Data | 18 | 754 | 334 | 156 | 80.5 | 11.4 |
+| Finance/Trading | 18 | 710 | 250 | 95 | 41.1 | 6.2 |
+| Game | 16 | 579 | 218 | 52 | 109.2 | 23.3 |
+| Security | 6 | 595 | 374 | 184 | 55.0 | 7.2 |
+| DevOps | 5 | 452 | 222 | 39 | 27.6 | 7.2 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.688 |         0.203 |     -0.027 |
-| forks       |   0.688 |   1     |         0.18  |     -0.016 |
-| open_issues |   0.203 |   0.18  |         1     |     -0.009 |
-| age_days    |  -0.027 |  -0.016 |        -0.009 |      1     |
+| stars       |   1     |   0.687 |         0.242 |     -0.032 |
+| forks       |   0.687 |   1     |         0.195 |     -0.055 |
+| open_issues |   0.242 |   0.195 |         1     |     -0.02  |
+| age_days    |  -0.032 |  -0.055 |        -0.02  |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.617 |         0.304 |      0.016 |
-| forks       |   0.617 |   1     |         0.316 |     -0.034 |
-| open_issues |   0.304 |   0.316 |         1     |     -0.073 |
-| age_days    |   0.016 |  -0.034 |        -0.073 |      1     |
+| stars       |   1     |   0.64  |         0.324 |     -0.015 |
+| forks       |   0.64  |   1     |         0.323 |     -0.034 |
+| open_issues |   0.324 |   0.323 |         1     |     -0.076 |
+| age_days    |  -0.015 |  -0.034 |        -0.076 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 77 |
+| `claude-code` | 73 |
 | `ai-agents` | 61 |
-| `llm` | 58 |
-| `codex` | 57 |
-| `macos` | 47 |
+| `llm` | 57 |
+| `codex` | 52 |
+| `macos` | 48 |
 | `jev` | 46 |
-| `agent-skills` | 38 |
+| `agent-skills` | 34 |
 | `developer-tools` | 33 |
-| `typescript` | 32 |
-| `rust` | 31 |
+| `rust` | 30 |
 | `mcp` | 29 |
 | `awesome-list` | 29 |
-| `python` | 28 |
 | `ai` | 28 |
-| `windows` | 26 |
-| `ai-agent` | 24 |
-| `cli` | 23 |
+| `typescript` | 28 |
+| `windows` | 28 |
+| `python` | 27 |
 | `awesome` | 23 |
-| `open-source` | 22 |
+| `ai-agent` | 23 |
+| `cli` | 22 |
+| `open-source` | 21 |
 | `typesafe` | 21 |
