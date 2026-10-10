@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 758.0 | 301.0 | 31883 |
-| forks | 111.1 | 31.0 | 4435 |
-| open_issues | 15.4 | 2.0 | 1774 |
-| stars_per_day | 80.9 | 22.0 | 6385 |
-| age_days | 16.7 | 18.0 | 29 |
+| stars | 806.3 | 315.0 | 38920 |
+| forks | 117.7 | 31.0 | 5649 |
+| open_issues | 16.8 | 2.0 | 1866 |
+| stars_per_day | 93.0 | 24.5 | 4486 |
+| age_days | 16.2 | 17.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `NandhaKishorM/laya` | 31883 | 2834 | Python | AI/ML |
-| `storytold/photocraft` | 31619 | 4435 | Rust | Other |
-| `browser-use/jev-ultrafast` | 22449 | 1644 | Python | AI/ML |
-| `Niko1221/Strata` | 19113 | 1725 | C++ | AI/ML |
-| `robbietilton/Compositor` | 14480 | 1339 | Swift | Mobile |
-| `openai/math` | 12770 | 1356 | Lean | Other |
-| `cdyforever/how-to-live-better` | 10504 | 743 | HTML | Web |
-| `jaredpalmer/kev` | 8800 | 576 | Python | Other |
-| `shihabal3amri/DiPlay` | 8009 | 1013 | Kotlin | Mobile |
-| `zai-org/ZCode` | 7588 | 2311 | TypeScript | AI/ML |
+| `storytold/photocraft` | 38920 | 5649 | Rust | Other |
+| `NandhaKishorM/laya` | 32083 | 2851 | Python | AI/ML |
+| `browser-use/jev-ultrafast` | 22527 | 1655 | Python | AI/ML |
+| `Niko1221/Strata` | 20242 | 1851 | C++ | AI/ML |
+| `robbietilton/Compositor` | 15267 | 1422 | Swift | Mobile |
+| `openai/math` | 13459 | 1477 | Lean | Other |
+| `cdyforever/how-to-live-better` | 10835 | 774 | HTML | Web |
+| `jaredpalmer/kev` | 8880 | 583 | Python | Other |
+| `shihabal3amri/DiPlay` | 8767 | 1117 | Kotlin | Mobile |
+| `storytold/lightcraft` | 8388 | 2550 | Rust | Other |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `openai/math` | 6385.0 | 12770 | 2d | Other |
-| `storytold/photocraft` | 3952.4 | 31619 | 8d | Other |
-| `mhtsec/ARTEX` | 1888.0 | 1888 | 1d | AI/ML |
-| `nullmoth/nvidia-macos-driver` | 1644.0 | 1644 | 1d | Other |
-| `NandhaKishorM/laya` | 1594.2 | 31883 | 20d | AI/ML |
-| `alchaincyf/huashu-art-motion` | 1376.0 | 2752 | 2d | Other |
-| `Niko1221/Strata` | 1365.2 | 19113 | 14d | AI/ML |
-| `storytold/wordcraft` | 1193.0 | 1193 | 1d | Other |
-| `alejandrobujan/tendedero` | 1149.0 | 1149 | 1d | Mobile |
-| `LoreanXavier/pt-pc` | 1116.0 | 1116 | 1d | Game |
+| `openai/math` | 4486.3 | 13459 | 3d | Other |
+| `storytold/photocraft` | 4324.4 | 38920 | 9d | Other |
+| `mhtsec/ARTEX` | 2719.0 | 2719 | 1d | AI/ML |
+| `NandhaKishorM/laya` | 1527.8 | 32083 | 21d | AI/ML |
+| `noahdunnagan/fsearch` | 1383.0 | 1383 | 1d | Other |
+| `Niko1221/Strata` | 1349.5 | 20242 | 15d | AI/ML |
+| `storytold/wordcraft` | 1265.5 | 2531 | 2d | Other |
+| `nullmoth/nvidia-macos-driver` | 1067.5 | 2135 | 2d | Other |
+| `alchaincyf/huashu-art-motion` | 1031.3 | 3094 | 3d | Other |
+| `browser-use/jev-ultrafast` | 979.4 | 22527 | 23d | AI/ML |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 405 | 650 | 281 | 112 | 96.1 | 22.6 |
-| AI/ML | 371 | 926 | 338 | 124 | 74.6 | 10.0 |
-| Web | 71 | 546 | 257 | 84 | 63.3 | 5.6 |
-| Mobile | 70 | 897 | 312 | 88 | 68.2 | 18.6 |
-| CLI/Tooling | 20 | 405 | 230 | 53 | 32.1 | 4.8 |
-| Data | 18 | 754 | 334 | 156 | 80.5 | 11.4 |
-| Finance/Trading | 18 | 710 | 250 | 95 | 41.1 | 6.2 |
-| Game | 16 | 579 | 218 | 52 | 109.2 | 23.3 |
-| Security | 6 | 595 | 374 | 184 | 55.0 | 7.2 |
-| DevOps | 5 | 452 | 222 | 39 | 27.6 | 7.2 |
+| Other | 417 | 707 | 300 | 120 | 112.1 | 24.2 |
+| AI/ML | 363 | 975 | 351 | 131 | 82.5 | 11.3 |
+| Mobile | 67 | 954 | 346 | 94 | 74.1 | 19.4 |
+| Web | 66 | 604 | 282 | 95 | 60.8 | 6.5 |
+| CLI/Tooling | 25 | 435 | 305 | 46 | 134.2 | 3.6 |
+| Data | 20 | 749 | 346 | 146 | 89.4 | 11.1 |
+| Finance/Trading | 17 | 749 | 266 | 95 | 37.9 | 6.6 |
+| Game | 15 | 614 | 227 | 45 | 80.8 | 23.5 |
+| Security | 6 | 603 | 376 | 185 | 39.4 | 5.7 |
+| DevOps | 4 | 550 | 348 | 50 | 31.8 | 6.8 |
 
 ## Correlations
 
@@ -63,19 +63,19 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.687 |         0.242 |     -0.032 |
-| forks       |   0.687 |   1     |         0.195 |     -0.055 |
-| open_issues |   0.242 |   0.195 |         1     |     -0.02  |
-| age_days    |  -0.032 |  -0.055 |        -0.02  |      1     |
+| stars       |   1     |   0.715 |         0.296 |     -0.006 |
+| forks       |   0.715 |   1     |         0.255 |     -0.044 |
+| open_issues |   0.296 |   0.255 |         1     |     -0.016 |
+| age_days    |  -0.006 |  -0.044 |        -0.016 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.64  |         0.324 |     -0.015 |
-| forks       |   0.64  |   1     |         0.323 |     -0.034 |
-| open_issues |   0.324 |   0.323 |         1     |     -0.076 |
-| age_days    |  -0.015 |  -0.034 |        -0.076 |      1     |
+| stars       |   1     |   0.619 |         0.342 |      0.025 |
+| forks       |   0.619 |   1     |         0.393 |      0.119 |
+| open_issues |   0.342 |   0.393 |         1     |      0.064 |
+| age_days    |   0.025 |   0.119 |         0.064 |      1     |
 
 ## Top 20 topics
 
@@ -83,21 +83,21 @@ _Sample size: 1000 repos_
 |---|---:|
 | `claude-code` | 73 |
 | `ai-agents` | 61 |
-| `llm` | 57 |
-| `codex` | 52 |
-| `macos` | 48 |
-| `jev` | 46 |
-| `agent-skills` | 34 |
+| `llm` | 58 |
+| `codex` | 54 |
+| `macos` | 49 |
+| `jev` | 44 |
 | `developer-tools` | 33 |
+| `agent-skills` | 32 |
 | `rust` | 30 |
+| `ai` | 30 |
+| `windows` | 30 |
 | `mcp` | 29 |
-| `awesome-list` | 29 |
-| `ai` | 28 |
 | `typescript` | 28 |
-| `windows` | 28 |
-| `python` | 27 |
-| `awesome` | 23 |
-| `ai-agent` | 23 |
-| `cli` | 22 |
+| `awesome-list` | 28 |
+| `python` | 26 |
+| `ai-agent` | 24 |
+| `cli` | 23 |
 | `open-source` | 21 |
-| `typesafe` | 21 |
+| `swift` | 21 |
+| `linux` | 21 |
