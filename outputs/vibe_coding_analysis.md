@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-10-10 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-10-11 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,54 +32,53 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 16 | 1.6% |
-| 待檢視 | 134 | 13.4% |
-| 訊號完整 | 850 | 85.0% |
+| 低資訊密度 | 14 | 1.4% |
+| 待檢視 | 125 | 12.5% |
+| 訊號完整 | 861 | 86.1% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `openai/math` | 13459 | 1477 | 3d | **6** | desc:empty, high-attention-no-desc, overnight-surge:4486/day, topics:none |
-| 2 | `deillusion/Aha-Engine` | 586 | 4 | 29d | **6** | desc:empty, license:none, low-forks:0.007, topics:none |
-| 3 | `Vodiwalker/vodiwalker_panel` | 1264 | 3376 | 29d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 4 | `wangmingxuan666/Tiersense` | 1300 | 212 | 15d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
-| 5 | `kargulstudio/sales-crm` | 1683 | 368 | 5d | **6** | desc:empty, high-attention-no-desc, overnight-surge:337/day, topics:none |
-| 6 | `wy51ai/floorplan-3d` | 2084 | 391 | 10d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 7 | `storytold/effectcraft` | 4222 | 1841 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 8 | `vinnylarouge/jevlike` | 1351 | 117 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `Spearmintai/mintocode` | 627 | 9 | 9d | **5** | desc:empty, low-forks:0.014, topics:none |
-| 10 | `Lumid-Off/AirCard-Windows` | 1329 | 108 | 21d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `Contrastive-LM/CLM` | 2953 | 255 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `google-research/rrsi` | 1427 | 139 | 23d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `deadinside28/bloodborne_pc` | 2229 | 323 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `cloudflare/forge` | 1100 | 45 | 18d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 15 | `storytold/designcraft` | 2356 | 1358 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 1 | `openai/math` | 13900 | 1545 | 4d | **6** | desc:empty, high-attention-no-desc, overnight-surge:3475/day, topics:none |
+| 2 | `wangmingxuan666/Tiersense` | 1319 | 218 | 16d | **6** | desc:empty, license:none, high-attention-no-desc, topics:none |
+| 3 | `storytold/effectcraft` | 4862 | 2297 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 4 | `deadinside28/bloodborne_pc` | 2403 | 366 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 5 | `cloudflare/forge` | 1110 | 45 | 19d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 6 | `google-research/rrsi` | 1445 | 140 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `kargulstudio/sales-crm` | 1694 | 372 | 6d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `Contrastive-LM/CLM` | 2971 | 256 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `fsiaonma/elpis` | 578 | 5 | 11d | **5** | desc:short, license:none, low-forks:0.009, topics:none |
+| 10 | `wy51ai/floorplan-3d` | 2144 | 404 | 11d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `Lumid-Off/AirCard-Windows` | 1342 | 108 | 22d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `vinnylarouge/jevlike` | 1350 | 117 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 13 | `storytold/designcraft` | 2761 | 1701 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 14 | `Spearmintai/mintocode` | 659 | 11 | 10d | **5** | desc:empty, low-forks:0.017, topics:none |
+| 15 | `nanocle/Charakuru` | 491 | 41 | 4d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 99 | 9.9% |
-| description <20 chars | 14 | 1.4% |
-| no license | 290 | 29.0% |
-| high-attention no-desc (stars>1k + empty desc) | 13 | 1.3% |
-| low fork ratio (stars>500 + fsr<0.02) | 32 | 3.2% |
-| overnight surge (>300 spd + <7 days) | 48 | 4.8% |
-| generic-AI-buzzword name | 102 | 10.2% |
+| description empty | 95 | 9.5% |
+| description <20 chars | 13 | 1.3% |
+| no license | 281 | 28.1% |
+| high-attention no-desc (stars>1k + empty desc) | 12 | 1.2% |
+| low fork ratio (stars>500 + fsr<0.02) | 27 | 2.7% |
+| overnight surge (>300 spd + <7 days) | 51 | 5.1% |
+| generic-AI-buzzword name | 100 | 10.0% |
 
 ### 低資訊密度 tier — by primary language
 
 | Language | Repos in 低資訊密度 tier |
 |---|---:|
-| Python | 5 |
-| TypeScript | 3 |
+| Python | 4 |
 | Rust | 3 |
+| TypeScript | 3 |
 | Lean | 1 |
-| JavaScript | 1 |
 | Unknown | 1 |
-| HTML | 1 |
 | C++ | 1 |
+| HTML | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -88,10 +87,10 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
 | ≥10000 | 7 | 1 | 0 | 6 | 14.3% |
-| 5000-9999 | 16 | 0 | 0 | 16 | 0.0% |
-| 1000-4999 | 126 | 12 | 11 | 103 | 9.5% |
-| 500-999 | 188 | 3 | 35 | 150 | 1.6% |
-| 100-499 | 663 | 0 | 88 | 575 | 0.0% |
+| 5000-9999 | 15 | 0 | 0 | 15 | 0.0% |
+| 1000-4999 | 130 | 11 | 9 | 110 | 8.5% |
+| 500-999 | 187 | 2 | 32 | 153 | 1.1% |
+| 100-499 | 661 | 0 | 84 | 577 | 0.0% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -100,46 +99,44 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `openai/math` | 13459 | 1477 | 3d | Lean | Apache-2.0 |
-| `storytold/effectcraft` | 4222 | 1841 | 8d | Rust | Apache-2.0 |
-| `Contrastive-LM/CLM` | 2953 | 255 | 16d | Python | Apache-2.0 |
-| `storytold/designcraft` | 2356 | 1358 | 8d | Rust | Apache-2.0 |
-| `deadinside28/bloodborne_pc` | 2229 | 323 | 8d | C++ | GPL-2.0 |
-| `wy51ai/floorplan-3d` | 2084 | 391 | 10d | HTML | MIT |
-| `kargulstudio/sales-crm` | 1683 | 368 | 5d | TypeScript | MIT |
-| `google-research/rrsi` | 1427 | 139 | 23d | Python | Apache-2.0 |
-| `vinnylarouge/jevlike` | 1351 | 117 | 23d | Python | MIT |
-| `Lumid-Off/AirCard-Windows` | 1329 | 108 | 21d | Rust | MIT |
-| `wangmingxuan666/Tiersense` | 1300 | 212 | 15d | Unknown | — |
-| `Vodiwalker/vodiwalker_panel` | 1264 | 3376 | 29d | Python | — |
-| `cloudflare/forge` | 1100 | 45 | 18d | TypeScript | Apache-2.0 |
+| `openai/math` | 13900 | 1545 | 4d | Lean | Apache-2.0 |
+| `storytold/effectcraft` | 4862 | 2297 | 9d | Rust | Apache-2.0 |
+| `Contrastive-LM/CLM` | 2971 | 256 | 17d | Python | Apache-2.0 |
+| `storytold/designcraft` | 2761 | 1701 | 9d | Rust | Apache-2.0 |
+| `deadinside28/bloodborne_pc` | 2403 | 366 | 9d | C++ | GPL-2.0 |
+| `wy51ai/floorplan-3d` | 2144 | 404 | 11d | HTML | MIT |
+| `kargulstudio/sales-crm` | 1694 | 372 | 6d | TypeScript | MIT |
+| `google-research/rrsi` | 1445 | 140 | 24d | Python | Apache-2.0 |
+| `vinnylarouge/jevlike` | 1350 | 117 | 24d | Python | MIT |
+| `Lumid-Off/AirCard-Windows` | 1342 | 108 | 22d | Rust | MIT |
+| `wangmingxuan666/Tiersense` | 1319 | 218 | 16d | Unknown | — |
+| `cloudflare/forge` | 1110 | 45 | 19d | TypeScript | Apache-2.0 |
 
 ### Generic-name pattern breakdown
 
-Of 102 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 100 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
 | `awesome` | 27 |
-| `skill` | 18 |
 | `agent` | 17 |
-| `skills` | 9 |
-| `claude` | 8 |
-| `codex` | 6 |
-| `gpt` | 4 |
+| `skill` | 17 |
+| `skills` | 11 |
+| `claude` | 9 |
+| `codex` | 5 |
 | `llm` | 3 |
-| `demo` | 2 |
+| `gpt` | 2 |
 | `cookbook` | 2 |
 | `vibe` | 2 |
-| `agents` | 1 |
-| `prompt` | 1 |
+| `demo` | 2 |
 | `toolkit` | 1 |
+| `prompt` | 1 |
 | `playground` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 527 (52.7%)
-- Repos with at least one topic: 473 (47.3%)
+- Repos with **zero topics**: 521 (52.1%)
+- Repos with at least one topic: 479 (47.9%)
 
 ## Methodology limits
 
