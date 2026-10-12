@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 836.2 | 316.5 | 44785 |
-| forks | 123.0 | 30.0 | 6937 |
-| open_issues | 17.5 | 2.0 | 1756 |
-| stars_per_day | 91.9 | 25.1 | 4478 |
-| age_days | 16.0 | 17.0 | 29 |
+| stars | 887.4 | 319.5 | 51488 |
+| forks | 135.9 | 32.0 | 8453 |
+| open_issues | 19.6 | 2.0 | 1837 |
+| stars_per_day | 83.9 | 23.8 | 4681 |
+| age_days | 16.7 | 18.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `storytold/photocraft` | 44785 | 6937 | Rust | Other |
-| `NandhaKishorM/laya` | 32242 | 2871 | Python | AI/ML |
-| `browser-use/jev-ultrafast` | 22591 | 1658 | Python | AI/ML |
-| `Niko1221/Strata` | 21158 | 1985 | C++ | AI/ML |
-| `robbietilton/Compositor` | 15732 | 1483 | Swift | Mobile |
-| `openai/math` | 13900 | 1545 | Lean | Other |
-| `cdyforever/how-to-live-better` | 11065 | 791 | HTML | Web |
-| `storytold/lightcraft` | 9539 | 3152 | Rust | Other |
-| `storytold/filmcraft` | 9290 | 3517 | Rust | Other |
-| `shihabal3amri/DiPlay` | 9214 | 1172 | Kotlin | Mobile |
+| `storytold/photocraft` | 51488 | 8453 | Rust | Other |
+| `NandhaKishorM/laya` | 32501 | 2899 | Python | AI/ML |
+| `browser-use/jev-ultrafast` | 22717 | 1673 | Python | AI/ML |
+| `Niko1221/Strata` | 22416 | 2168 | C++ | AI/ML |
+| `robbietilton/Compositor` | 16280 | 1552 | Swift | Mobile |
+| `openai/math` | 14327 | 1617 | Lean | Other |
+| `Ebony-Vinyl/dsh-our-free-model` | 11438 | 219 | JavaScript | AI/ML |
+| `cdyforever/how-to-live-better` | 11365 | 806 | HTML | Web |
+| `storytold/filmcraft` | 10973 | 4384 | Rust | Other |
+| `storytold/lightcraft` | 10820 | 3806 | Rust | Other |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `storytold/photocraft` | 4478.5 | 44785 | 10d | Other |
-| `openai/math` | 3475.0 | 13900 | 4d | Other |
-| `mhtsec/ARTEX` | 1529.0 | 3058 | 2d | AI/ML |
-| `NandhaKishorM/laya` | 1465.5 | 32242 | 22d | AI/ML |
-| `storytold/wordcraft` | 1352.3 | 4057 | 3d | Other |
-| `Niko1221/Strata` | 1322.4 | 21158 | 16d | AI/ML |
-| `storytold/lightcraft` | 953.9 | 9539 | 10d | Other |
-| `browser-use/jev-ultrafast` | 941.3 | 22591 | 24d | AI/ML |
-| `storytold/filmcraft` | 929.0 | 9290 | 10d | Other |
-| `t4t5/omdrop-owl` | 921.5 | 1843 | 2d | CLI/Tooling |
+| `storytold/photocraft` | 4680.7 | 51488 | 11d | Other |
+| `openai/math` | 2865.4 | 14327 | 5d | Other |
+| `storytold/wordcraft` | 2021.2 | 8085 | 4d | Other |
+| `wheresryan22/anatomy` | 1723.0 | 5169 | 3d | AI/ML |
+| `liseami/CCBaga` | 1426.0 | 1426 | 1d | Other |
+| `NandhaKishorM/laya` | 1413.1 | 32501 | 23d | AI/ML |
+| `Niko1221/Strata` | 1318.6 | 22416 | 17d | AI/ML |
+| `mhtsec/ARTEX` | 1171.0 | 3513 | 3d | AI/ML |
+| `storytold/filmcraft` | 997.5 | 10973 | 11d | Other |
+| `storytold/lightcraft` | 983.6 | 10820 | 11d | Other |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 416 | 748 | 301 | 128 | 109.9 | 24.0 |
-| AI/ML | 364 | 990 | 352 | 135 | 80.3 | 12.9 |
-| Web | 67 | 616 | 280 | 99 | 50.1 | 6.9 |
-| Mobile | 64 | 1055 | 376 | 104 | 82.0 | 22.0 |
-| CLI/Tooling | 24 | 482 | 303 | 49 | 136.7 | 3.9 |
-| Data | 21 | 764 | 350 | 144 | 84.4 | 11.3 |
-| Game | 18 | 583 | 232 | 40 | 82.6 | 29.8 |
-| Finance/Trading | 16 | 746 | 260 | 91 | 38.1 | 6.6 |
-| Security | 6 | 620 | 377 | 134 | 178.9 | 2.5 |
-| DevOps | 4 | 490 | 216 | 24 | 28.1 | 1.5 |
+| Other | 393 | 832 | 301 | 154 | 95.7 | 27.0 |
+| AI/ML | 382 | 1000 | 346 | 136 | 79.8 | 14.5 |
+| Web | 72 | 607 | 288 | 84 | 49.9 | 6.5 |
+| Mobile | 69 | 1063 | 378 | 108 | 86.5 | 23.4 |
+| Game | 20 | 855 | 260 | 178 | 101.5 | 41.8 |
+| Data | 20 | 828 | 418 | 155 | 70.6 | 12.9 |
+| CLI/Tooling | 18 | 571 | 331 | 69 | 71.7 | 5.2 |
+| Finance/Trading | 17 | 714 | 254 | 84 | 44.5 | 6.8 |
+| Security | 5 | 654 | 224 | 124 | 118.9 | 2.8 |
+| DevOps | 4 | 496 | 232 | 24 | 29.2 | 4.8 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.751 |         0.47  |      0.005 |
-| forks       |   0.751 |   1     |         0.452 |     -0.053 |
-| open_issues |   0.47  |   0.452 |         1     |     -0.067 |
-| age_days    |   0.005 |  -0.053 |        -0.067 |      1     |
+| stars       |   1     |   0.763 |         0.526 |     -0.007 |
+| forks       |   0.763 |   1     |         0.511 |     -0.08  |
+| open_issues |   0.526 |   0.511 |         1     |     -0.078 |
+| age_days    |  -0.007 |  -0.08  |        -0.078 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.638 |         0.347 |      0.041 |
-| forks       |   0.638 |   1     |         0.39  |      0.141 |
-| open_issues |   0.347 |   0.39  |         1     |      0.063 |
-| age_days    |   0.041 |   0.141 |         0.063 |      1     |
+| stars       |   1     |   0.679 |         0.372 |      0.03  |
+| forks       |   0.679 |   1     |         0.339 |      0.007 |
+| open_issues |   0.372 |   0.339 |         1     |     -0.009 |
+| age_days    |   0.03  |   0.007 |        -0.009 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 73 |
+| `claude-code` | 80 |
+| `llm` | 63 |
 | `ai-agents` | 62 |
-| `llm` | 59 |
+| `codex` | 56 |
 | `macos` | 54 |
-| `codex` | 53 |
 | `jev` | 44 |
-| `agent-skills` | 34 |
-| `rust` | 32 |
+| `agent-skills` | 41 |
+| `rust` | 33 |
 | `developer-tools` | 32 |
 | `windows` | 32 |
 | `typescript` | 31 |
-| `mcp` | 30 |
+| `python` | 29 |
+| `ai` | 29 |
+| `mcp` | 29 |
 | `awesome-list` | 28 |
-| `python` | 26 |
-| `ai` | 26 |
+| `open-source` | 27 |
+| `react` | 25 |
+| `ai-agent` | 25 |
 | `linux` | 24 |
-| `ai-agent` | 24 |
-| `open-source` | 23 |
-| `swift` | 22 |
-| `awesome` | 22 |
+| `swift` | 23 |
