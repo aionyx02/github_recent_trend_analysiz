@@ -6,56 +6,56 @@ _Sample size: 1000 repos_
 
 | Metric | Mean | Median | Max |
 |---|---:|---:|---:|
-| stars | 958.3 | 330.0 | 59520 |
-| forks | 151.8 | 33.0 | 10131 |
-| open_issues | 24.5 | 2.0 | 1981 |
-| stars_per_day | 83.7 | 23.9 | 4578 |
-| age_days | 17.0 | 18.0 | 29 |
+| stars | 990.6 | 343.5 | 62167 |
+| forks | 157.4 | 34.0 | 10730 |
+| open_issues | 26.5 | 3.0 | 2040 |
+| stars_per_day | 84.0 | 24.6 | 4440 |
+| age_days | 17.1 | 18.0 | 29 |
 
 ## Top 10 by stars
 
 | Repo | Stars | Forks | Language | Category |
 |---|---:|---:|---|---|
-| `storytold/photocraft` | 59520 | 10131 | Rust | Other |
-| `NandhaKishorM/laya` | 32844 | 2947 | Python | AI/ML |
-| `Niko1221/Strata` | 24191 | 2435 | C++ | AI/ML |
-| `browser-use/jev-ultrafast` | 22879 | 1694 | Python | AI/ML |
-| `robbietilton/Compositor` | 16842 | 1636 | Swift | Mobile |
-| `Ebony-Vinyl/dsh-our-free-model` | 15310 | 289 | JavaScript | AI/ML |
-| `openai/math` | 14745 | 1680 | Lean | Other |
-| `storytold/pdfcraft` | 13239 | 5032 | Rust | Other |
-| `storytold/filmcraft` | 12884 | 5218 | Rust | Other |
-| `yetone/magpie` | 12403 | 839 | Go | AI/ML |
+| `storytold/photocraft` | 62167 | 10730 | Rust | Other |
+| `NandhaKishorM/laya` | 32989 | 2961 | Python | AI/ML |
+| `Niko1221/Strata` | 25032 | 2565 | C++ | AI/ML |
+| `browser-use/jev-ultrafast` | 22969 | 1707 | Python | AI/ML |
+| `Ebony-Vinyl/dsh-our-free-model` | 17242 | 343 | JavaScript | AI/ML |
+| `robbietilton/Compositor` | 17009 | 1657 | Swift | Mobile |
+| `openai/math` | 14870 | 1699 | Lean | Other |
+| `storytold/pdfcraft` | 14058 | 5410 | Rust | Other |
+| `storytold/filmcraft` | 13561 | 5564 | Rust | Other |
+| `yetone/magpie` | 13237 | 918 | Go | AI/ML |
 
 ## Top 10 by stars_per_day (breakout)
 
 | Repo | Stars/day | Stars | Age | Category |
 |---|---:|---:|---:|---|
-| `storytold/photocraft` | 4578.5 | 59520 | 13d | Other |
-| `openai/math` | 2106.4 | 14745 | 7d | Other |
-| `storytold/wordcraft` | 1975.0 | 11850 | 6d | Other |
-| `wheresryan22/anatomy` | 1807.4 | 9037 | 5d | AI/ML |
-| `jhaizhou-ops/d2r-mobile` | 1599.0 | 1599 | 1d | Mobile |
-| `NandhaKishorM/laya` | 1313.8 | 32844 | 25d | AI/ML |
-| `Niko1221/Strata` | 1273.2 | 24191 | 19d | AI/ML |
-| `Arekejoker/qwen21-nsfw-pose-skill` | 1103.0 | 1103 | 1d | AI/ML |
-| `liseami/CCBaga` | 1102.5 | 2205 | 2d | Other |
-| `storytold/pdfcraft` | 1018.4 | 13239 | 13d | Other |
+| `storytold/photocraft` | 4440.5 | 62167 | 14d | Other |
+| `wheresryan22/anatomy` | 1986.0 | 11916 | 6d | AI/ML |
+| `openai/math` | 1858.8 | 14870 | 8d | Other |
+| `storytold/wordcraft` | 1826.3 | 12784 | 7d | Other |
+| `Arekejoker/qwen21-nsfw-pose-skill` | 1704.0 | 1704 | 1d | AI/ML |
+| `jhaizhou-ops/d2r-mobile` | 1342.0 | 2684 | 2d | Mobile |
+| `NandhaKishorM/laya` | 1268.8 | 32989 | 26d | AI/ML |
+| `Niko1221/Strata` | 1251.6 | 25032 | 20d | AI/ML |
+| `storytold/pdfcraft` | 1004.1 | 14058 | 14d | Other |
+| `storytold/filmcraft` | 968.6 | 13561 | 14d | Other |
 
 ## Per-category heat
 
 | Category | Count | Mean stars | Median stars | Mean forks | Mean stars/day | Mean issues |
 |---|---:|---:|---:|---:|---:|---:|
-| Other | 394 | 918 | 307 | 181 | 90.2 | 36.6 |
-| AI/ML | 390 | 1053 | 350 | 141 | 83.7 | 15.6 |
-| Web | 68 | 679 | 346 | 101 | 57.0 | 8.5 |
-| Mobile | 67 | 1133 | 382 | 118 | 95.0 | 27.3 |
-| Game | 20 | 955 | 288 | 208 | 87.0 | 55.5 |
-| Data | 18 | 920 | 491 | 168 | 62.6 | 9.9 |
-| Finance/Trading | 18 | 695 | 248 | 78 | 51.0 | 6.5 |
-| CLI/Tooling | 16 | 636 | 337 | 74 | 59.9 | 5.2 |
-| Security | 5 | 698 | 226 | 151 | 73.9 | 2.8 |
-| DevOps | 4 | 517 | 252 | 25 | 27.3 | 6.0 |
+| AI/ML | 398 | 1075 | 350 | 145 | 85.8 | 17.2 |
+| Other | 392 | 958 | 324 | 191 | 86.4 | 39.9 |
+| Web | 64 | 719 | 332 | 108 | 59.4 | 11.7 |
+| Mobile | 62 | 1209 | 374 | 132 | 96.5 | 24.7 |
+| Game | 25 | 866 | 303 | 188 | 114.5 | 53.4 |
+| CLI/Tooling | 18 | 603 | 340 | 67 | 50.1 | 5.3 |
+| Finance/Trading | 17 | 744 | 288 | 84 | 57.4 | 7.5 |
+| Data | 16 | 975 | 497 | 79 | 63.8 | 10.3 |
+| DevOps | 4 | 527 | 260 | 25 | 26.5 | 6.2 |
+| Security | 4 | 836 | 470 | 180 | 76.7 | 3.5 |
 
 ## Correlations
 
@@ -63,41 +63,41 @@ _Sample size: 1000 repos_
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.778 |         0.575 |      0.01  |
-| forks       |   0.778 |   1     |         0.633 |     -0.062 |
-| open_issues |   0.575 |   0.633 |         1     |     -0.073 |
-| age_days    |   0.01  |  -0.062 |        -0.073 |      1     |
+| stars       |   1     |   0.782 |         0.6   |      0.023 |
+| forks       |   0.782 |   1     |         0.664 |     -0.051 |
+| open_issues |   0.6   |   0.664 |         1     |     -0.063 |
+| age_days    |   0.023 |  -0.051 |        -0.063 |      1     |
 
 **Spearman** (rank)
 
 |             |   stars |   forks |   open_issues |   age_days |
 |:------------|--------:|--------:|--------------:|-----------:|
-| stars       |   1     |   0.691 |         0.38  |      0.02  |
-| forks       |   0.691 |   1     |         0.363 |      0.013 |
-| open_issues |   0.38  |   0.363 |         1     |     -0.015 |
-| age_days    |   0.02  |   0.013 |        -0.015 |      1     |
+| stars       |   1     |   0.68  |         0.384 |      0.03  |
+| forks       |   0.68  |   1     |         0.393 |      0.022 |
+| open_issues |   0.384 |   0.393 |         1     |     -0.009 |
+| age_days    |   0.03  |   0.022 |        -0.009 |      1     |
 
 ## Top 20 topics
 
 | Topic | Repos |
 |---|---:|
-| `claude-code` | 88 |
-| `llm` | 67 |
-| `macos` | 64 |
-| `ai-agents` | 63 |
+| `claude-code` | 89 |
+| `llm` | 70 |
+| `ai-agents` | 67 |
+| `macos` | 62 |
 | `codex` | 57 |
 | `jev` | 42 |
-| `agent-skills` | 41 |
+| `agent-skills` | 39 |
 | `windows` | 36 |
 | `rust` | 35 |
-| `python` | 33 |
-| `developer-tools` | 33 |
-| `typescript` | 33 |
-| `ai` | 31 |
-| `mcp` | 31 |
+| `developer-tools` | 34 |
+| `mcp` | 34 |
+| `python` | 32 |
+| `ai` | 32 |
+| `typescript` | 32 |
+| `claude` | 30 |
 | `open-source` | 28 |
-| `claude` | 28 |
 | `awesome-list` | 28 |
-| `linux` | 27 |
-| `ai-agent` | 26 |
+| `ai-agent` | 28 |
+| `linux` | 26 |
 | `react` | 24 |
