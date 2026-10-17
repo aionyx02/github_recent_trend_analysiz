@@ -1,6 +1,6 @@
 # 公開 Metadata 完整度分析 (Metadata Completeness Risk Score)
 
-_Generated: 2026-10-16 | Sample size: 1000 repos (with topics signal)_
+_Generated: 2026-10-17 | Sample size: 1000 repos (with topics signal)_
 
 ## 定義 / Definition
 
@@ -32,41 +32,41 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 
 | Tier | Count | % of sample |
 |---|---:|---:|
-| 低資訊密度 | 13 | 1.3% |
-| 待檢視 | 117 | 11.7% |
-| 訊號完整 | 870 | 87.0% |
+| 低資訊密度 | 12 | 1.2% |
+| 待檢視 | 112 | 11.2% |
+| 訊號完整 | 876 | 87.6% |
 
 ### Top 15 highest-scoring repos
 
 | Rank | Repo | Stars | Forks | Age | Score | Reasons |
 |---:|---|---:|---:|---:|---:|---|
-| 1 | `liseami/CCBaga` | 2382 | 239 | 4d | **6** | desc:empty, high-attention-no-desc, overnight-surge:596/day, topics:none |
-| 2 | `openai/math` | 14990 | 1721 | 9d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 3 | `vinnylarouge/jevlike` | 1352 | 121 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 4 | `wy51ai/floorplan-3d` | 2341 | 446 | 16d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 5 | `kargulstudio/sales-crm` | 1714 | 376 | 11d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 6 | `fsiaonma/elpis` | 585 | 6 | 16d | **5** | desc:short, license:none, low-forks:0.010, topics:none |
-| 7 | `Hiveporattle/tvemltxa` | 567 | 0 | 14d | **5** | desc:empty, license:none, low-forks:0.000 |
-| 8 | `deadinside28/bloodborne_pc` | 2990 | 685 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 9 | `cloudflare/forge` | 1131 | 48 | 24d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 10 | `anthropics/oss-scanner` | 1040 | 565 | 7d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 11 | `Dingo-Shenanigans/ReSkate` | 1158 | 191 | 13d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 12 | `Lumid-Off/AirCard-Windows` | 1385 | 111 | 27d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 13 | `google-research/rrsi` | 1525 | 147 | 29d | **5** | desc:empty, high-attention-no-desc, topics:none |
-| 14 | `slop-place/zulu` | 888 | 3 | 23d | **4** | license:none, low-forks:0.003, topics:none |
-| 15 | `pbs05/ponwrt` | 276 | 222 | 22d | **4** | desc:empty, license:none, topics:none |
+| 1 | `liseami/CCBaga` | 2483 | 248 | 5d | **6** | desc:empty, high-attention-no-desc, overnight-surge:497/day, topics:none |
+| 2 | `openai/math` | 15063 | 1739 | 10d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 3 | `kargulstudio/sales-crm` | 1730 | 376 | 12d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 4 | `anthropics/oss-scanner` | 1068 | 583 | 8d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 5 | `cloudflare/forge` | 1136 | 48 | 25d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 6 | `Dingo-Shenanigans/ReSkate` | 1182 | 197 | 14d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 7 | `fyzugx/DEsk` | 1058 | 34 | 6d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 8 | `Lumid-Off/AirCard-Windows` | 1396 | 112 | 28d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 9 | `Tencent-Hunyuan/Hy-Memory` | 481 | 47 | 1d | **5** | desc:empty, license:none, overnight-surge:481/day, topics:none |
+| 10 | `deadinside28/bloodborne_pc` | 3069 | 734 | 15d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 11 | `wy51ai/floorplan-3d` | 2364 | 450 | 17d | **5** | desc:empty, high-attention-no-desc, topics:none |
+| 12 | `fsiaonma/elpis` | 586 | 6 | 17d | **5** | desc:short, license:none, low-forks:0.010, topics:none |
+| 13 | `extend-hq/jevbox` | 728 | 81 | 17d | **4** | desc:empty, license:none, topics:none |
+| 14 | `pbs05/ponwrt` | 279 | 226 | 23d | **4** | desc:empty, license:none, topics:none |
+| 15 | `corvofeng/atv-core` | 378 | 19 | 20d | **4** | desc:empty, license:none, topics:none |
 
 ### Signal frequency (independent of tier)
 
 | Signal | Count | % |
 |---|---:|---:|
-| description empty | 96 | 9.6% |
-| description <20 chars | 15 | 1.5% |
-| no license | 244 | 24.4% |
-| high-attention no-desc (stars>1k + empty desc) | 11 | 1.1% |
-| low fork ratio (stars>500 + fsr<0.02) | 19 | 1.9% |
-| overnight surge (>300 spd + <7 days) | 19 | 1.9% |
-| generic-AI-buzzword name | 103 | 10.3% |
+| description empty | 90 | 9.0% |
+| description <20 chars | 14 | 1.4% |
+| no license | 230 | 23.0% |
+| high-attention no-desc (stars>1k + empty desc) | 10 | 1.0% |
+| low fork ratio (stars>500 + fsr<0.02) | 18 | 1.8% |
+| overnight surge (>300 spd + <7 days) | 18 | 1.8% |
+| generic-AI-buzzword name | 102 | 10.2% |
 
 ### 低資訊密度 tier — by primary language
 
@@ -74,12 +74,12 @@ stars 不需太多努力就能累積，但 description、tags、forks、license 
 |---|---:|
 | TypeScript | 3 |
 | Rust | 2 |
-| Python | 2 |
 | C++ | 2 |
 | Lean | 1 |
-| HTML | 1 |
-| Unknown | 1 |
 | Dockerfile | 1 |
+| C | 1 |
+| Python | 1 |
+| HTML | 1 |
 
 ### 低資訊密度 concentration by stars bucket
 
@@ -87,11 +87,11 @@ Where in the popularity distribution does the low-metadata cohort cluster?
 
 | Stars bucket | Total | 低資訊密度 | 待檢視 | 訊號完整 | 低資訊密度 % |
 |---|---:|---:|---:|---:|---:|
-| ≥10000 | 15 | 1 | 0 | 14 | 6.7% |
-| 5000-9999 | 16 | 0 | 0 | 16 | 0.0% |
-| 1000-4999 | 140 | 10 | 8 | 122 | 7.1% |
-| 500-999 | 192 | 2 | 23 | 167 | 1.0% |
-| 100-499 | 637 | 0 | 86 | 551 | 0.0% |
+| ≥10000 | 13 | 1 | 0 | 12 | 7.7% |
+| 5000-9999 | 15 | 0 | 0 | 15 | 0.0% |
+| 1000-4999 | 139 | 9 | 8 | 122 | 6.5% |
+| 500-999 | 182 | 1 | 24 | 157 | 0.5% |
+| 100-499 | 651 | 1 | 80 | 570 | 0.2% |
 
 ### High-attention no-description zoom (stars > 1000 + empty description)
 
@@ -100,43 +100,41 @@ high stars with zero description text.
 
 | Repo | Stars | Forks | Age | Language | License |
 |---|---:|---:|---:|---|---|
-| `openai/math` | 14990 | 1721 | 9d | Lean | Apache-2.0 |
-| `deadinside28/bloodborne_pc` | 2990 | 685 | 14d | C++ | GPL-2.0 |
-| `liseami/CCBaga` | 2382 | 239 | 4d | Rust | MIT |
-| `wy51ai/floorplan-3d` | 2341 | 446 | 16d | HTML | MIT |
-| `kargulstudio/sales-crm` | 1714 | 376 | 11d | TypeScript | MIT |
-| `google-research/rrsi` | 1525 | 147 | 29d | Python | Apache-2.0 |
-| `Lumid-Off/AirCard-Windows` | 1385 | 111 | 27d | Rust | MIT |
-| `vinnylarouge/jevlike` | 1352 | 121 | 29d | Python | MIT |
-| `Dingo-Shenanigans/ReSkate` | 1158 | 191 | 13d | C++ | GPL-3.0 |
-| `cloudflare/forge` | 1131 | 48 | 24d | TypeScript | Apache-2.0 |
-| `anthropics/oss-scanner` | 1040 | 565 | 7d | Dockerfile | Apache-2.0 |
+| `openai/math` | 15063 | 1739 | 10d | Lean | Apache-2.0 |
+| `deadinside28/bloodborne_pc` | 3069 | 734 | 15d | C++ | GPL-2.0 |
+| `liseami/CCBaga` | 2483 | 248 | 5d | Rust | MIT |
+| `wy51ai/floorplan-3d` | 2364 | 450 | 17d | HTML | MIT |
+| `kargulstudio/sales-crm` | 1730 | 376 | 12d | TypeScript | MIT |
+| `Lumid-Off/AirCard-Windows` | 1396 | 112 | 28d | Rust | MIT |
+| `Dingo-Shenanigans/ReSkate` | 1182 | 197 | 14d | C++ | GPL-3.0 |
+| `cloudflare/forge` | 1136 | 48 | 25d | TypeScript | Apache-2.0 |
+| `anthropics/oss-scanner` | 1068 | 583 | 8d | Dockerfile | Apache-2.0 |
+| `fyzugx/DEsk` | 1058 | 34 | 6d | C | MIT |
 
 ### Generic-name pattern breakdown
 
-Of 103 repos with a generic-AI-buzzword token in the name, the token distribution is:
+Of 102 repos with a generic-AI-buzzword token in the name, the token distribution is:
 
 | Token | Repos |
 |---|---:|
 | `awesome` | 25 |
 | `skill` | 19 |
 | `agent` | 16 |
-| `claude` | 14 |
-| `skills` | 12 |
-| `llm` | 4 |
-| `codex` | 4 |
+| `claude` | 15 |
+| `skills` | 10 |
+| `codex` | 5 |
+| `llm` | 3 |
+| `prompt` | 2 |
 | `vibe` | 2 |
 | `demo` | 2 |
 | `cookbook` | 1 |
-| `prompt` | 1 |
 | `gpt` | 1 |
-| `toolkit` | 1 |
 | `playground` | 1 |
 
 ### Topics coverage
 
-- Repos with **zero topics**: 517 (51.7%)
-- Repos with at least one topic: 483 (48.3%)
+- Repos with **zero topics**: 522 (52.2%)
+- Repos with at least one topic: 478 (47.8%)
 
 ## Methodology limits
 
